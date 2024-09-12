@@ -16,5 +16,5 @@ jobs:
         password: ${{ secrets.ftp_password }}
         protocol: ftps
         local-dir: ./
-        server-dir: public_html/
+        server-dir: paularies.ca/
         port: 21
