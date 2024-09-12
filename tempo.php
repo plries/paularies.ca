@@ -172,9 +172,9 @@
                             <td>january 9, 2024 - april 2, 2024</td>
                             <td>
                                 <ul>
-                                    <li><a href="https://www.pexels.com/license/" target="_blank">pexels</a></li>
-                                    <li><a href="https://unsplash.com/license" target="_blank">unsplash</a></li>
-                                    <li>                            <a href="https://icons8.com/license" target="_blank">icons8</a></li>
+                                    <li><a class="link-underline" href="https://www.pexels.com/license/" target="_blank">pexels</a></li>
+                                    <li><a class="link-underline" href="https://unsplash.com/license" target="_blank">unsplash</a></li>
+                                    <li><a class="link-underline" href="https://icons8.com/license" target="_blank">icons8</a></li>
                                 </ul>
                             </td>
                             <td>

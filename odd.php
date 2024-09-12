@@ -134,7 +134,7 @@
                             <td>march 20, 2024 - march 25, 2024</td>
                             <td>
                                 <ul>
-                                    <li>                            <a href="https://icons8.com/license" target="_blank">icons8</a></li>
+                                    <li><a class="link-underline" href="https://icons8.com/license" target="_blank">icons8</a></li>
                                 </ul>
                             </td>
                             <td>

@@ -100,12 +100,11 @@
         }
         .skills {
             div {
-                row-gap: 16px;
                 img {
                     height: 4.8rem;
                     width: 4.8rem;
-                    -webkit-filter: brightness(0.7);
-                            filter: brightness(0.7);
+                    -webkit-filter: brightness(0.5);
+                            filter: brightness(0.5);
                     transition: scale 0.25s ease,
                                 -webkit-filter 0.25s ease;
                     transition: scale 0.25s ease,
@@ -124,7 +123,7 @@
                 img:hover {
                     -webkit-filter: brightness(1);
                             filter: brightness(1);
-                    scale: 1.1;
+                    scale: 0.9;
                 }
             }
         }

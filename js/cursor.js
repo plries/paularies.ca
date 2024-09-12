@@ -12,6 +12,7 @@ $(document).ready(function(){
     let dropdowns = document.getElementsByClassName("code-dropdown");
     let emails = document.getElementsByClassName("email");
     let buttons = document.querySelectorAll("button");
+    let skills = document.getElementsByClassName("skill");
     let iframes = document.querySelectorAll("iframe");
 
     window.addEventListener("mousemove", e => {
@@ -80,6 +81,15 @@ $(document).ready(function(){
             hover.reverse();
         });
     });
+
+    for (let i = 0; i < skills.length; i++) {
+        skills[i].addEventListener("mouseenter", function() {
+            hover.play();
+        });
+        skills[i].addEventListener("mouseleave", function() {
+            hover.reverse();
+        });
+    }
     
     iframes.forEach(iframe => {
         iframe.addEventListener("mouseover", function() {

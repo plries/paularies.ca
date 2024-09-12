@@ -161,9 +161,9 @@
                                 <td>march 7, 2024 - may 13, 2024</td>
                                 <td>
                                     <ul>
-                                        <li><a href="https://www.pexels.com/license/" target="_blank">pexels</a></li>
-                                        <li><a href="https://unsplash.com/license" target="_blank">unsplash</a></li>
-                                        <li><a href="https://fontawesome.com/license/free" target="_blank">font awesome</a></li>
+                                        <li><a class="link-underline" href="https://www.pexels.com/license/" target="_blank">pexels</a></li>
+                                        <li><a class="link-underline" href="https://unsplash.com/license" target="_blank">unsplash</a></li>
+                                        <li><a class="link-underline" href="https://fontawesome.com/license/free" target="_blank">font awesome</a></li>
                                     </ul>
                                 </td>
                                 <td>

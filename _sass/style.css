@@ -1089,6 +1089,7 @@ a {
 }
 
 a.link-underline {
+  font-weight: 500;
   width: -moz-max-content;
   width: max-content;
   position: relative;
@@ -1307,6 +1308,37 @@ button {
     font-size: 1.6rem;
   }
 }
+.tt {
+  position: relative;
+  display: inline-block;
+}
+.tt .tt-text {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #3E3E3E;
+  border: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 2px;
+  z-index: 1;
+}
+
+.tt:hover .tt-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -1360,7 +1392,6 @@ button {
 .modal-container div table tbody tr td ul li a {
   text-wrap: nowrap;
   font-family: Wix Madefor Display, Helvetica, sans-serif;
-  font-weight: normal;
 }
 .modal-container div table tbody tr th {
   font-family: Rubik, Arial, sans-serif;
@@ -1867,7 +1898,7 @@ main .more {
 
 .more-projects .thumb-container {
   aspect-ratio: 1/1;
-  transition: scale 0.25s ease;
+  transition: scale 0.25s ease, opacity 0.25s ease;
   width: 100%;
 }
 .more-projects .thumb-container .project-thumb {
@@ -1903,6 +1934,7 @@ main .more {
 }
 .more-projects .thumb-container:hover {
   scale: 0.98;
+  opacity: 1;
 }
 .more-projects .thumb-container:hover .flex img {
   transform: rotate(-45deg);
@@ -1913,6 +1945,7 @@ main .more {
   width: 100%;
 }
 .more-projects .grid.grid-2-row .thumb-container {
+  opacity: 0.75;
   aspect-ratio: unset;
 }
 .more-projects .grid.grid-2-row .thumb-container .project-thumb img {
@@ -1925,6 +1958,9 @@ main .more {
 .more-projects .grid.grid-2-row .thumb-container .flex img {
   width: 2rem;
   height: 2rem;
+}
+.more-projects .grid.grid-2-row .thumb-container:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2074,13 +2110,10 @@ main .more {
   position: absolute;
   background: linear-gradient(0deg, rgba(32, 32, 32, 0.9019607843) 0%, rgba(0, 0, 0, 0) 50%);
 }
-.about-me .col-12-8-4 .skills div {
-  row-gap: 16px;
-}
 .about-me .col-12-8-4 .skills div img {
   height: 4.8rem;
   width: 4.8rem;
-  filter: brightness(0.7);
+  filter: brightness(0.5);
   transition: scale 0.25s ease, filter 0.25s ease;
   -o-object-position: center;
   object-position: center;
@@ -2092,7 +2125,7 @@ main .more {
 }
 .about-me .col-12-8-4 .skills div img:hover {
   filter: brightness(1);
-  scale: 1.1;
+  scale: 0.9;
 }
 .about-me .col-12-8-4 .values {
   min-height: 384px;

@@ -89,22 +89,63 @@
                 </div>
             </article>
         </div>
-        <article class="cell skills s-1 s-1-sm s-1-md flex col gap-16 about-reveal">
+        <article class="cell skills s-1 s-1-sm s-1-md flex col gap-32 about-reveal">
             <h5>my skills</h5>
             <div class="flex row gap-16 wrap">
-                <img src="./icons/skills/html5.svg" alt="HTML5 icon." draggable="false">
-                <img src="./icons/skills/css3.svg" alt="CSS3 icon." draggable="false">
-                <img src="./icons/skills/javascript.svg" alt="JavaScript icon.">
-                <img src="./icons/skills/sass.svg" alt="Sass icon." draggable="false">
-                <img src="./icons/skills/php.svg" alt="PHP icon." draggable="false">
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/html5.svg" alt="HTML5 icon." draggable="false">
+                    <span class="tt-text">HTML5</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/css3.svg" alt="CSS3 icon." draggable="false">
+                    <span class="tt-text">CSS3</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/javascript.svg" alt="JavaScript icon.">
+                    <span class="tt-text">JavaScript</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/react.svg" alt="React icon." draggable="false">
+                    <span class="tt-text">React JS + Native</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/sass.svg" alt="Sass icon." draggable="false">
+                    <span class="tt-text">Sass</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/tailwind.svg" alt="Tailwind icon." draggable="false">
+                    <span class="tt-text">Tailwind</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/php.svg" alt="PHP icon." draggable="false">
+                    <span class="tt-text">PHP</span>
+                </div>
             </div>
             <div class="flex row gap-16 wrap">
-                <img src="./icons/skills/figma.svg" alt="Figma icon." draggable="false">
-                <img src="./icons/skills/ps.svg" alt="Photoshop icon." draggable="false">
-                <img src="./icons/skills/ai.svg" alt="Illustrator icon." draggable="false">
-                <img src="./icons/skills/id.svg" alt="InDesign icon." draggable="false">
-                <img src="./icons/skills/ae.svg" alt="After Effects icon." draggable="false">
-                <img src="./icons/skills/pr.svg" alt="Premiere Pro icon." draggable="false">
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/figma.svg" alt="Figma icon." draggable="false">
+                    <span class="tt-text">Figma</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/ps.svg" alt="Photoshop icon." draggable="false">
+                    <span class="tt-text">Photoshop</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/ai.svg" alt="Illustrator icon." draggable="false">
+                    <span class="tt-text">Illustrator</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/id.svg" alt="InDesign icon." draggable="false">
+                    <span class="tt-text">InDesign</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/ae.svg" alt="After Effects icon." draggable="false">
+                    <span class="tt-text">After Effects</span>
+                </div>
+                <div class="tt">
+                    <img class="skill" src="./icons/skills/pr.svg" alt="Premiere Pro icon." draggable="false">
+                    <span class="tt-text">Premiere Pro</span>
+                </div>
             </div>
         </article>
         <article class="cell values value1 flex col gap-16 jcsb about-reveal">

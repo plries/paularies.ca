@@ -48,7 +48,8 @@
 .more-projects {
     .thumb-container {
         aspect-ratio: 1 / 1;
-        transition: scale 0.25s ease; 
+        transition: scale 0.25s ease,
+                    opacity 0.25s ease; 
         width: 100%;
         .project-thumb {
             border-radius: 24px;
@@ -85,6 +86,7 @@
     }
     .thumb-container:hover {
         scale: 0.98;
+        opacity: 1;
         .flex {
             img {
                 transform: rotate(-45deg);
@@ -97,6 +99,7 @@
         height: fit-content;
         width: 100%;
         .thumb-container {
+            opacity: 0.75;
             aspect-ratio: unset;
             .project-thumb {
                 img {
@@ -113,6 +116,9 @@
                     height: $fs-xxs;
                 }
             }
+        }
+        .thumb-container:hover {
+            opacity: 1;
         }
     }
 }
