@@ -1,1 +1,1 @@
-### hover link animations + highlight.js
+### tooltips
