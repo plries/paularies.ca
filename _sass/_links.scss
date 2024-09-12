@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+a.link-underline {
+    width: max-content;
+    position: relative;
+    transform-origin: bottom left;
+    
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 100%;
+        background-color: $black;
+        height: 1px;
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease;
+    }
+}
+
+a.link-underline:hover {
+    &::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}

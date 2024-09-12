@@ -25,14 +25,6 @@ q {
     font-style: italic;
 }
 
-a {
-    transition: scale 0.25s ease;
-}
-
-a:hover {
-    scale: 0.95;
-}
-
 h1, h2, h3, h4, q {
     font-family: $rubik;
 }
@@ -124,7 +116,7 @@ h6 {
 @media screen and (max-width: 425px) {
 
     h1 {
-        font-size: 20vw;
+        font-size: 19vw;
     }
     
     p, a {
