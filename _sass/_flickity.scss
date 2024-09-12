@@ -1,0 +1,30 @@
+.flickity-button {
+    background: $black;
+    opacity: 0.75;
+    transition: opacity 0.25s ease;
+}
+
+.flickity-button:hover {
+    background: $black;
+    opacity: 1;
+}
+
+.flickity-button:focus {
+    box-shadow: none;
+}
+
+.flickity-prev-next-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    transform-origin: top;
+    transition: scale 0.25s ease;
+}
+
+.flickity-prev-next-button:hover {
+    scale: 0.9;
+}
+
+.flickity-button-icon {
+    fill: white;
+}

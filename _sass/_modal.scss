@@ -1,0 +1,145 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    .col-12-8-4 {
+        margin: 0;
+    }
+}
+
+.modal-container {
+    background-color: $white;
+    border: $black 2px solid;
+    padding: 24px;
+    border-radius: 16px;
+    z-index: 999;
+    h3 {
+        margin: 0;
+    }
+    div {
+        overflow-x: auto;
+        table {
+            border: $black 1px solid;
+            border-collapse: collapse;
+            font-size: 2rem;
+            tbody {
+                tr {
+                    border: $black 1px solid;
+                    th,
+                    td {
+                        border: $black 1px solid;
+                        padding: 16px;
+                        width: calc(100% / 4);
+                        ul {
+                            list-style: none;
+                            padding: 0;
+                                margin: 0;
+                                li a {
+                                    text-wrap: nowrap;
+                                    font-family: $wix;
+                                    font-weight: normal;
+                                }
+                        }
+                    }
+                    th {
+                        font-family: $rubik;
+                        font-weight: 600;
+                        background-color: $light-grey;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        align-self: flex-end;
+        justify-self: end;
+    }
+}
+
+@-webkit-keyframes mmfadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes mmfadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-webkit-keyframes mmfadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes mmfadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@-webkit-keyframes mmslideIn {
+from { transform: translateY(15%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes mmslideIn {
+from { transform: translateY(15%); }
+    to { transform: translateY(0); }
+}
+
+@-webkit-keyframes mmslideOut {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10%); }
+}
+
+@keyframes mmslideOut {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10%); }
+}
+
+.micromodal-slide {
+display: none;
+}
+
+.micromodal-slide.is-open {
+display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal-overlay {
+-webkit-animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+        animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="false"] .modal-container {
+-webkit-animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+        animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal-overlay {
+-webkit-animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+        animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal-container {
+-webkit-animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+        animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .modal-container {
+        > div {
+            overflow-x: scroll;
+        }
+        > div::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+}

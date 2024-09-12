@@ -1,0 +1,132 @@
+.hero-wrapper {
+    margin-top: -112px;
+    height: calc(100vh + 40px);
+    height: calc(100dvh + 40px);
+    width: 100vw;
+    padding: 24px 0;
+    .hero {
+        background-image: url("../media/mountains.jpg");
+    }
+    .tempo {
+        background-image: url("../media/tempo/tempoHero.jpg");
+    }
+    .espresso {
+        background-image: url("../media/espresso/espressoHero.jpg");
+    }
+    .pine {
+        background-image: url("../media/pine/pineHero.jpg");
+    }
+    .odd {
+        background-image: url("../media/odd/oddHero.jpg");
+    }
+    .parallax {
+        height: calc(100vh + 64px);
+        height: calc(100dvh + 64px);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            .hero-text {
+                width: 100vw;
+                visibility: hidden;
+                align-content: center;
+                .indent{
+                    margin-left: 64px;
+                }
+                h1 {
+                    text-wrap: nowrap;
+                    text-align: center;
+                    margin: 0;
+                    span {
+                        display: inline-block;
+                    }
+                }
+                h6 {
+                    margin-bottom: 8px;
+                    :not(.btn) {
+                        display: inline-block;
+                        width: auto;
+                    }
+                    .btn {
+                        img {
+                            width: $fs-xxs;
+                            height: $fs-xxs;
+                        }
+                    }
+                }
+                .align-right {
+                    text-align: right;
+                }     
+            }
+        }
+        .arrow-down {
+            margin-top: 64px;
+            width: 4.8rem;
+            height: 4.8rem;
+            visibility: hidden;
+            animation: pointDown 1s ease;
+        }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .hero-wrapper {
+        h6 {
+            span {
+                img {
+                    width: $fs-xxs;
+                    height: $fs-xxs;
+                }
+            }
+        }
+        .arrow-down {
+            width: 3.2rem;
+            height: 3.2rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .hero-wrapper {
+        .tempo,
+        .espresso,
+        .pine,
+        .odd {
+            background-image: none;
+        }
+        .parallax {
+            background-attachment: unset;
+        }
+    }
+    
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .hero-wrapper {
+        .parallax {
+            .hero-text {
+                .indent {
+                    margin-left: 32px;
+                }
+                h6 {
+                    .btn {
+                        img {
+                            width: $fs-xxxs;
+                            height: $fs-xxxs;
+                        }
+                    }
+                }
+            }
+        }
+        .arrow-down {
+            width: 2.8rem;
+            height: 2.8rem;
+        }
+        
+    }
+
+}

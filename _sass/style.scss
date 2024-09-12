@@ -1,0 +1,41 @@
+@import "vendor/_normalize";
+@import "vendor/_jquery.background-video";
+@import "vendor/_flickity.min";
+@import "vendor/_lightbox.min";
+
+@import "_variables";
+@import "_layouts";
+@import "_text";
+
+@import "_cursor";
+@import "_buttons";
+@import "_modal";
+@import "_flickity";
+
+@import "_header";
+@import "_hero";
+@import "_main";
+@import "_cards";
+@import "_about";
+@import "_format";
+@import "_footer";
+
+:root::-webkit-scrollbar {
+    display: none
+}
+
+:root {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+::-moz-selection {
+    color: $black;
+    background: $brown;
+}
+
+::selection {
+    color: $black;
+    background: $brown;
+}

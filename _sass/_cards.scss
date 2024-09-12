@@ -1,0 +1,190 @@
+.project-cards {
+    visibility: hidden;
+.project {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    margin-top: 16px;
+    position: relative;
+    height: auto;
+    width: calc(100% - 48px);
+    background-color: $white;
+    border: $black solid 2px;
+    border-radius: 24px;
+    padding: 24px;
+    transition: scale 0.25s ease;
+    line-height: unset;
+    text-decoration: none;
+    justify-content: stretch;
+    .project-img-container {
+        width: 100%;
+        height: auto;
+        .project-img {
+            aspect-ratio: 16 / 10;
+            border-radius: 16px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+    }
+    .project-chips {
+        width: auto;
+        height: auto;
+    }
+    .project-description {
+        height: auto;
+    }
+}
+.project:hover {
+    scale: 0.98;
+}
+}
+
+.more-projects {
+    .thumb-container {
+        aspect-ratio: 1 / 1;
+        transition: scale 0.25s ease; 
+        width: 100%;
+        .project-thumb {
+            border-radius: 24px;
+            position: relative;
+            img {
+                border-radius: 16px;
+                width: 100%;
+                aspect-ratio: 1 / 1;
+                -o-object-position: center;
+                object-position: center;
+                -o-object-fit: cover;
+                object-fit: cover;
+            }
+        }
+        .flex {
+            margin-top: 8px;
+            h6 {
+                font-family: $rubik;
+                font-size: $fs-xs;
+                color: $white;
+                line-height: 130%;
+            }
+            img {
+                width: $fs-xs;
+                height: $fs-xs;
+                transition: transform 0.25s ease;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        }
+    }
+    .thumb-container:hover {
+        scale: 0.98;
+        .flex {
+            img {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    .grid.grid-2-row {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 100%;
+        .thumb-container {
+            aspect-ratio: unset;
+            .project-thumb {
+                img {
+                    aspect-ratio: unset;
+                    width: 100%;
+                }
+            }
+            .flex {
+                h6 {
+                    font-size: $fs-xxs;
+                }
+                img {
+                    width: $fs-xxs;
+                    height: $fs-xxs;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .more-projects {
+        .thumb-container {
+            width: 100%;
+            .project-thumb {
+                h6 {
+                    font-size: $fs-xxs;
+                }
+            }
+            .grid.grid-2-row {
+                .thumb-container {
+                    .flex {
+                        h6 {
+                            font-size: $fs-xxxs;
+                        }
+                        img {
+                            width: $fs-xxxs;
+                            height: $fs-xxxs;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .project-cards {
+        .project {
+            overflow: hidden;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            height: auto;
+            .project-chips {
+                justify-content: start;
+                overflow-x: scroll;
+                height: auto;
+                text-wrap: nowrap;
+                flex-wrap: nowrap;
+                margin: 0 -24px;
+                padding-right: 24px;
+                .btn:first-child {
+                    margin-left: 24px;
+                }
+            }
+            .project-chips::-webkit-scrollbar {
+                display: none;
+            }
+            h3 {
+                margin: 0;
+            }
+        }
+    }
+
+    .more-projects {
+        .thumb-container {
+            aspect-ratio: unset;
+            .project-thumb {
+                h6 {
+                    margin: 10px 16px;
+                    font-size: $fs-xxxs;
+                }
+            }
+        }
+    }
+
+}

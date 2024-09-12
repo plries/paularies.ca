@@ -1,0 +1,162 @@
+:root {
+    font-family: $wix;
+    color: $black;
+    font-size: 62.5%;
+}
+
+html {
+    font-size: 110%;
+}
+
+p, a {
+    color: $black;
+    font-size: $fs-xxs;
+    line-height: 130%;
+}
+
+code {
+    font-size: $fs-xxxs;
+}
+
+q {
+    color: $white;
+    font-size: $fs-lg;
+    font-weight: 200;
+    font-style: italic;
+}
+
+a {
+    transition: scale 0.25s ease;
+}
+
+a:hover {
+    scale: 0.95;
+}
+
+h1, h2, h3, h4, q {
+    font-family: $rubik;
+}
+
+h5, h6, button {
+    font-family: $mono;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 15vw;
+    font-weight: 500;
+    letter-spacing: -1vw;
+    word-break: keep-all;
+    margin: 0;
+}
+
+h2 {
+    color: $white;
+    font-size: $fs-xxxxl;
+    font-weight: 500;
+    letter-spacing: -0.15rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: $fs-xxxl;
+    letter-spacing: -0.15rem;
+    margin-top: 16px;
+}
+
+h4 {
+    font-size: $fs-xxl;
+    letter-spacing: -0.25rem;
+    margin: 0;
+}
+
+h5 {
+    font-size: $fs-sm;
+    margin: 0;
+}
+
+h6 {
+    font-size: $fs-xxs;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+    p, a {
+        font-size: $fs-xxs;
+    }
+
+    code {
+        font-size: $fs-xxxs;
+    }
+    
+    q {
+        font-size: $fs-md;
+    }
+    
+    h1 {
+        font-size: 16vw;
+    }
+    
+    h2 {
+        font-size: $fs-xxxl;
+    }
+    
+    h3 {
+        font-size: $fs-xxl;
+    }
+    
+    h4 {
+        font-size: $fs-xl;;
+    }
+    
+    h5 {
+        font-size: $fs-xs;
+    }
+
+    h6 {
+        font-size: $fs-xxs;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    h1 {
+        font-size: 20vw;
+    }
+    
+    p, a {
+        font-size: $fs-xxxs;
+    }
+
+    code {
+        font-size: $fs-xxxxs;
+    }
+    
+    q {
+        font-size: $fs-sm;
+    }
+    
+    h2 {
+        font-size: $fs-xxl;
+    }
+    
+    h3 {
+        font-size: $fs-xs;
+    }
+    
+    h4 {
+        font-size: $fs-lg;
+    }
+    
+    h5 {
+        font-size: $fs-xxs;
+    }
+
+    h6 {
+        font-size: $fs-xxxs;
+    }
+
+}
