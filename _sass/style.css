@@ -2309,14 +2309,23 @@ main .more {
   text-wrap: wrap;
   word-wrap: break-word;
 }
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .code-comment {
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-comment {
   color: #535353;
 }
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .code-blue {
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-variable,
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-title {
   color: #94b4e4;
 }
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .code-green {
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-literal,
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-number {
   color: #8eb46d;
+}
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-keyword,
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-string {
+  color: #ceac82;
+}
+.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-attr {
+  color: #A8A8A8;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown:hover {
   scale: 0.995;

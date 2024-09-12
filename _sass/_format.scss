@@ -106,18 +106,27 @@
                     font-size: unset;
                     margin: 0;
                     code {
-                    color: $white;
-                    text-wrap: wrap;
-                    word-wrap: break-word;
-                    .code-comment {
-                        color: #535353;
-                    }
-                    .code-blue {
-                        color: #94b4e4;
-                    }
-                    .code-green {
-                        color: #8eb46d;
-                    }
+                        color: $white;
+                        text-wrap: wrap;
+                        word-wrap: break-word;
+                        .hljs-comment {
+                            color: #535353;
+                        }
+                        .hljs-variable,
+                        .hljs-title {
+                            color: #94b4e4;
+                        }
+                        .hljs-literal,
+                        .hljs-number {
+                            color: #8eb46d;
+                        }
+                        .hljs-keyword,
+                        .hljs-string {
+                            color: #ceac82;
+                        }
+                        .hljs-attr {
+                            color: $grey;
+                        }
                     }
                 }
             }

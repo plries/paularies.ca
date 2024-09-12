@@ -12,6 +12,10 @@
 <script src="../js/micromodal.min.js"></script>
 <!-- flickity -->
 <script src="../js/flickity.pkgd.min.js"></script>
+<!-- highlight.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 <script src="../js/arrow.js"></script>
 <script src="../js/cursor.js"></script>
