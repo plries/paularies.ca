@@ -1,1 +1,1 @@
-### tooltips
+### smooth scrolling
