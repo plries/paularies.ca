@@ -1,1 +1,1 @@
-### smooth scrolling
+### smooth scrolling + tooltip gap
