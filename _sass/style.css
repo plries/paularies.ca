@@ -1330,7 +1330,7 @@ button {
   bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   z-index: 1;
 }
 
