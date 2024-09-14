@@ -12,8 +12,11 @@
 <script src="./js/micromodal.min.js"></script>
 <!-- flickity -->
 <script src="./js/flickity.pkgd.min.js"></script>
+<!-- lenis -->
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
 
 <script src="./js/cursor.js"></script>
+<script src="./js/lenis.js"></script>
 <script src="./js/dropdown.js"></script>
 <script src="./js/filter.js"></script>
 <script src="./js/footer.js"></script>
