@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@barba/core": "^2.10.3",
     "flickity": "^3.0.0",
     "gsap": "^3.12.5",
     "micromodal": "^0.4.10"

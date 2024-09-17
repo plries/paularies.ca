@@ -3,7 +3,7 @@
                 <article class="footer-text flex col gap-16 jcsb">
                     <div class="flex col gap-16">
                         <h4>let's talk!</h4>
-                        <p>like my work? have a few questions?
+                        <p><span>like my work? have questions?</span>
                         <br>feel free to reach out, i’m always looking to collaborate!</p>
                     </div>
                     <div class="flex col gap-8">

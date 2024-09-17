@@ -21,6 +21,9 @@ footer {
             height: fit-content;
                 p {
                     margin: 0;
+                    span {
+                        font-weight: 500;
+                    }
                 }
                 .email {
                     background-color: $brown;

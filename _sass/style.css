@@ -1308,59 +1308,6 @@ button {
     font-size: 1.6rem;
   }
 }
-.tt {
-  position: relative;
-  display: inline-block;
-}
-.tt .tt-text {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  color: #FFFFFF;
-  font-size: 1.2rem;
-  width: -moz-max-content;
-  width: max-content;
-  background-color: #3E3E3E;
-  border: 0;
-  text-align: center;
-  font-size: 1.4rem;
-  padding: 4px 8px;
-  border-radius: 4px;
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 4px;
-  z-index: 1;
-}
-
-.tt:hover .tt-text {
-  visibility: visible;
-  opacity: 1;
-}
-
-.toc {
-  position: fixed;
-  background-color: #202020;
-  border-radius: 24px;
-  border: #3E3E3E solid 1px;
-  padding: 16px;
-  margin-right: 16px;
-  z-index: 9;
-  right: 0;
-  top: 50%;
-}
-.toc ul {
-  position: relative;
-  padding-left: 12px;
-}
-.toc ul li {
-  color: #FFFFFF;
-}
-.toc ul li a {
-  color: #FFFFFF;
-}
-
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -1805,6 +1752,7 @@ main .filter-button-group .ux-ui-filter.active {
   background-color: #607698;
 }
 main .intro {
+  visibility: hidden;
   margin-bottom: 32px;
   border-radius: 24px;
   padding: 24px;
@@ -2547,6 +2495,9 @@ footer .footer-content .footer-text {
 }
 footer .footer-content .footer-text p {
   margin: 0;
+}
+footer .footer-content .footer-text p span {
+  font-weight: 500;
 }
 footer .footer-content .footer-text .email {
   background-color: #E2D7CA;

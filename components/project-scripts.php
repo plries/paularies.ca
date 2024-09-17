@@ -18,10 +18,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
 <script>hljs.highlightAll();</script>
+<!-- tippy -->
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 
 <script src="../js/arrow.js"></script>
 <script src="../js/cursor.js"></script>
 <script src="../js/lenis.js"></script>
+<script src="../js/tippy.js"></script>
 <script src="../js/dropdown.js"></script>
 <script src="../js/filter.js"></script>
 <script src="../js/footer.js"></script>

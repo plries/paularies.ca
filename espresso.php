@@ -39,15 +39,6 @@
     <div class="scroll-progress fe"></div>
 </div>
 
-<div class="toc">
-    <ul>
-        <button><</button>
-        <li><a href="#chapter-1" class="link-underline">the goal</a></li>
-        <li><a href="#chapter-2" class="link-underline">why espresso?</a></li>
-        <li><a href="#chapter-3" class="link-underline">animations and interactivity</a></li>
-    </ul>
-</div>
-
 <?php include './components/header.php'; ?>
 
 <div class="hero-wrapper">
