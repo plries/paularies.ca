@@ -39,6 +39,15 @@
     <div class="scroll-progress fe"></div>
 </div>
 
+<div class="toc">
+    <ul>
+        <button><</button>
+        <li><a href="#chapter-1" class="link-underline">the goal</a></li>
+        <li><a href="#chapter-2" class="link-underline">why espresso?</a></li>
+        <li><a href="#chapter-3" class="link-underline">animations and interactivity</a></li>
+    </ul>
+</div>
+
 <?php include './components/header.php'; ?>
 
 <div class="hero-wrapper">
@@ -70,11 +79,11 @@
 <main class="flex col aic jcc">
     <section class="grid col-12-8-4 project-section">
         <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
-            <h4>the goal</h4>
+            <h4 id="chapter-1">the goal</h4>
             <p>create a responsive, 3-page website for a topic of our choice using 5 JavaScript/jQuery plugins.</p>
         </div>
         <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
-            <h5>why espresso?</h5>
+            <h5 id="chapter-2">why espresso?</h5>
             <p>the first step in creating this website was to decide on its topic. knowing that i had to utilize <strong>5 JavaScript/jQuery plugins</strong>, i wanted to make a website that i was knowledgeable about, and thus showcased information in an interactive and entertaining way.</p>
         </div>
         <div class="paragraph s-2 s-2-sm s-2-md project-reveal">
@@ -83,7 +92,7 @@
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
             <div>
-                <h5>animations and interactivity</h5>
+                <h5 id="chapter-3">animations and interactivity</h5>
                 <p>the first plugin i implemented was the <strong>jQuery Background Video</strong> plugin, likely the simplest of the five. this plugin enabled me to adjust the settings of background videos and prevent users from downloading them. with just a few lines of jQuery code, i was able to run the plugin when the page loaded and customize the default parameters to my liking.
                 </p>
             </div>

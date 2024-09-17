@@ -70,7 +70,7 @@
         <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">
             <article class="cell about flex col gap-16 jcsb about-reveal">
                 <h5>👋 i’m a detail-oriented designer and developer from Vancouver, BC with a passion to create meaningful digital experiences.</h5>
-                <p>in my free time, you can find me either adventuring, dancing, or gaming. no matter the activity i love pushing myself, working with others, and having fun while im at it!</p>
+                <p>in my free time, you can find me either exploring the outdoors, dancing at a concert, or at home gaming. no matter the activity i love pushing myself and enjoying it with others!</p>
             </article>
             <article class="cell about flex col gap-16 jcsb about-reveal">
                 <div class="about-carousel">

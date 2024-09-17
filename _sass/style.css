@@ -1339,6 +1339,28 @@ button {
   opacity: 1;
 }
 
+.toc {
+  position: fixed;
+  background-color: #202020;
+  border-radius: 24px;
+  border: #3E3E3E solid 1px;
+  padding: 16px;
+  margin-right: 16px;
+  z-index: 9;
+  right: 0;
+  top: 50%;
+}
+.toc ul {
+  position: relative;
+  padding-left: 12px;
+}
+.toc ul li {
+  color: #FFFFFF;
+}
+.toc ul li a {
+  color: #FFFFFF;
+}
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -2524,7 +2546,7 @@ footer .footer-content .footer-text {
   height: fit-content;
 }
 footer .footer-content .footer-text p {
-  margin-top: 0;
+  margin: 0;
 }
 footer .footer-content .footer-text .email {
   background-color: #E2D7CA;
