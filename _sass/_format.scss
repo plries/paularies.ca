@@ -55,6 +55,14 @@
     }
     p {
         color: $light-grey;
+        a.link-underline {
+            display: inline-block;
+            color: $white;
+        }
+        a.link-underline::before {
+            width: 100%;
+            background-color: $white;
+        }
     }
     figure {
         margin: 0;

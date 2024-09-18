@@ -84,7 +84,7 @@
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
             <div>
                 <h5 id="chapter-3">animations and interactivity</h5>
-                <p>the first plugin i implemented was the <strong>jQuery Background Video</strong> plugin, likely the simplest of the five. this plugin enabled me to adjust the settings of background videos and prevent users from downloading them. with just a few lines of jQuery code, i was able to run the plugin when the page loaded and customize the default parameters to my liking.
+                <p>the first plugin i implemented was the <a class="link-underline" href="https://github.com/BGStock/jquery-background-video" target="_blank">jQuery Background Video</a> plugin, likely the simplest of the five. this plugin enabled me to adjust the settings of background videos and prevent users from downloading them. with just a few lines of jQuery code, i was able to run the plugin when the page loaded and customize the default parameters to my liking.
                 </p>
             </div>
             <div class="code-dropdown paragraph project-reveal" tabindex="0">
@@ -103,7 +103,7 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoIsotope.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>next, i implemented the <strong>Isotope</strong> plugin to add filtering and sorting functionality to a list of products. this plugin proved to be more complex than the others, as my initial HTML setup did not align with Isotope’s recommended markup. consequently, the setup took longer than anticipated. however, by configuring the data attributes, and setting up button functionalities, i was able to get Isotope to work effectively and how i anticipated.</p>
+            <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/" target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of products. this plugin proved to be more complex than the others, as my initial HTML setup did not align with Isotope’s recommended markup. consequently, the setup took longer than anticipated. however, by configuring the data attributes, and setting up button functionalities, i was able to get Isotope to work effectively and how i anticipated.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>Isotope</p>
@@ -120,7 +120,7 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoScroll.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>next, i added the <strong>ScrollReveal.js</strong> plugin, another simple and intuitive tool that animates elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s attention and guide them to the CTA.</p>
+            <p>next, i added the <a class="link-underline" href="https://scrollrevealjs.org/" target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s attention and guide them to the CTA.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>ScrollReveal.js</p>
@@ -138,7 +138,7 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoSwiper.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>following that, i integrated the <strong>Swiper.js</strong> plugin, a powerful and versatile tool for creating responsive sliders. this plugin  showcases the steps to brew espresso, and required minimal JavaScript code to initialize and customize. this allowed me to create an engaging, interactive experience for users following along with the brewing instructions.</p>
+            <p>following that, i integrated the <a class="link-underline" href="https://swiperjs.com/" target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive sliders. this plugin  showcases the steps to brew espresso, and required minimal JavaScript code to initialize and customize. this allowed me to create an engaging, interactive experience for users following along with the brewing instructions.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>Swiper.js</p>
@@ -153,7 +153,7 @@
         </div>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
-            <p>finally, i implemented the <strong>GSAP ScrollTrigger</strong> plugin to add dynamic animations to the brew page. i used ScrollTrigger to rotate coffee beans as the user scrolled, creating an engaging and interactive experience. although GSAP ScrollTrigger required a bit more setup compared to other plugins, it offered extensive customization options. by carefully configuring the scrub and rotation parameters, i was able to achieve the desired effect and enhance the site's visual appeal.</p>
+            <p>finally, i implemented the <a class="link-underline" href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1" target="_blank">GSAP ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to rotate coffee beans as the user scrolled, creating an engaging and interactive experience. although GSAP ScrollTrigger required a bit more setup compared to other plugins, it offered extensive customization options. by carefully configuring the scrub and rotation parameters, i was able to achieve the desired effect and enhance the site's visual appeal.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>GSAP ScrollTrigger</p>

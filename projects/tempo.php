@@ -80,19 +80,19 @@
             <q>as a dancer who frequently uses apps to book workshops,<br>i'm familiar with what works and what could be improved upon in the booking process.</q>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-            <p>after settling on a topic, i identified the target audience using multiple research strategies such as: <strong>user personas</strong>, <strong>user scenarios</strong>, <strong>an empathy map</strong>, and a <strong>journey map</strong>. by creating these documents, i was able to confidently define what the target audience desires from the app.</p>
+            <p>after settling on a topic, i identified the target audience using multiple research strategies such as: a <a class="link-underline" href="#persona">user persona</a>, a <a class="link-underline" href="#scenario">user scenario</a>, an <a class="link-underline" href="#empathy">empathy map</a>, and a <a class="link-underline" href="#journey">journey map</a>. by creating these documents, i was able to confidently define what the target audience desires from the app.</p>
         </div>
-        <figure class="s-l s-1-sm s-l-md media project-reveal">
+        <figure id="persona" class="s-l s-1-sm s-l-md media">
             <img src="../media/tempo/tempoPersona.png" alt="user persona of Mia Rodriguez.">
         </figure>
-        <figure class="s-1 s-1-sm s-1-md media project-reveal">
+        <figure id="scenario" class="s-1 s-1-sm s-1-md media">
             <img src="../media/tempo/tempoScenario.png" alt="user scenario of Mia Rodriguez.">
         </figure>
-        <figure class="s-r s-1-sm s-r-md media project-reveal">
+        <figure id="empathy" class="s-r s-1-sm s-r-md media">
             <img src="../media/tempo/tempoEmpathy.png" alt="empathy map for Mia Rodrigeuz.">
         </figure>
-        <figure class="s-1 s-1-sm s-1-md media project-reveal">
-            <img src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
+        <figure class="s-1 s-1-sm s-1-md media">
+            <img id="journey" src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
         </figure>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <p>following the research, i drafted a <strong>flow chart</strong> to outline the process which the target user follows in this app. for this prototype, i focused on the flow which the user follows when booking their first class. based on the flow chart, i designed <strong>low-fidelity wireframes</strong> which detailed the spaces for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
