@@ -70,7 +70,7 @@
     <section class="grid col-12-8-4 project-section">
         <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
             <h4>the goal</h4>
-            <p>create a high-fidelity mobile app prototype using Figma that ultimately satisfies the user flow of searching, selecting, and purchasing a product.</p>
+            <p>create a high-fidelity mobile app prototype using Figma to allow users to order juice, fulfilling satisfies the user flow of searching, selecting, and purchasing a product.</p>
         </div>
         <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>defining app features</h5>
@@ -81,7 +81,7 @@
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>creating low-fidelity wireframes</h5>
-            <p>following the analysis, i created low-fidelity wireframes to map out the user flow. these wireframes provided a visual representation of the app's structure and interactions, allowing for early feedback and adjustments from my group members before moving to more detailed designs. some examples of changes i made were changes in font sizes/weights, element outlines, and the look of the navigation bar (as requested by my group members).</p>
+            <p>following the analysis, i created low-fidelity wireframes to map out the user flow. these wireframes provided a visual representation of the app's structure and interactions, allowing for early feedback and adjustments from my group members before moving to more detailed designs. some changes i made based on their feedback include adjustments to font sizes/weights, element outlines, and the look of the navigation bar.</p>
         </div>
         <div id="wireframes" class="media s-1 s-1-sm s-1-md project-reveal">
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2F5pzdmswTzaA0sZRZaL7efB%2FODD%3Fnode-id%3D0-1%26t%3D0z2HZM2ZNlzNM0Is-1" allowfullscreen></iframe>
@@ -89,26 +89,26 @@
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>generating the high-fidelity prototype</h5>
             <div class="grid gap-16 grid-2-toggle">
-                <p>with the wireframes as a guide, i designed Figma components and assets according to the established style tile from our graphic designer. this step ensured consistency and coherence with ODD’s brand, creating a unified look and feel for the app's interface and identity.</p>
-                <div class="media">
+                <p>i designed Figma components and assets according to the established <strong>style tile</strong> from our graphic designer. this step ensured consistency and coherence with ODD’s brand, creating a unified look and feel for the app's interface and identity.</p>
+                <figure class="media">
                     <img src="../media/odd/oddStyleTile.png" alt="Odd's style tile.">
-                </div>
+                </figure>
             </div>
         </div>
         <div class="grid gap-16 grid-2-toggle s-1 s-1-sm s-1-md project-reveal">
-            <div class="media">
+            <figure class="media">
                 <img src="../media/odd/odd603010.png" alt="Odd's 60-30-10 rule.">
-            </div>
-            <p>applying ODD’s style tile to UI components was a challenge, as the bright orange and brown colors make for an <em>atypical</em> color scheme for an app. however, i was able to utilize the style tile to create a suitable look for an app using the 60-30-10 rule to distribute the colors.</p>
+            </figure>
+            <p>applying ODD’s style tile to UI components was a challenge, as the bright orange and brown colors make for an <em>atypical</em> color scheme for an app. however, i utilized the <strong>60-30-10 rule</strong> to distribute the colors, achieving a suitable and cohesive look for the app.</p>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-            <p>using these components, i generated the pages based on the <a class="link-underline" href="#wireframes">low-fidelity wireframes</a>, transforming rough shapes into detailed, interactive designs. this progression allowed for a seamless transition from concept to tangible interface elements, facilitating a clearer vision of the final product.</p>
+            <p>using the completed components, i generated the pages based on the <a class="link-underline" href="#wireframes">low-fidelity wireframes</a>, transforming rough shapes into detailed, interactive designs. this progression allowed for a seamless transition from concept to tangible interface elements, facilitating a clearer vision of the final product.</p>
         </div>
         <div class="media s-1 s-1-sm s-1-md project-reveal">
             <img src="../media/odd/oddPrototype.jpg" alt="screenshot of Odd Figma prototype.">
         </div>
         <div class="flex jcr gap-16 s-1 s-1-sm s-1-md view-project project-reveal">
-            <a class="white btn" href="https://www.figma.com/proto/59EbBSy5SoywUcNK7YeheS/tempo?node-id=90-575&t=eORgaHztt8LKIvYO-1" target="_blank">
+            <a class="white btn" href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&t=yieZZXhAgYwHyg9b-1" target="_blank">
                 figma
                 <img src="../icons/ui/black-arrow.svg" alt="arrow icon.">
             </a>

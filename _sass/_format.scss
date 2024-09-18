@@ -45,6 +45,7 @@
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 16px;
+        margin-bottom: 8px;
     }
     h5::after {
         content: '';
@@ -170,6 +171,7 @@
     padding: 16px;
     background-color: $darker-grey;
     border-radius: 24px;
+    scroll-margin-top: 124px;
     width: unset;
     img,
     iframe,

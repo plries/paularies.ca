@@ -70,17 +70,17 @@
     <section class="grid col-12-8-4 project-section">
         <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
             <h4>the goal</h4>
-            <p>create a high-fidelity prototype for a mobile app in Figma, conduct user research using common strategies, conduct an unmonitored usability test, and write a report and implement possible solutions based on our findings.</p>
+            <p>construct a high-fidelity prototype for a mobile app in Figma for a dance studio. this project involves conducting user research using common strategies, performing an unmonitored usability test, and writing a report with recommendations, and implementing possible solutions based on the findings.</p>
         </div>
         <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>user research</h5>
-            <p>the first phase of this project focused on establishing a topic, conducting user research, and creating low-fidelity wireframes for the app. for this project, i created an app where users can book classes for a fictional dance studio called <strong>Tempo</strong>.</p>
+            <p>the first phase of this project focused on defining the app’s concept, conducting user research, and creating low-fidelity wireframes for the app. for this project, i created an app where users can book classes for a fictional dance studio called <strong>Tempo</strong>.</p>
         </div>
         <div class="paragraph quote s-2 s-2-sm s-2-md project-reveal">
-            <q>as a dancer who frequently uses apps to book workshops,<br>i'm familiar with what works and what could be improved upon in the booking process.</q>
+            <q>as a dancer who frequently uses mobile apps to book workshops, i'm familiar with what works and what could be improved upon in the booking process.</q>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-            <p>after settling on a topic, i identified the target audience using multiple research strategies such as: a <a class="link-underline" href="#persona">user persona</a>, a <a class="link-underline" href="#scenario">user scenario</a>, an <a class="link-underline" href="#empathy">empathy map</a>, and a <a class="link-underline" href="#journey">journey map</a>. by creating these documents, i was able to confidently define what the target audience desires from the app.</p>
+            <p>after settling on a topic, i identified the target audience using multiple research strategies such as: a <a class="link-underline" href="#persona">user persona</a>, a <a class="link-underline" href="#scenario">user scenario</a>, an <a class="link-underline" href="#empathy">empathy map</a>, and a <a class="link-underline" href="#journey">journey map</a>. by creating these documents, i was able to confidently define what <strong>beginner dancers</strong> desire from the app.</p>
         </div>
         <figure id="persona" class="s-l s-1-sm s-l-md media">
             <img src="../media/tempo/tempoPersona.png" alt="user persona of Mia Rodriguez.">
@@ -91,31 +91,31 @@
         <figure id="empathy" class="s-r s-1-sm s-r-md media">
             <img src="../media/tempo/tempoEmpathy.png" alt="empathy map for Mia Rodrigeuz.">
         </figure>
-        <figure class="s-1 s-1-sm s-1-md media">
-            <img id="journey" src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
+        <figure id="journey" class="s-1 s-1-sm s-1-md media">
+            <img src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
         </figure>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-            <p>following the research, i drafted a <strong>flow chart</strong> to outline the process which the target user follows in this app. for this prototype, i focused on the flow which the user follows when booking their first class. based on the flow chart, i designed <strong>low-fidelity wireframes</strong> which detailed the spaces for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
+            <p>following the research, i created a <a class="link-underline" href="#flowchart">flowchart</a> to outline the process which the target user follows in this app. for this prototype, i focused on the process for a user booking their first class. based on the flow chart, i designed <a class="link-underline" href="#wireframes">low-fidelity wireframes</a> which detailed the placement for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
         </div>
-        <figure class="s-l s-1-sm s-l-md media project-reveal">
+        <figure id="flowchart" class="s-l s-1-sm s-l-md media project-reveal">
             <img src="../media/tempo/tempoFlow.jpg" alt="flow chart for Tempo app.">
         </figure>
-        <div class="s-r s-1-sm s-r-md media project-reveal">
+        <div id="wireframes" class="s-r s-1-sm s-r-md media project-reveal">
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLkRaZh1NpfmUB7lCqYzMx5%2Ftempo-wireframes%3Fnode-id%3D0-1%26t%3Dy4LWoYAJKMoapsdS-1" allowfullscreen></iframe>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>prototyping and user testing</h5>
             <p>in the second phase of this project, i focused on adding functionality to the interface and testing prototypes with a user group. a challenge i faced was the larger-than-anticipated project scope, which involved many variables and conditional statements. however, my experience with JavaScript and the Figma community helped me quickly grasp the logic and create a functional prototype.</p>
             <br>
-            <p>after completing the high-fidelity prototype, i conducted user testing with six peers using <strong>Maze</strong>. the test included three missions: selecting a skill level, choosing a teacher, and picking a workshop date. the test results provided valuable insights through heatmaps, misclick rates, and mission durations, allowing me to refine the prototype and enhance the user experience.</p>
+            <p>once the high-fidelity prototype was completed, i conducted user testing with six peers using Maze; these testers have never taken a dance workshop before, fitting the target audience. the test included three tasks: selecting a skill level, choosing a teacher, and picking a workshop date. the test results provided valuable insights through heatmaps, misclick rates, and task completion times, which allowed me to refine the prototype and enhance the user experience.</p>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>revision and report</h5>
             <div class="grid gap-16 grid-2-toggle">
                 <div>
-                    <p>for the final phase of this project, i focused on writing a report on the Maze test results, detailing what went right and what went south in the user testing; i also stated what improvements could be made to improve the results of the interface in future iterations.</p>
+                    <p>in the final phase of this project, i focused on writing a report on the Maze test results, detailing what went right, and what went wrong in the user testing, and what improvements could be made to improve the results of the interface in future iterations.</p>
                     <br>
-                    <p>an issue identified during testing was that most testers couldn't identify the teacher labeled "passionate." Maze reported a <strong>7.9% misclick rate</strong>, with many testers returning to previous pages or selecting the wrong teacher. only two testers chose the correct teacher, matthew clark, highlighting the need for clearer information presentation.</p>
+                    <p>one issue identified during testing was that most testers couldn't recognize the teacher labeled "passionate." Maze reported a <strong>7.9% misclick rate</strong>, with many testers returning to previous pages or selecting the wrong teacher. only two testers chose the correct teacher, matthew clark, highlighting the need for clearer information presentation.</p>
                 </div>
             <div class="media">
                 <img src="../media/tempo/tempoMaze.png" alt="heatmap results from Tempo Maze testing.">
@@ -127,7 +127,7 @@
                 <div class="media">
                     <img src="../media/tempo/tempoRevis.png" alt="tempo teach page revision.">
                 </div>
-                <p>to address this, i reformatted the profile page, establishing a clear hierarchy for key information. i reduced textual content and added imagery, making it easier for users to quickly find and retain information. this revision was based on test results and aimed at enhancing the overall user experience.</p>
+                <p>to address this, i reformatted the profile page, establishing a clear hierarchy for key information. i reduced the amount of text and added imagery, making it easier for users to quickly find and retain information. this revision was based on test results and aimed to make the app beginner-friendly for dancers.</p>
             </div>
         </div>
         <div class="flex jcr gap-16 s-1 s-1-sm s-1-md view-project project-reveal">

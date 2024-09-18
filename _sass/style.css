@@ -2266,6 +2266,7 @@ main .more {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 16px;
+  margin-bottom: 8px;
 }
 .col-12-8-4.project-section h5::after {
   content: "";
@@ -2388,6 +2389,7 @@ main .more {
   padding: 16px;
   background-color: #272727;
   border-radius: 24px;
+  scroll-margin-top: 124px;
   width: unset;
 }
 .media img,
