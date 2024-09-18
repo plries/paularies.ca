@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
     <link rel="canonical" href="./projects/espresso">
     <link rel="icon" href="../icons/ui/logo-big.svg">
-    <link rel="apple-touch-icon" href="../icons/ui/logo-big.svg">
+    <link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
     <!-- HTML Meta Tags -->
     <meta name="description" content="view the espresso guide website project by paul aries, a responsive website featuring animations and interactivity using JavaScript/jQuery plugins.">
     <meta name="author" content="Paul Aries">

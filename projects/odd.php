@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
     <link rel="canonical" href="./projects/odd">
     <link rel="icon" href="../icons/ui/logo-big.svg">
-    <link rel="apple-touch-icon" href="../icons/ui/logo-big.svg">
+    <link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
     <!-- HTML Meta Tags -->
     <meta name="description" content="view the odd juice ordering app project by paul aries, a high-fidelity mobile app prototype using Figma that ultimately satisfies the user flow of searching, selecting, and purchasing a product.">
     <meta name="author" content="Paul Aries">
