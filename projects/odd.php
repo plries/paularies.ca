@@ -89,9 +89,20 @@
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>generating the high-fidelity prototype</h5>
             <div class="grid gap-16 grid-2-toggle">
-                <p>with the wireframes as a guide, i designed Figma components and assets according to the established style tile from our graphic designer. this step ensured consistency and coherence with odd’s brand, creating a unified look and feel for the app's interface and identity. applying odd’s style tile to UI components was a challenge, as the bright orange and brown colors make for an <em>atypical</em> color scheme for an app. however, i was able to utilize the style tile to create a suitable look for an app using the 60-30-10 rule to distribute the colors.</p>
-                <p>using these components, i generated the pages based on the low-fidelity wireframes, transforming rough shapes into detailed, interactive designs. this progression allowed for a seamless transition from concept to tangible interface elements, facilitating a clearer vision of the final product.</p>
+                <p>with the wireframes as a guide, i designed Figma components and assets according to the established style tile from our graphic designer. this step ensured consistency and coherence with odd’s brand, creating a unified look and feel for the app's interface and identity.</p>
+                <div class="media">
+                    <img src="../media/odd/oddStyleTile.png" alt="Odd's style tile.">
+                </div>
             </div>
+        </div>
+        <div class="grid gap-16 grid-2-toggle s-1 s-1-sm s-1-md project-reveal">
+            <div class="media">
+                <img src="../media/odd/odd603010.png" alt="Odd's 60-30-10 rule.">
+            </div>
+            <p>applying odd’s style tile to UI components was a challenge, as the bright orange and brown colors make for an <em>atypical</em> color scheme for an app. however, i was able to utilize the style tile to create a suitable look for an app using the 60-30-10 rule to distribute the colors.</p>
+        </div>
+        <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <p>using these components, i generated the pages based on the low-fidelity wireframes, transforming rough shapes into detailed, interactive designs. this progression allowed for a seamless transition from concept to tangible interface elements, facilitating a clearer vision of the final product.</p>
         </div>
         <div class="media s-1 s-1-sm s-1-md project-reveal">
             <img src="../media/odd/oddPrototype.jpg" alt="screenshot of Odd Figma prototype.">
