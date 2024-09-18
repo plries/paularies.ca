@@ -1,4 +1,4 @@
-<a href="./espresso" class="project project1 s-1 s-1-sm s-1-md gap-16 front-end">
+<a href="./projects/espresso" class="project project1 s-1 s-1-sm s-1-md gap-16 front-end">
     <div class="project-img-container">
         <img class="project-img" src="./media/espresso/espresso.jpg" alt="espresso guide - website." draggable="false">
     </div>

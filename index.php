@@ -99,7 +99,7 @@
             <?php include './components/project-cards/tempo-card.php'; ?>
         </div>
         <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
-            <a class="secondary btn" href="./projects">
+            <a class="secondary btn" href="./work">
                 all projects
                 <img src="../icons/ui/white-arrow.svg" alt="arrow icon.">
             </a>

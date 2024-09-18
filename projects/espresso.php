@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
-    <link rel="canonical" href="./espresso">
-    <link rel="icon" href="./icons/ui/logo-big.svg">
-    <link rel="apple-touch-icon" href="./icons/ui/logo-big.svg">
+    <link rel="canonical" href="./projects/espresso">
+    <link rel="icon" href="../icons/ui/logo-big.svg">
+    <link rel="apple-touch-icon" href="../icons/ui/logo-big.svg">
     <!-- HTML Meta Tags -->
     <meta name="description" content="view the espresso guide website project by paul aries, a responsive website featuring animations and interactivity using JavaScript/jQuery plugins.">
     <meta name="author" content="Paul Aries">
     <meta name="keywords" content="Paul Aries, front-end developer, UX/UI designer, portfolio, web development, user experience, user interface design, projects, paul aries projects, front-end projects, portfolio projects, web development projects, JavaScript, jQuery, JavaScript plugins, jQuery plugins, HTML, CSS">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://www.paularies.ca/espresso">
+    <meta property="og:url" content="https://www.paularies.ca/projects/espresso">
     <meta property="og:type" content="website">
     <meta property="og:title" content="paul aries - espresso">
     <meta property="og:description" content="view the espresso guide project website by paul aries, a responsive website featuring animations and interactivity using JavaScript/jQuery plugins.">
@@ -24,7 +24,7 @@
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="paularies.ca">
-    <meta property="twitter:url" content="https://www.paularies.ca/espresso">
+    <meta property="twitter:url" content="https://www.paularies.ca/projects/espresso">
     <meta name="twitter:title" content="paul aries - espresso">
     <meta name="twitter:description" content="view the espresso guide project website by paul aries, a responsive website featuring animations and interactivity using JavaScript/jQuery plugins.">
     <meta name="twitter:image" content="https://www.paularies.ca/media/espresso/espresso.jpg">
@@ -39,7 +39,7 @@
     <div class="scroll-progress fe"></div>
 </div>
 
-<?php include './components/header.php'; ?>
+<?php include '../components/project-header.php'; ?>
 
 <div class="hero-wrapper">
     <div class="espresso parallax overlay flex aic jcc">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/bg-vid.php'; ?>
+                    <?php include '../components/code/bg-vid.php'; ?>
                 </figure>
             </div>
         </div>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/isotope.php'; ?>
+                    <?php include '../components/code/isotope.php'; ?>
                 </figure>                       
             </div>
         </div>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/scrollreveal.php'; ?>
+                    <?php include '../components/code/scrollreveal.php'; ?>
                 </figure>                       
             </div>
         </div>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/swiper.php'; ?>
+                    <?php include '../components/code/swiper.php'; ?>
                 </figure>
             </div>
         </div>
@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/scrolltrigger.php'; ?>
+                    <?php include '../components/code/scrolltrigger.php'; ?>
                 </figure>                     
             </div>
         </div>
@@ -179,17 +179,17 @@
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
             <h5>other projects</h5>
             <div class="more-projects grid grid-2-toggle">
-                <?php include './components/project-thumbs/odd-thumb.php'; ?>
+                <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                 <div class="grid grid-2-row gap-16">
-                    <?php include './components/project-thumbs/pine-thumb.php'; ?>
-                    <?php include './components/project-thumbs/tempo-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<?php include './components/footer.php'; ?>
+<?php include '../components/project-footer.php'; ?>
 
 <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
     <div class="modal-overlay" tabindex="-1" data-micromodal-close>
@@ -234,7 +234,7 @@
     </div>
 </div>
 
-<?php include './components/project-scripts.php'; ?>
+<?php include '../components/project-scripts.php'; ?>
 
 </body>
 </html>

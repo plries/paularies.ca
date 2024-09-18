@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
-    <link rel="canonical" href="./pine">
+    <link rel="canonical" href="./projects/pine">
     <link rel="icon" href="./icons/ui/logo-big.svg">
     <link rel="apple-touch-icon" href="./icons/ui/logo-big.svg">
     <!-- HTML Meta Tags -->
@@ -16,7 +16,7 @@
     <meta name="author" content="Paul Aries">
     <meta name="keywords" content="Paul Aries, front-end developer, UX/UI designer, portfolio, web development, user experience, user interface design, projects, paul aries projects, front-end projects, portfolio projects, web development projects, JavaScript, jQuery, JavaScript plugins, jQuery plugins, HTML, CSS">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://www.paularies.ca/pine">
+    <meta property="og:url" content="https://www.paularies.ca/projects/pine">
     <meta property="og:type" content="website">
     <meta property="og:title" content="paul aries - pine">
     <meta property="og:description" content="view the pine online retail website project by paul aries, a responsive website that implements CSS media queries, flexbox, grid, and a JavaScript plugin.">
@@ -24,7 +24,7 @@
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="paularies.ca">
-    <meta property="twitter:url" content="https://www.paularies.ca/pine">
+    <meta property="twitter:url" content="https://www.paularies.ca/projects/pine">
     <meta name="twitter:title" content="paul aries - pine">
     <meta name="twitter:description" content="view the pine online retail website project by paul aries, a responsive website that implements CSS media queries, flexbox, grid, and a JavaScript plugin.">
     <meta name="twitter:image" content="https://www.paularies.ca/media/pine/pine.jpg">
@@ -39,7 +39,7 @@
     <div class="scroll-progress fe"></div>
 </div>
 
-<?php include './components/header.php'; ?>
+<?php include '../components/project-header.php'; ?>
 
 <div class="hero-wrapper">
     <div class="pine parallax overlay flex aic jcc">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <figure class="code-preview">
-                    <?php include './components/code/splide.php'; ?>
+                    <?php include '../components/code/splide.php'; ?>
                 </figure>                       
             </div>
         </div>
@@ -116,7 +116,7 @@
             <p>all imagery is from Unsplash and Pexels and abides by their respective license rules. additionally, product photos were edited in Photoshop for different colorways and consistent backgrounds. icons are from FontsAwesome and abide by their license rules.</p>
         </div>
         <div class="media s-1 s-1-sm s-1-md project-reveal">
-            <img src="./media/pine/pinePs.png" alt="product photos being edited in Photoshop.">
+            <img src="../media/pine/pinePs.png" alt="product photos being edited in Photoshop.">
         </div>
         <div class="flex s-1 s-1-sm s-1-md jcr gap-16 view-project project-reveal">
             <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
@@ -131,17 +131,17 @@
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
             <h5>other projects</h5>
             <div class="more-projects grid grid-2-toggle">
-                <?php include './components/project-thumbs/tempo-thumb.php'; ?>
+                <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                 <div class="grid grid-2-row gap-16">
-                    <?php include './components/project-thumbs/espresso-thumb.php'; ?>
-                    <?php include './components/project-thumbs/odd-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<?php include './components/footer.php'; ?>
+<?php include '../components/project-footer.php'; ?>
 
 <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
     <div class="modal-overlay" tabindex="-1" data-micromodal-close>
@@ -186,7 +186,7 @@
     </div>
 </div>
 
-<?php include './components/project-scripts.php'; ?>
+<?php include '../components/project-scripts.php'; ?>
 
 </body>
 </html>

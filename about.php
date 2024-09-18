@@ -121,7 +121,7 @@
             <p>i always approach every project with humility, recognizing that the best ideas can come from anywhere. by valuing the contributions and suggestions of my team members and users, i am  able to ensure that my work is its best.</p>
         </article>
         <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
-            <a class="secondary btn" href="./projects">
+            <a class="secondary btn" href="./work">
             all projects
             <img src="../icons/ui/white-arrow.svg" alt="Arrow icon.">
             </a>

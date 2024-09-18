@@ -15,9 +15,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="./projects" class="header btn">
-                        <img src="./icons/ui/white-folder.svg" alt="Projects icon." draggable="false">
-                        projects
+                        <a href="./work" class="header btn">
+                        <img src="./icons/ui/white-folder.svg" alt="Work icon." draggable="false">
+                        work
                         </a>
                     </li>
                     <li>

@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
-    <link rel="canonical" href="./tempo">
-    <link rel="icon" href="./icons/ui/logo-big.svg">
-    <link rel="apple-touch-icon" href="./icons/ui/logo-big.svg">
+    <link rel="canonical" href="./projects/tempo">
+    <link rel="icon" href="../icons/ui/logo-big.svg">
+    <link rel="apple-touch-icon" href="../icons/ui/logo-big.svg">
     <!-- HTML Meta Tags -->
     <meta name="description" content="view the tempo dance class booking app project by paul aries, a high-fidelity prototype for a mobile app in Figma, featuring user research, a usability test, and a written report.">
     <meta name="author" content="Paul Aries">
     <meta name="keywords" content="Paul Aries, front-end developer, UX/UI designer, portfolio, web development, user experience, user interface design, projects, paul aries projects, UX/UI projects, portfolio projects, Figma wireframes, Figma prototypes, Figma, user research, usability test, user testing, Maze">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://www.paularies.ca/tempo">
+    <meta property="og:url" content="https://www.paularies.ca/projects/tempo">
     <meta property="og:type" content="website">
     <meta property="og:title" content="paul aries - tempo">
     <meta property="og:description" content="view the tempo dance class booking app project by paul aries, a high-fidelity prototype for a mobile app in Figma, featuring user research, a usability test, and a written report.">
@@ -24,11 +24,11 @@
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="paularies.ca">
-    <meta property="twitter:url" content="https://www.paularies.ca/tempo">
+    <meta property="twitter:url" content="https://www.paularies.ca/projects/tempo">
     <meta name="twitter:title" content="paul aries - tempo">
     <meta name="twitter:description" content="view the tempo dance class booking app project by paul aries, a high-fidelity prototype for a mobile app in Figma, featuring user research, a usability test, and a written report.">
     <meta name="twitter:image" content="https://www.paularies.ca/media/tempo/tempo.jpg">
-    <?php include './components/metadata.php'; ?>
+    <?php include '../components/metadata.php'; ?>
 </head>
 
 <body>
@@ -39,13 +39,13 @@
     <div class="scroll-progress uxui"></div>
 </div>
 
-<?php include './components/header.php'; ?>
+<?php include '../components/project-header.php'; ?>
 
 <div class="hero-wrapper">
     <div class="tempo parallax overlay flex aic jcc">
         <div class="grid col-12-8-4">
             <div class="sm-hero s-0 s-0-sm s-0-md">
-                <img src="./media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
+                <img src="../media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
                 <h3>tempo - dance class booking app</h3>
@@ -83,22 +83,22 @@
             <p>after settling on a topic, i identified the target audience using multiple research strategies such as: <strong>user personas</strong>, <strong>user scenarios</strong>, <strong>an empathy map</strong>, and a <strong>journey map</strong>. by creating these documents, i was able to confidently define what the target audience desires from the app.</p>
         </div>
         <figure class="s-l s-1-sm s-l-md media project-reveal">
-            <img src="./media/tempo/tempoPersona.png" alt="user persona of Mia Rodriguez.">
+            <img src="../media/tempo/tempoPersona.png" alt="user persona of Mia Rodriguez.">
         </figure>
         <figure class="s-1 s-1-sm s-1-md media project-reveal">
-            <img src="./media/tempo/tempoScenario.png" alt="user scenario of Mia Rodriguez.">
+            <img src="../media/tempo/tempoScenario.png" alt="user scenario of Mia Rodriguez.">
         </figure>
         <figure class="s-r s-1-sm s-r-md media project-reveal">
-            <img src="./media/tempo/tempoEmpathy.png" alt="empathy map for Mia Rodrigeuz.">
+            <img src="../media/tempo/tempoEmpathy.png" alt="empathy map for Mia Rodrigeuz.">
         </figure>
         <figure class="s-1 s-1-sm s-1-md media project-reveal">
-            <img src="./media/tempo/tempoJourney.png" alt="journey map for user group.">
+            <img src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
         </figure>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <p>following the research, i drafted a <strong>flow chart</strong> to outline the process which the target user follows in this app. for this prototype, i focused on the flow which the user follows when booking their first class. based on the flow chart, i designed <strong>low-fidelity wireframes</strong> which detailed the spaces for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
         </div>
         <figure class="s-l s-1-sm s-l-md media project-reveal">
-            <img src="./media/tempo/tempoFlow.jpg" alt="flow chart for Tempo app.">
+            <img src="../media/tempo/tempoFlow.jpg" alt="flow chart for Tempo app.">
         </figure>
         <div class="s-r s-1-sm s-r-md media project-reveal">
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLkRaZh1NpfmUB7lCqYzMx5%2Ftempo-wireframes%3Fnode-id%3D0-1%26t%3Dy4LWoYAJKMoapsdS-1" allowfullscreen></iframe>
@@ -118,20 +118,20 @@
                     <p>an issue identified during testing was that most testers couldn't identify the teacher labeled "passionate." Maze reported a <strong>7.9% misclick rate</strong>, with many testers returning to previous pages or selecting the wrong teacher. only two testers chose the correct teacher, matthew clark, highlighting the need for clearer information presentation.</p>
                 </div>
             <div class="media">
-                <img src="./media/tempo/tempoMaze.png" alt="heatmap results from Tempo Maze testing.">
+                <img src="../media/tempo/tempoMaze.png" alt="heatmap results from Tempo Maze testing.">
             </div>
         </div>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <div class="grid gap-16 grid-2-toggle">
                 <div class="media">
-                    <img src="./media/tempo/tempoRevis.png" alt="tempo teach page revision.">
+                    <img src="../media/tempo/tempoRevis.png" alt="tempo teach page revision.">
                 </div>
                 <p>to address this, i reformatted the profile page, establishing a clear hierarchy for key information. i reduced textual content and added imagery, making it easier for users to quickly find and retain information. this revision was based on test results and aimed at enhancing the overall user experience.</p>
             </div>
         </div>
         <div class="flex jcr gap-16 s-1 s-1-sm s-1-md view-project project-reveal">
-            <a class="secondary btn" href="../media/tempo/tempoReport.pdf" target="_blank">
+            <a class="secondary btn" href="..../media/tempo/tempoReport.pdf" target="_blank">
                 report
                 <img src="../icons/ui/white-arrow.svg" alt="arrow">
             </a>
@@ -143,17 +143,17 @@
         <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
             <h5>other projects</h5>
             <div class="more-projects grid grid-2-toggle">
-                <?php include './components/project-thumbs/espresso-thumb.php'; ?>
+                <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                 <div class="grid grid-2-row gap-16">
-                    <?php include './components/project-thumbs/odd-thumb.php'; ?>
-                    <?php include './components/project-thumbs/pine-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/odd-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                 </div>
             </div>
         </div>
     </section>
 </main>
 
-<?php include './components/footer.php'; ?>
+<?php include '../components/project-footer.php'; ?>
 
 <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
     <div class="modal-overlay" tabindex="-1" data-micromodal-close>
@@ -196,7 +196,7 @@
     </div>
 </div>
 
-<?php include './components/project-scripts.php'; ?>
+<?php include '../components/project-scripts.php'; ?>
 
 </body>
 </html>
