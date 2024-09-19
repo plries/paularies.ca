@@ -1,1 +1,1 @@
-### smooth scrolling + tooltip gap
+### tippy, rewritten project logs
