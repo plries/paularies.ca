@@ -1,1 +1,1 @@
-### tippy, rewritten project logs
+### new hover animation, relink images
