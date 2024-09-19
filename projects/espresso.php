@@ -45,7 +45,7 @@
     <div class="espresso parallax overlay flex aic jcc">
         <div class="grid col-12-8-4">
             <div class="sm-hero s-0 s-0-sm s-0-md">
-                <img src="./media/espresso/espressoHero.jpg" alt="espresso landing page.">
+                <img src="../media/espresso/espressoHero.jpg" alt="espresso landing page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
                 <h3>espresso guide - website</h3>

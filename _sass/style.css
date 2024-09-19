@@ -1101,16 +1101,17 @@ a.link-underline::before {
   position: absolute;
   top: 100%;
   background-color: #202020;
-  height: 1px;
+  height: 1.6px;
   width: 100%;
-  transform: scaleX(0);
-  transform-origin: bottom right;
+  margin-top: -2px;
+  transform: scaleX(1);
+  transform-origin: right;
   transition: transform 0.25s ease;
 }
 
 a.link-underline:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
 * {

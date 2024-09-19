@@ -45,7 +45,7 @@
     <div class="pine parallax overlay flex aic jcc">
         <div class="grid col-12-8-4">
             <div class="sm-hero s-0 s-0-sm s-0-md">
-                <img src="./media/pine/pineHero.jpg" alt="pine landing page.">
+                <img src="../media/pine/pineHero.jpg" alt="pine landing page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
                 <h3>pine - online retail website</h3>
