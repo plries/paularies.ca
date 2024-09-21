@@ -1,1 +1,1 @@
-### new hover animation, relink images
+### nav, cursor, hover animations
