@@ -21,6 +21,6 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
-          - *.md
-          - *.scss
+          *.md
+          *.scss
         port: 21
