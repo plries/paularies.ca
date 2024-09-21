@@ -3,7 +3,9 @@
             <img class="logo" src="./icons/ui/logo-small.svg" alt="Paul Aries Logo." draggable="false">
         </a>
         <button class="nav-toggle">
-            <img class="menu-icon" src="./icons/ui/white-menu.svg" alt="Menu icon.">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
         </button>
         <div class="nav-wrapper">
             <nav>

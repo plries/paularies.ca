@@ -14,11 +14,20 @@ $(document).ready(function(){
     let buttons = document.querySelectorAll("button");
     let skills = document.getElementsByClassName("skill");
     let iframes = document.querySelectorAll("iframe");
+    let flickity = document.querySelector(".flickity-viewport");
 
     window.addEventListener("mousemove", e => {
         xTo(e.clientX);
         yTo(e.clientY);
         cursor.style.opacity = "1";
+    });
+
+    window.addEventListener("mousedown", function() {
+        hover.play()
+    });
+
+    window.addEventListener("mouseup", function() {
+        hover.reverse()
     });
 
     let hover = gsap.to(".cursor", {
@@ -98,6 +107,13 @@ $(document).ready(function(){
         iframe.addEventListener("mouseleave", function() {
             cursor.style.display = "block";
         });
+    });
+
+    flickity.addEventListener("mouseenter", function() {
+        hover.play();
+    });
+    flickity.addEventListener("mouseleave", function() {
+        hover.reverse();
     });
 
 

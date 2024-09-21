@@ -19,6 +19,7 @@
     z-index: 9999999;
     opacity: 0;
     transition: opacity 0.5s ease;
+    border: $white 1px solid;
 }
 
 @media screen and (max-width: 768px) {

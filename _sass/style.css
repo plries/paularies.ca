@@ -1135,6 +1135,7 @@ a.link-underline:hover::before {
   z-index: 9999999;
   opacity: 0;
   transition: opacity 0.5s ease;
+  border: #FFFFFF 1px solid;
 }
 
 @media screen and (max-width: 768px) {
@@ -1521,15 +1522,41 @@ header .nav-wrapper nav ul li a:hover {
 @media screen and (max-width: 1024px) {
   header .nav-toggle {
     display: block;
-    padding: 0;
     z-index: 9;
-    background-color: #202020;
     right: 0;
-    padding: 12px;
-    border: #3E3E3E 1px solid;
-    border-radius: 8px;
     height: 44px;
     width: 44px;
+    padding: 4px 8px;
+    border: #3E3E3E 1px solid;
+    border-radius: 8px;
+    background-color: #202020;
+  }
+  header .nav-toggle .line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 6px auto;
+    background-color: #FFFFFF;
+    transition: all 0.25s ease-in-out;
+  }
+  header .nav-toggle .line:nth-child(2) {
+    transform: scaleX(0.75);
+    transform-origin: right;
+  }
+  header .nav-toggle .line:nth-child(3) {
+    transform: scaleX(0.5);
+    transform-origin: right;
+  }
+  header .nav-toggle.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(-45deg) scaleX(1);
+    transform-origin: unset;
+  }
+  header .nav-toggle.open .line:nth-child(2) {
+    opacity: 0;
+  }
+  header .nav-toggle.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(45deg) scaleX(1);
+    transform-origin: unset;
   }
   header .nav-wrapper {
     display: flex;

@@ -59,15 +59,43 @@ header {
     header {
         .nav-toggle {
             display: block;
-            padding: 0;
             z-index: 9;
-            background-color: $black;
             right: 0;
-            padding: 12px;
-            border: $dark-grey 1px solid;
-            border-radius: 8px;
             height: 44px;
             width: 44px;
+            padding: 4px 8px;
+            border: $dark-grey 1px solid;
+            border-radius: 8px;
+            background-color: $black;
+            .line {
+                display: block;
+                height: 2px;
+                width: 100%;
+                margin: 6px auto;
+                background-color: $white;
+                transition: all 0.25s ease-in-out;
+            }
+            .line:nth-child(2) {
+                transform: scaleX(0.75);
+                transform-origin: right;
+            }
+            .line:nth-child(3) {
+                transform: scaleX(0.5);
+                transform-origin: right;
+            }
+            &.open {
+                .line:nth-child(1) {
+                    transform: translateY(8px) rotate(-45deg) scaleX(1);
+                    transform-origin: unset;
+                }
+                .line:nth-child(2) {
+                    opacity: 0;
+                }
+                .line:nth-child(3) {
+                    transform: translateY(-8px) rotate(45deg) scaleX(1);
+                    transform-origin: unset;
+                }
+            }
         }   
         .nav-wrapper {
             display: flex;

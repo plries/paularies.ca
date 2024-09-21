@@ -2,12 +2,11 @@ var $projects = $('.project-cards').isotope({
     // options
     itemSelector: '.project',
     layoutMode: 'vertical',
-    stagger: 90,
     hiddenStyle: {
-        opacity: 0
+        opacity: 0,
     },
     visibleStyle: {
-        opacity: 1
+        opacity: 1,
     }
 });
 
