@@ -13,7 +13,7 @@
 <!-- flickity -->
 <script src="../js/flickity.pkgd.min.js"></script>
 <!-- lenis -->
-<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <!-- highlight.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
