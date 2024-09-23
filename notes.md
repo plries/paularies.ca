@@ -1,1 +1,1 @@
-### nav, cursor, hover animations
+### updated copy
