@@ -103,7 +103,11 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoIsotope.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/" target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of recommended espresso tools. users can sort the list by name and pricing, and filter the products by priority. this plugin proved to be more complex than the others, as my initial HTML setup did not align with Isotope’s recommended markup. as a result, the setup took longer than anticipated so, as a result, i’ve learned to research about what resources i plan to utilize before i begin coding.</p>
+            <div>
+                <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/" target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of recommended espresso tools. users can sort the list by name and pricing, and filter the products by priority. this feature was designed with beginner baristas in mind, as they would likely frequent this page to determine which equipment they should purchase next. by integrating this functionality, i aimed to create a more user-friendly experience, allowing users to quickly find the most useful tools.</p>
+                <br>
+                <p>this plugin proved to be more complex than the others, as my initial HTML setup did not align with Isotope’s recommended markup. as a result, the setup took longer than anticipated so, as a result, i’ve learned to research about what resources i plan to utilize before i begin coding.</p>
+            </div>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>Isotope</p>
@@ -120,7 +124,7 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoScroll.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>i then added the <a class="link-underline" href="https://scrollrevealjs.org/" target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s attention and, paired with tasteful comments, guide them to the CTA and ease them to the explore rest of the website.</p>
+            <p>i then added the <a class="link-underline" href="https://scrollrevealjs.org/" target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s attention and, paired with <em>tasteful</em> comments, guide them to the CTA and ease them to the explore rest of the website.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>ScrollReveal.js</p>
@@ -138,7 +142,7 @@
             <div class="paragraph media">
                 <video src="../media/espresso/espressoSwiper.mp4" autoplay loop muted playsinline></video>
             </div>
-            <p>following that, i integrated the <a class="link-underline" href="https://swiperjs.com/" target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive sliders. this plugin showcases the steps to brew espresso and allowed me to create an engaging, interactive experience for users to follow along to when they brew their espresso!</p>
+            <p>following that, i integrated the <a class="link-underline" href="https://swiperjs.com/" target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive sliders. i designed the brew page to utilize this plugin as it showcases the instructions to pull a shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
             <div class="code-dropdown" tabindex="0">
                 <div class="code-dropdown-btn flex row aic jcc jcsb">
                     <p>Swiper.js</p>

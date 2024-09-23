@@ -95,7 +95,9 @@
             <img src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
         </figure>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-            <p>following the research, i created a <a class="link-underline" href="#flowchart">flowchart</a> to outline the process which the target user follows in this app. for this prototype, i focused on the process for a user booking their first class. based on the flow chart, i designed <a class="link-underline" href="#wireframes">low-fidelity wireframes</a> which detailed the placement for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
+            <p>following the research, i created a <a class="link-underline" href="#flowchart">flowchart</a> to outline the process which the target user follows in this app. for this prototype, i focused specifically on the process of booking a first dance class, as my research indicated that this can be a confusing and nerve-wracking experience for many beginners.</p>
+            <br>
+            <p>based on the flow chart, i designed <a class="link-underline" href="#wireframes">low-fidelity wireframes</a> in order to define the placements for text, images, and buttons. generally, booking an appointment or workshop is a linear process, so the screens i needed for the user flow were evident as soon as i created the flow chart.</p>
         </div>
         <figure id="flowchart" class="s-l s-1-sm s-l-md media project-reveal">
             <img src="../media/tempo/tempoFlow.jpg" alt="flow chart for Tempo app.">
@@ -107,13 +109,13 @@
             <h5>prototyping and user testing</h5>
             <p>in the second phase of this project, i focused on adding functionality to the interface and testing prototypes with a user group. a challenge i faced was the larger-than-anticipated project scope, which involved many variables and conditional statements. however, my experience with JavaScript and the Figma community helped me quickly grasp the logic and create a functional prototype.</p>
             <br>
-            <p>once the high-fidelity prototype was completed, i conducted user testing with six peers using Maze; these testers have never taken a dance workshop before, fitting the target audience. the test included three tasks: selecting a skill level, choosing a teacher, and picking a workshop date. the test results provided valuable insights through heatmaps, misclick rates, and task completion times, which allowed me to refine the prototype and enhance the user experience.</p>
+            <p>once the high-fidelity prototype was completed, i conducted user testing with six peers using Maze; these testers have never taken a dance workshop before, fitting the target audience of beginner dancers. the test included three tasks: selecting a skill level, choosing a teacher, and picking a workshop date. the test results provided valuable insights through heatmaps, misclick rates, and task completion times, which allowed me to refine the prototype and enhance the user experience.</p>
         </div>
         <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
             <h5>revision and report</h5>
             <div class="grid gap-16 grid-2-toggle">
                 <div>
-                    <p>in the final phase of this project, i focused on writing a report on the Maze test results, detailing what went right, and what went wrong in the user testing, and what improvements could be made to improve the results of the interface in future iterations.</p>
+                    <p>in the final phase of this project, i focused on writing a report on the Maze test results, detailing what went right, and what went wrong in the user testing. this step helps guide the app's development direction and identify what improvements could be made to improve results in future iterations should i choose to continue refining it.</p>
                     <br>
                     <p>one issue identified during testing was that most testers couldn't recognize the teacher labeled "passionate." Maze reported a <strong>7.9% misclick rate</strong>, with many testers returning to previous pages or selecting the wrong teacher. only two testers chose the correct teacher, matthew clark, highlighting the need for clearer information presentation.</p>
                 </div>
