@@ -23,4 +23,5 @@ jobs:
           **/node_modules/**
           *.md
           *.scss
+          */vendor
         port: 21
