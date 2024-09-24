@@ -19,7 +19,7 @@ header {
             z-index: 9;
             transition: scale 0.25s ease;
             border: $dark-grey 1px solid;
-            border-radius: 8px;
+            border-radius: 8.75px;
         }
     }
     .nav-toggle {
@@ -131,6 +131,13 @@ header {
                                 height: 3rem;
     
                             }
+                        }
+                        a {
+                            transition: margin-left 0.25s ease;
+                        }
+                        a:hover {
+                            scale: unset;
+                            margin-left: 24px;
                         }
                     }
                 }

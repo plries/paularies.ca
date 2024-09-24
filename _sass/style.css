@@ -1490,7 +1490,7 @@ header .logo-btn .logo {
   z-index: 9;
   transition: scale 0.25s ease;
   border: #3E3E3E 1px solid;
-  border-radius: 8px;
+  border-radius: 8.75px;
 }
 header .nav-toggle {
   display: none;
@@ -1593,6 +1593,13 @@ header .nav-wrapper nav ul li a:hover {
   header .nav-wrapper nav ul li a.header.btn img {
     width: 3rem;
     height: 3rem;
+  }
+  header .nav-wrapper nav ul li a {
+    transition: margin-left 0.25s ease;
+  }
+  header .nav-wrapper nav ul li a:hover {
+    scale: unset;
+    margin-left: 24px;
   }
   header .visible {
     left: 0;
