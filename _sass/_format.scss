@@ -4,27 +4,33 @@
         justify-content: end;
         align-items: end;
         height: 100%;
+
         .sm-hero {
             display: none;
         }
     }
+
     .project-title {
         z-index: 2;
         margin: 0 0px 104px 0px;
+
         h3 {
             margin: 0;
         }
+
         h4 {
             margin-bottom: 16px;
             font-size: $fs-xs;
             font-weight: 500;
             letter-spacing: -0.1rem;
         }
-    .arrow-down {
-        margin: 0;
-    }
+
+        .arrow-down {
+            margin: 0;
+        }
     }
 }
+
 .overlay::before {
     content: '';
     z-index: 1;
@@ -38,11 +44,13 @@
 
 .col-12-8-4.project-section {
     row-gap: 48px;
+
     .paragraph.callout {
         p {
             color: $black;
         }
     }
+
     h5 {
         font-family: $rubik;
         font-weight: 600;
@@ -53,6 +61,7 @@
         gap: 16px;
         margin-bottom: 8px;
     }
+
     h5::after {
         content: '';
         background-color: $dark-grey;
@@ -60,30 +69,38 @@
         height: 0.4rem;
         place-self: center;
     }
+
     p {
         color: $light-grey;
+
         a.link-underline {
             display: inline-block;
             color: $white;
         }
+
         a.link-underline::before {
             width: 100%;
             background-color: $white;
         }
     }
+
     figure {
         margin: 0;
+
         img {
             width: 100%;
             border-radius: 8px;
             transition: scale 0.25s ease;
         }
     }
+
     .paragraph:not(.callout, .code-dropdown) {
         margin-top: 96px;
+
         .project-reveal {
             margin-top: 0;
         }
+
         .code-dropdown {
             grid-column: 1 / start 2;
             border-radius: 16px;
@@ -91,14 +108,17 @@
             overflow: hidden;
             max-height: 5.8rem;
             transition: max-height 0.75s ease-in-out,
-                        scale 0.1s ease-in-out;
+                scale 0.1s ease-in-out;
+
             .code-dropdown-btn {
                 padding: 16px;
                 border-radius: 16px;
                 background-color: $darker-grey;
+
                 p {
                     color: $white;
                 }
+
                 .caret {
                     height: 1.2rem;
                     -webkit-touch-callout: none;
@@ -112,33 +132,41 @@
                     transition: transform 0.25s ease;
                 }
             }
+
             .code-preview {
                 margin: 0 16px 16px 16px;
                 background-color: #181818;
                 padding: 16px;
                 border-radius: 8px;
+
                 pre {
                     font-size: unset;
                     margin: 0;
+
                     code {
                         color: $white;
                         text-wrap: wrap;
                         word-wrap: break-word;
+
                         .hljs-comment {
                             color: #535353;
                         }
+
                         .hljs-variable,
                         .hljs-title {
                             color: #94b4e4;
                         }
+
                         .hljs-literal,
                         .hljs-number {
                             color: #8eb46d;
                         }
+
                         .hljs-keyword,
                         .hljs-string {
                             color: #ceac82;
                         }
+
                         .hljs-attr {
                             color: $grey;
                         }
@@ -146,10 +174,12 @@
                 }
             }
         }
+
         .code-dropdown:hover {
             scale: 0.995;
         }
     }
+
     .no-margin {
         margin-top: 0 !important;
     }
@@ -159,6 +189,7 @@
     background-color: $white;
     border-radius: 24px;
     padding: 32px;
+
     p {
         color: $black;
         margin-top: 8px;
@@ -182,15 +213,18 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+
     img,
     iframe,
     video {
         width: 100%;
         border-radius: 16px;
     }
+
     iframe {
         height: 450px;
     }
+
     video {
         height: 100%;
         border-radius: 16px;
@@ -201,24 +235,29 @@
 
     .project-title {
         margin-bottom: 0;
-        > div {
+
+        >div {
             img {
                 display: none;
             }
-            > div {
+
+            >div {
                 margin: 0 -48px;
                 padding-right: 48px;
                 overflow-x: scroll;
+
                 .btn,
                 .tag {
                     text-wrap: nowrap;
                 }
+
                 .info {
                     margin-left: 48px;
                 }
             }
-        } 
-        > div > div::-webkit-scrollbar {
+        }
+
+        >div>div::-webkit-scrollbar {
             display: none;
         }
     }
@@ -226,14 +265,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .hero-wrapper {
         background-color: $white;
+
         .col-12-8-4 {
             .sm-hero {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
                 img {
                     aspect-ratio: 1/1;
                     width: 100%;
@@ -247,9 +288,11 @@
                     border-radius: 16px;
                 }
             }
+
             .project-title {
                 h4 {
-                    font-size: $fs-xxs;                    }
+                    font-size: $fs-xxs;
+                }
             }
         }
     }
@@ -264,34 +307,40 @@
 
     .col-12-8-4.project-section {
         row-gap: 16px;
+
         .paragraph:not(.callout, .code-dropdown) {
             .code-dropdown {
                 max-height: 5.2rem;
             }
         }
     }
-    
-                
+
+
     .project-title {
         margin-bottom: 0;
-        > div {
+
+        >div {
             img {
                 display: none;
             }
-            > div {
+
+            >div {
                 margin: 0 -32px;
                 padding-right: 32px;
                 overflow-x: scroll;
+
                 .btn,
                 .tag {
                     text-wrap: nowrap;
                 }
+
                 .info {
                     margin-left: 32px;
                 }
             }
-        } 
-        > div > div::-webkit-scrollbar {
+        }
+
+        >div>div::-webkit-scrollbar {
             display: none;
         }
     }

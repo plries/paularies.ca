@@ -64,7 +64,8 @@
             width: 4.8rem;
             height: 4.8rem;
             visibility: hidden;
-            animation: pointDown 1s ease;
+            -webkit-animation: pointDown 1s ease;
+                    animation: pointDown 1s ease;
         }
 }
 

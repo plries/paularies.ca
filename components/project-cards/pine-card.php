@@ -5,7 +5,7 @@
     </div>
     <div class="project-chips flex wrap gap-16">
         <p class="green btn">
-            <img src="./icons/ui/white-target.svg" alt="target icon."  draggable="false">    
+            <img src="./icons/ui/white-target.svg" alt="target icon." draggable="false">
             front-end
         </p>
         <p class="chip tag">js</p>
@@ -18,6 +18,7 @@
     <div class="project-description flex col gap-8">
         <h3>pine</h3>
         <h4>online retail website</h4>
-        <p>a website for a fictional online retail store, implementing CSS media queries, flexbox, grid, and a JavaScript plugin, resulting in a fully responsive website.</p>
+        <p>a website for a fictional online retail store, implementing CSS media queries, flexbox, grid, and a
+            JavaScript plugin, resulting in a fully responsive website.</p>
     </div>
 </a>

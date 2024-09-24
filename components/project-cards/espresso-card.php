@@ -15,6 +15,7 @@
     <div class="project-description flex col gap-8">
         <h3>espresso</h3>
         <h4>website guide</h4>
-        <p>a comprehensive, three-page responsive website designed as a beginner's guide to espresso, incorporating JavaScript and jQuery plugins to enhance interactivity and visual appeal.</p>
+        <p>a comprehensive, three-page responsive website designed as a beginner's guide to espresso, incorporating
+            JavaScript and jQuery plugins to enhance interactivity and visual appeal.</p>
     </div>
 </a>

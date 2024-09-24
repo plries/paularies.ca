@@ -1,6 +1,7 @@
 .project-cards {
     width: 100%;
     visibility: hidden;
+
     .project {
         display: grid;
         grid-template-columns: 1.5fr 0.5fr;
@@ -16,9 +17,11 @@
         line-height: unset;
         text-decoration: none;
         justify-content: stretch;
+
         .project-img-container {
             width: 100%;
             height: auto;
+
             .project-img {
                 aspect-ratio: 16 / 10;
                 border-radius: 16px;
@@ -33,12 +36,15 @@
                 -ms-user-select: none;
             }
         }
+
         .project-chips {
             width: auto;
             height: auto;
         }
+
         .project-description {
             height: auto;
+
             h4 {
                 margin-top: -1rem;
                 font-size: $fs-xs;
@@ -47,9 +53,11 @@
             }
         }
     }
+
     .project:hover {
         scale: 0.98;
     }
+
     &.list {
         .project {
             .project-chips {
@@ -58,11 +66,13 @@
             }
         }
     }
+
     &.grid {
         .project {
             width: calc(50% - 60px);
             margin-right: unset;
             grid-template-columns: 1fr;
+
             .project-chips {
                 justify-content: start;
                 overflow-x: scroll;
@@ -71,13 +81,16 @@
                 flex-wrap: nowrap;
                 margin: 0 -24px;
                 padding-right: 24px;
+
                 .btn:first-child {
                     margin-left: 24px;
                 }
             }
+
             .project-chips::-webkit-scrollbar {
                 display: none;
             }
+
             .project-description {
                 p {
                     display: none;
@@ -91,11 +104,13 @@
     .thumb-container {
         aspect-ratio: 1 / 1;
         transition: scale 0.25s ease,
-                    opacity 0.25s ease; 
+            opacity 0.25s ease;
         width: 100%;
+
         .project-thumb {
             border-radius: 24px;
             position: relative;
+
             img {
                 border-radius: 16px;
                 width: 100%;
@@ -106,14 +121,17 @@
                 object-fit: cover;
             }
         }
+
         .flex {
             margin-top: 8px;
+
             h6 {
                 font-family: $rubik;
                 font-size: $fs-xs;
                 color: $white;
                 line-height: 130%;
             }
+
             img {
                 width: $fs-xs;
                 height: $fs-xs;
@@ -126,39 +144,47 @@
             }
         }
     }
+
     .thumb-container:hover {
         scale: 0.98;
         opacity: 1;
+
         .flex {
             img {
                 transform: rotate(-45deg);
             }
         }
     }
+
     .grid.grid-2-row {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
         width: 100%;
+
         .thumb-container {
             opacity: 0.75;
             aspect-ratio: unset;
+
             .project-thumb {
                 img {
                     aspect-ratio: unset;
                     width: 100%;
                 }
             }
+
             .flex {
                 h6 {
                     font-size: $fs-xxs;
                 }
+
                 img {
                     width: $fs-xxs;
                     height: $fs-xxs;
                 }
             }
         }
+
         .thumb-container:hover {
             opacity: 1;
         }
@@ -173,6 +199,7 @@
                 margin-right: unset;
                 width: unset;
                 grid-template-columns: 1.5fr 0.5fr;
+
                 .project-chips {
                     justify-content: right;
                     align-content: start;
@@ -182,13 +209,16 @@
                     flex-wrap: wrap;
                     margin: unset;
                     padding-right: unset;
+
                     .btn:first-child {
                         margin-left: unset;
                     }
                 }
+
                 .project-chips::-webkit-scrollbar {
                     display: unset;
                 }
+
                 .project-description {
                     p {
                         display: unset;
@@ -197,21 +227,24 @@
             }
         }
     }
-    
+
     .more-projects {
         .thumb-container {
             width: 100%;
+
             .project-thumb {
                 h6 {
                     font-size: $fs-xxs;
                 }
             }
+
             .grid.grid-2-row {
                 .thumb-container {
                     .flex {
                         h6 {
                             font-size: $fs-xxxs;
                         }
+
                         img {
                             width: $fs-xxxs;
                             height: $fs-xxxs;
@@ -220,7 +253,7 @@
                 }
             }
         }
-        
+
     }
 
 }
@@ -228,31 +261,36 @@
 @media screen and (max-width: 768px) {
 
     .project-cards,
-    .project-cards.grid{
+    .project-cards.grid {
         .project {
             overflow: hidden;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             height: auto;
+
             .project-chips {
-                justify-content: start !important; 
+                justify-content: start !important;
                 overflow-x: scroll;
                 height: auto;
                 text-wrap: nowrap;
                 flex-wrap: nowrap;
                 margin: 0 -24px;
                 padding-right: 24px;
+
                 .btn:first-child {
                     margin-left: 24px;
                 }
             }
+
             .project-chips::-webkit-scrollbar {
                 display: none;
             }
+
             .project-description {
                 h3 {
                     margin: 0;
                 }
+
                 h4 {
                     font-size: $fs-xxs;
                 }
@@ -263,6 +301,7 @@
     .more-projects {
         .thumb-container {
             aspect-ratio: unset;
+
             .project-thumb {
                 h6 {
                     margin: 10px 16px;

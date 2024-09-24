@@ -4,6 +4,7 @@ header {
     position: -webkit-sticky;
     top: 0;
     padding: 16px;
+
     img {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -11,9 +12,11 @@ header {
         -ms-user-select: none;
         user-select: none;
     }
+
     .logo-btn {
         height: 4.2rem;
         z-index: 9;
+
         .logo {
             height: 100%;
             z-index: 9;
@@ -22,33 +25,40 @@ header {
             border-radius: 8.75px;
         }
     }
+
     .nav-toggle {
         display: none;
         transition: scale 0.25s ease;
     }
+
     .nav-toggle:hover {
         scale: 0.925;
     }
+
     img:hover {
         scale: 0.925;
     }
+
     .nav-wrapper {
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
+
             li {
                 a {
                     height: 26px;
                     text-decoration: none;
-                li,
-                img {
-                    transition: scale 0.25s ease;
+
+                    li,
+                    img {
+                        transition: scale 0.25s ease;
+                    }
                 }
-            }
-            a:hover {
-                scale: 0.925;
-            }
+
+                a:hover {
+                    scale: 0.925;
+                }
             }
         }
     }
@@ -67,6 +77,7 @@ header {
             border: $dark-grey 1px solid;
             border-radius: 8px;
             background-color: $black;
+
             .line {
                 display: block;
                 height: 2px;
@@ -75,28 +86,34 @@ header {
                 background-color: $white;
                 transition: all 0.25s ease-in-out;
             }
+
             .line:nth-child(2) {
                 transform: scaleX(0.75);
                 transform-origin: right;
             }
+
             .line:nth-child(3) {
                 transform: scaleX(0.5);
                 transform-origin: right;
             }
+
             &.open {
                 .line:nth-child(1) {
                     transform: translateY(8px) rotate(-45deg) scaleX(1);
                     transform-origin: unset;
                 }
+
                 .line:nth-child(2) {
                     opacity: 0;
                 }
+
                 .line:nth-child(3) {
                     transform: translateY(-8px) rotate(45deg) scaleX(1);
                     transform-origin: unset;
                 }
             }
-        }   
+        }
+
         .nav-wrapper {
             display: flex;
             align-items: center;
@@ -110,12 +127,15 @@ header {
             height: 100vh;
             transition: left 0.75s cubic-bezier(0.190, 1.000, 0.220, 1.000);
             overflow: hidden;
+
             nav {
                 position: fixed;
                 width: 100vw;
+
                 ul {
                     gap: 32px;
                     width: 100vw;
+
                     li {
                         a.header.btn {
                             padding: 0 24px;
@@ -126,15 +146,18 @@ header {
                             border-radius: unset;
                             font-size: 6rem;
                             gap: 16px;
+
                             img {
                                 width: 3rem;
                                 height: 3rem;
-    
+
                             }
                         }
+
                         a {
                             transition: margin-left 0.25s ease;
                         }
+
                         a:hover {
                             scale: unset;
                             margin-left: 24px;
@@ -143,9 +166,10 @@ header {
                 }
             }
         }
+
         .visible {
             left: 0;
         }
     }
 
-} 
+}

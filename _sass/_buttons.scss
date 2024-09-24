@@ -14,6 +14,7 @@ button {
     text-decoration: none;
     width: auto;
     transition: scale 0.25s ease;
+
     img {
         width: $fs-xxs;
         height: $fs-xxs;
@@ -100,16 +101,17 @@ button {
         background-color 0.25s ease,
         color 0.25s ease,
         scale 0.25s ease;
-        img {
-            width: $fs-xxs;
-            height: $fs-xxs;
-            transition: transform 0.25s ease;
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
+
+    img {
+        width: $fs-xxs;
+        height: $fs-xxs;
+        transition: transform 0.25s ease;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 }
 
 .filter:hover {
@@ -128,6 +130,7 @@ button {
 .white:hover,
 .secondary:hover {
     scale: 0.95;
+
     img {
         transform: rotate(-45deg);
     }

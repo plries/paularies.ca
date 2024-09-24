@@ -8,7 +8,8 @@ html {
     font-size: 110%;
 }
 
-p, a {
+p,
+a {
     color: $black;
     font-size: $fs-xxs;
     line-height: 130%;
@@ -25,11 +26,17 @@ q {
     font-style: italic;
 }
 
-h1, h2, h3, h4, q {
+h1,
+h2,
+h3,
+h4,
+q {
     font-family: $rubik;
 }
 
-h5, h6, button {
+h5,
+h6,
+button {
     font-family: $mono;
     font-weight: 400;
 }
@@ -74,34 +81,36 @@ h6 {
 
 @media screen and (max-width: 1024px) {
 
-    p, a {
+    p,
+    a {
         font-size: $fs-xxs;
     }
 
     code {
         font-size: $fs-xxxs;
     }
-    
+
     q {
         font-size: $fs-md;
     }
-    
+
     h1 {
         font-size: 16vw;
     }
-    
+
     h2 {
         font-size: $fs-xxxl;
     }
-    
+
     h3 {
         font-size: $fs-xxl;
     }
-    
+
     h4 {
-        font-size: $fs-xl;;
+        font-size: $fs-xl;
+        ;
     }
-    
+
     h5 {
         font-size: $fs-xs;
     }
@@ -118,31 +127,32 @@ h6 {
     h1 {
         font-size: 19vw;
     }
-    
-    p, a {
+
+    p,
+    a {
         font-size: $fs-xxxs;
     }
 
     code {
         font-size: $fs-xxxxs;
     }
-    
+
     q {
         font-size: $fs-sm;
     }
-    
+
     h2 {
         font-size: $fs-xxl;
     }
-    
+
     h3 {
         font-size: $fs-xs;
     }
-    
+
     h4 {
         font-size: $fs-lg;
     }
-    
+
     h5 {
         font-size: $fs-xxs;
     }

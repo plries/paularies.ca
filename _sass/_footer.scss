@@ -7,61 +7,72 @@ footer {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    > div {
+
+    >div {
         width: 100%;
     }
+
     .footer-content {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
+
         .footer-text {
             grid-column: 3 / span 3;
             height: -webkit-fit-content;
             height: -moz-fit-content;
             height: fit-content;
-                p {
-                    margin: 0;
-                    span {
-                        font-weight: 500;
-                    }
-                }
-                .email {
-                    background-color: $brown;
-                    width: -webkit-fit-content;
-                    width: -moz-fit-content;
-                    width: fit-content;
-                    padding: 12px 16px;
-                    border-radius: 12px;
-                    transition: scale 0.25s ease;
-                    font-family: $mono;
+
+            p {
+                margin: 0;
+
+                span {
                     font-weight: 500;
-                    margin: 0;
-                    text-decoration: none;
-                    img {
-                        width: 1.6rem;
-                        height: 1.6rem;
-                        -webkit-touch-callout: none;
-                        -webkit-user-select: none;
-                        -moz-user-select: none;
-                        -ms-user-select: none;
-                        user-select: none;
-                    }
                 }
-                .email:hover {
-                    scale: 0.97;
+            }
+
+            .email {
+                background-color: $brown;
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
+                width: fit-content;
+                padding: 12px 16px;
+                border-radius: 12px;
+                transition: scale 0.25s ease;
+                font-family: $mono;
+                font-weight: 500;
+                margin: 0;
+                text-decoration: none;
+
+                img {
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
                 }
-                div {
-                    a {
-                        font-weight: 400;
-                    }
+            }
+
+            .email:hover {
+                scale: 0.97;
+            }
+
+            div {
+                a {
+                    font-weight: 400;
+                }
             }
         }
+
         .footer-links {
             grid-column: 7;
             height: -webkit-fit-content;
             height: -moz-fit-content;
             height: fit-content;
         }
+
         .footer-logo {
             grid-column-start: 9;
             grid-column-end: 11;
@@ -76,20 +87,24 @@ footer {
             -ms-user-select: none;
             transition: scale 0.25s ease;
         }
+
         .footer-logo:hover {
             scale: 0.95;
         }
     }
+
     .footer-icons {
         transform-origin: top;
         scale: 1;
         opacity: 1;
         margin-top: 256px;
         height: 256px;
-        max-width: 1080px; 
+        max-width: 1080px;
+
         #target {
             transform: translateY(-64px);
         }
+
         img {
             margin-top: 256px;
             max-width: calc(150% / 3);
@@ -107,12 +122,15 @@ footer {
     footer {
         .footer-content {
             row-gap: 48px;
+
             .footer-text {
                 grid-column: 2 / span 3;
             }
+
             .footer-links {
                 grid-column: 6 / span 3;
             }
+
             .footer-logo {
                 grid-column: 2 / span 6;
             }
@@ -122,53 +140,64 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
+
 
     footer {
         padding: 128px 0 0 0;
+
         .footer-content {
             row-gap: 32px;
+
             .footer-text {
                 grid-column: 1 / span 8;
             }
+
             .footer-links {
                 grid-column: 1 / span 4;
             }
+
             .footer-logo {
                 grid-column: 5 / span 4;
             }
         }
+
         .footer-icons {
             margin-top: 192px;
             height: 192px;
+
             img {
                 margin-top: 192px;
                 max-width: calc(125% / 3);
             }
         }
     }
-    
+
 }
 
 @media screen and (max-width: 425px) {
 
     footer {
         padding: 128px 0 0 0;
+
         .footer-content {
             .footer-text {
                 grid-column: 1 / span 4;
             }
+
             .footer-links {
                 grid-column: 1 / span 2;
             }
+
             .footer-logo {
                 grid-column: 3 / span 2;
             }
         }
+
         .footer-icons {
             margin-top: 128px;
             height: 128px;
             gap: 16px;
+
             img {
                 margin-top: 64px;
             }
