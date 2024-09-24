@@ -48,7 +48,8 @@
                 <img src="../media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                <h3>tempo - dance class booking app</h3>
+                <h3>tempo</h3>
+                <h4>dance class booking app</h4>
                 <div class="flex row jcsb aic">
                     <div class="flex row aic gap-16">
                         <button class="info btn" data-micromodal-trigger="modal-1">i</button>

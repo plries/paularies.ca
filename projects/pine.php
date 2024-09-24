@@ -48,7 +48,8 @@
                 <img src="../media/pine/pineHero.jpg" alt="pine landing page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                <h3>pine - online retail website</h3>
+                <h3>pine</h3>
+                <h4>online retail website</h4>
                 <div class="flex row jcsb aic">
                     <div class="flex row aic gap-16">
                         <button class="info btn" data-micromodal-trigger="modal-1">i</button>

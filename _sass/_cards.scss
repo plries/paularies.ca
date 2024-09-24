@@ -249,8 +249,13 @@
             .project-chips::-webkit-scrollbar {
                 display: none;
             }
-            h3 {
-                margin: 0;
+            .project-description {
+                h3 {
+                    margin: 0;
+                }
+                h4 {
+                    font-size: $fs-xxs;
+                }
             }
         }
     }

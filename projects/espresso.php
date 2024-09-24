@@ -48,7 +48,8 @@
                 <img src="../media/espresso/espressoHero.jpg" alt="espresso landing page.">
             </div>
             <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                <h3>espresso guide - website</h3>
+                <h3>espresso</h3>
+                <h4>website guide</h4>
                 <div class="flex row jcsb aic">
                     <div class="flex row aic gap-16">
                         <button class="info btn" data-micromodal-trigger="modal-1">i</button>

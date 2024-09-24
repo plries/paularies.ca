@@ -1482,7 +1482,7 @@ header img {
   user-select: none;
 }
 header .logo-btn {
-  height: 4.4rem;
+  height: 4.2rem;
   z-index: 9;
 }
 header .logo-btn .logo {
@@ -1795,16 +1795,24 @@ main div .view-toggle {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  place-items: center;
   padding: 0;
   transition: scale 0.25s ease;
 }
 main div .view-toggle .box {
   background-color: #3E3E3E;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   border-radius: 4px;
   transition: all 0.25s ease;
+}
+main div .view-toggle .box:nth-child(2) {
+  place-self: start end;
+}
+main div .view-toggle .box:nth-child(3) {
+  place-self: end start;
+}
+main div .view-toggle .box:nth-child(4) {
+  place-self: end end;
 }
 main div .view-toggle.list-icon .box {
   width: 110%;
@@ -2125,9 +2133,13 @@ main .more {
   .project-cards.grid .project .project-chips::-webkit-scrollbar {
     display: none;
   }
-  .project-cards .project h3,
-  .project-cards.grid .project h3 {
+  .project-cards .project .project-description h3,
+  .project-cards.grid .project .project-description h3 {
     margin: 0;
+  }
+  .project-cards .project .project-description h4,
+  .project-cards.grid .project .project-description h4 {
+    font-size: 2rem;
   }
   .more-projects .thumb-container {
     aspect-ratio: unset;
@@ -2370,7 +2382,13 @@ main .more {
   margin: 0 0px 104px 0px;
 }
 .hero-wrapper .project-title h3 {
-  margin: 0 0 16px 0;
+  margin: 0;
+}
+.hero-wrapper .project-title h4 {
+  margin-bottom: 16px;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
 }
 .hero-wrapper .project-title .arrow-down {
   margin: 0;
@@ -2583,6 +2601,9 @@ main .more {
     height: -moz-fit-content;
     height: fit-content;
     border-radius: 16px;
+  }
+  .hero-wrapper .col-12-8-4 .project-title h4 {
+    font-size: 2rem;
   }
   .col-12-8-4.project-section {
     row-gap: 32px;
