@@ -2544,6 +2544,8 @@ main .more {
   border-radius: 24px;
   scroll-margin-top: 124px;
   width: unset;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .media img,
 .media iframe,
