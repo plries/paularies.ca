@@ -23,11 +23,17 @@ $(document).ready(function(){
     });
 
     window.addEventListener("mousedown", function() {
-        hover.play()
+        click.play()
     });
 
     window.addEventListener("mouseup", function() {
-        hover.reverse()
+        click.reverse()
+    });
+
+    let click = gsap.to(".cursor", {
+        paused: true,
+        borderWidth: '4px',
+        duration: 0.1
     });
 
     let hover = gsap.to(".cursor", {
