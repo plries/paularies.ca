@@ -20,6 +20,7 @@
 
 <script src="./js/cursor.js"></script>
 <script src="./js/lenis.js"></script>
+<script src="./js/view.js"></script>
 <script src="./js/tippy.js"></script>
 <script src="./js/dropdown.js"></script>
 <script src="./js/filter.js"></script>

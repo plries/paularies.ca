@@ -51,18 +51,26 @@
     <main class="all-projects flex col aic jcc">
         <section class="grid col-12-8-4">
             <h2 class="s-1 s-1-sm s-1-md">all projects</h2>
-            <div class="filter-button-group s-1 s-1-sm s-1-md flex wrap row jcs gap-16">
-                <button data-filter="*" class="chip filter all-filter active">all</button>
-                <button data-filter=".front-end" class="chip filter flex row aic gap-8 front-end-filter">
-                    <img src="./icons/ui/white-star.svg" alt="star icon." draggable="false">
-                    front-end
-                </button>
-                <button data-filter=".ux-ui" class="chip filter flex row aic gap-8 ux-ui-filter">
-                    <img src="./icons/ui/white-target.svg" alt="target icon." draggable="false">
-                    ux / ui
+            <div class="s-1 s-1-sm s-1-md flex jcsb">
+                <div class="filter-button-group flex wrap row jcs gap-16">
+                    <button data-filter="*" class="chip filter all-filter active">all</button>
+                    <button data-filter=".front-end" class="chip filter flex row aic gap-8 front-end-filter">
+                        <img src="./icons/ui/white-star.svg" alt="star icon." draggable="false">
+                        front-end
+                    </button>
+                    <button data-filter=".ux-ui" class="chip filter flex row aic gap-8 ux-ui-filter">
+                        <img src="./icons/ui/white-target.svg" alt="target icon." draggable="false">
+                        ux / ui
+                    </button>
+                </div>
+                <button class="view-toggle">
+                    <span class="box"></span>
+                    <span class="box"></span>
+                    <span class="box"></span>
+                    <span class="box"></span>
                 </button>
             </div>
-            <div class="project-cards s-1 s-1-sm s-1-md">
+            <div class="project-cards list s-1 s-1-sm s-1-md">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
                 <?php include './components/project-cards/pine-card.php'; ?>

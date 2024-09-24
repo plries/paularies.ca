@@ -24,6 +24,13 @@ ScrollReveal().reveal(".filter", {
     interval: 64,
 });
 
+ScrollReveal().reveal(".view-toggle", {
+    delay: 320,
+    distance: '150px',
+    ease: "ease-in",
+    opacity: 0,
+});
+
 ScrollReveal().reveal(".project-cards", {
     delay: 128,
     distance: '150px',

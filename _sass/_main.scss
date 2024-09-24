@@ -66,20 +66,56 @@ main {
     border-radius: 32px;
     margin-top: -48px;
     padding: 112px 0;
-    .filter-button-group {
-        margin-top: 16px;
-        .filter {
+    div {
+        .filter-button-group {
+            margin-top: 16px;
+            .filter {
+                visibility: hidden;
+            }
+            .all-filter.active {
+                background-color: $light-grey;
+                color: $black;
+            }
+            .front-end-filter.active {
+                background-color: $green;
+            }
+            .ux-ui-filter.active {
+                background-color: $blue;
+            }
+        }
+        .view-toggle {
             visibility: hidden;
+            margin-top: 16px;
+            background-color: transparent;
+            height: 4.4rem;
+            width: 4.4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            place-items: center;
+            padding: 0;
+            transition: scale 0.25s ease;
+            .box {
+                background-color: $grey;
+                width: 80%;
+                height: 80%;
+                border-radius: 4px;
+                transition: all 0.25s ease;
+            }
+            &.list-icon {
+                .box {
+                    width: 110%;
+                }
+                .box:nth-child(odd) {
+                    border-radius: 4px 0 0 4px;
+                }
+                .box:nth-child(even) {
+                    border-radius: 0 4px 4px 0;
+                }
+            }
         }
-        .all-filter.active {
-            background-color: $light-grey;
-            color: $black;
-        }
-        .front-end-filter.active {
-            background-color: $green;
-        }
-        .ux-ui-filter.active {
-            background-color: $blue;
+        .view-toggle:hover {
+            scale: 0.95;
         }
     }
     .intro {
@@ -145,6 +181,18 @@ main {
         }
         .filter-button-group::-webkit-scrollbar {
             display: none;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    main {
+        div {
+            .view-toggle {
+                display: none;
+            }
         }
     }
 

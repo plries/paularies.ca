@@ -1,7 +1,9 @@
 var $projects = $('.project-cards').isotope({
-    // options
     itemSelector: '.project',
-    layoutMode: 'vertical',
+    transitionDuration: 0,
+    masonry: {
+        gutter: 16
+    },
     hiddenStyle: {
         opacity: 0,
     },

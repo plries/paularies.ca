@@ -86,7 +86,7 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4">
-            <div class="intro cell s-1 s-1-sm s-1-md flex flex-toggle aic gap-24">
+            <div class="intro cell s-1 s-1-sm s-1-md flex flex-toggle aic jcsb gap-24">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
@@ -104,7 +104,7 @@
                 </div>
             </div>
             <h2 class="s-1 s-1-sm s-1-md">featured projects</h2>
-            <div class="project-cards s-1 s-1-sm s-1-md">
+            <div class="project-cards list s-1 s-1-sm s-1-md">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
             </div>
