@@ -12,8 +12,10 @@
         <p class="chip tag">user research</p>
     </div>
     <div class="project-description flex col gap-8">
-        <h3>tempo</h3>
-        <h4>dance class booking app</h4>
+        <hgroup>
+            <h3>tempo</h3>
+            <h4>dance class booking app</h4>
+        </hgroup>
         <p>a high-fidelity mobile app prototype for a dance studio made in Figma; backed up with user research
             strategies, usability tests, and a written report with possible solutions.</p>
     </div>

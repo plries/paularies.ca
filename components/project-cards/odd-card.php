@@ -12,8 +12,10 @@
         <p class="chip tag">illustrator</p>
     </div>
     <div class="project-description flex col gap-8">
-        <h3>odd</h3>
-        <h4>juice ordering app</h4>
+        <hgroup>
+            <h3>odd</h3>
+            <h4>juice ordering app</h4>
+        </hgroup>
         <p>a high-fidelity mobile app prototype for a juice store made using Figma that ultimately satisfy the user flow of searching, selecting, and purchasing a product.</p>
     </div>
 </a>

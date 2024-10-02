@@ -37,9 +37,17 @@
 		.profile {
 			color: $black;
 			background-color: $white;
+			
+			> div {
+				width: 100%;
+
+				> div {
+					width: 100%;
+				}
+			}
 
 			.picture {
-				max-width: 256px;
+				max-width: 384px;
 				-o-object-fit: cover;
 				object-fit: cover;
 				-o-object-position: top;
@@ -252,6 +260,10 @@
 
 			.cell {
 				grid-column: 1/-1;
+
+				.btn {
+					align-self: flex-end;
+				}
 			}
 
 			.values {
@@ -261,8 +273,14 @@
 			.profile {
 				flex-direction: column;
 
-				>div:last-child {
-					flex-direction: row;
+				> div {
+					
+					> div {
+
+						> div {
+							flex-direction: column;
+						}
+					}
 				}
 			}
 		}
@@ -289,7 +307,8 @@
 			.profile {
 				.picture {
 					align-self: center;
-					max-width: 100%;
+					max-width: unset;
+					width: 100%;
 				}
 
 				>div>div>div {

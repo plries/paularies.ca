@@ -16,8 +16,10 @@
         <p class="chip tag">illustrator</p>
     </div>
     <div class="project-description flex col gap-8">
-        <h3>pine</h3>
-        <h4>online retail website</h4>
+        <hgroup>
+            <h3>pine</h3>
+            <h4>online retail website</h4>
+        </hgroup>
         <p>a website for a fictional online retail store, implementing CSS media queries, flexbox, grid, and a
             JavaScript plugin, resulting in a fully responsive website.</p>
     </div>

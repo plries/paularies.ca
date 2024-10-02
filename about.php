@@ -55,24 +55,24 @@
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
                         <h3>paul aries</h3>
-                        <div class="flex row gap-16 wrap">
-                            <p class="btn green">
-                                <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
-                                front end
-                            </p>
-                            <p class="btn blue">
-                                <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
-                                    draggable="false">
-                                ux / ui
-                            </p>
+                        <div class="flex gap-16 row jcsb">
+                            <div class="flex row gap-16 wrap">
+                                <p class="btn green">
+                                    <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
+                                    front end
+                                </p>
+                                <p class="btn blue">
+                                    <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
+                                        draggable="false">
+                                    ux / ui
+                                </p>
+                            </div>
+                            <a class="resume btn">
+                            resume
+                            <img src="./icons/ui/black-arrow.svg" alt="Arrow icon." width="20" height="20">
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="flex col jcr">
-                    <a class="resume btn">
-                        resume
-                        <img src="./icons/ui/black-arrow.svg" alt="Arrow icon." width="20" height="20">
-                    </a>
                 </div>
             </div>
             <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">

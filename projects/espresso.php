@@ -106,7 +106,7 @@
                     </p>
                 </div>
                 <div class="code-dropdown paragraph project-reveal" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
                         <p>jQuery Background Video</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -136,7 +136,7 @@
                     </p>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
                         <p>Isotope</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -157,7 +157,7 @@
                     attention and, paired with <em>tasteful</em> comments, guide them to the CTA and ease them to the
                     explore rest of the website.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
                         <p>ScrollReveal.js</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -178,7 +178,7 @@
                     sliders. i designed the brew page to utilize this plugin as it showcases the instructions to pull a
                     shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
                         <p>Swiper.js</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -196,7 +196,7 @@
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to
                     rotate coffee beans as the user scrolled, making for a delightful interaction with minimal code.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
                         <p>GSAP ScrollTrigger</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="Caret icon." draggable="false">
