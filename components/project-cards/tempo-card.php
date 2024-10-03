@@ -1,4 +1,4 @@
-<a href="./projects/tempo" class="project project1 gap-16 ux-ui">
+<a href="./projects/tempo" class="project project1 gap-24 ux-ui">
     <div class="project-img-container">
         <img class="project-img" src="./media/tempo/tempo.jpg" alt="tempo - dance class booking app." draggable="false">
     </div>

@@ -2073,16 +2073,7 @@ main .more {
   grid-template-columns: 1fr;
 }
 .project-cards.grid .project .project-chips {
-  justify-content: start;
-  overflow-x: scroll;
-  height: auto;
-  text-wrap: nowrap;
-  flex-wrap: nowrap;
-  margin: 0 -24px;
-  padding-right: 24px;
-}
-.project-cards.grid .project .project-chips .btn:first-child {
-  margin-left: 24px;
+  flex-wrap: wrap;
 }
 .project-cards.grid .project .project-chips::-webkit-scrollbar {
   display: none;
@@ -2533,7 +2524,7 @@ main .more {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .col-12-8-4.project-section h5::after {
   content: "";
@@ -2561,15 +2552,13 @@ main .more {
   border-radius: 8px;
   transition: scale 0.25s ease;
 }
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) {
-  margin-top: 96px;
-}
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .project-reveal {
   margin-top: 0;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown {
   grid-column: 1/start 2;
   border-radius: 16px;
+  margin-bottom: 48px;
   background-color: #272727;
   overflow: hidden;
   max-height: 5.8rem;
@@ -2633,6 +2622,9 @@ main .more {
 }
 .col-12-8-4.project-section .no-margin {
   margin-top: 0 !important;
+}
+.col-12-8-4.project-section .paragraph.s-2 {
+  margin: 48px 0;
 }
 
 .callout {
@@ -2760,11 +2752,12 @@ main .more {
 footer {
   background-color: #F1E8DD;
   margin-top: -64px;
-  padding-top: 192px;
+  padding-top: 128px;
   overflow: hidden;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  min-height: calc(100vh - 64px);
   width: 100%;
 }
 footer > div {
@@ -2877,9 +2870,6 @@ footer .footer-icons img {
   }
 }
 @media screen and (max-width: 768px) {
-  footer {
-    padding: 128px 0 0 0;
-  }
   footer .footer-content {
     row-gap: 32px;
   }
@@ -2902,9 +2892,6 @@ footer .footer-icons img {
   }
 }
 @media screen and (max-width: 425px) {
-  footer {
-    padding: 128px 0 0 0;
-  }
   footer .footer-content .footer-text {
     grid-column: 1/span 4;
   }

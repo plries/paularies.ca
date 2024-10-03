@@ -3,5 +3,5 @@ tippy('.skill', {
 });
 
 tippy('.code-dropdown-btn', {
-    placement: 'bottom',
+    placement: 'right',
 });

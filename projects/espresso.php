@@ -96,7 +96,7 @@
                     this choice allowed me to delve into its complexities and present its extensive information in an
                     engaging manner for newcomers.</q>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div>
                     <h5>animations and interactivity</h5>
                     <p>the first plugin i implemented was the <a class="link-underline"
@@ -106,7 +106,7 @@
                     </p>
                 </div>
                 <div class="code-dropdown paragraph project-reveal" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>jQuery Background Video</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -117,11 +117,11 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video src="../media/espresso/espressoIsotope.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoIsotope.mp4" autoplay loop muted playsinline></video>
                 </div>
-                <div>
+                <div class="flex col gap-24">
                     <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/"
                             target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of
                         recommended espresso tools. users can sort the list by name and pricing, and filter the products
@@ -129,14 +129,13 @@
                         frequent this page to determine which equipment they should purchase next. by integrating this
                         functionality, i aimed to create a more user-friendly experience, allowing users to quickly find
                         the most useful tools.</p>
-                    <br>
                     <p>this plugin proved to be more complex than the others, as my initial HTML setup did not align
                         with Isotope’s recommended markup. as a result, the setup took longer than anticipated so, as a
                         result, i’ve learned to research about what resources i plan to utilize before i begin coding.
                     </p>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>Isotope</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -147,9 +146,9 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video src="../media/espresso/espressoScroll.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoScroll.mp4" autoplay loop muted playsinline></video>
                 </div>
                 <p>i then added the <a class="link-underline" href="https://scrollrevealjs.org/"
                         target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates
@@ -157,7 +156,7 @@
                     attention and, paired with <em>tasteful</em> comments, guide them to the CTA and ease them to the
                     explore rest of the website.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>ScrollReveal.js</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -169,16 +168,16 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video src="../media/espresso/espressoSwiper.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoSwiper.mp4" autoplay loop muted playsinline></video>
                 </div>
                 <p>following that, i integrated the <a class="link-underline" href="https://swiperjs.com/"
                         target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive
                     sliders. i designed the brew page to utilize this plugin as it showcases the instructions to pull a
                     shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>Swiper.js</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
@@ -190,13 +189,13 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <p>finally, i implemented the <a class="link-underline"
                         href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1" target="_blank">GSAP
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to
                     rotate coffee beans as the user scrolled, making for a delightful interaction with minimal code.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="View code!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>GSAP ScrollTrigger</p>
                         <div>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="Caret icon." draggable="false">
