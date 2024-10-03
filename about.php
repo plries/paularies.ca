@@ -55,7 +55,7 @@
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
                         <h3>paul aries</h3>
-                        <div class="flex gap-16 row jcsb">
+                        <div class="flex gap-16 row jcsb wrap">
                             <div class="flex row gap-16 wrap">
                                 <p class="btn green">
                                     <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
@@ -69,7 +69,6 @@
                             </div>
                             <a class="resume btn">
                             resume
-                            <img src="./icons/ui/black-arrow.svg" alt="Arrow icon." width="20" height="20">
                             </a>
                         </div>
                     </div>
@@ -117,6 +116,7 @@
                         data-tippy-content="Tailwind">
                     <img class="skill" src="./icons/skills/php.svg" alt="PHP icon." draggable="false"
                         data-tippy-content="PHP">
+                    <img class="skill" src="./icons/skills/wordpress.svg" alt="WordPress icon." draggable="false" data-tippy-content="WordPress">
                 </div>
                 <div class="flex row gap-16 wrap">
                     <img class="skill" src="./icons/skills/figma.svg" alt="Figma icon." draggable="false"
@@ -125,6 +125,7 @@
                         data-tippy-content="Photoshop">
                     <img class="skill" src="./icons/skills/ai.svg" alt="Illustrator icon." draggable="false"
                         data-tippy-content="Illustrator">
+                    <img class="skill" src="./icons/skills/ae.svg" alt="After Effects icon." draggable="false" data-tippy-content="After Effects">
                     <img class="skill" src="./icons/skills/id.svg" alt="InDesign icon." draggable="false"
                         data-tippy-content="InDesign">
                     <img class="skill" src="./icons/skills/pr.svg" alt="Premiere Pro icon." draggable="false"
@@ -153,7 +154,6 @@
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
                 <a class="secondary btn" href="./work">
                     all projects
-                    <img src="../icons/ui/white-arrow.svg" alt="Arrow icon.">
                 </a>
             </div>
         </section>

@@ -46,16 +46,28 @@
             height: auto;
 
             h4 {
-                margin-top: -0.6rem;
                 font-size: $fs-xs;
                 font-weight: 500;
                 letter-spacing: -0.1rem;
             }
+
+            .project-arrow {
+                display: none;
+            }
+        }
+
+        .project-arrow {
+            width: $fs-md;
+            place-self: end end;
+            transition: transform 0.25s ease;
         }
     }
 
     .project:hover {
         scale: 0.98;
+        .project-arrow {
+            transform: rotate(-45deg);
+        }
     }
 
     &.list {
@@ -95,6 +107,15 @@
                 p {
                     display: none;
                 }
+                
+                .project-arrow {
+                    place-self: end end;
+                    display: block;
+                }
+            }
+            
+            .project-arrow {
+                display: none;
             }
         }
     }
@@ -223,6 +244,14 @@
                     p {
                         display: unset;
                     }
+
+                    .project-arrow {
+                        display: none;
+                    }
+                }
+
+                .project-arrow {
+                    display: unset;
                 }
             }
         }
@@ -294,6 +323,11 @@
                 h4 {
                     font-size: $fs-xxs;
                 }
+
+            }
+
+            .project-arrow {
+                display: none;
             }
         }
     }

@@ -152,11 +152,9 @@
             <div class="flex s-1 s-1-sm s-1-md jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
                     github
-                    <img src="../icons/ui/white-arrow.svg" alt="arrow icon.">
                 </a>
                 <a class="white btn" href="https://pine.paularies.ca/" target="_blank">
                     website
-                    <img src="../icons/ui/black-arrow.svg" alt="arrow icon.">
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">

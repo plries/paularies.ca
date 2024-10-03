@@ -139,7 +139,6 @@
                     href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&t=yieZZXhAgYwHyg9b-1"
                     target="_blank">
                     figma
-                    <img src="../icons/ui/black-arrow.svg" alt="arrow icon.">
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">

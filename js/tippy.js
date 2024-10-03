@@ -1,1 +1,7 @@
-tippy('[data-tippy-content]');
+tippy('.skill', {
+    placement: 'top',
+});
+
+tippy('.code-dropdown-btn', {
+    placement: 'bottom',
+});

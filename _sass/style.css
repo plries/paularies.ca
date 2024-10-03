@@ -1916,7 +1916,7 @@ main .intro p {
   color: #D9D9D9;
 }
 main .intro .picture {
-  width: 256px;
+  max-width: 384px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: top;
@@ -1955,6 +1955,9 @@ main .more {
   main {
     padding: 96px 0;
   }
+  main .picture {
+    width: 100%;
+  }
   main .filter-button-group {
     margin: 16px 0 0 0;
   }
@@ -1963,6 +1966,9 @@ main .more {
   }
 }
 @media screen and (max-width: 1024px) {
+  main {
+    padding: 48px 0;
+  }
   main div .view-toggle {
     display: none;
   }
@@ -1977,6 +1983,8 @@ main .more {
     padding: 32px 0;
   }
   main .intro .picture {
+    align-self: center;
+    max-width: unset;
     width: 100%;
   }
   main .filter-button-group {
@@ -2037,13 +2045,23 @@ main .more {
   height: auto;
 }
 .project-cards .project .project-description h4 {
-  margin-top: -0.6rem;
   font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: -0.1rem;
 }
+.project-cards .project .project-description .project-arrow {
+  display: none;
+}
+.project-cards .project .project-arrow {
+  width: 3.2rem;
+  place-self: end end;
+  transition: transform 0.25s ease;
+}
 .project-cards .project:hover {
   scale: 0.98;
+}
+.project-cards .project:hover .project-arrow {
+  transform: rotate(-45deg);
 }
 .project-cards.list .project .project-chips {
   justify-content: right;
@@ -2070,6 +2088,13 @@ main .more {
   display: none;
 }
 .project-cards.grid .project .project-description p {
+  display: none;
+}
+.project-cards.grid .project .project-description .project-arrow {
+  place-self: end end;
+  display: block;
+}
+.project-cards.grid .project .project-arrow {
   display: none;
 }
 
@@ -2167,6 +2192,12 @@ main .more {
   .project-cards.grid .project .project-description p {
     display: unset;
   }
+  .project-cards.grid .project .project-description .project-arrow {
+    display: none;
+  }
+  .project-cards.grid .project .project-arrow {
+    display: unset;
+  }
   .more-projects .thumb-container {
     width: 100%;
   }
@@ -2214,6 +2245,10 @@ main .more {
   .project-cards .project .project-description h4,
   .project-cards.grid .project .project-description h4 {
     font-size: 2rem;
+  }
+  .project-cards .project .project-arrow,
+  .project-cards.grid .project .project-arrow {
+    display: none;
   }
   .more-projects .thumb-container {
     aspect-ratio: unset;
@@ -2352,9 +2387,6 @@ main .more {
   filter: brightness(1);
   scale: 0.9;
 }
-.about-me .col-12-8-4 .values {
-  min-height: 384px;
-}
 .about-me .col-12-8-4 .value1 {
   grid-column: 3/span 3;
 }
@@ -2375,17 +2407,14 @@ main .more {
 }
 
 @media screen and (max-width: 1440px) {
-  .about-me .col-12-8-4 .values {
-    min-height: 448px;
-  }
   .about-me .col-12-8-4 .value1 {
-    grid-column: 2/span 3;
+    grid-column: 2/span 5;
   }
   .about-me .col-12-8-4 .value2 {
-    grid-column: 5/span 3;
+    grid-column: 7/span 5;
   }
   .about-me .col-12-8-4 .value3 {
-    grid-column: 8/span 4;
+    grid-column: 2/span 10;
   }
   .about-me .col-12-8-4 .about-carousel .carousel-cell figcaption {
     font-size: 1.6rem;
@@ -2396,7 +2425,7 @@ main .more {
     font-size: 4.8rem;
   }
   .about-me .col-12-8-4 .about {
-    grid-column: 1/-1;
+    grid-column: span 1;
   }
   .about-me .col-12-8-4 .about:first-child {
     aspect-ratio: unset;
@@ -2404,17 +2433,14 @@ main .more {
   .about-me .col-12-8-4 .about:last-child {
     margin: 0;
   }
-  .about-me .col-12-8-4 .values {
-    min-height: 512px;
-  }
   .about-me .col-12-8-4 .value1 {
-    grid-column: 1/span 3;
+    grid-column: 1/span 4;
   }
   .about-me .col-12-8-4 .value2 {
-    grid-column: 4/span 3;
+    grid-column: 5/span 4;
   }
   .about-me .col-12-8-4 .value3 {
-    grid-column: 7/span 2;
+    grid-column: 1/span 8;
   }
 }
 @media screen and (max-width: 768px) {
@@ -2429,9 +2455,6 @@ main .more {
   }
   .about-me .col-12-8-4 .cell .btn {
     align-self: flex-end;
-  }
-  .about-me .col-12-8-4 .values {
-    min-height: 256px;
   }
   .about-me .col-12-8-4 .profile {
     flex-direction: column;
@@ -2802,6 +2825,8 @@ footer .footer-content .footer-logo {
   grid-column-start: 9;
   grid-column-end: 11;
   width: 100%;
+  max-width: 256px;
+  place-self: start end;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -2847,6 +2872,7 @@ footer .footer-icons img {
     grid-column: 6/span 3;
   }
   footer .footer-content .footer-logo {
+    max-width: unset;
     grid-column: 2/span 6;
   }
 }

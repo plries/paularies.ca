@@ -86,7 +86,7 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4">
-            <div class="intro cell s-1 s-1-sm s-1-md flex flex-toggle aic jcsb gap-24">
+            <div class="intro cell s-1 s-1-sm s-1-md flex flex-toggle aic jcsb gap-16">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
@@ -98,7 +98,6 @@
                     <div class="flex jcr">
                         <a class="secondary btn" href="./about">
                             learn more
-                            <img src="./icons/ui/white-arrow.svg" alt="arrow icon.">
                         </a>
                     </div>
                 </div>
@@ -111,7 +110,6 @@
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
                 <a class="secondary btn" href="./work">
                     all projects
-                    <img src="../icons/ui/white-arrow.svg" alt="arrow icon.">
                 </a>
             </div>
         </section>

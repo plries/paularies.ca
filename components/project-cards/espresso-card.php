@@ -17,7 +17,9 @@
             <h3>espresso</h3>
             <h4>website guide</h4>
         </hgroup>
+        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
         <p>a comprehensive, three-page responsive website designed as a beginner's guide to espresso, incorporating
             JavaScript and jQuery plugins to enhance interactivity and visual appeal.</p>
     </div>
+    <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
 </a>

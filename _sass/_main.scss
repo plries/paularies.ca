@@ -144,7 +144,7 @@ main {
             color: $light-grey;
         }
         .picture {
-            width: 256px;
+            max-width: 384px;
             -o-object-fit: cover;
             object-fit: cover;
             -o-object-position: top;
@@ -185,6 +185,9 @@ main {
 
     main {
         padding: 96px 0;
+        .picture {
+            width: 100%;
+        }
         .filter-button-group {
             margin: 16px 0 0 0;
         }
@@ -198,6 +201,7 @@ main {
 @media screen and (max-width: 1024px) {
     
     main {
+        padding: 48px 0;
         div {
             .view-toggle {
                 display: none;
@@ -221,6 +225,8 @@ main {
         padding: 32px 0;
         .intro {
             .picture {
+                align-self: center;
+                max-width: unset;
                 width: 100%;
             }
         }

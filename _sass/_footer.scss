@@ -77,6 +77,8 @@ footer {
             grid-column-start: 9;
             grid-column-end: 11;
             width: 100%;
+            max-width: 256px;
+            place-self: start end;
             height: -webkit-fit-content;
             height: -moz-fit-content;
             height: fit-content;
@@ -132,6 +134,7 @@ footer {
             }
 
             .footer-logo {
+                max-width: unset;
                 grid-column: 2 / span 6;
             }
         }
