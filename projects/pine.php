@@ -177,36 +177,33 @@
             <div class="grid col-12-8-4">
                 <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
                     <h3>project details</h3>
-                    <div>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <th>timeframe</th>
-                                    <th>contributions</th>
-                                    <th>input</th>
-                                    <th>total hours</th>
-                                </tr>
-                                <tr>
-                                    <td>march 7, 2024 - may 13, 2024</td>
-                                    <td>
-                                        <ul>
-                                            <li><a class="link-underline" href="https://www.pexels.com/license/"
-                                                    target="_blank">pexels</a></li>
-                                            <li><a class="link-underline" href="https://unsplash.com/license"
-                                                    target="_blank">unsplash</a></li>
-                                            <li><a class="link-underline" href="https://fontawesome.com/license/free"
-                                                    target="_blank">font awesome</a></li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>joyce lam - instructor</li>
-                                        </ul>
-                                    </td>
-                                    <td>24</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="grid grid-2-toggle">
+                        <div>
+                            <h6>timeframe</h6>
+                            <p>march 7, 2024 - may 13, 2024</p>
+                        </div>
+                        <div>
+                            <h6>contributions</h6>
+                            <ul>
+                                <li><a class="link-underline" href="https://www.pexels.com/license/"
+                                        target="_blank">pexels</a></li>
+                                <li><a class="link-underline" href="https://unsplash.com/license"
+                                        target="_blank">unsplash</a></li>
+                                <li><a class="link-underline" href="https://fontawesome.com/license/free"
+                                        target="_blank">font awesome</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>input</h6>
+                            <ul>
+                                <li>joyce lam - instructor</li>
+                                <li>annie tang - graphic designer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>total hours</h6>
+                            <p>24</p>
+                        </div>
                     </div>
                     <div class="flex end">
                         <button class="black btn" aria-label="close modal" data-micromodal-close>

@@ -11,6 +11,7 @@ footer {
 
     >div {
         width: 100%;
+        max-width: 1920px;
     }
 
     .footer-content {
@@ -34,6 +35,7 @@ footer {
 
             .email {
                 background-color: $brown;
+                border: $brown-outline 1px solid;
                 width: -webkit-fit-content;
                 width: -moz-fit-content;
                 width: fit-content;

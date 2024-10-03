@@ -133,10 +133,12 @@ button {
     border: $grey 1px solid;
     color: $black;
 }
+
 .front-end-filter.active {
     background-color: $green;
     border: $green-outline 1px solid;
 }
+
 .ux-ui-filter.active {
     background-color: $blue;
     border: $blue-outline 1px solid;

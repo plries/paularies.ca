@@ -10,7 +10,7 @@
         height: auto;
         width: calc(100% - 48px);
         background-color: $white;
-        border: $light-grey solid 2px;
+        border: $light-grey solid 1px;
         border-radius: 24px;
         padding: 24px;
         transition: scale 0.25s ease;
@@ -65,6 +65,7 @@
 
     .project:hover {
         scale: 0.98;
+
         .project-arrow {
             transform: rotate(-45deg);
         }
@@ -74,6 +75,7 @@
         background-color: $darker-grey;
         border: $dark-grey solid 2px;
         color: $white;
+
         .project-img-container {
             aspect-ratio: 16 / 10;
             border-radius: 16px;
@@ -82,11 +84,13 @@
             display: grid;
             place-items: center;
         }
+
         .project-chips {
             .chip {
                 background-color: $dark-grey;
             }
         }
+
         .project-arrow {
             transition: transform 0.5s ease;
         }
@@ -94,6 +98,7 @@
 
     .soon:hover {
         scale: 0.98;
+
         .project-arrow {
             transform: rotate(-360deg);
         }
@@ -126,13 +131,13 @@
                 p {
                     display: none;
                 }
-                
+
                 .project-arrow {
                     place-self: end end;
                     display: block;
                 }
             }
-            
+
             .project-arrow {
                 display: none;
             }
@@ -141,6 +146,8 @@
 }
 
 .more-projects {
+    margin-bottom: 48px;
+
     .thumb-container {
         aspect-ratio: 1 / 1;
         transition: scale 0.25s ease,
@@ -352,6 +359,8 @@
     }
 
     .more-projects {
+        margin-bottom: unset;
+
         .thumb-container {
             aspect-ratio: unset;
 

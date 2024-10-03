@@ -9,7 +9,8 @@ html {
 }
 
 p,
-a {
+a,
+li {
     color: $black;
     font-size: $fs-xxs;
     line-height: 130%;
@@ -82,7 +83,8 @@ h6 {
 @media screen and (max-width: 1024px) {
 
     p,
-    a {
+    a,
+    li {
         font-size: $fs-xxs;
     }
 
@@ -129,7 +131,8 @@ h6 {
     }
 
     p,
-    a {
+    a,
+    li {
         font-size: $fs-xxxs;
     }
 

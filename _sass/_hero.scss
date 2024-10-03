@@ -4,21 +4,27 @@
     height: calc(100dvh + 40px);
     width: 100vw;
     padding: 24px 0;
+
     .hero {
         background-image: url("../media/mountains.jpg");
     }
+
     .tempo {
         background-image: url("../media/tempo/tempoHero.jpg");
     }
+
     .espresso {
         background-image: url("../media/espresso/espressoHero.jpg");
     }
+
     .pine {
         background-image: url("../media/pine/pineHero.jpg");
     }
+
     .odd {
         background-image: url("../media/odd/oddHero.jpg");
     }
+
     .parallax {
         height: calc(100vh + 64px);
         height: calc(100dvh + 64px);
@@ -26,58 +32,76 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-            .hero-text {
-                width: 100vw;
-                visibility: hidden;
-                align-content: center;
-                .indent{
-                    margin-left: 64px;
+
+        .hero-text {
+            width: 100vw;
+            visibility: hidden;
+            align-content: center;
+
+            .indent {
+                margin-left: 64px;
+            }
+
+            h1 {
+                text-wrap: nowrap;
+                text-align: center;
+                margin: 0;
+
+                span {
+                    display: inline-block;
                 }
-                h1 {
-                    text-wrap: nowrap;
-                    text-align: center;
-                    margin: 0;
-                    span {
-                        display: inline-block;
-                    }
+            }
+
+            h6 {
+                margin-bottom: 8px;
+
+                :not(.btn) {
+                    display: inline-block;
+                    width: auto;
                 }
-                h6 {
-                    margin-bottom: 8px;
-                    :not(.btn) {
-                        display: inline-block;
-                        width: auto;
-                    }
-                    .btn {
-                        img {
-                            transition: all 1s ease;
-                            width: $fs-xxs;
-                            height: $fs-xxs;
-                        }
-                    }
-                    .green:hover {
-                        img {
-                            transform: rotate(360deg);
-                        }
-                    }
-                    .blue:hover {
-                        img {
-                            scale: 0.75;
-                        }
+
+                .btn {
+                    img {
+                        width: $fs-xxs;
+                        height: $fs-xxs;
                     }
                 }
-                .align-right {
-                    text-align: right;
-                }     
+            }
+
+            .align-right {
+                text-align: right;
             }
         }
-        .arrow-down {
-            margin-top: 64px;
-            width: 4.8rem;
-            height: 4.8rem;
-            visibility: hidden;
-            -webkit-animation: pointDown 1s ease;
-                    animation: pointDown 1s ease;
+    }
+
+    .arrow-down {
+        margin-top: 64px;
+        width: 4.8rem;
+        height: 4.8rem;
+        visibility: hidden;
+        -webkit-animation: pointDown 1s ease;
+        animation: pointDown 1s ease;
+    }
+}
+
+.parallax {
+    .btn {
+        img {
+            transition: all 0.5s ease;
         }
+    }
+
+    .green:hover {
+        img {
+            transform: rotate(360deg);
+        }
+    }
+
+    .blue:hover {
+        img {
+            scale: 0.75;
+        }
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -91,28 +115,31 @@
                 }
             }
         }
+
         .arrow-down {
             width: 3.2rem;
             height: 3.2rem;
         }
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .hero-wrapper {
+
         .tempo,
         .espresso,
         .pine,
         .odd {
             background-image: none;
         }
+
         .parallax {
             background-attachment: unset;
         }
     }
-    
+
 
 }
 
@@ -124,6 +151,7 @@
                 .indent {
                     margin-left: 32px;
                 }
+
                 h6 {
                     .btn {
                         img {
@@ -134,11 +162,12 @@
                 }
             }
         }
+
         .arrow-down {
             width: 2.8rem;
             height: 2.8rem;
         }
-        
+
     }
 
 }

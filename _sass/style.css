@@ -972,7 +972,8 @@ html {
 }
 
 p,
-a {
+a,
+li {
   color: #202020;
   font-size: 2rem;
   line-height: 130%;
@@ -1044,7 +1045,8 @@ h6 {
 
 @media screen and (max-width: 1024px) {
   p,
-  a {
+  a,
+  li {
     font-size: 2rem;
   }
   code {
@@ -1078,7 +1080,8 @@ h6 {
     font-size: 19vw;
   }
   p,
-  a {
+  a,
+  li {
     font-size: 1.6rem;
   }
   code {
@@ -1121,7 +1124,7 @@ a.link-underline::before {
   position: absolute;
   top: 100%;
   background-color: #202020;
-  height: 1.6px;
+  height: 1px;
   width: 100%;
   margin-top: -2px;
   transform: scaleX(1);
@@ -1386,38 +1389,32 @@ button {
 .modal-container h3 {
   margin: 0;
 }
-.modal-container div {
-  overflow-x: auto;
-}
-.modal-container div table {
-  border: #202020 1px solid;
-  border-collapse: collapse;
-  font-size: 2rem;
-}
-.modal-container div table tbody tr {
-  border: #202020 1px solid;
-}
-.modal-container div table tbody tr th,
-.modal-container div table tbody tr td {
-  border: #202020 1px solid;
-  padding: 16px;
-  width: 25%;
-}
-.modal-container div table tbody tr th ul,
-.modal-container div table tbody tr td ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.modal-container div table tbody tr th ul li a,
-.modal-container div table tbody tr td ul li a {
-  text-wrap: nowrap;
-  font-family: Wix Madefor Display, Helvetica, sans-serif;
-}
-.modal-container div table tbody tr th {
+.modal-container h6 {
   font-family: Rubik, Arial, sans-serif;
   font-weight: 600;
-  background-color: #D9D9D9;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+.modal-container h6::after {
+  content: "";
+  background-color: #A8A8A8;
+  width: 100%;
+  height: 0.2rem;
+  place-self: center;
+}
+.modal-container p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.modal-container ul {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+.modal-container ul li {
+  list-style: none;
 }
 .modal-container button {
   align-self: flex-end;
@@ -1747,15 +1744,8 @@ header .nav-wrapper nav ul li a:hover {
   width: auto;
 }
 .hero-wrapper .parallax .hero-text h6 .btn img {
-  transition: all 1s ease;
   width: 2rem;
   height: 2rem;
-}
-.hero-wrapper .parallax .hero-text h6 .green:hover img {
-  transform: rotate(360deg);
-}
-.hero-wrapper .parallax .hero-text h6 .blue:hover img {
-  scale: 0.75;
 }
 .hero-wrapper .parallax .hero-text .align-right {
   text-align: right;
@@ -1767,6 +1757,16 @@ header .nav-wrapper nav ul li a:hover {
   visibility: hidden;
   -webkit-animation: pointDown 1s ease;
   animation: pointDown 1s ease;
+}
+
+.parallax .btn img {
+  transition: all 0.5s ease;
+}
+.parallax .green:hover img {
+  transform: rotate(360deg);
+}
+.parallax .blue:hover img {
+  scale: 0.75;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1871,9 +1871,13 @@ main {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  min-height: 100vh;
   border-radius: 32px;
   margin-top: -48px;
   padding: 112px 0;
+}
+main > section {
+  max-width: 1920px;
 }
 main div .filter-button-group {
   margin-top: 16px;
@@ -2035,7 +2039,7 @@ main .more {
   height: auto;
   width: calc(100% - 48px);
   background-color: #FFFFFF;
-  border: #D9D9D9 solid 2px;
+  border: #D9D9D9 solid 1px;
   border-radius: 24px;
   padding: 24px;
   transition: scale 0.25s ease;
@@ -2137,6 +2141,9 @@ main .more {
   display: none;
 }
 
+.more-projects {
+  margin-bottom: 48px;
+}
 .more-projects .thumb-container {
   aspect-ratio: 1/1;
   transition: scale 0.25s ease, opacity 0.25s ease;
@@ -2289,6 +2296,9 @@ main .more {
   .project-cards.grid .project .project-arrow {
     display: none;
   }
+  .more-projects {
+    margin-bottom: unset;
+  }
   .more-projects .thumb-container {
     aspect-ratio: unset;
   }
@@ -2413,6 +2423,7 @@ main .more {
   transition: scale 0.25s ease, -webkit-filter 0.25s ease;
   transition: scale 0.25s ease, filter 0.25s ease;
   transition: scale 0.25s ease, filter 0.25s ease, -webkit-filter 0.25s ease;
+  transition: scale 0.25s ease, filter 0.25s ease, -webkit-filter 0.25s ease;
   -o-object-position: center;
   object-position: center;
   -webkit-touch-callout: none;
@@ -2427,13 +2438,13 @@ main .more {
   scale: 0.9;
 }
 .about-me .col-12-8-4 .value1 {
-  grid-column: 3/span 3;
+  grid-column: 3/span 4;
 }
 .about-me .col-12-8-4 .value2 {
-  grid-column: 6/span 3;
+  grid-column: 7/span 4;
 }
 .about-me .col-12-8-4 .value3 {
-  grid-column: 9/span 2;
+  grid-column: 3/span 8;
 }
 
 .links {
@@ -2810,6 +2821,7 @@ footer {
 }
 footer > div {
   width: 100%;
+  max-width: 1920px;
 }
 footer .footer-content {
   height: -webkit-fit-content;
@@ -2830,6 +2842,7 @@ footer .footer-content .footer-text p span {
 }
 footer .footer-content .footer-text .email {
   background-color: #E2D7CA;
+  border: #cabeae 1px solid;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

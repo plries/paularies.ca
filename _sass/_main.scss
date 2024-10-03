@@ -9,7 +9,7 @@ html.lenis body {
 
 .lenis.lenis-smooth [data-lenis-prevent] {
     -ms-scroll-chaining: none;
-        overscroll-behavior: contain;
+    overscroll-behavior: contain;
 }
 
 .lenis.lenis-stopped {
@@ -26,6 +26,7 @@ html.lenis body {
     background-color: #D9D9D94D;
     height: 4px;
     width: 100vw;
+
     .scroll-progress {
         position: fixed;
         height: 4px;
@@ -33,24 +34,30 @@ html.lenis body {
         scale: 0 1;
         transform-origin: left;
         -webkit-animation: scroll-watcher linear;
-                animation: scroll-watcher linear;
+        animation: scroll-watcher linear;
         animation-timeline: scroll();
         background-color: $dark-grey;
     }
+
     .fe {
         background-color: $green;
     }
+
     .uxui {
         background: $blue;
     }
 }
 
 @-webkit-keyframes scroll-watcher {
-    to { scale: 1 1; }
+    to {
+        scale: 1 1;
+    }
 }
 
 @keyframes scroll-watcher {
-    to { scale: 1 1; }
+    to {
+        scale: 1 1;
+    }
 }
 
 .all-projects {
@@ -64,16 +71,24 @@ main {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    min-height: 100vh;
     border-radius: 32px;
     margin-top: -48px;
     padding: 112px 0;
+
+    >section {
+        max-width: 1920px;
+    }
+
     div {
         .filter-button-group {
             margin-top: 16px;
+
             .filter {
                 visibility: hidden;
             }
         }
+
         .view-toggle {
             visibility: hidden;
             margin-top: 16px;
@@ -86,6 +101,7 @@ main {
             padding: 0;
             transition: scale 0.25s ease;
             overflow: hidden;
+
             .box {
                 background-color: $dark-grey;
                 border: $grey-outline 1px solid;
@@ -94,35 +110,43 @@ main {
                 border-radius: 4px;
                 transition: all 0.25s ease;
             }
+
             .box:nth-child(2) {
                 place-self: start end;
             }
+
             .box:nth-child(3) {
                 place-self: end start;
             }
+
             .box:nth-child(4) {
                 place-self: end end;
             }
+
             &.list-icon {
                 .box {
                     width: 192%;
                 }
+
                 .box:nth-child(1),
                 .box:nth-child(4) {
                     opacity: 0;
                 }
             }
         }
+
         .view-toggle:hover {
             scale: 0.95;
         }
     }
+
     .intro {
         visibility: hidden;
         margin-bottom: 32px;
         border-radius: 24px;
         padding: 24px;
         background-color: $darker-grey;
+
         h5 {
             color: $white;
             font-family: $rubik;
@@ -130,9 +154,11 @@ main {
             margin: 0;
             font-weight: 400;
         }
+
         p {
             color: $light-grey;
         }
+
         .picture {
             max-width: 384px;
             -o-object-fit: cover;
@@ -146,25 +172,31 @@ main {
             -moz-user-select: none;
             -ms-user-select: none;
         }
-        > div {
+
+        >div {
             height: 100%;
         }
     }
-    > div {
+
+    >div {
         width: 100%;
     }
-        h2 {
-            visibility: hidden;
-        }
-        h3 {
-            margin: 0;
-        }
-        p {
-            margin: 0;
-        }
-        .more {
-            margin-top: 32px;
-        }
+
+    h2 {
+        visibility: hidden;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .more {
+        margin-top: 32px;
+    }
 }
 
 .project-reveal {
@@ -175,12 +207,15 @@ main {
 
     main {
         padding: 96px 0;
+
         .picture {
             width: 100%;
         }
+
         .filter-button-group {
             margin: 16px 0 0 0;
         }
+
         .filter-button-group::-webkit-scrollbar {
             display: none;
         }
@@ -189,9 +224,10 @@ main {
 }
 
 @media screen and (max-width: 1024px) {
-    
+
     main {
         padding: 48px 0;
+
         div {
             .view-toggle {
                 display: none;
@@ -213,6 +249,7 @@ main {
 
     main {
         padding: 32px 0;
+
         .intro {
             .picture {
                 align-self: center;
@@ -220,14 +257,17 @@ main {
                 width: 100%;
             }
         }
+
         .filter-button-group {
             flex-wrap: nowrap;
             overflow: scroll;
             margin: 16px -32px 0 -32px;
             padding-right: 32px;
+
             .filter {
                 text-wrap: nowrap;
             }
+
             .filter:first-child {
                 margin-left: 32px;
             }

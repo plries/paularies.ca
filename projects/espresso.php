@@ -119,7 +119,8 @@
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/espresso/espressoIsotope.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoIsotope.mp4" autoplay loop muted
+                        playsinline></video>
                 </div>
                 <div class="flex col gap-24">
                     <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/"
@@ -148,7 +149,8 @@
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/espresso/espressoScroll.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoScroll.mp4" autoplay loop muted
+                        playsinline></video>
                 </div>
                 <p>i then added the <a class="link-underline" href="https://scrollrevealjs.org/"
                         target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates
@@ -170,7 +172,8 @@
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/espresso/espressoSwiper.mp4" autoplay loop muted playsinline></video>
+                    <video loading="lazy" src="../media/espresso/espressoSwiper.mp4" autoplay loop muted
+                        playsinline></video>
                 </div>
                 <p>following that, i integrated the <a class="link-underline" href="https://swiperjs.com/"
                         target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive
@@ -234,36 +237,30 @@
             <div class="grid col-12-8-4">
                 <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
                     <h3>project details</h3>
-                    <div>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <th>timeframe</th>
-                                    <th>contributions</th>
-                                    <th>input</th>
-                                    <th>total hours</th>
-                                </tr>
-                                <tr>
-                                    <td>march 21, 2024 - april 10, 2024</td>
-                                    <td>
-                                        <ul>
-                                            <li><a class="link-underline" href="https://www.pexels.com/license/"
-                                                    target="_blank">pexels</a></li>
-                                            <li><a class="link-underline" href="https://unsplash.com/license"
-                                                    target="_blank">unsplash</a></li>
-                                            <li><a class="link-underline" href="https://fontawesome.com/license/free"
-                                                    target="_blank">font awesome</a></li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li>airrick dunfield - instructor</li>
-                                        </ul>
-                                    </td>
-                                    <td>26</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="grid grid-2-toggle">
+                        <div>
+                            <h6>timeframe</h6>
+                            <p>march 21, 2024 - april 10, 2024</p>
+                        </div>
+                        <div>
+                            <h6>contributions</h6>
+                            <ul>
+                                <li><a class="link-underline" href="https://www.pexels.com/license/"
+                                        target="_blank">pexels</a></li>
+                                <li><a class="link-underline" href="https://unsplash.com/license"
+                                        target="_blank">unsplash</a></li>
+                                <li><a class="link-underline" href="https://fontawesome.com/license/free"
+                                        target="_blank">font awesome</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>input</h6>
+                            <p>airrick dunfield - instructor</p>
+                        </div>
+                        <div>
+                            <h6>total hours</h6>
+                            <p>26</p>
+                        </div>
                     </div>
                     <div class="flex end">
                         <button class="black btn" aria-label="close modal" data-micromodal-close>

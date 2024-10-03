@@ -136,15 +136,20 @@
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
                 <h5>prototyping and user testing</h5>
                 <div class="flex col gap-24">
-                    <p>in the second phase of this project, i focused on adding functionality to the interface and testing
+                    <p>in the second phase of this project, i focused on adding functionality to the interface and
+                        testing
                         prototypes with a user group. a challenge i faced was the larger-than-anticipated project scope,
-                        which involved many variables and conditional statements. however, my experience with JavaScript and
+                        which involved many variables and conditional statements. however, my experience with JavaScript
+                        and
                         the Figma community helped me quickly grasp the logic and create a functional prototype.</p>
-                    <p>once the high-fidelity prototype was completed, i conducted user testing with six peers using Maze;
+                    <p>once the high-fidelity prototype was completed, i conducted user testing with six peers
+                        using Maze;
                         these testers have never taken a dance workshop before, fitting the target audience of beginner
-                        dancers. the test included three tasks: selecting a skill level, choosing a teacher, and picking a
+                        dancers. the test included three tasks: selecting a skill level, choosing a teacher, and picking
+                        a
                         workshop date. the test results provided valuable insights through heatmaps, misclick rates, and
-                        task completion times, which allowed me to refine the prototype and enhance the user experience.</p>
+                        task completion times, which allowed me to refine the prototype and enhance the user experience.
+                    </p>
                 </div>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
@@ -207,34 +212,30 @@
             <div class="grid col-12-8-4">
                 <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
                     <h3>project details</h3>
-                    <div>
-                        <table>
-                            <tr>
-                                <th>timeframe</th>
-                                <th>contributions</th>
-                                <th>input</th>
-                                <th>total hours</th>
-                            </tr>
-                            <tr>
-                                <td>january 9, 2024 - april 2, 2024</td>
-                                <td>
-                                    <ul>
-                                        <li><a class="link-underline" href="https://www.pexels.com/license/"
-                                                target="_blank">pexels</a></li>
-                                        <li><a class="link-underline" href="https://unsplash.com/license"
-                                                target="_blank">unsplash</a></li>
-                                        <li><a class="link-underline" href="https://icons8.com/license"
-                                                target="_blank">icons8</a></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li>tonia sokolova - instructor</li>
-                                    </ul>
-                                </td>
-                                <td>40</td>
-                            </tr>
-                        </table>
+                    <div class="grid grid-2-toggle">
+                        <div>
+                            <h6>timeframe</h6>
+                            <p>january 9, 2024 - april 2, 2024</p>
+                        </div>
+                        <div>
+                            <h6>contributions</h6>
+                            <ul>
+                                <li><a class="link-underline" href="https://www.pexels.com/license/"
+                                        target="_blank">pexels</a></li>
+                                <li><a class="link-underline" href="https://unsplash.com/license"
+                                        target="_blank">unsplash</a></li>
+                                <li><a class="link-underline" href="https://icons8.com/license"
+                                        target="_blank">icons8</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>input</h6>
+                            <p>tonia sokolova - instructor</p>
+                        </div>
+                        <div>
+                            <h6>total hours</h6>
+                            <p>40</p>
+                        </div>
                     </div>
                     <div class="flex end">
                         <button class="black btn" aria-label="close modal" data-micromodal-close>
