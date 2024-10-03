@@ -6,7 +6,7 @@ button {
 .btn {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     border-style: none;
     padding: 12px 16px;
     border-radius: 12px;
@@ -63,6 +63,7 @@ button {
     font-family: $mono;
     font-weight: 400;
     background-color: $green;
+    border: $green-outline 1px solid;
     color: $white !important;
 }
 
@@ -70,6 +71,7 @@ button {
     font-family: $mono;
     font-weight: 400;
     background-color: $blue;
+    border: $blue-outline 1px solid;
     color: $white !important;
 }
 
@@ -90,12 +92,20 @@ button {
 }
 
 .filter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-style: none;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 0;
     text-align: left;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     background-color: $dark-grey;
     color: $white;
+    border: $grey-outline 1px solid;
     scale: 1;
     transition:
         background-color 0.25s ease,
@@ -116,6 +126,20 @@ button {
 
 .filter:hover {
     scale: 0.95;
+}
+
+.all-filter.active {
+    background-color: $light-grey;
+    border: $grey 1px solid;
+    color: $black;
+}
+.front-end-filter.active {
+    background-color: $green;
+    border: $green-outline 1px solid;
+}
+.ux-ui-filter.active {
+    background-color: $blue;
+    border: $blue-outline 1px solid;
 }
 
 .resume {

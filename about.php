@@ -59,12 +59,12 @@
                             <div class="flex row gap-16 wrap">
                                 <p class="btn green">
                                     <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
-                                    front end
+                                    front-end developer
                                 </p>
                                 <p class="btn blue">
                                     <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
                                         draggable="false">
-                                    ux / ui
+                                    ux / ui designer
                                 </p>
                             </div>
                             <a class="resume btn">

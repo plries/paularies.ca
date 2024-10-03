@@ -49,8 +49,19 @@
                     }
                     .btn {
                         img {
+                            transition: all 1s ease;
                             width: $fs-xxs;
                             height: $fs-xxs;
+                        }
+                    }
+                    .green:hover {
+                        img {
+                            transform: rotate(360deg);
+                        }
+                    }
+                    .blue:hover {
+                        img {
+                            scale: 0.75;
                         }
                     }
                 }

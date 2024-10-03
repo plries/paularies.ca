@@ -1,4 +1,4 @@
-<a href="./projects/odd" class="project project3 gap-24 ux-ui">
+<a href="./projects/odd" class="project gap-24 ux-ui">
     <div class="project-img-container">
         <img class="project-img" src="./media/odd/odd.jpg" alt="odd - juice ordering app." draggable="false">
     </div>

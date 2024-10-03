@@ -73,16 +73,6 @@ main {
             .filter {
                 visibility: hidden;
             }
-            .all-filter.active {
-                background-color: $light-grey;
-                color: $black;
-            }
-            .front-end-filter.active {
-                background-color: $green;
-            }
-            .ux-ui-filter.active {
-                background-color: $blue;
-            }
         }
         .view-toggle {
             visibility: hidden;
@@ -95,10 +85,12 @@ main {
             grid-template-rows: 1fr 1fr;
             padding: 0;
             transition: scale 0.25s ease;
+            overflow: hidden;
             .box {
                 background-color: $dark-grey;
-                width: 90%;
-                height: 90%;
+                border: $grey-outline 1px solid;
+                width: 85%;
+                height: 85%;
                 border-radius: 4px;
                 transition: all 0.25s ease;
             }
@@ -113,13 +105,11 @@ main {
             }
             &.list-icon {
                 .box {
-                    width: 110%;
+                    width: 192%;
                 }
-                .box:nth-child(odd) {
-                    border-radius: 4px 0 0 4px;
-                }
-                .box:nth-child(even) {
-                    border-radius: 0 4px 4px 0;
+                .box:nth-child(1),
+                .box:nth-child(4) {
+                    opacity: 0;
                 }
             }
         }

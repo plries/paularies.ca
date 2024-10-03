@@ -1177,7 +1177,7 @@ button {
 .btn {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   border-style: none;
   padding: 12px 16px;
   border-radius: 12px;
@@ -1233,6 +1233,7 @@ button {
   font-family: Chivo Mono, "Courier New", Courier, monospace;
   font-weight: 400;
   background-color: #4D633A;
+  border: #688151 1px solid;
   color: #FFFFFF !important;
 }
 
@@ -1240,6 +1241,7 @@ button {
   font-family: Chivo Mono, "Courier New", Courier, monospace;
   font-weight: 400;
   background-color: #607698;
+  border: #778eb1 1px solid;
   color: #FFFFFF !important;
 }
 
@@ -1260,12 +1262,20 @@ button {
 }
 
 .filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-style: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin: 0;
   text-align: left;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   background-color: #3E3E3E;
   color: #FFFFFF;
+  border: #575757 1px solid;
   scale: 1;
   transition: background-color 0.25s ease, color 0.25s ease, scale 0.25s ease;
 }
@@ -1282,6 +1292,22 @@ button {
 
 .filter:hover {
   scale: 0.95;
+}
+
+.all-filter.active {
+  background-color: #D9D9D9;
+  border: #A8A8A8 1px solid;
+  color: #202020;
+}
+
+.front-end-filter.active {
+  background-color: #4D633A;
+  border: #688151 1px solid;
+}
+
+.ux-ui-filter.active {
+  background-color: #607698;
+  border: #778eb1 1px solid;
 }
 
 .resume {
@@ -1721,8 +1747,15 @@ header .nav-wrapper nav ul li a:hover {
   width: auto;
 }
 .hero-wrapper .parallax .hero-text h6 .btn img {
+  transition: all 1s ease;
   width: 2rem;
   height: 2rem;
+}
+.hero-wrapper .parallax .hero-text h6 .green:hover img {
+  transform: rotate(360deg);
+}
+.hero-wrapper .parallax .hero-text h6 .blue:hover img {
+  scale: 0.75;
 }
 .hero-wrapper .parallax .hero-text .align-right {
   text-align: right;
@@ -1848,16 +1881,6 @@ main div .filter-button-group {
 main div .filter-button-group .filter {
   visibility: hidden;
 }
-main div .filter-button-group .all-filter.active {
-  background-color: #D9D9D9;
-  color: #202020;
-}
-main div .filter-button-group .front-end-filter.active {
-  background-color: #4D633A;
-}
-main div .filter-button-group .ux-ui-filter.active {
-  background-color: #607698;
-}
 main div .view-toggle {
   visibility: hidden;
   margin-top: 16px;
@@ -1869,11 +1892,13 @@ main div .view-toggle {
   grid-template-rows: 1fr 1fr;
   padding: 0;
   transition: scale 0.25s ease;
+  overflow: hidden;
 }
 main div .view-toggle .box {
   background-color: #3E3E3E;
-  width: 90%;
-  height: 90%;
+  border: #575757 1px solid;
+  width: 85%;
+  height: 85%;
   border-radius: 4px;
   transition: all 0.25s ease;
 }
@@ -1887,13 +1912,11 @@ main div .view-toggle .box:nth-child(4) {
   place-self: end end;
 }
 main div .view-toggle.list-icon .box {
-  width: 110%;
+  width: 192%;
 }
-main div .view-toggle.list-icon .box:nth-child(odd) {
-  border-radius: 4px 0 0 4px;
-}
-main div .view-toggle.list-icon .box:nth-child(even) {
-  border-radius: 0 4px 4px 0;
+main div .view-toggle.list-icon .box:nth-child(1),
+main div .view-toggle.list-icon .box:nth-child(4) {
+  opacity: 0;
 }
 main div .view-toggle:hover {
   scale: 0.95;
@@ -2012,7 +2035,7 @@ main .more {
   height: auto;
   width: calc(100% - 48px);
   background-color: #FFFFFF;
-  border: #202020 solid 2px;
+  border: #D9D9D9 solid 2px;
   border-radius: 24px;
   padding: 24px;
   transition: scale 0.25s ease;
@@ -2062,6 +2085,31 @@ main .more {
 }
 .project-cards .project:hover .project-arrow {
   transform: rotate(-45deg);
+}
+.project-cards .soon {
+  background-color: #272727;
+  border: #3E3E3E solid 2px;
+  color: #FFFFFF;
+}
+.project-cards .soon .project-img-container {
+  aspect-ratio: 16/10;
+  border-radius: 16px;
+  background-color: #202020;
+  color: #A8A8A8;
+  display: grid;
+  place-items: center;
+}
+.project-cards .soon .project-chips .chip {
+  background-color: #3E3E3E;
+}
+.project-cards .soon .project-arrow {
+  transition: transform 0.5s ease;
+}
+.project-cards .soon:hover {
+  scale: 0.98;
+}
+.project-cards .soon:hover .project-arrow {
+  transform: rotate(-360deg);
 }
 .project-cards.list .project .project-chips {
   justify-content: right;

@@ -1,4 +1,4 @@
-<a href="./projects/pine" class="project project4 gap-24 front-end">
+<a href="./projects/pine" class="project gap-24 front-end">
     <div class="project-img-container">
         <img class="project-img" src="./media/pine/pine.jpg
         " alt="pine - online retail website." draggable="false">
