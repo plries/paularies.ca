@@ -67,7 +67,7 @@
                                     ux / ui designer
                                 </p>
                             </div>
-                            <a class="resume btn">
+                            <a href="./media/PaulAries-Resume.pdf" class="resume btn" target="_blank">
                             resume
                             </a>
                         </div>
