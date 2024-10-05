@@ -20,11 +20,11 @@
             <a class="link-underline" href="https://github.com/plries" target="_blank">github</a>
             <a class="link-underline" href="https://www.instagram.com/plries/" target="_blank">instagram</a>
         </div>
-        <a href="#" class="footer-logo">
+        <a href="#" class="footer-logo" data-tippy-content="back to top!">
             <img src="./icons/ui/logo-big.svg" alt="Paul Aries Logo." draggable="false">
         </a>
     </div>
-    <div class="footer-icons flex row aic jcc gap-32">
+    <div class="footer-icons flex row aic jcc gap-32" >
         <img src="./icons/ui/black-tree.svg" alt="Tree icon." class="footer-icon" draggable="false">
         <img src="./icons/ui/black-target.svg" alt="Target icon." class="footer-icon" id="target" draggable="false">
         <img src="./icons/ui/black-star.svg" alt="Star icon." class="footer-icon" draggable="false">

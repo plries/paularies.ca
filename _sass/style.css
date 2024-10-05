@@ -1126,7 +1126,6 @@ a.link-underline::before {
   background-color: #202020;
   height: 1px;
   width: 100%;
-  margin-top: -2px;
   transform: scaleX(1);
   transform-origin: right;
   transition: transform 0.25s ease;
@@ -1198,15 +1197,6 @@ button {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.header {
-  font-family: Rubik, Arial, sans-serif !important;
-  color: #FFFFFF;
-  background-color: #202020;
-  text-decoration: none;
-  border: #3E3E3E 1px solid;
-  padding: 8px 12px;
 }
 
 .black {
@@ -1313,19 +1303,10 @@ button {
   border: #778eb1 1px solid;
 }
 
-.resume {
-  font-family: Chivo Mono, "Courier New", Courier, monospace;
-  color: #202020;
-  border: #202020 1px solid;
-  transition: scale 0.25s ease;
-}
-
-.resume:hover,
 .white:hover,
 .secondary:hover {
   scale: 0.95;
 }
-.resume:hover img,
 .white:hover img,
 .secondary:hover img {
   transform: rotate(-45deg);
@@ -1558,6 +1539,14 @@ header {
   position: -webkit-sticky;
   top: 0;
   padding: 16px;
+}
+header .header {
+  font-family: Rubik, Arial, sans-serif !important;
+  color: #FFFFFF;
+  background-color: #202020;
+  text-decoration: none;
+  border: #3E3E3E 1px solid;
+  padding: 8px 12px;
 }
 header img {
   -webkit-touch-callout: none;
@@ -2092,7 +2081,7 @@ main .more {
 }
 .project-cards .soon {
   background-color: #272727;
-  border: #3E3E3E solid 2px;
+  border: #3E3E3E solid 1px;
   color: #FFFFFF;
 }
 .project-cards .soon .project-img-container {
@@ -2341,6 +2330,15 @@ main .more {
 .about-me .col-12-8-4 .profile {
   color: #202020;
   background-color: #FFFFFF;
+}
+.about-me .col-12-8-4 .profile .btn img {
+  transition: all 0.5s ease;
+}
+.about-me .col-12-8-4 .profile .green:hover img {
+  transform: rotate(360deg);
+}
+.about-me .col-12-8-4 .profile .blue:hover img {
+  scale: 0.75;
 }
 .about-me .col-12-8-4 .profile > div {
   width: 100%;

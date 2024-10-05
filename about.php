@@ -55,28 +55,23 @@
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
                         <h3>paul aries</h3>
-                        <div class="flex gap-16 row jcsb wrap">
-                            <div class="flex row gap-16 wrap">
-                                <p class="btn green">
-                                    <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
-                                    front-end developer
-                                </p>
-                                <p class="btn blue">
-                                    <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
-                                        draggable="false">
-                                    ux / ui designer
-                                </p>
-                            </div>
-                            <a href="./media/PaulAries-Resume.pdf" class="resume btn" target="_blank">
-                            resume
-                            </a>
+                        <div class="flex row gap-16 wrap">
+                            <p class="btn green">
+                                <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
+                                front-end developer
+                            </p>
+                            <p class="btn blue">
+                                <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
+                                    draggable="false">
+                                ux / ui designer
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
-                    <h5>👋 i’m a detail-oriented designer and developer from Vancouver, BC with a passion to create
+                    <h5>👋 i’m a detail-oriented designer and developer from Metro Vancouver, BC with a passion to create
                         meaningful digital experiences.</h5>
                     <p>in my free time, you can find me either exploring the outdoors, dancing at a concert, or at home
                         gaming. no matter the activity i love pushing myself and enjoying it with others!</p>
@@ -152,6 +147,9 @@
                     ensure that my work is its best.</p>
             </article>
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
+                <a href="./media/PaulAries-Resume.pdf" class="white btn" target="_blank">
+                    resume
+                </a>
                 <a class="secondary btn" href="./work">
                     all projects
                 </a>

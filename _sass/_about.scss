@@ -38,6 +38,24 @@
 			color: $black;
 			background-color: $white;
 
+			.btn {
+				img {
+					transition: all 0.5s ease;
+				}
+			}
+		
+			.green:hover {
+				img {
+					transform: rotate(360deg);
+				}
+			}
+
+			.blue:hover {
+				img {
+					scale: 0.75;
+				}
+			}
+
 			>div {
 				width: 100%;
 

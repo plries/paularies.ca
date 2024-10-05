@@ -27,15 +27,6 @@ button {
     }
 }
 
-.header {
-    font-family: $rubik !important;
-    color: $white;
-    background-color: $black;
-    text-decoration: none;
-    border: $dark-grey 1px solid;
-    padding: 8px 12px;
-}
-
 .black {
     background-color: $black;
     color: $white;
@@ -144,15 +135,6 @@ button {
     border: $blue-outline 1px solid;
 }
 
-.resume {
-    font-family: $mono;
-    color: $black;
-    border: $black 1px solid;
-    transition:
-        scale 0.25s ease;
-}
-
-.resume:hover,
 .white:hover,
 .secondary:hover {
     scale: 0.95;
