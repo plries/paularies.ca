@@ -96,7 +96,7 @@
                     this choice allowed me to delve into its complexities and present its extensive information in an
                     engaging manner for newcomers.</q>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <div>
                     <h5>animations and interactivity</h5>
                     <p>the first plugin i implemented was the <a class="link-underline"
@@ -105,7 +105,7 @@
                         communicate the topic of each page as soon as the user lands on the website.
                     </p>
                 </div>
-                <div class="code-dropdown paragraph project-reveal" tabindex="0">
+                <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>jQuery Background Video</p>
                         <div>
@@ -117,12 +117,12 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoIsotope.mp4" autoplay loop muted
                         playsinline></video>
                 </div>
-                <div class="flex col gap-24">
+                <div class="flex col gap-16">
                     <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/"
                             target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of
                         recommended espresso tools. users can sort the list by name and pricing, and filter the products
@@ -147,7 +147,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoScroll.mp4" autoplay loop muted
                         playsinline></video>
@@ -170,7 +170,7 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoSwiper.mp4" autoplay loop muted
                         playsinline></video>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-24 project-reveal">
+            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <p>finally, i implemented the <a class="link-underline"
                         href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1" target="_blank">GSAP
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to

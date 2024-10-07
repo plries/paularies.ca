@@ -43,7 +43,7 @@
 }
 
 .col-12-8-4.project-section {
-    row-gap: 48px;
+    row-gap: 64px;
 
     .paragraph.callout {
         p {
@@ -59,8 +59,7 @@
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 16px;
-        margin-bottom: 16px;
-    }
+}
 
     h5::after {
         content: '';
@@ -103,7 +102,6 @@
         .code-dropdown {
             grid-column: 1 / start 2;
             border-radius: 16px;
-            margin-bottom: 48px;
             background-color: $darker-grey;
             overflow: hidden;
             max-height: 5.8rem;

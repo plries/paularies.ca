@@ -128,7 +128,7 @@
                 </div>
             </article>
             <article class="cell values value1 flex col gap-16 jcsb about-reveal">
-                <h5>adaptability</h5>
+                <h5>adaptability</h5> 
                 <p>i embrace change and enjoy learning new ideas to stay up to date in the industry. this flexibility
                     enables me to create innovative solutions and remain enthusiastic when learning ways to tackle
                     new challenges.</p>
@@ -146,7 +146,7 @@
                     anywhere. by valuing the contributions and suggestions of my team members and users, i am able to
                     ensure that my work is its best.</p>
             </article>
-            <div class="flex jcr gap-16 s-1 s-1-sm s-1-md">
+            <div class="flex jcr gap-16 s-1 s-1-sm s-1-md about-reveal">
                 <a class="secondary btn" href="./work">
                     all projects
                 </a>
