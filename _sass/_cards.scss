@@ -8,11 +8,10 @@
         margin-top: 16px;
         position: relative;
         height: auto;
-        width: calc(100% - 48px);
         background-color: $white;
         border: $light-grey solid 1px;
         border-radius: 24px;
-        padding: 24px;
+        padding: 16px;
         transition: scale 0.25s ease;
         line-height: unset;
         text-decoration: none;
@@ -24,7 +23,7 @@
 
             .project-img {
                 aspect-ratio: 16 / 10;
-                border-radius: 16px;
+                border-radius: 8px;
                 -o-object-fit: cover;
                 object-fit: cover;
                 width: 100%;
@@ -72,6 +71,7 @@
     }
 
     .soon {
+        width: calc(100% - 34px);
         background-color: $darker-grey;
         border: $dark-grey solid 1px;
         color: $white;
@@ -115,7 +115,7 @@
 
     &.grid {
         .project {
-            width: calc(50% - 60px);
+            width: calc(50% - 42px);
             margin-right: unset;
             grid-template-columns: 1fr;
 
@@ -329,11 +329,11 @@
                 height: auto;
                 text-wrap: nowrap;
                 flex-wrap: nowrap;
-                margin: 0 -24px;
-                padding-right: 24px;
+                margin: 0 -16px;
+                padding-right: 16px;
 
                 .btn:first-child {
-                    margin-left: 24px;
+                    margin-left: 16px;
                 }
             }
 
@@ -359,7 +359,6 @@
     }
 
     .more-projects {
-        margin-bottom: unset;
 
         .thumb-container {
             aspect-ratio: unset;

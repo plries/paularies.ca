@@ -949,7 +949,7 @@ body.lb-disable-scrolling {
 @media screen and (max-width: 425px) {
   .col-12-8-4 {
     grid-template-columns: repeat(4, 1fr);
-    padding: 0 32px;
+    padding: 0 16px;
   }
   .s-0-sm {
     grid-column: 1/5;
@@ -1181,8 +1181,8 @@ button {
   align-items: center;
   gap: 12px;
   border-style: none;
-  padding: 12px 16px;
-  border-radius: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
   margin: 0;
   text-decoration: none;
   width: auto;
@@ -1217,8 +1217,6 @@ button {
   font-weight: 400;
   background-color: #FFFFFF;
   color: #202020;
-  padding: 12px 16px;
-  border-radius: 12px;
   text-wrap: nowrap;
 }
 
@@ -1245,8 +1243,8 @@ button {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 12px 16px;
-  border-radius: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
   text-align: right;
 }
 
@@ -1259,8 +1257,8 @@ button {
   align-items: center;
   gap: 12px;
   border-style: none;
-  padding: 12px 16px;
-  border-radius: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
   margin: 0;
   text-align: left;
   width: -webkit-fit-content;
@@ -1918,7 +1916,7 @@ main .intro {
   visibility: hidden;
   margin-bottom: 32px;
   border-radius: 24px;
-  padding: 24px;
+  padding: 16px;
   background-color: #272727;
 }
 main .intro h5 {
@@ -1937,7 +1935,7 @@ main .intro .picture {
   object-fit: cover;
   -o-object-position: top;
   object-position: top;
-  border-radius: 16px;
+  border-radius: 12px;
   user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -1960,7 +1958,7 @@ main p {
   margin: 0;
 }
 main .more {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .project-reveal {
@@ -1996,7 +1994,8 @@ main .more {
 }
 @media screen and (max-width: 425px) {
   main {
-    padding: 32px 0;
+    border-radius: 40px;
+    padding: 16px 0 32px 0;
   }
   main .intro .picture {
     align-self: center;
@@ -2026,11 +2025,10 @@ main .more {
   margin-top: 16px;
   position: relative;
   height: auto;
-  width: calc(100% - 48px);
   background-color: #FFFFFF;
   border: #D9D9D9 solid 1px;
   border-radius: 24px;
-  padding: 24px;
+  padding: 16px;
   transition: scale 0.25s ease;
   line-height: unset;
   text-decoration: none;
@@ -2042,7 +2040,7 @@ main .more {
 }
 .project-cards .project .project-img-container .project-img {
   aspect-ratio: 16/10;
-  border-radius: 16px;
+  border-radius: 8px;
   -o-object-fit: cover;
   object-fit: cover;
   width: 100%;
@@ -2080,6 +2078,7 @@ main .more {
   transform: rotate(-45deg);
 }
 .project-cards .soon {
+  width: calc(100% - 34px);
   background-color: #272727;
   border: #3E3E3E solid 1px;
   color: #FFFFFF;
@@ -2109,7 +2108,7 @@ main .more {
   align-content: start;
 }
 .project-cards.grid .project {
-  width: calc(50% - 60px);
+  width: calc(50% - 42px);
   margin-right: unset;
   grid-template-columns: 1fr;
 }
@@ -2262,12 +2261,12 @@ main .more {
     height: auto;
     text-wrap: nowrap;
     flex-wrap: nowrap;
-    margin: 0 -24px;
-    padding-right: 24px;
+    margin: 0 -16px;
+    padding-right: 16px;
   }
   .project-cards .project .project-chips .btn:first-child,
   .project-cards.grid .project .project-chips .btn:first-child {
-    margin-left: 24px;
+    margin-left: 16px;
   }
   .project-cards .project .project-chips::-webkit-scrollbar,
   .project-cards.grid .project .project-chips::-webkit-scrollbar {
@@ -2285,9 +2284,6 @@ main .more {
   .project-cards.grid .project .project-arrow {
     display: none;
   }
-  .more-projects {
-    margin-bottom: unset;
-  }
   .more-projects .thumb-container {
     aspect-ratio: unset;
   }
@@ -2304,7 +2300,7 @@ main .more {
 }
 .about-me .col-12-8-4 .cell {
   border-radius: 24px;
-  padding: 24px;
+  padding: 16px;
   background-color: #272727;
   visibility: hidden;
 }
@@ -2352,7 +2348,7 @@ main .more {
   object-fit: cover;
   -o-object-position: top;
   object-position: top;
-  border-radius: 16px;
+  border-radius: 12px;
   user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -2364,14 +2360,13 @@ main .more {
 }
 .about-me .col-12-8-4 .about .about-carousel {
   aspect-ratio: 1/1;
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
 }
 .about-me .col-12-8-4 .about .about-carousel .carousel-cell {
   aspect-ratio: 1/1;
   width: 100%;
   height: 100%;
-  border-radius: 16px;
   overflow: hidden;
   margin: 0;
 }
@@ -2687,7 +2682,7 @@ main .more {
 .callout {
   background-color: #FFFFFF;
   border-radius: 24px;
-  padding: 32px;
+  padding: 24px;
 }
 .callout p {
   color: #202020;
@@ -2716,7 +2711,7 @@ main .more {
 .media iframe,
 .media video {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .media iframe {
   height: 450px;
@@ -2844,8 +2839,8 @@ footer .footer-content .footer-text .email {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 12px 16px;
-  border-radius: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
   transition: scale 0.25s ease;
   font-family: Chivo Mono, "Courier New", Courier, monospace;
   font-weight: 500;
