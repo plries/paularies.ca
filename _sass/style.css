@@ -1681,6 +1681,7 @@ header .nav-wrapper nav ul li a:hover {
   margin-top: -112px;
   height: calc(100vh + 40px);
   height: calc(100dvh + 40px);
+  margin-bottom: -48px;
   width: 100vw;
   padding: 24px 0;
 }
@@ -1859,8 +1860,8 @@ main {
   height: -moz-fit-content;
   height: fit-content;
   min-height: 100vh;
+  margin-bottom: 18px;
   border-radius: 32px;
-  margin-top: -48px;
   padding: 112px 0;
 }
 main > section {
@@ -1995,7 +1996,7 @@ main .more {
 @media screen and (max-width: 425px) {
   main {
     border-radius: 40px;
-    padding: 16px 0 32px 0;
+    padding: 16px 0 80px 0;
   }
   main .intro .picture {
     align-self: center;
@@ -2129,9 +2130,6 @@ main .more {
   display: none;
 }
 
-.more-projects {
-  margin-bottom: 48px;
-}
 .more-projects .thumb-container {
   aspect-ratio: 1/1;
   transition: scale 0.25s ease, opacity 0.25s ease;
@@ -2801,7 +2799,7 @@ main .more {
 }
 footer {
   background-color: #F1E8DD;
-  margin-top: -64px;
+  margin-top: -48px;
   padding-top: 128px;
   overflow: hidden;
   height: -webkit-fit-content;
