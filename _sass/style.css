@@ -2006,14 +2006,14 @@ main .more {
   main .filter-button-group {
     flex-wrap: nowrap;
     overflow: scroll;
-    margin: 16px -32px 0 -32px;
-    padding-right: 32px;
+    margin: 16px -16px 0 -16px;
+    padding-right: 16px;
   }
   main .filter-button-group .filter {
     text-wrap: nowrap;
   }
   main .filter-button-group .filter:first-child {
-    margin-left: 32px;
+    margin-left: 16px;
   }
 }
 .project-cards {
@@ -2799,7 +2799,7 @@ main .more {
 }
 footer {
   background-color: #F1E8DD;
-  margin-top: -48px;
+  margin-top: -64px;
   padding-top: 128px;
   overflow: hidden;
   height: -webkit-fit-content;
