@@ -1,6 +1,6 @@
 <civ class="project soon gap-24 front-end">
     <div class="project-img-container">
-        <h5>...</h5>
+        <p>...</p>
     </div>
     <div class="project-chips flex gap-16 wrap">
         <p class="btn green">

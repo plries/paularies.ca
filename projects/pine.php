@@ -48,15 +48,15 @@
 
     <?php include '../components/project-header.php'; ?>
 
-    <div class="hero-wrapper">
+    <div class="project hero-wrapper">
         <div class="pine parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero s-0 s-0-sm s-0-md">
                     <img src="../media/pine/pineHero.jpg" alt="pine landing page.">
                 </div>
                 <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                    <h3>pine</h3>
-                    <h4>online retail website</h4>
+                    <h1>pine</h1>
+                    <h2>online retail website</h2>
                     <div class="flex row jcsb aic">
                         <div class="flex row aic gap-16">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
@@ -82,7 +82,7 @@
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
             <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
-                <h4>the goal</h4>
+                <h3>the goal</h3>
                 <div>
                     <p>design a website of our choice, implementing CSS media queries, flexbox, grid, and a JavaScript
                         plugin. the final product should result in a fully responsive website that is modern and
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>getting started</h5>
+                <h4>getting started</h4>
                 <p>inspired by the types of websites i frequently visit, i decided to design an online retail store for
                     a small, fictional fashion line called <strong>Pine</strong>.</p>
                 <br>
@@ -106,7 +106,7 @@
                     allowfullscreen></iframe>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>HTML, CSS, and JS development</h5>
+                <h4>HTML, CSS, and JS development</h4>
                 <p>based on the wireframes, i created the structure of each page using HTML and CSS. utilizing media
                     queries, i was able to adjust flexbox and grid properties for each viewport, as well as adjust the
                     sizing of elements accordingly.</p>
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>content creation</h5>
+                <h4>content creation</h4>
                 <p>Pine’s brand identity is an original idea, with inspiration taken from the beautiful environment and
                     colors of Vancouver; the brand’s logo was created using Illustrator.</p>
                 <br>
@@ -158,7 +158,7 @@
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
-                <h5>other projects</h5>
+                <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">

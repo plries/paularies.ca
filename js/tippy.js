@@ -3,7 +3,7 @@ tippy('.skill', {
 });
 
 tippy('.code-dropdown-btn', {
-    placement: 'left',
+    placement: 'top',
 });
 
 tippy('.footer-logo', {

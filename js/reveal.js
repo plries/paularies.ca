@@ -10,7 +10,13 @@ ScrollReveal().reveal(".more", {
     opacity: 0,
 });
 
-ScrollReveal().reveal("h2", {
+ScrollReveal().reveal("main h2", {
+    distance: '150px',
+    ease: "ease-in",
+    opacity: 0,
+});
+
+ScrollReveal().reveal("main h1", {
     distance: '150px',
     ease: "ease-in",
     opacity: 0,

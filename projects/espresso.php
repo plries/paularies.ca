@@ -48,15 +48,15 @@
 
     <?php include '../components/project-header.php'; ?>
 
-    <div class="hero-wrapper">
+    <div class="project hero-wrapper">
         <div class="espresso parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero s-0 s-0-sm s-0-md">
                     <img src="../media/espresso/espressoHero.jpg" alt="espresso landing page.">
                 </div>
                 <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                    <h3>espresso</h3>
-                    <h4>website guide</h4>
+                    <h1>espresso</h1>
+                    <h2>website guide</h2>
                     <div class="flex row jcsb aic">
                         <div class="flex row aic gap-16">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
@@ -80,12 +80,12 @@
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
             <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
-                <h4>the goal</h4>
+                <h3>the goal</h3>
                 <p>create a responsive, 3-page website to introduce beginners to the vast world of espresso utilizing 5
                     JavaScript/jQuery plugins.</p>
             </div>
             <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>why espresso?</h5>
+                <h4>why espresso?</h4>
                 <p>the first step in creating this website was to decide on its topic. knowing that i had to utilize
                     <strong>5 JavaScript/jQuery plugins</strong>, i wanted to create a website on a subject that i was
                     knowledgeable about, and thus showcased information in an interactive and entertaining way.
@@ -98,7 +98,7 @@
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
                 <div>
-                    <h5>animations and interactivity</h5>
+                    <h4>animations and interactivity</h4>
                     <p>the first plugin i implemented was the <a class="link-underline"
                             href="https://github.com/BGStock/jquery-background-video" target="_blank">jQuery Background
                             Video</a> plugin, likely the simplest of the five. this plugin enabled me to add visually
@@ -218,7 +218,7 @@
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
-                <h5>other projects</h5>
+                <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">

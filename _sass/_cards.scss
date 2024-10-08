@@ -83,6 +83,10 @@
             color: $grey;
             display: grid;
             place-items: center;
+            p {
+                color: $white;
+                font-family: $mono;
+            }
         }
 
         .project-chips {

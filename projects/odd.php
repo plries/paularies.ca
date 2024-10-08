@@ -48,15 +48,15 @@
 
     <?php include '../components/project-header.php'; ?>
 
-    <div class="hero-wrapper">
+    <div class="project hero-wrapper">
         <div class="odd parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero s-0 s-0-sm s-0-md">
                     <img src="../media/odd/oddHero.jpg" alt="odd product page.">
                 </div>
                 <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                    <h3>odd</h3>
-                    <h4>juice ordering app</h4>
+                    <h1>odd</h1>
+                    <h2>juice ordering app</h2>
                     <div class="flex row jcsb aic">
                         <div class="flex row aic gap-16">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
@@ -79,12 +79,12 @@
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
             <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
-                <h4>the goal</h4>
+                <h3>the goal</h3>
                 <p>create a high-fidelity mobile app prototype using Figma to allow users to order juice, fulfilling
                     satisfies the user flow of searching, selecting, and purchasing a product.</p>
             </div>
             <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>defining app features</h5>
+                <h4>defining app features</h4>
                 <p>i began by defining the app functionalities, ensuring a clear understanding of the necessary features
                     and user needs; this involved analyzing the competition, focusing on apps with a similar
                     <strong>user flow</strong> (searching, selecting, and purchasing a product).
@@ -95,7 +95,7 @@
                     consistency, ensuring that the app’s interface and process felt familiar to users.</q>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>creating low-fidelity wireframes</h5>
+                <h4>creating low-fidelity wireframes</h4>
                 <p>following the analysis, i created low-fidelity wireframes to map out the user flow. these wireframes
                     provided a visual representation of the app's structure and interactions, allowing for early
                     feedback and adjustments from my group members before moving to more detailed designs. some changes
@@ -108,7 +108,7 @@
                     allowfullscreen></iframe>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>generating the high-fidelity prototype</h5>
+                <h4>generating the high-fidelity prototype</h4>
                 <div class="grid gap-16 grid-2-toggle">
                     <p>i designed Figma components and assets according to the established <strong>style tile</strong>
                         from our graphic designer. this step ensured consistency and coherence with ODD’s brand,
@@ -143,7 +143,7 @@
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
-                <h5>other projects</h5>
+                <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">

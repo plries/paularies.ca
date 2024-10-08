@@ -25,6 +25,14 @@ footer {
             height: -moz-fit-content;
             height: fit-content;
 
+            h2 {
+                color: $black;
+                font-weight: bold;
+                font-size: $fs-xxl;
+                letter-spacing: -0.25rem;
+                margin: 0;
+            }
+
             p {
                 margin: 0;
 
@@ -130,6 +138,10 @@ footer {
 
             .footer-text {
                 grid-column: 2 / span 3;
+
+                h2 {
+                    font-size: $fs-xl;
+                }
             }
 
             .footer-links {
@@ -186,6 +198,10 @@ footer {
         .footer-content {
             .footer-text {
                 grid-column: 1 / span 4;
+
+                h2 {
+                    font-size: $fs-lg;
+                }
             }
 
             .footer-links {

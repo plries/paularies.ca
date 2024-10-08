@@ -51,21 +51,21 @@
     <div class="hero-wrapper">
         <div class="hero parallax flex col aic jcc">
             <hgroup class="grid col-12-8-4 hero-text">
-                <h6 class="hero-greeting s-1 s-1-sm s-1-md">
+                <h2 class="hero-greeting s-1 s-1-sm s-1-md">
                     <span class="reveal">hey there!</span><br>
                     <span class="reveal indent">my name is:</span>
-                </h6>
+                </h2>
                 <h1 class="hero-name s-1 s-1-sm s-1-md">
                     <span class="reveal">paul </span>
                     <span class="reveal">aries</span>
                 </h1>
                 <div class="align-right s-1 s-1-sm s-1-md">
-                    <h6 class="hero-description">
+                    <h2 class="hero-description">
                         <span class="reveal">a passionate, user-centered</span>
-                    </h6>
+                    </h2>
                 </div>
                 <div class="align-right s-1 s-1-sm s-1-md">
-                    <h6 class="flex aic jcr gap-8 wrap">
+                    <h2 class="flex aic jcr gap-8 wrap">
                         <span class="reveal btn green">
                             <img src="./icons/ui/white-star.svg" alt="star icon." draggable="false">
                             front-end developer
@@ -74,7 +74,7 @@
                             <img src="./icons/ui/white-target.svg" alt="target icon." draggable="false">
                             ux/ui designer
                         </span>
-                    </h6>
+                    </h2>
                 </div>
                 <div class="arrow-container s-1 s-1-sm s-1-md flex aic jcc">
                     <img class="reveal arrow-down" src="./icons/ui/black-arrow-down.svg" alt="arrow icon."
@@ -90,8 +90,8 @@
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
-                        <h5>my passion for both art and technology has always driven me to merge the two creatively.
-                        </h5>
+                        <p class="quote">my passion for both art and technology has always driven me to merge the two creatively.
+                        </p>
                         <p>this desire has led me to front-end development and ux/ui design—now im able to adapt my
                             skills, build solutions, and help users navigate the digital world seamlessly.</p>
                     </div>

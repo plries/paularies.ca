@@ -50,7 +50,7 @@
 
     <main class="all-projects flex col aic jcc">
         <section class="grid col-12-8-4">
-            <h2 class="s-1 s-1-sm s-1-md">all projects</h2>
+            <h1 class="s-1 s-1-sm s-1-md">all projects</h1>
             <div class="s-1 s-1-sm s-1-md flex jcsb">
                 <div class="filter-button-group flex wrap row jcs gap-16">
                     <button data-filter="*" class="filter all-filter active">all</button>

@@ -48,15 +48,15 @@
 
     <?php include '../components/project-header.php'; ?>
 
-    <div class="hero-wrapper">
+    <div class="project hero-wrapper">
         <div class="tempo parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero s-0 s-0-sm s-0-md">
                     <img src="../media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
                 </div>
                 <div class="project-title s-0 s-0-sm s-0-md jcsb">
-                    <h3>tempo</h3>
-                    <h4>dance class booking app</h4>
+                    <h1>tempo</h1>
+                    <h2>dance class booking app</h2>
                     <div class="flex row jcsb aic">
                         <div class="flex row aic gap-16">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
@@ -79,14 +79,14 @@
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
             <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
-                <h4>the goal</h4>
+                <h3>the goal</h3>
                 <p>construct a high-fidelity prototype for a mobile app in Figma for a dance studio. this project
                     involves conducting user research using common strategies, performing an unmonitored usability test,
                     and writing a report with recommendations, and implementing possible solutions based on the
                     findings.</p>
             </div>
             <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>user research</h5>
+                <h4>user research</h4>
                 <p>the first phase of this project focused on defining the app’s concept, conducting user research, and
                     creating low-fidelity wireframes for the app. for this project, i created an app where users can
                     book classes for a fictional dance studio called <strong>Tempo</strong>.</p>
@@ -134,7 +134,7 @@
                     allowfullscreen></iframe>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>prototyping and user testing</h5>
+                <h4>prototyping and user testing</h4>
                 <div class="flex col gap-24">
                     <p>in the second phase of this project, i focused on adding functionality to the interface and
                         testing
@@ -153,7 +153,7 @@
                 </div>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
-                <h5>revision and report</h5>
+                <h4>revision and report</h4>
                 <div class="grid gap-16 grid-2-toggle">
                     <div class="flex col gap-24">
                         <p>in the final phase of this project, i focused on writing a report on the Maze test results,
@@ -193,7 +193,7 @@
                 </a>
             </div>
             <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
-                <h5>other projects</h5>
+                <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
@@ -214,11 +214,11 @@
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>
-                            <h6>timeframe</h6>
+                            <h4>timeframe</h4>
                             <p>january 9, 2024 - april 2, 2024</p>
                         </div>
                         <div>
-                            <h6>contributions</h6>
+                            <h4>contributions</h4>
                             <ul>
                                 <li><a class="link-underline" href="https://www.pexels.com/license/"
                                         target="_blank">pexels</a></li>
@@ -229,11 +229,11 @@
                             </ul>
                         </div>
                         <div>
-                            <h6>input</h6>
+                            <h4>input</h4>
                             <p>tonia sokolova - instructor</p>
                         </div>
                         <div>
-                            <h6>total hours</h6>
+                            <h4>total hours</h4>
                             <p>40</p>
                         </div>
                     </div>

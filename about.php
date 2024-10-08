@@ -54,7 +54,7 @@
                 <div class="flex flex-toggle gap-16">
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
-                        <h3>paul aries</h3>
+                        <h1>about paul aries</h1>
                         <div class="flex row gap-16 wrap">
                             <p class="btn green">
                                 <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
@@ -71,8 +71,8 @@
             </div>
             <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
-                    <h5>👋 i’m a detail-oriented designer and developer from Metro Vancouver, BC with a passion to create
-                        meaningful digital experiences.</h5>
+                    <p class="quote">👋 i’m a detail-oriented designer and developer from Metro Vancouver, BC with a passion to create
+                        meaningful digital experiences.</p>
                     <p>in my free time, you can find me either exploring the outdoors, dancing at a concert, or at home
                         gaming. no matter the activity i love pushing myself and enjoying it with others!</p>
                 </article>
@@ -95,7 +95,7 @@
                 </article>
             </div>
             <article class="cell skills s-1 s-1-sm s-1-md flex col gap-16 about-reveal">
-                <h5>my skills</h5>
+                <h3>my skills</h3>
                 <div class="flex row gap-16 wrap">
                     <img class="skill" src="./icons/skills/html5.svg" alt="HTML5 icon." draggable="false"
                         data-tippy-content="HTML5">
@@ -128,20 +128,20 @@
                 </div>
             </article>
             <article class="cell values value1 flex col gap-16 jcsb about-reveal">
-                <h5>adaptability</h5> 
+                <h3>adaptability</h3> 
                 <p>i embrace change and enjoy learning new ideas to stay up to date in the industry. this flexibility
                     enables me to create innovative solutions and remain enthusiastic when learning ways to tackle
                     new challenges.</p>
             </article>
             <article class="cell values value2 flex col gap-16 jcsb about-reveal">
-                <h5>collaboration</h5>
+                <h3>collaboration</h3>
                 <p>with experience in coaching and dancing in a competitive team, as well as working apart of two
                     food-service teams, i value working with others and collaborating. as a frequent collaborator, i
                     also recognize the importance of communication and responsibility when working towards a shared
                     goal.</p>
             </article>
             <article class="cell values value3 flex col gap-16 jcsb about-reveal">
-                <h5>humility</h5>
+                <h3>humility</h3>
                 <p>i always approach every project with humility, recognizing that the best ideas can come from
                     anywhere. by valuing the contributions and suggestions of my team members and users, i am able to
                     ensure that my work is its best.</p>

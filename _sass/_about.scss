@@ -10,12 +10,15 @@
 			background-color: $darker-grey;
 			visibility: hidden;
 
-			h3 {
+			h1 {
+				color: $black;
 				font-size: $fs-xxxl;
 				font-weight: 500;
 			}
 
-			h5 {
+			h3 {
+				font-size: $fs-sm;
+				font-weight: 400;
 				color: $white;
 				font-family: $rubik;
 				margin: 0;
@@ -222,8 +225,12 @@
 	.about-me {
 		.col-12-8-4 {
 			.cell {
-				h3 {
+				h1 {
 					font-size: $fs-xxxl;
+				}
+
+				h3 {
+					font-size: $fs-xs;
 				}
 			}
 
@@ -294,8 +301,12 @@
 	.about-me {
 		.col-12-8-4 {
 			.cell {
-				h3 {
+					h1 {
 					font-size: $fs-xxl;
+				}
+
+				h3 {
+					font-size: $fs-xxs;
 				}
 			}
 
