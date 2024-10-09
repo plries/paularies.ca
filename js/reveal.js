@@ -22,6 +22,10 @@ ScrollReveal().reveal("main h1", {
     opacity: 0,
 });
 
+ScrollReveal().reveal(".profile h1", {
+    distance: '0px'
+});
+
 ScrollReveal().reveal(".filter", {
     delay: 64,
     distance: '150px',
