@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
         rel="stylesheet">
     <link rel="canonical" href="./index">
     <link rel="icon" href="./icons/ui/logo-big.svg">
@@ -90,7 +90,8 @@
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
-                        <p class="quote">my passion for both art and technology has always driven me to merge the two creatively.
+                        <p class="quote">my passion for both art and technology has always driven me to merge the two
+                            creatively.
                         </p>
                         <p>this desire has led me to front-end development and ux/ui design—now im able to adapt my
                             skills, build solutions, and help users navigate the digital world seamlessly.</p>
