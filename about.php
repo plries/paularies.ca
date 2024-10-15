@@ -71,10 +71,10 @@
             </div>
             <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
-                    <p class="quote">👋 i’m a detail-oriented designer and developer from Metro Vancouver, BC with a passion to create
-                        meaningful digital experiences.</p>
-                    <p>in my free time, you can find me either exploring the outdoors, dancing at a concert, or at home
-                        gaming. no matter the activity i love pushing myself and enjoying it with others!</p>
+                    <p class="quote">👋 i’m a detail-oriented developer and designer from the Metro Vancouver Area who loves to create
+                        exciting digital experiences.</p>
+                    <p>outside of coding, you can find me either exploring the outdoors or dancing at a concert.
+                        no matter the activity i love pushing myself and enjoying it with others!</p>
                 </article>
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <div class="about-carousel">
@@ -129,22 +129,21 @@
             </article>
             <article class="cell values value1 flex col gap-16 jcsb about-reveal">
                 <h3>adaptability</h3> 
-                <p>i embrace change and enjoy learning new ideas to stay up to date in the industry. this flexibility
-                    enables me to create innovative solutions and remain enthusiastic when learning ways to tackle
-                    new challenges.</p>
+                <p>i embrace change and enjoy learning new things within the industry. my flexibility
+                    enables me to remain enthusiastic when learning ways to tackle new challenges.</p>
             </article>
             <article class="cell values value2 flex col gap-16 jcsb about-reveal">
                 <h3>collaboration</h3>
-                <p>with experience in coaching and dancing in a competitive team, as well as working apart of two
-                    food-service teams, i value working with others and collaborating. as a frequent collaborator, i
-                    also recognize the importance of communication and responsibility when working towards a shared
+                <p>with experience in dancing in multiple competitive groups and working apart of two
+                    food-service teams, i value working with others and collaborating. i
+                    recognize the importance of communication and responsibility when working towards a shared
                     goal.</p>
             </article>
             <article class="cell values value3 flex col gap-16 jcsb about-reveal">
                 <h3>humility</h3>
                 <p>i always approach every project with humility, recognizing that the best ideas can come from
-                    anywhere. by valuing the contributions and suggestions of my team members and users, i am able to
-                    ensure that my work is its best.</p>
+                    anywhere. by valuing the contributions and suggestions of others, i am able to
+                    ensure that my work is always at its best.</p>
             </article>
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md about-reveal">
                 <a class="secondary btn" href="./work">

@@ -1,6 +1,6 @@
-<a href="./projects/espresso" class="project project1 gap-24 front-end">
+<div href="./projects/espresso" class="project project1 gap-24 front-end">
     <div class="project-img-container">
-        <img class="project-img" src="./media/espresso/espresso.jpg" alt="espresso guide - website." draggable="false">
+        <img class="project-img" src="./media/guy/guy.jpg" alt="guy - software landing page." draggable="false">
     </div>
     <div class="project-chips flex gap-16 wrap">
         <p class="btn green">
@@ -9,17 +9,16 @@
         </p>
         <p class="chip tag">js</p>
         <p class="chip tag">html</p>
-        <p class="chip tag">css</p>
-        <p class="chip tag">jquery</p>
+        <p class="chip tag">sass</p>
     </div>
     <div class="project-description flex col gap-8">
         <hgroup>
-            <h3>espresso</h3>
-            <h4>website guide</h4>
+            <h3>guy</h3>
+            <h4>software landing page</h4>
         </hgroup>
         <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
-        <p>an interactive, 3-page website to introduce beginners to the vast world of espresso utilizing 5
-            JavaScript/jQuery plugins.</p>
+        <p> a marketing page for a mobile app companion. built with Sass, IntersectionObserver API, and
+            local storage to enable theme switching between light and dark modes.</p>
     </div>
     <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
-</a>
+</div>

@@ -17,7 +17,7 @@
             <h4>dance class booking app</h4>
         </hgroup>
         <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
-        <p>a high-fidelity mobile app prototype for a dance studio made in Figma; backed up with user research
+        <p>a mobile app prototype for a dance studio—backed with user research
             strategies, usability tests, and a written report with possible solutions.</p>
     </div>
     <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">

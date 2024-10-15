@@ -90,11 +90,12 @@
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
-                        <p class="quote">my passion for both art and technology has always driven me to merge the two
+                        <p class="quote">my passion for both art and tech has always driven me to merge the two
                             creatively.
                         </p>
-                        <p>this desire has led me to front-end development and ux/ui design—now im able to adapt my
-                            skills, build solutions, and help users navigate the digital world seamlessly.</p>
+                        <p>that's why i <strong>love</strong> the world of front-end development and ux/ui design—i can
+                            create innovative solutions and help users navigate the digital world in a satisfying and refreshing way.
+                        </p>
                     </div>
                     <div class="flex jcr">
                         <a class="secondary btn" href="./about">
