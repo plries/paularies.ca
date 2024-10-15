@@ -1987,7 +1987,7 @@ main p {
   margin: 0;
 }
 main .more {
-  margin-top: 16px;
+  margin: 16px 0 32px 0;
 }
 
 .project-reveal {
