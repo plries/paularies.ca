@@ -1024,7 +1024,7 @@ h2 {
 
 h3 {
   font-size: 4.8rem;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.1rem;
   margin-top: 16px;
 }
 
@@ -2188,6 +2188,9 @@ main .more {
   main {
     padding: 48px 0;
   }
+  main .intro .picture {
+    width: 50%;
+  }
   main div .view-toggle {
     display: none;
   }
@@ -2196,16 +2199,18 @@ main .more {
   main {
     padding: 48px 0;
   }
+  main .intro {
+    flex-direction: column;
+  }
+  main .intro .picture {
+    align-self: center;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 425px) {
   main {
     border-radius: 40px;
     padding: 16px 0 80px 0;
-  }
-  main .intro .picture {
-    align-self: center;
-    max-width: unset;
-    width: 100%;
   }
   main .filter-button-group {
     flex-wrap: nowrap;
@@ -2401,6 +2406,9 @@ main .more {
   .about-me .col-12-8-4 .cell h3 {
     font-size: 2.4rem;
   }
+  .about-me .col-12-8-4 .profile .picture {
+    width: 50%;
+  }
   .about-me .col-12-8-4 .about {
     grid-column: span 1;
   }
@@ -2436,8 +2444,22 @@ main .more {
   .about-me .col-12-8-4 .profile {
     flex-direction: column;
   }
+  .about-me .col-12-8-4 .profile .picture {
+    width: 100%;
+  }
+  .about-me .col-12-8-4 .profile > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me .col-12-8-4 .profile > div > div {
+    align-items: center;
+  }
   .about-me .col-12-8-4 .profile > div > div > div {
     flex-direction: column;
+    align-items: center;
+  }
+  .about-me .col-12-8-4 .profile > div > div > div .btn {
+    align-self: unset;
   }
 }
 @media screen and (max-width: 425px) {
@@ -2458,8 +2480,15 @@ main .more {
     max-width: unset;
     width: 100%;
   }
+  .about-me .col-12-8-4 .profile > div {
+    align-items: baseline;
+  }
+  .about-me .col-12-8-4 .profile > div > div {
+    align-items: baseline;
+  }
   .about-me .col-12-8-4 .profile > div > div > div {
     flex-direction: column;
+    align-items: baseline;
   }
 }
 .project.hero-wrapper .col-12-8-4 {
@@ -3051,6 +3080,11 @@ main .more {
 }
 .testimonial-cards .testimonial img {
   aspect-ratio: 1/1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
   object-fit: cover;
   object-position: center;
   height: 64px;
@@ -3096,7 +3130,7 @@ main .more {
   border-radius: 0 24px 24px 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .testimonial-cards {
     grid-template-columns: repeat(1, 1fr);
   }

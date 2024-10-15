@@ -221,6 +221,13 @@ main {
     main {
         padding: 48px 0;
 
+        .intro {
+            .picture {
+                width: 50%;
+            }
+        }
+
+
         div {
             .view-toggle {
                 display: none;
@@ -234,6 +241,15 @@ main {
 
     main {
         padding: 48px 0;
+
+        .intro {
+            flex-direction: column;
+
+            .picture {
+                align-self: center;
+                width: 100%;
+            }
+        }
     }
 
 }
@@ -243,14 +259,7 @@ main {
     main {
         border-radius: 40px;
         padding: 16px 0 80px 0;
-
-        .intro {
-            .picture {
-                align-self: center;
-                max-width: unset;
-                width: 100%;
-            }
-        }
+            
 
         .filter-button-group {
             flex-wrap: nowrap;

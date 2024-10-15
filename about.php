@@ -51,7 +51,7 @@
     <main class="about-me flex col aic jcc">
         <section class="grid col-12-8-4">
             <div class="cell s-1 s-1-sm s-1-md profile flex gap-16 jcsb about-reveal">
-                <div class="flex flex-toggle gap-16">
+                <div class="flex gap-16">
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
                         <h1>about paul aries</h1>
