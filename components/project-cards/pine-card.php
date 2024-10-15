@@ -20,9 +20,8 @@
             <h3>pine</h3>
             <h4>online retail website</h4>
         </hgroup>
-        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
         <p>a website for a fictional online retail store, implementing CSS media queries, flexbox, grid, and a
             JavaScript plugin, resulting in a fully responsive website.</p>
-    </div>
-    <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
+        </div>
+        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon.">
 </a>

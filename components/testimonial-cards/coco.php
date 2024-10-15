@@ -7,7 +7,7 @@
                 <p>coco</p>
                 <p>husky</p>
             </div>
-            <a href="#">
+            <a>
                 <img src="./icons/ui/white-linkedin.svg" alt="linkedin icon." draggable="false">
             </a>
         </div>

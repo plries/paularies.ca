@@ -16,7 +16,6 @@
             <h3>coming soon</h3>
             <h4>stay tuned!</h4>
         </hgroup>
-        <img class="project-arrow" src="../icons/ui/white-arrow.svg" alt="arrow icon..">
     </div>
-    <img class="project-arrow" src="../icons/ui/white-arrow.svg" alt="arrow icon..">
+    <img class="project-arrow" src="../icons/ui/white-arrow.svg" alt="arrow icon.">
 </civ>

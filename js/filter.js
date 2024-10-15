@@ -12,6 +12,10 @@ var $projects = $('.project-cards').isotope({
     }
 });
 
+$projects.imagesLoaded().progress( function() {
+    $projects.isotope('layout');
+})
+
 $('.filter-button-group').on('click', 'button', function() {
     var filterValue = $(this).attr('data-filter');
     $projects.isotope({ filter: filterValue });

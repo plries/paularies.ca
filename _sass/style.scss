@@ -13,14 +13,18 @@
 @import "_modal";
 @import "_flickity";
 
-@import "_header";
+@import "_nav";
+@import "_footer";
+
 @import "_hero";
 @import "_main";
-@import "_cards";
 @import "_about";
-@import "_testimonials";
 @import "_format";
-@import "_footer";
+
+@import "_cards";
+@import "_thumbs";
+@import "_testimonials";
+
 
 html {
     background-color: $tan;

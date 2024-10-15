@@ -16,9 +16,8 @@
             <h3>odd</h3>
             <h4>juice ordering app</h4>
         </hgroup>
-        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
         <p>a mobile app prototype for a juice store that allows users to
             to search, select, and purchase a product.</p>
-    </div>
-    <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon..">
+        </div>
+        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon.">
 </a>
