@@ -105,20 +105,20 @@
                     </div>
                 </div>
             </div>
-            <h2 class="s-1 s-1-sm s-1-md">featured projects</h2>
+            <h2 class="s-1 s-1-sm s-1-md">featured work</h2>
             <div class="project-cards list s-1 s-1-sm s-1-md">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
-            </div>
-            <h2 class="s-1 s-1-sm s-1-md">testimonials</h2>
-            <div class="testimonial-cards s-1 s-1-sm s-1-md">
-                <?php include './components/testimonial-cards/emma.php'; ?>
-                <?php include './components/testimonial-cards/coco.php'; ?>
             </div>
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
                 <a class="secondary btn" href="./work">
                     all projects
                 </a>
+            </div>
+            <h2 class="s-1 s-1-sm s-1-md">testimonials</h2>
+            <div class="testimonial-cards s-1 s-1-sm s-1-md">
+                <?php include './components/testimonial-cards/emma.php'; ?>
+                <?php include './components/testimonial-cards/coco.php'; ?>
             </div>
         </section>
     </main>

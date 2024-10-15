@@ -2047,7 +2047,6 @@ main .more {
 .project-cards {
   width: 100%;
   visibility: hidden;
-  margin-bottom: 32px;
 }
 .project-cards .project {
   display: grid;
@@ -2568,6 +2567,7 @@ main .more {
 .testimonial-cards {
   display: grid;
   gap: 16px;
+  margin-top: 16px;
   grid-template-columns: repeat(2, 1fr);
 }
 .testimonial-cards .testimonial {
@@ -2627,6 +2627,12 @@ main .more {
   }
   .testimonial-cards .testimonial img {
     height: 48px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .testimonial-cards .testimonial img {
+    border-radius: 8px;
+    height: 32px;
   }
 }
 .project.hero-wrapper .col-12-8-4 {

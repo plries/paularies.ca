@@ -1,6 +1,7 @@
 .testimonial-cards {
     display: grid;
     gap: 16px;
+    margin-top: 16px;
     grid-template-columns: repeat(2, 1fr);
     .testimonial {
         grid-column: span 1;
@@ -70,6 +71,19 @@
         .testimonial {
             img {
                 height: 48px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    
+    .testimonial-cards {
+        .testimonial {
+            img {
+                border-radius: 8px;
+                height: 32px;
             }
         }
     }
