@@ -94,7 +94,8 @@
                             creatively.
                         </p>
                         <p>that's why i love the world of front-end development and ux/ui design—i can
-                            create innovative solutions and help users navigate the digital world in a satisfying and refreshing way.
+                            create innovative solutions and help users navigate the digital world in a satisfying and
+                            refreshing way.
                         </p>
                     </div>
                     <div class="flex jcr">
@@ -108,6 +109,11 @@
             <div class="project-cards list s-1 s-1-sm s-1-md">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
+            </div>
+            <h2 class="s-1 s-1-sm s-1-md">testimonials</h2>
+            <div class="testimonial-cards s-1 s-1-sm s-1-md">
+                <?php include './components/testimonial-cards/emma.php'; ?>
+                <?php include './components/testimonial-cards/coco.php'; ?>
             </div>
             <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
                 <a class="secondary btn" href="./work">

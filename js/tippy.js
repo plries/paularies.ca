@@ -5,7 +5,3 @@ tippy('.skill', {
 tippy('.code-dropdown-btn', {
     placement: 'top',
 });
-
-tippy('.footer-logo', {
-    placement: 'bottom',
-});

@@ -2047,6 +2047,7 @@ main .more {
 .project-cards {
   width: 100%;
   visibility: hidden;
+  margin-bottom: 32px;
 }
 .project-cards .project {
   display: grid;
@@ -2564,6 +2565,70 @@ main .more {
     flex-direction: column;
   }
 }
+.testimonial-cards {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.testimonial-cards .testimonial {
+  grid-column: span 1;
+  visibility: hidden;
+}
+.testimonial-cards .testimonial img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+  height: 64px;
+  border-radius: 12px;
+}
+.testimonial-cards .testimonial .testimonial-text {
+  width: 100%;
+  padding: 16px;
+  background-color: #272727;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-quote {
+  height: 100%;
+  padding-left: 16px;
+  border-left: #3E3E3E 2px solid;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-quote p {
+  color: #D9D9D9;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-author p {
+  font-family: Rubik, Arial, sans-serif;
+  color: #FAF9F6;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-author p:first-child {
+  font-weight: 500;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-author a {
+  transition: scale 0.25s ease;
+  align-self: flex-end;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-author a img {
+  height: 4rem;
+}
+.testimonial-cards .testimonial .testimonial-text .testimonial-author a:hover {
+  scale: 0.9;
+}
+.testimonial-cards .left img {
+  align-self: flex-end;
+}
+.testimonial-cards .left .testimonial-text {
+  border-radius: 24px 24px 24px 0;
+}
+.testimonial-cards .right .testimonial-text {
+  border-radius: 0 24px 24px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .testimonial-cards .testimonial img {
+    height: 48px;
+  }
+}
 .project.hero-wrapper .col-12-8-4 {
   row-gap: 0;
   justify-content: end;
@@ -2974,7 +3039,7 @@ footer .footer-icons {
   max-width: 1080px;
 }
 footer .footer-icons #target {
-  transform: translateY(-64px);
+  transform: translateY(-24px);
 }
 footer .footer-icons img {
   margin-top: 256px;

@@ -20,7 +20,7 @@
             <a class="link-underline" href="https://github.com/plries" target="_blank">github</a>
             <a class="link-underline" href="https://www.instagram.com/plries/" target="_blank">instagram</a>
         </div>
-        <a href="#" class="footer-logo" data-tippy-content="back to top!">
+        <a href="#" class="footer-logo">
             <img src="./icons/ui/logo-big.svg" alt="Paul Aries Logo." draggable="false">
         </a>
     </div>

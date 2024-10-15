@@ -30,5 +30,5 @@ target.to("#target", {
     ease: "bounce",
     duration: 2});
 target.to("#target", {
-    transform: "translateY(-64px)",
+    transform: "translateY(-24px)",
     duration: 2});
