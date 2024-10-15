@@ -981,7 +981,7 @@ li {
 
 p.quote {
   font-size: 2.8rem;
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-family: Rubik, Arial, sans-serif;
   letter-spacing: -1px;
   margin: 0;
@@ -993,7 +993,7 @@ code {
 }
 
 q {
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-size: 3.6rem;
   font-weight: 200;
   font-style: italic;
@@ -1015,7 +1015,7 @@ button {
 
 h1,
 h2 {
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-size: 9.6rem;
   font-weight: 500;
   letter-spacing: -0.15rem;
@@ -1160,7 +1160,7 @@ a.link-underline:hover::before {
   z-index: 9999999;
   opacity: 0;
   transition: opacity 0.5s ease;
-  border: #FFFFFF 1px solid;
+  border: #FAF9F6 1px solid;
 }
 
 @media screen and (max-width: 768px) {
@@ -1204,7 +1204,7 @@ button {
 
 .black {
   background-color: #202020;
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-family: DM Mono, "Courier New", Courier, monospace;
   font-weight: 400;
   padding: 12px 16px;
@@ -1218,7 +1218,7 @@ button {
 .white {
   font-family: DM Mono, "Courier New", Courier, monospace;
   font-weight: 400;
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
   color: #202020;
   text-wrap: nowrap;
 }
@@ -1228,7 +1228,7 @@ button {
   font-weight: 400;
   background-color: #4D633A;
   border: #688151 1px solid;
-  color: #FFFFFF !important;
+  color: #FAF9F6 !important;
 }
 
 .blue {
@@ -1236,7 +1236,7 @@ button {
   font-weight: 400;
   background-color: #607698;
   border: #778eb1 1px solid;
-  color: #FFFFFF !important;
+  color: #FAF9F6 !important;
 }
 
 .chip {
@@ -1268,7 +1268,7 @@ button {
   width: -moz-fit-content;
   width: fit-content;
   background-color: #3E3E3E;
-  color: #FFFFFF;
+  color: #FAF9F6;
   border: #575757 1px solid;
   scale: 1;
   transition: background-color 0.25s ease, color 0.25s ease, scale 0.25s ease;
@@ -1331,8 +1331,8 @@ button {
 .secondary {
   font-family: DM Mono, "Courier New", Courier, monospace;
   background-color: transparent;
-  border: #FFFFFF 1px solid;
-  color: #FFFFFF;
+  border: #FAF9F6 1px solid;
+  color: #FAF9F6;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1362,7 +1362,7 @@ button {
 }
 
 .modal-container {
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
   border: #202020 2px solid;
   padding: 24px;
   border-radius: 16px;
@@ -1550,7 +1550,7 @@ header {
 }
 header .header {
   font-family: Rubik, Arial, sans-serif !important;
-  color: #FFFFFF;
+  color: #FAF9F6;
   background-color: #202020;
   text-decoration: none;
   border: #3E3E3E 1px solid;
@@ -1618,7 +1618,7 @@ header .nav-wrapper nav ul li a:hover {
     height: 2px;
     width: 100%;
     margin: 6px auto;
-    background-color: #FFFFFF;
+    background-color: #FAF9F6;
     transition: all 0.25s ease-in-out;
   }
   header .nav-toggle .line:nth-child(2) {
@@ -1976,6 +1976,7 @@ main .intro > div {
 main > div {
   width: 100%;
 }
+main h1,
 main h2 {
   visibility: hidden;
 }
@@ -2053,7 +2054,7 @@ main .more {
   margin-top: 16px;
   position: relative;
   height: auto;
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
   border: #D9D9D9 solid 1px;
   border-radius: 24px;
   padding: 16px;
@@ -2109,7 +2110,7 @@ main .more {
   width: calc(100% - 34px);
   background-color: #272727;
   border: #3E3E3E solid 1px;
-  color: #FFFFFF;
+  color: #FAF9F6;
 }
 .project-cards .soon .project-img-container {
   aspect-ratio: 16/10;
@@ -2120,7 +2121,7 @@ main .more {
   place-items: center;
 }
 .project-cards .soon .project-img-container p {
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-family: DM Mono, "Courier New", Courier, monospace;
 }
 .project-cards .soon .project-chips .chip {
@@ -2185,7 +2186,7 @@ main .more {
 .more-projects .thumb-container .flex h6 {
   font-family: Rubik, Arial, sans-serif;
   font-size: 2.4rem;
-  color: #FFFFFF;
+  color: #FAF9F6;
   line-height: 130%;
 }
 .more-projects .thumb-container .flex img {
@@ -2341,7 +2342,7 @@ main .more {
 .about-me .col-12-8-4 .cell h3 {
   font-size: 2.8rem;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #FAF9F6;
   font-family: Rubik, Arial, sans-serif;
   margin: 0;
 }
@@ -2357,7 +2358,7 @@ main .more {
 }
 .about-me .col-12-8-4 .profile {
   color: #202020;
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
 }
 .about-me .col-12-8-4 .profile .btn img {
   transition: all 0.5s ease;
@@ -2478,7 +2479,7 @@ main .more {
 }
 .links a {
   padding: 0;
-  color: #FFFFFF;
+  color: #FAF9F6;
 }
 
 @media screen and (max-width: 1440px) {
@@ -2616,7 +2617,7 @@ main .more {
   font-family: Rubik, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: unset;
-  color: #FFFFFF;
+  color: #FAF9F6;
   overflow: hidden;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -2634,11 +2635,11 @@ main .more {
 }
 .col-12-8-4.project-section p a.link-underline {
   display: inline-block;
-  color: #FFFFFF;
+  color: #FAF9F6;
 }
 .col-12-8-4.project-section p a.link-underline::before {
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
 }
 .col-12-8-4.project-section figure {
   margin: 0;
@@ -2665,7 +2666,7 @@ main .more {
   background-color: #272727;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn p {
-  color: #FFFFFF;
+  color: #FAF9F6;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn .caret {
   height: 1.2rem;
@@ -2676,7 +2677,7 @@ main .more {
   user-select: none;
   border: none;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #FAF9F6;
   transition: transform 0.25s ease;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview {
@@ -2690,7 +2691,7 @@ main .more {
   margin: 0;
 }
 .col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code {
-  color: #FFFFFF;
+  color: #FAF9F6;
   text-wrap: wrap;
   word-wrap: break-word;
 }
@@ -2723,7 +2724,7 @@ main .more {
 }
 
 .callout {
-  background-color: #FFFFFF;
+  background-color: #FAF9F6;
   border-radius: 24px;
   padding: 24px;
 }
@@ -2793,7 +2794,7 @@ main .more {
 @media screen and (max-width: 768px) {
   .project.hero-wrapper {
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #FAF9F6;
     margin-top: unset;
     height: auto;
   }
@@ -3047,6 +3048,10 @@ footer .footer-icons img {
     margin-top: 64px;
   }
 }
+html {
+  background-color: #F1E8DD;
+}
+
 :root::-webkit-scrollbar {
   display: none;
 }

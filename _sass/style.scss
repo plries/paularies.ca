@@ -21,6 +21,10 @@
 @import "_format";
 @import "_footer";
 
+html {
+    background-color: $tan;
+}
+
 :root::-webkit-scrollbar {
     display: none
 }
