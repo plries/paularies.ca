@@ -22,4 +22,6 @@ jobs:
           *.md
           *.scss
           */vendor
+          */components
+          */sections
         port: 21
