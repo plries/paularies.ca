@@ -27,7 +27,6 @@ ScrollReveal().reveal(".profile h1", {
 });
 
 ScrollReveal().reveal(".testimonial", {
-    delay: 64,
     distance: '150px',
     ease: "ease-in",
     opacity: 0,

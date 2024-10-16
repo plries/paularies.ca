@@ -51,20 +51,20 @@
     <div class="hero-wrapper">
         <div class="hero parallax flex col aic jcc">
             <hgroup class="grid col-12-8-4 hero-text">
-                <h2 class="hero-greeting s-1 s-1-sm s-1-md">
+                <h2 class="hero-greeting span-lg">
                     <span class="reveal">hey there!</span><br>
                     <span class="reveal indent">my name is:</span>
                 </h2>
-                <h1 class="hero-name s-1 s-1-sm s-1-md">
+                <h1 class="hero-name span-lg">
                     <span class="reveal">paul </span>
                     <span class="reveal">aries</span>
                 </h1>
-                <div class="align-right s-1 s-1-sm s-1-md">
+                <div class="align-right span-lg">
                     <h2 class="hero-description">
                         <span class="reveal">a passionate, user-centered</span>
                     </h2>
                 </div>
-                <div class="align-right s-1 s-1-sm s-1-md">
+                <div class="align-right span-lg">
                     <h2 class="flex aic jcr gap-8 wrap">
                         <span class="reveal btn green">
                             <img src="./icons/ui/white-star.svg" alt="star icon." draggable="false">
@@ -76,7 +76,7 @@
                         </span>
                     </h2>
                 </div>
-                <div class="arrow-container s-1 s-1-sm s-1-md flex aic jcc">
+                <div class="arrow-container span-lg flex aic jcc">
                     <img class="reveal arrow-down" src="./icons/ui/black-arrow-down.svg" alt="arrow icon."
                         draggable="false">
                 </div>
@@ -86,7 +86,7 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4">
-            <div class="intro cell s-1 s-1-sm s-1-md flex aic jcsb gap-16">
+            <div class="intro cell span-lg flex aic jcsb gap-16">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16 jcsb">
                     <div class="flex col gap-16">
@@ -105,21 +105,19 @@
                     </div>
                 </div>
             </div>
-            <h2 class="s-1 s-1-sm s-1-md">featured work</h2>
-            <div class="project-cards list s-1 s-1-sm s-1-md">
+            <h2 class="span-lg">featured work</h2>
+            <div class="project-cards list span-lg  ">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
             </div>
-            <div class="flex jcr gap-16 s-1 s-1-sm s-1-md more">
+            <div class="flex jcr gap-16 span-lg more">
                 <a class="secondary btn" href="./work">
                     all projects
                 </a>
             </div>
-            <h2 class="s-1 s-1-sm s-1-md">what others say</h2>
-            <div class="testimonial-cards s-1 s-1-sm s-1-md">
-                <?php include './components/testimonial-cards/emma.php'; ?>
-                <?php include './components/testimonial-cards/coco.php'; ?>
-            </div>
+            <h2 class="span-lg">testimonials</h2>
+            <?php include './components/testimonial-cards/emma.php'; ?>
+            <?php include './components/testimonial-cards/coco.php'; ?>
         </section>
     </main>
 

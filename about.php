@@ -50,7 +50,7 @@
 
     <main class="about-me flex col aic jcc">
         <section class="grid col-12-8-4">
-            <div class="cell s-1 s-1-sm s-1-md profile flex gap-16 jcsb about-reveal">
+            <div class="cell span-lg   profile flex gap-16 jcsb about-reveal">
                 <div class="flex gap-16">
                     <img class="picture" src="./media/paul-1.jpg" alt="Headshot of Paul Aries." draggable="false">
                     <div class="flex col end gap-8">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-2-toggle s-1 s-1-sm s-1-md gap-16">
+            <div class="grid grid-2-toggle span-lg   gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <p class="quote">👋 i’m a detail-oriented developer and designer from the Metro Vancouver Area who loves to create
                         exciting digital experiences.</p>
@@ -94,7 +94,7 @@
                     </div>
                 </article>
             </div>
-            <article class="cell skills s-1 s-1-sm s-1-md flex col gap-16 about-reveal">
+            <article class="cell skills span-lg   flex col gap-16 about-reveal">
                 <h3>my skills</h3>
                 <div class="flex row gap-16 wrap">
                     <img class="skill" src="./icons/skills/html5.svg" alt="HTML5 icon." draggable="false"
@@ -145,7 +145,7 @@
                     anywhere. by valuing the contributions and suggestions of others, i am able to
                     ensure that my work is always at its best.</p>
             </article>
-            <div class="flex jcr gap-16 s-1 s-1-sm s-1-md about-reveal">
+            <div class="flex jcr gap-16 span-lg   about-reveal">
                 <a class="secondary btn" href="./work">
                     all projects
                 </a>

@@ -1,0 +1,39 @@
+.scroll-progress-container {
+    position: fixed;
+    z-index: 99;
+    background-color: #D9D9D94D;
+    height: 4px;
+    width: 100vw;
+
+    .scroll-progress {
+        position: fixed;
+        height: 4px;
+        width: 100vw;
+        scale: 0 1;
+        transform-origin: left;
+        -webkit-animation: scroll-watcher linear;
+        animation: scroll-watcher linear;
+        animation-timeline: scroll();
+        background-color: $dark-grey;
+    }
+
+    .fe {
+        background-color: $green;
+    }
+
+    .uxui {
+        background: $blue;
+    }
+}
+
+@-webkit-keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}
+
+@keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}

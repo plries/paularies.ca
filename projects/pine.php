@@ -51,10 +51,10 @@
     <div class="project hero-wrapper">
         <div class="pine parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
-                <div class="sm-hero s-0 s-0-sm s-0-md">
+                <div class="sm-hero span-full">
                     <img src="../media/pine/pineHero.jpg" alt="pine landing page.">
                 </div>
-                <div class="project-title s-0 s-0-sm s-0-md jcsb">
+                <div class="project-title span-full jcsb">
                     <h1>pine</h1>
                     <h2>online retail website</h2>
                     <div class="flex row jcsb aic">
@@ -81,7 +81,7 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
-            <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
+            <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <div>
                     <p>design a website of our choice, implementing CSS media queries, flexbox, grid, and a JavaScript
@@ -89,7 +89,7 @@
                         visually appealling.</p>
                 </div>
             </div>
-            <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class=" paragraph span-lg project-reveal">
                 <h4>getting started</h4>
                 <p>inspired by the types of websites i frequently visit, i decided to design an online retail store for
                     a small, fictional fashion line called <strong>Pine</strong>.</p>
@@ -100,12 +100,12 @@
                     interface no matter the window’s size. i understood that creating three responsive pages for three
                     different pages was going to be a challenge, but i always enjoy the problem-solving process!</p>
             </div>
-            <div class="media s-1 s-1-sm s-1-md project-reveal">
+            <div class="media span-lg project-reveal">
                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2Fh8iqY8j5rhOQ2PaSeGe1Yv%2Fpine%3Fnode-id%3D0-1%26t%3Dl5EPptFN6uNRGA9Z-1"
                     allowfullscreen></iframe>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <h4>HTML, CSS, and JS development</h4>
                 <p>based on the wireframes, i created the structure of each page using HTML and CSS. utilizing media
                     queries, i was able to adjust flexbox and grid properties for each viewport, as well as adjust the
@@ -116,7 +116,7 @@
                     i wanted, in all window sizes. this proved to be an obstacle for sure, but through lots of trial and
                     error, i got the website to be as accurate as i hoped for!</p>
             </div>
-            <div class="no-margin paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class=" paragraph span-lg flex col gap-16 project-reveal">
                 <div class="media">
                     <video src="../media/pine/pineSplide.mp4" autoplay loop muted playsinline></video>
                 </div>
@@ -137,7 +137,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <h4>content creation</h4>
                 <p>Pine’s brand identity is an original idea, with inspiration taken from the beautiful environment and
                     colors of Vancouver; the brand’s logo was created using Illustrator.</p>
@@ -146,10 +146,10 @@
                     product photos were edited in Photoshop for different colorways and consistent backgrounds. icons
                     are from FontsAwesome and abide by their license rules.</p>
             </div>
-            <div class="media s-1 s-1-sm s-1-md project-reveal">
+            <div class="media span-lg project-reveal">
                 <img src="../media/pine/pinePs.png" alt="product photos being edited in Photoshop.">
             </div>
-            <div class="flex s-1 s-1-sm s-1-md jcr gap-16 view-project project-reveal">
+            <div class="flex span-lg jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
                     github
                 </a>
@@ -157,7 +157,7 @@
                     website
                 </a>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
@@ -175,7 +175,7 @@
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal-overlay" tabindex="-1" data-micromodal-close>
             <div class="grid col-12-8-4">
-                <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
+                <div class="modal-container span-lg flex col gap-16">
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>

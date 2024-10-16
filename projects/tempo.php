@@ -51,10 +51,10 @@
     <div class="project hero-wrapper">
         <div class="tempo parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
-                <div class="sm-hero s-0 s-0-sm s-0-md">
+                <div class="sm-hero span-full">
                     <img src="../media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
                 </div>
-                <div class="project-title s-0 s-0-sm s-0-md jcsb">
+                <div class="project-title span-full jcsb">
                     <h1>tempo</h1>
                     <h2>dance class booking app</h2>
                     <div class="flex row jcsb aic">
@@ -78,24 +78,24 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
-            <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
+            <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <p>construct a high-fidelity prototype for a mobile app in Figma for a dance studio. this project
                     involves conducting user research using common strategies, performing an unmonitored usability test,
                     and writing a report with recommendations, and implementing possible solutions based on the
                     findings.</p>
             </div>
-            <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class=" paragraph span-lg project-reveal">
                 <h4>user research</h4>
                 <p>the first phase of this project focused on defining the app’s concept, conducting user research, and
                     creating low-fidelity wireframes for the app. for this project, i created an app where users can
                     book classes for a fictional dance studio called <strong>Tempo</strong>.</p>
             </div>
-            <div class="paragraph quote s-2 s-2-sm s-2-md project-reveal">
+            <div class="paragraph quote span-md project-reveal">
                 <q>as a dancer who frequently uses mobile apps to book workshops, i'm familiar with what works and what
                     could be improved upon in the booking process.</q>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <p>after settling on a topic, i identified the target audience using multiple research strategies such
                     as: a <a class="link-underline" href="#persona">user persona</a>, a <a class="link-underline"
                         href="#scenario">user scenario</a>, an <a class="link-underline" href="#empathy">empathy
@@ -103,19 +103,19 @@
                     documents, i was able to confidently define what <strong>beginner dancers</strong> desire from the
                     app.</p>
             </div>
-            <figure id="persona" class="s-l s-1-sm s-l-md media">
+            <figure id="persona" class="span-left media">
                 <img src="../media/tempo/tempoPersona.png" alt="user persona of Mia Rodriguez.">
             </figure>
-            <figure id="scenario" class="s-1 s-1-sm s-1-md media">
+            <figure id="scenario" class="span-lg media">
                 <img src="../media/tempo/tempoScenario.png" alt="user scenario of Mia Rodriguez.">
             </figure>
-            <figure id="empathy" class="s-r s-1-sm s-r-md media">
+            <figure id="empathy" class="span-right media">
                 <img src="../media/tempo/tempoEmpathy.png" alt="empathy map for Mia Rodrigeuz.">
             </figure>
-            <figure id="journey" class="s-1 s-1-sm s-1-md media">
+            <figure id="journey" class="span-lg media">
                 <img src="../media/tempo/tempoJourney.png" alt="journey map for user group.">
             </figure>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal flex col gap-24">
+            <div class="paragraph span-lg project-reveal flex col gap-24">
                 <p>following the research, i created a <a class="link-underline" href="#flowchart">flowchart</a> to
                     outline the process which the target user follows in this app. for this prototype, i focused
                     specifically on the process of booking a first dance class, as my research indicated that this can
@@ -125,15 +125,15 @@
                     booking an appointment or workshop is a linear process, so the screens i needed for the user flow
                     were evident as soon as i created the flow chart.</p>
             </div>
-            <figure id="flowchart" class="s-l s-1-sm s-l-md media project-reveal">
+            <figure id="flowchart" class="span-left media project-reveal">
                 <img src="../media/tempo/tempoFlow.jpg" alt="flow chart for Tempo app.">
             </figure>
-            <div id="wireframes" class="s-r s-1-sm s-r-md media project-reveal">
+            <div id="wireframes" class="span-right media project-reveal">
                 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLkRaZh1NpfmUB7lCqYzMx5%2Ftempo-wireframes%3Fnode-id%3D0-1%26t%3Dy4LWoYAJKMoapsdS-1"
                     allowfullscreen></iframe>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg   project-reveal">
                 <h4>prototyping and user testing</h4>
                 <div class="flex col gap-24">
                     <p>in the second phase of this project, i focused on adding functionality to the interface and
@@ -152,7 +152,7 @@
                     </p>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg   project-reveal">
                 <h4>revision and report</h4>
                 <div class="grid gap-16 grid-2-toggle">
                     <div class="flex col gap-24">
@@ -171,7 +171,7 @@
                     </div>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg   project-reveal">
                 <div class="grid gap-16 grid-2-toggle">
                     <div class="media">
                         <img src="../media/tempo/tempoRevis.png" alt="tempo teach page revision.">
@@ -182,7 +182,7 @@
                         the app beginner-friendly for dancers.</p>
                 </div>
             </div>
-            <div class="flex jcr gap-16 s-1 s-1-sm s-1-md view-project project-reveal">
+            <div class="flex jcr gap-16 span-lg   view-project project-reveal">
                 <a class="secondary btn" href="..../media/tempo/tempoReport.pdf" target="_blank">
                     report
                 </a>
@@ -192,7 +192,7 @@
                     figma
                 </a>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg   flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
@@ -210,7 +210,7 @@
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal-overlay" tabindex="-1" data-micromodal-close>
             <div class="grid col-12-8-4">
-                <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
+                <div class="modal-container span-lg   flex col gap-16">
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>

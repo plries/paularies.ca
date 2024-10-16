@@ -1,34 +1,49 @@
 @import "vendor/_normalize";
-@import "vendor/_jquery.background-video";
 @import "vendor/_flickity.min";
-@import "vendor/_lightbox.min";
 
 @import "_variables";
-@import "_layouts";
+@import "_scaffolding";
 @import "_text";
 @import "_links";
-
 @import "_cursor";
-@import "_buttons";
-@import "_modal";
-@import "_flickity";
 
-@import "_nav";
-@import "_footer";
+@import "components/_scroll";
+@import "components/_modal";
+@import "components/_carousel";
+@import "components/_nav";
+@import "components/_footer";
+@import "components/_cards";
+@import "components/_thumbs";
 
-@import "_hero";
-@import "_main";
-@import "_about";
-@import "_format";
+@import "sections/_hero";
+@import "sections/_main";
+@import "sections/_about";
+@import "sections/_format";
+@import "sections/_testimonials";
 
-@import "_cards";
-@import "_thumbs";
-@import "_testimonials";
-
-
-html {
+html.lenis,
+html.lenis body {
     background-color: $tan;
+    height: auto;
 }
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    -ms-scroll-chaining: none;
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+    pointer-events: none;
+}
+
 
 :root::-webkit-scrollbar {
     display: none

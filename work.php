@@ -50,8 +50,8 @@
 
     <main class="all-projects flex col aic jcc">
         <section class="grid col-12-8-4">
-            <h1 class="s-1 s-1-sm s-1-md">all projects</h1>
-            <div class="s-1 s-1-sm s-1-md flex jcsb">
+            <h1 class="span-lg  ">all projects</h1>
+            <div class="span-lg   flex jcsb">
                 <div class="filter-button-group flex wrap row jcs gap-16">
                     <button data-filter="*" class="filter all-filter active">all</button>
                     <button data-filter=".front-end" class="filter front-end-filter">
@@ -70,7 +70,7 @@
                     <span class="box"></span>
                 </button>
             </div>
-            <div class="project-cards list s-1 s-1-sm s-1-md">
+            <div class="project-cards list span-lg  ">
                 <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
                 <?php include './components/project-cards/pine-card.php'; ?>

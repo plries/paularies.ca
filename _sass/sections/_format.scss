@@ -185,11 +185,7 @@
         }
     }
 
-    .no-margin {
-        margin-top: 0 !important;
-    }
-
-    .paragraph.s-2 {
+    .paragraph.span-lg:nth-child(n + 2) {
         margin: 48px 0;
     }
 }

@@ -51,10 +51,10 @@
     <div class="project hero-wrapper">
         <div class="espresso parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
-                <div class="sm-hero s-0 s-0-sm s-0-md">
+                <div class="sm-hero span-full">
                     <img src="../media/espresso/espressoHero.jpg" alt="espresso landing page.">
                 </div>
-                <div class="project-title s-0 s-0-sm s-0-md jcsb">
+                <div class="project-title span-full jcsb">
                     <h1>espresso</h1>
                     <h2>website guide</h2>
                     <div class="flex row jcsb aic">
@@ -79,24 +79,24 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4 project-section">
-            <div class="paragraph s-1 s-1-sm s-1-md callout project-reveal">
+            <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <p>create a responsive, 3-page website to introduce beginners to the vast world of espresso utilizing 5
                     JavaScript/jQuery plugins.</p>
             </div>
-            <div class="no-margin paragraph s-1 s-1-sm s-1-md project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <h4>why espresso?</h4>
                 <p>the first step in creating this website was to decide on its topic. knowing that i had to utilize
                     <strong>5 JavaScript/jQuery plugins</strong>, i wanted to create a website on a subject that i was
                     knowledgeable about, and thus showcased information in an interactive and entertaining way.
                 </p>
             </div>
-            <div class="paragraph s-2 s-2-sm s-2-md project-reveal">
+            <div class="paragraph span-md project-reveal">
                 <q>with this goal in mind, i decided to focus on one of my passions: <strong>espresso</strong>.<br>
                     this choice allowed me to delve into its complexities and present its extensive information in an
                     engaging manner for newcomers.</q>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>animations and interactivity</h4>
                     <p>the first plugin i implemented was the <a class="link-underline"
@@ -117,7 +117,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoIsotope.mp4" autoplay loop muted
                         playsinline></video>
@@ -147,7 +147,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoScroll.mp4" autoplay loop muted
                         playsinline></video>
@@ -170,7 +170,7 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/espresso/espressoSwiper.mp4" autoplay loop muted
                         playsinline></video>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <p>finally, i implemented the <a class="link-underline"
                         href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1" target="_blank">GSAP
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to
@@ -209,7 +209,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="flex s-1 s-1-sm s-1-md jcr gap-16 view-project project-reveal">
+            <div class="flex span-lg jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/espresso-guide" target="_blank">
                     github
                 </a>
@@ -217,7 +217,7 @@
                     website
                 </a>
             </div>
-            <div class="paragraph s-1 s-1-sm s-1-md flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/odd-thumb.php'; ?>
@@ -235,7 +235,7 @@
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal-overlay" tabindex="-1" data-micromodal-close>
             <div class="grid col-12-8-4">
-                <div class="modal-container s-2 s-2-sm s-2-md flex col gap-16">
+                <div class="modal-container span-lg flex col gap-16">
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>
