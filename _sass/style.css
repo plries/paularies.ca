@@ -800,7 +800,7 @@ a {
   text-decoration: none;
 }
 
-a.link-underline {
+.link-underline {
   font-weight: 500;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -808,7 +808,7 @@ a.link-underline {
   position: relative;
   transform-origin: bottom left;
 }
-a.link-underline::before {
+.link-underline::before {
   content: "";
   display: block;
   position: absolute;
@@ -821,7 +821,7 @@ a.link-underline::before {
   transition: transform 0.25s ease;
 }
 
-a.link-underline:hover::before {
+.link-underline:hover::before {
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -2365,6 +2365,13 @@ main .more {
 }
 .about-me .col-12-8-4 .about {
   aspect-ratio: 1/1;
+}
+.about-me .col-12-8-4 .about .link-underline {
+  display: inline-block;
+}
+.about-me .col-12-8-4 .about .link-underline::before {
+  width: 100%;
+  background-color: #FAF9F6;
 }
 .about-me .col-12-8-4 .about .about-carousel {
   aspect-ratio: 1/1;

@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 
-a.link-underline {
+.link-underline {
     font-weight: 500;
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -24,7 +24,7 @@ a.link-underline {
     }
 }
 
-a.link-underline:hover {
+.link-underline:hover {
     &::before {
         transform: scaleX(0);
         transform-origin: left;

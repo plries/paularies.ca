@@ -85,6 +85,15 @@
 		.about {
 			aspect-ratio: 1 / 1;
 
+			.link-underline {
+				display: inline-block;
+			
+				&::before {
+					width: 100%;
+					background-color: $white;
+				}
+			}
+
 			.about-carousel {
 				aspect-ratio: 1 / 1;
 				border-radius: 12px;
