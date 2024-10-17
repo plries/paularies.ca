@@ -101,7 +101,7 @@
     }
 }
 
-.project.hero-wrapper {
+.project-hero.hero-wrapper {
     .col-12-8-4 {
         row-gap: 0;
         justify-content: end;
@@ -194,7 +194,7 @@
             height: 3.2rem;
         }
 
-        &.project {
+        &.project-hero {
 
             .project-title {
     
@@ -255,7 +255,7 @@
             background-attachment: unset;
         }
 
-        &.project {
+        &.project-hero {
             padding: 0;
             background-color: $white;
             margin-top: unset;
@@ -349,7 +349,7 @@
             height: 2.8rem;
         }
 
-        &.project {
+        &.project-hero {
 
             .col-12-8-4 {
 

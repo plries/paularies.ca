@@ -835,8 +835,8 @@ a.link-underline:hover::before {
 }
 
 .cursor {
-  width: 50px;
-  height: 50px;
+  width: 16px;
+  height: 16px;
   position: fixed;
   top: 0;
   left: 0;
@@ -1938,47 +1938,47 @@ footer .footer-icons img {
   animation: pointDown 1s ease;
 }
 
-.project.hero-wrapper .col-12-8-4 {
+.project-hero.hero-wrapper .col-12-8-4 {
   row-gap: 0;
   justify-content: end;
   align-items: end;
   height: 100%;
 }
-.project.hero-wrapper .col-12-8-4 .sm-hero {
+.project-hero.hero-wrapper .col-12-8-4 .sm-hero {
   display: none;
 }
-.project.hero-wrapper .project-title {
+.project-hero.hero-wrapper .project-title {
   z-index: 2;
   margin-bottom: 96px;
 }
-.project.hero-wrapper .project-title h1 {
+.project-hero.hero-wrapper .project-title h1 {
   color: #202020;
   font-size: 4.8rem;
   font-weight: bold;
   letter-spacing: -0.15rem;
   margin: 0;
 }
-.project.hero-wrapper .project-title h2 {
+.project-hero.hero-wrapper .project-title h2 {
   color: #202020;
   margin-bottom: 16px;
   font-size: 2.4rem;
   font-weight: 500;
   letter-spacing: -0.1rem;
 }
-.project.hero-wrapper .project-title .btn.secondary {
+.project-hero.hero-wrapper .project-title .btn.secondary {
   color: #202020;
   border: #202020 2px solid;
 }
-.project.hero-wrapper .project-title .btn img {
+.project-hero.hero-wrapper .project-title .btn img {
   transition: all 0.5s ease;
 }
-.project.hero-wrapper .project-title .green:hover img {
+.project-hero.hero-wrapper .project-title .green:hover img {
   transform: rotate(360deg);
 }
-.project.hero-wrapper .project-title .blue:hover img {
+.project-hero.hero-wrapper .project-title .blue:hover img {
   scale: 0.75;
 }
-.project.hero-wrapper .project-title .info {
+.project-hero.hero-wrapper .project-title .info {
   margin: 0;
 }
 
@@ -2005,27 +2005,27 @@ footer .footer-icons img {
     width: 3.2rem;
     height: 3.2rem;
   }
-  .hero-wrapper.project .project-title > div > div {
+  .hero-wrapper.project-hero .project-title > div > div {
     margin: 0 -48px;
     padding-right: 48px;
     overflow-x: scroll;
   }
-  .hero-wrapper.project .project-title > div > div .btn,
-  .hero-wrapper.project .project-title > div > div .tag {
+  .hero-wrapper.project-hero .project-title > div > div .btn,
+  .hero-wrapper.project-hero .project-title > div > div .tag {
     text-wrap: nowrap;
   }
-  .hero-wrapper.project .project-title > div > div > .green,
-  .hero-wrapper.project .project-title > div > div > .blue,
-  .hero-wrapper.project .project-title > div > div > .info {
+  .hero-wrapper.project-hero .project-title > div > div > .green,
+  .hero-wrapper.project-hero .project-title > div > div > .blue,
+  .hero-wrapper.project-hero .project-title > div > div > .info {
     margin-left: 48px;
   }
-  .hero-wrapper.project .project-title > div > div::-webkit-scrollbar {
+  .hero-wrapper.project-hero .project-title > div > div::-webkit-scrollbar {
     display: none;
   }
-  .hero-wrapper.project .links-container .btn {
+  .hero-wrapper.project-hero .links-container .btn {
     margin: 0px;
   }
-  .hero-wrapper.project .links-container .info {
+  .hero-wrapper.project-hero .links-container .info {
     margin-left: 48px;
   }
 }
@@ -2039,32 +2039,32 @@ footer .footer-icons img {
   .hero-wrapper .parallax {
     background-attachment: unset;
   }
-  .hero-wrapper.project {
+  .hero-wrapper.project-hero {
     padding: 0;
     background-color: #FAF9F6;
     margin-top: unset;
     height: auto;
   }
-  .hero-wrapper.project .project-title {
+  .hero-wrapper.project-hero .project-title {
     margin-bottom: 112px;
   }
-  .hero-wrapper.project .parallax {
+  .hero-wrapper.project-hero .parallax {
     height: 100vh;
     height: 100dvh;
   }
-  .hero-wrapper.project .parallax::before {
+  .hero-wrapper.project-hero .parallax::before {
     height: 100vh;
     height: 100dvh;
   }
-  .hero-wrapper.project .col-12-8-4 {
+  .hero-wrapper.project-hero .col-12-8-4 {
     height: auto;
   }
-  .hero-wrapper.project .col-12-8-4 .sm-hero {
+  .hero-wrapper.project-hero .col-12-8-4 .sm-hero {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hero-wrapper.project .col-12-8-4 .sm-hero img {
+  .hero-wrapper.project-hero .col-12-8-4 .sm-hero img {
     aspect-ratio: 1/1;
     width: 100%;
     -o-object-fit: cover;
@@ -2076,14 +2076,14 @@ footer .footer-icons img {
     height: fit-content;
     border-radius: 16px;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title {
     margin-top: 16px;
     padding: 0;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title h1 {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title h1 {
     font-size: 4.4rem;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title h2 {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title h2 {
     font-size: 2rem;
   }
 }
@@ -2105,27 +2105,27 @@ footer .footer-icons img {
     width: 2.8rem;
     height: 2.8rem;
   }
-  .hero-wrapper.project .col-12-8-4 .links-container .info {
+  .hero-wrapper.project-hero .col-12-8-4 .links-container .info {
     margin-left: 16px;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title {
     margin-bottom: 0;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div {
     margin: 0 -16px;
     padding-right: 16px;
     overflow-x: scroll;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div .btn,
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div .tag {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div .btn,
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div .tag {
     text-wrap: nowrap;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div > .green,
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div > .blue,
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div > .info {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div > .green,
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div > .blue,
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div > .info {
     margin-left: 16px;
   }
-  .hero-wrapper.project .col-12-8-4 .project-title > div > div::-webkit-scrollbar {
+  .hero-wrapper.project-hero .col-12-8-4 .project-title > div > div::-webkit-scrollbar {
     display: none;
   }
 }

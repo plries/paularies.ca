@@ -38,6 +38,8 @@
     <?php include './components/metadata.php'; ?>
 </head>
 
+<?php include './components/initials.php' ?>
+
 <body>
 
     <div class="cursor"></div>

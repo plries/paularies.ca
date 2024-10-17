@@ -38,6 +38,8 @@
     <?php include '../components/metadata.php'; ?>
 </head>
 
+<?php include '../components/initials.php' ?>
+
 <body>
 
     <div class="cursor"></div>
@@ -48,7 +50,7 @@
 
     <?php include '../components/project-header.php'; ?>
 
-    <div class="project hero-wrapper">
+    <div class="project-hero hero-wrapper">
         <div class="tempo parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
