@@ -57,9 +57,8 @@
                 <div class="project-title span-full jcsb">
                     <h1>pine</h1>
                     <h2>online retail website</h2>
-                    <div class="flex row jcsb aic">
+                    <div class="flex row jcsb aic wrap gap-16">
                         <div class="flex row aic gap-16">
-                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
                             <p class="green btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 front-end
@@ -71,8 +70,14 @@
                             <p class="chip tag">photoshop</p>
                             <p class="chip tag">illustrator</p>
                         </div>
-                        <img class="reveal arrow-down" src="../icons/ui/black-arrow-down.svg" alt="arrow icon."
-                            draggable="false">
+                        <div class="flex row gap-16 links-container">
+                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
+                            <a class="black btn"
+                                href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&t=yieZZXhAgYwHyg9b-1"
+                                target="_blank">
+                                figma
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,11 +184,11 @@
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>
-                            <h6>timeframe</h6>
+                            <h4>timeframe</h4>
                             <p>march 7, 2024 - may 13, 2024</p>
                         </div>
                         <div>
-                            <h6>contributions</h6>
+                            <h4>contributions</h4>
                             <ul>
                                 <li><a class="link-underline" href="https://www.pexels.com/license/"
                                         target="_blank">pexels</a></li>
@@ -194,14 +199,14 @@
                             </ul>
                         </div>
                         <div>
-                            <h6>input</h6>
+                            <h4>input</h4>
                             <ul>
                                 <li>joyce lam - instructor</li>
                                 <li>annie tang - graphic designer</li>
                             </ul>
                         </div>
                         <div>
-                            <h6>total hours</h6>
+                            <h4>total hours</h4>
                             <p>24</p>
                         </div>
                     </div>

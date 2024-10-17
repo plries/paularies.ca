@@ -57,9 +57,8 @@
                 <div class="project-title span-full jcsb">
                     <h1>odd</h1>
                     <h2>juice ordering app</h2>
-                    <div class="flex row jcsb aic">
+                    <div class="flex row jcsb aic wrap gap-16">
                         <div class="flex row aic gap-16">
-                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
                             <p class="blue btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 ux / ui
@@ -68,8 +67,14 @@
                             <p class="chip tag">photoshop</p>
                             <p class="chip tag">illustrator</p>
                         </div>
-                        <img class="reveal arrow-down" src="../icons/ui/black-arrow-down.svg" alt="arrow icon."
-                            draggable="false">
+                        <div class="flex row gap-16">
+                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
+                            <a class="black btn"
+                                href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&amp;t=yieZZXhAgYwHyg9b-1"
+                                target="_blank">
+                                figma
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,13 +140,6 @@
             <div class="media span-lg project-reveal">
                 <img src="../media/odd/oddPrototype.jpg" alt="screenshot of Odd Figma prototype.">
             </div>
-            <div class="flex jcr gap-16 span-lg view-project project-reveal">
-                <a class="white btn"
-                    href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&t=yieZZXhAgYwHyg9b-1"
-                    target="_blank">
-                    figma
-                </a>
-            </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
@@ -164,25 +162,25 @@
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>
-                            <h6>timeframe</h6>
+                            <h4>timeframe</h4>
                             <p>march 20, 2024 - march 25, 2024</p>
                         </div>
                         <div>
-                            <h6>contributions</h6>
+                            <h4>contributions</h4>
                             <ul>
                                 <li><a class="link-underline" href="https://icons8.com/license"
                                         target="_blank">icons8</a></li>
                             </ul>
                         </div>
                         <div>
-                            <h6>input</h6>
+                            <h4>input</h4>
                             <ul>
                                 <li>natalie block - instructor</li>
                                 <li>annie tang - graphic designer</li>
                             </ul>
                         </div>
                         <div>
-                            <h6>total hours</h6>
+                            <h4>total hours</h4>
                             <p>7</p>
                         </div>
                     </div>

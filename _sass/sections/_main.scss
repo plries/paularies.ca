@@ -42,9 +42,9 @@ main {
 
             .box {
                 background-color: $dark-grey;
-                border: $grey-outline 1px solid;
-                width: 85%;
-                height: 85%;
+                border: $grey-outline 2px solid;
+                width: 75%;
+                height: 75%;
                 border-radius: 4px;
                 transition: all 0.25s ease;
             }
@@ -63,7 +63,7 @@ main {
 
             &.list-icon {
                 .box {
-                    width: 192%;
+                    width: 182%;
                 }
 
                 .box:nth-child(1),

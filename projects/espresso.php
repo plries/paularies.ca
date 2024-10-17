@@ -57,9 +57,8 @@
                 <div class="project-title span-full jcsb">
                     <h1>espresso</h1>
                     <h2>website guide</h2>
-                    <div class="flex row jcsb aic">
+                    <div class="flex row jcsb aic wrap gap-16">
                         <div class="flex row aic gap-16">
-                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
                             <p class="green btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 front-end
@@ -69,8 +68,15 @@
                             <p class="chip tag">html</p>
                             <p class="chip tag">css</p>
                         </div>
-                        <img class="reveal arrow-down" src="../icons/ui/black-arrow-down.svg" alt="arrow icon."
-                            draggable="false">
+                        <div class="flex row gap-16 links-container">
+                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
+                            <a class="secondary btn" href="https://github.com/plries/espresso-guide" target="_blank">
+                                github
+                            </a>
+                            <a class="black btn" href="https://espresso.paularies.ca/" target="_blank">
+                                website
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,7 +132,8 @@
                     <p>next, i implemented the <a class="link-underline" href="https://isotope.metafizzy.co/"
                             target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of
                         recommended espresso tools. users can sort the list by name and pricing, and filter the products
-                        by priority. this feature was designed with beginner baristas in mind, as they would likely
+                        by priority.</p>
+                        <p>this feature was designed with beginner baristas in mind, as they would likely
                         frequent this page to determine which equipment they should purchase next. by integrating this
                         functionality, i aimed to create a more user-friendly experience, allowing users to quickly find
                         the most useful tools.</p>
@@ -209,14 +216,6 @@
                     </figure>
                 </div>
             </div>
-            <div class="flex span-lg jcr gap-16 view-project project-reveal">
-                <a class="secondary btn" href="https://github.com/plries/espresso-guide" target="_blank">
-                    github
-                </a>
-                <a class="white btn" href="https://espresso.paularies.ca/" target="_blank">
-                    website
-                </a>
-            </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
@@ -239,11 +238,11 @@
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>
-                            <h6>timeframe</h6>
+                            <h4>timeframe</h4>
                             <p>march 21, 2024 - april 10, 2024</p>
                         </div>
                         <div>
-                            <h6>contributions</h6>
+                            <h4>contributions</h4>
                             <ul>
                                 <li><a class="link-underline" href="https://www.pexels.com/license/"
                                         target="_blank">pexels</a></li>
@@ -254,11 +253,11 @@
                             </ul>
                         </div>
                         <div>
-                            <h6>input</h6>
+                            <h4>input</h4>
                             <p>airrick dunfield - instructor</p>
                         </div>
                         <div>
-                            <h6>total hours</h6>
+                            <h4>total hours</h4>
                             <p>26</p>
                         </div>
                     </div>

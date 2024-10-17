@@ -57,9 +57,8 @@
                 <div class="project-title span-full jcsb">
                     <h1>tempo</h1>
                     <h2>dance class booking app</h2>
-                    <div class="flex row jcsb aic">
+                    <div class="flex row jcsb aic wrap gap-16">
                         <div class="flex row aic gap-16">
-                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
                             <p class="blue btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 ux / ui
@@ -68,8 +67,17 @@
                             <p class="chip tag">user testing</p>
                             <p class="chip tag">user research</p>
                         </div>
-                        <img class="reveal arrow-down" src="../icons/ui/black-arrow-down.svg" alt="arrow icon."
-                            draggable="false">
+                        <div class="flex row gap-16 links-container">
+                            <button class="info btn" data-micromodal-trigger="modal-1">i</button>
+                            <a class="secondary btn" href="..../media/tempo/tempoReport.pdf" target="_blank">
+                                report
+                            </a>
+                            <a class="black btn"
+                                href="https://www.figma.com/proto/59EbBSy5SoywUcNK7YeheS/tempo?node-id=90-575&t=eORgaHztt8LKIvYO-1"
+                                target="_blank">
+                            figma
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -181,16 +189,6 @@
                         quickly find and retain information. this revision was based on test results and aimed to make
                         the app beginner-friendly for dancers.</p>
                 </div>
-            </div>
-            <div class="flex jcr gap-16 span-lg   view-project project-reveal">
-                <a class="secondary btn" href="..../media/tempo/tempoReport.pdf" target="_blank">
-                    report
-                </a>
-                <a class="white btn"
-                    href="https://www.figma.com/proto/59EbBSy5SoywUcNK7YeheS/tempo?node-id=90-575&t=eORgaHztt8LKIvYO-1"
-                    target="_blank">
-                    figma
-                </a>
             </div>
             <div class="paragraph span-lg   flex col gap-16 project-reveal">
                 <h4>other projects</h4>

@@ -10,7 +10,7 @@ header {
         color: $white;
         background-color: $black;
         text-decoration: none;
-        border: $dark-grey 1px solid;
+        border: $dark-grey 2px solid;
         padding: 8px 12px;
     }
 
@@ -30,8 +30,8 @@ header {
             height: 100%;
             z-index: 9;
             transition: scale 0.25s ease;
-            border: $dark-grey 1px solid;
-            border-radius: 8.75px;
+            border: $dark-grey 2px solid;
+            border-radius: 9px;
         }
     }
 
