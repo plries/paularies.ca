@@ -71,7 +71,7 @@
                         </div>
                         <div class="flex row gap-16 links-container">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
-                            <a class="secondary btn" href="..../media/tempo/tempoReport.pdf" target="_blank">
+                            <a class="secondary btn" href="../media/tempo/tempoReport.pdf" target="_blank">
                                 report
                             </a>
                             <a class="black btn"
