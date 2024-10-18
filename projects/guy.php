@@ -93,7 +93,7 @@
             <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <div>
-                    <p>build a marketing page for a mobile app companion, using Sass for styling, the IntersectionObserver API to dynamically apply styles when sections come into view, and local storage to enable theme switching between light and dark modes.</p>
+                    <p>build a marketing page for a mobile app companion using Sass for styling, the IntersectionObserver API to dynamically apply styles, and local storage save themes.</p>
                 </div>
             </div>
             <div class=" paragraph span-lg project-reveal">
@@ -107,12 +107,12 @@
             </div>
             <div class="paragraph span-lg project-reveal">
                 <h4>using Sass</h4>
-                <p>Sass was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, I could easily manage and adjust light/dark mode without cluttering other files.</p>
+                <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering other files.</p>
             </div>
             <div class=" paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>working with IntersectionObserver API</h4>
-                    <p>we were provided a <code>script.js</code> file with to integrate the IntersectionObserver API. I customized it to trigger fade and slide animations as elements entered the viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s notifications would appear on a phone. I also used the <code>::after</code> pseudo-element to add a dynamic section indicator to the navbar, improving the site’s navigation and user experience.</p>
+                    <p>we were provided a <code>script.js</code> file to integrate the <strong>IntersectionObserver API</strong>. i customized it to trigger fade and slide animations as elements entered the viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s notifications would appear on a phone. i also used the <code>::after</code> pseudo-element to add a dynamic section indicator to the navbar, improving the site’s navigation and user experience.</p>
                 </div>
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted
@@ -122,7 +122,7 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>leveraging localStorage</h4>
-                    <p><strong>localStorage</strong> allows for data to be stored in a user’s browser, allowing for certain settings to be stored across different sessions. This allows for a user’s dark/light mode preference to be saved every time they visit the website or refresh the page, making for a satisfying user experience.</p>
+                    <p><strong>localStorage</strong> allows for data to be stored in a user’s browser, allowing for certain settings to be stored across different sessions. for guy, i stored the user’s dark/light mode preference so that it can be saved every time they visit the website or refresh the page, resulting in a pleasant user experience.</p>
                 </div>
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/guy/guyLS.mp4" autoplay loop muted
@@ -132,7 +132,7 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>FAQ accordions</h4>
-                    <p>For the <strong>FAQ</strong> section, I implemented animated accordions using the <code>max-height</code> property. This kept the content organized and easy to access, with smooth transitions when opening or closing each question.</p>
+                    <p>for the <strong>FAQ</strong> section, i implemented animated accordions using the <code>max-height</code> property. this kept the content organized and easy to access, with smooth transitions when opening or closing each question.</p>
                 </div>
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/guy/guyFaq.mp4" autoplay loop muted
