@@ -1883,6 +1883,9 @@ footer .footer-icons img {
 .hero-wrapper .odd {
   background-image: url("../media/odd/oddHero.jpg");
 }
+.hero-wrapper .guy {
+  background-image: url("../media/guy/guyHero.jpg");
+}
 .hero-wrapper .parallax {
   height: calc(100vh + 64px);
   height: calc(100dvh + 64px);
@@ -2604,6 +2607,11 @@ main .more {
 .col-12-8-4.project-section p a.link-underline::before {
   width: 100%;
   background-color: #FAF9F6;
+}
+.col-12-8-4.project-section p code {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #272727;
 }
 .col-12-8-4.project-section figure {
   margin: 0;

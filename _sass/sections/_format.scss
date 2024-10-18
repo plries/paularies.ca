@@ -39,6 +39,12 @@
             width: 100%;
             background-color: $white;
         }
+
+        code {
+            padding: 4px 8px;
+            border-radius: 4px;
+            background-color: $darker-grey;
+        }
     }
 
     figure {
