@@ -73,7 +73,7 @@
             </div>
             <div class="grid grid-2-toggle span-lg   gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
-                    <p class="quote">👋 i’m a detail-oriented developer and designer from the Metro Vancouver Area who loves to create
+                    <p class="quote">👋 i’m a detail-oriented developer and designer from Vancouver, BC who loves to create
                         exciting digital experiences.</p>
                     <p>outside of coding, you can find me either exploring the <span id="outdoors" class="link-underline">outdoors</span> or dancing at a <span id="concert" class="link-underline">concert</span>.
                         no matter the activity i love pushing myself and enjoying it with others!</p>
