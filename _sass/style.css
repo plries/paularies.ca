@@ -672,15 +672,6 @@ li {
   line-height: 130%;
 }
 
-p.quote {
-  font-size: 2.8rem;
-  color: #FAF9F6;
-  font-family: Rubik, Helvetica, sans-serif;
-  letter-spacing: -1px;
-  margin: 0;
-  font-weight: 400;
-}
-
 code {
   font-size: 1.6rem;
 }
@@ -688,8 +679,7 @@ code {
 h1,
 h2,
 h3,
-h4,
-q {
+h4 {
   font-family: Rubik, Helvetica, sans-serif;
 }
 
@@ -730,6 +720,15 @@ h6 {
   margin: 0;
 }
 
+p.quote {
+  font-size: 2.8rem;
+  color: #FAF9F6 !important;
+  font-family: Rubik, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  margin: 0;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 1024px) {
   p,
   a,
@@ -741,9 +740,6 @@ h6 {
   }
   code {
     font-size: 1.6rem;
-  }
-  q {
-    font-size: 3.2rem;
   }
   h1,
   h2 {
@@ -774,9 +770,6 @@ h6 {
   }
   code {
     font-size: 1.4rem;
-  }
-  q {
-    font-size: 2.8rem;
   }
   h1,
   h2 {
@@ -2103,7 +2096,8 @@ footer .footer-icons img {
   .hero-wrapper .tempo,
   .hero-wrapper .espresso,
   .hero-wrapper .pine,
-  .hero-wrapper .odd {
+  .hero-wrapper .odd,
+  .hero-wrapper .guy {
     background-image: none;
   }
   .hero-wrapper .parallax {
@@ -2272,7 +2266,10 @@ main .intro {
   background-color: #272727;
 }
 main .intro p {
-  color: #FAF9F6;
+  color: #A8A8A8;
+}
+main .intro p strong {
+  color: #D9D9D9;
 }
 main .intro .picture {
   max-width: 384px;
@@ -2391,7 +2388,7 @@ main .more {
   font-family: Rubik, Helvetica, sans-serif;
   margin: 0;
 }
-.about-me .col-12-8-4 .cell :not(.quote) {
+.about-me .col-12-8-4 .cell p {
   color: #D9D9D9;
   margin: 0;
 }
@@ -2437,6 +2434,7 @@ main .more {
   aspect-ratio: 1/1;
 }
 .about-me .col-12-8-4 .about .link-underline {
+  color: #FAF9F6;
   display: inline-block;
 }
 .about-me .col-12-8-4 .about .link-underline::before {
@@ -2688,6 +2686,7 @@ main .more {
   padding: 4px 8px;
   border-radius: 4px;
   background-color: #272727;
+  color: #D9D9D9;
 }
 .col-12-8-4.project-section figure {
   margin: 0;
@@ -2780,6 +2779,10 @@ main .more {
   border-right: #3E3E3E 2px solid;
 }
 .testimonial .testimonial-text .testimonial-quote p {
+  color: #A8A8A8;
+}
+.testimonial .testimonial-text .testimonial-quote p strong,
+.testimonial .testimonial-text .testimonial-quote p em {
   color: #D9D9D9;
 }
 .testimonial .testimonial-text .testimonial-author p {

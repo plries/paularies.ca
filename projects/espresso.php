@@ -100,9 +100,9 @@
                 </p>
             </div>
             <div class="paragraph span-md project-reveal">
-                <q>with this goal in mind, i decided to focus on one of my passions: <strong>espresso</strong>.<br>
+                <p class="quote">with this goal in mind, i decided to focus on one of my passions: espresso.<br>
                     this choice allowed me to delve into its complexities and present its extensive information in an
-                    engaging manner for newcomers.</q>
+                    engaging manner for newcomers.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>

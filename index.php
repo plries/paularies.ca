@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
     <!-- HTML Meta Tags -->
     <meta name="description"
-        content="hey there, i'm paul aries! i'm a passionate, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
+        content="hey there, i'm paul aries! i'm a creative, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
     <meta name="author" content="Paul Aries">
     <meta name="keywords"
         content="Paul Aries, front-end developer, UX/UI designer, portfolio, web development, user experience, user interface design">
@@ -25,7 +25,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="paul aries - front-end developer & ux/ui designer">
     <meta property="og:description"
-        content="hey there, i'm paul aries! i'm a passionate, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
+        content="hey there, i'm paul aries! i'm a creative, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
     <meta property="og:image" content="https://www.paularies.ca/media/og-image.jpg">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -33,7 +33,7 @@
     <meta property="twitter:url" content="https://www.paularies.ca">
     <meta name="twitter:title" content="paul aries - front-end developer & ux/ui designer">
     <meta name="twitter:description"
-        content="hey there, i'm paul aries! i'm a passionate, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
+        content="hey there, i'm paul aries! i'm a creative, user-centered front-end developer and ux/ui designer. explore my portfolio, view my work, and connect with me!">
     <meta name="twitter:image" content="https://www.paularies.ca/media/og-image.jpg">
     <?php include './components/metadata.php'; ?>
 </head>
@@ -63,7 +63,7 @@
                 </h1>
                 <div class="align-right span-lg">
                     <h2 class="hero-description">
-                        <span class="reveal">a passionate, user-centered</span>
+                        <span class="reveal">a creative, user-centered</span>
                     </h2>
                 </div>
                 <div class="align-right span-lg">
@@ -95,7 +95,7 @@
                         <p class="quote">my passion for both art and tech has always driven me to merge the two
                             creatively.
                         </p>
-                        <p>that's why i love the world of front-end development and ux/ui design—i can
+                        <p>that's why i love the world of <strong>front-end development</strong> and <strong>ux/ui design</strong>—i can
                             create innovative solutions and help users navigate the digital world in a satisfying and
                             refreshing way.
                         </p>

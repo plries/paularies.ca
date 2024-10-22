@@ -102,8 +102,8 @@
                 <br>
                 <p>Friend states that “your friend is always listening and forming their own internal thoughts,” which sparked conversation regarding the ethical concerns of the pendant.</p>
             </div>
-            <div class="paragraph quote span-md project-reveal">
-                <q>due to the mixed reactions to Friend, i thought it would be fun to not only create a website inspired by its modern branding, but attempt to market an unsettling product to the average person using a SaaS-style approach.</q>
+            <div class="paragraph span-md project-reveal">
+                <p class="quote">due to the mixed reactions to Friend, i thought it would be fun to not only create a website inspired by its modern branding, but attempt to market an unsettling product to the average person using a SaaS-style approach.</p>
             </div>
             <div class="paragraph span-lg project-reveal">
                 <h4>using Sass</h4>

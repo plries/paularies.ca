@@ -10,9 +10,9 @@
             <p>
                 ...
             </p>
-            <p>
+            <p><strong>
                 WOOF
-            </p>
+            </p></strong>
         </div>
         <div class="testimonial-author flex jcsb">
             <a>

@@ -86,7 +86,11 @@ main {
         background-color: $darker-grey;
 
         p {
-            color: $white;
+            color: $grey;
+
+            strong {
+                color: $light-grey;
+            }
         }
 
         .picture {

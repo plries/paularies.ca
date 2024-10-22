@@ -16,15 +16,6 @@ li {
     line-height: 130%;
 }
 
-p.quote {
-    font-size: $fs-sm;
-    color: $white;
-    font-family: $rubik;
-    letter-spacing: -1px;
-    margin: 0;
-    font-weight: 400;
-}
-
 code {
     font-size: $fs-xxxs;
 }
@@ -32,8 +23,7 @@ code {
 h1,
 h2,
 h3,
-h4,
-q {
+h4 {
     font-family: $rubik;
 }
 
@@ -75,6 +65,15 @@ h6 {
     margin: 0;
 }
 
+p.quote {
+    font-size: $fs-sm;
+    color: $white !important;
+    font-family: $rubik;
+    letter-spacing: -1px;
+    margin: 0;
+    font-weight: 400;
+}
+
 @media screen and (max-width: 1024px) {
 
     p,
@@ -89,10 +88,6 @@ h6 {
 
     code {
         font-size: $fs-xxxs;
-    }
-
-    q {
-        font-size: $fs-md;
     }
 
     h1,
@@ -134,10 +129,6 @@ h6 {
 
     code {
         font-size: $fs-xxxxs;
-    }
-
-    q {
-        font-size: $fs-sm;
     }
 
     h1,

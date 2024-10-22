@@ -101,9 +101,9 @@
                     creating low-fidelity wireframes for the app. for this project, i created an app where users can
                     book classes for a fictional dance studio called <strong>Tempo</strong>.</p>
             </div>
-            <div class="paragraph quote span-md project-reveal">
-                <q>as a dancer who frequently uses mobile apps to book workshops, i'm familiar with what works and what
-                    could be improved upon in the booking process.</q>
+            <div class="paragraph span-md project-reveal">
+                <p class="quote">as a dancer who frequently uses mobile apps to book workshops, i'm familiar with what works and what
+                    could be improved upon in the booking process.</p>
             </div>
             <div class="paragraph span-lg project-reveal">
                 <p>after settling on a topic, i identified the target audience using multiple research strategies such

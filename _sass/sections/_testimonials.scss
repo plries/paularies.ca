@@ -25,7 +25,12 @@
             padding-right: 16px;
             border-right: $dark-grey 2px solid;
             p {
-                color: $light-grey;
+                color: $grey;
+
+                strong,
+                em {
+                    color: $light-grey;
+                }
             }
         }
         .testimonial-author {
