@@ -20,8 +20,9 @@
         .project-img-container {
             width: 100%;
             height: auto;
-
+            
             .project-img {
+                border: $light-grey 1px solid;
                 aspect-ratio: 16 / 10;
                 border-radius: 8px;
                 -o-object-fit: cover;
@@ -43,6 +44,8 @@
 
         .project-description {
             height: auto;
+            margin-top: -8px;
+            margin-bottom: 8px;
 
             h4 {
                 font-size: $fs-xs;
@@ -54,6 +57,7 @@
         .project-arrow {
             width: $fs-md;
             place-self: end end;
+            margin-bottom: 8px;
             transition: transform 0.25s ease;
         }
     }

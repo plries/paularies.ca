@@ -54,7 +54,7 @@
         <div class="odd parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/odd/oddHero.jpg" alt="odd product page.">
+                    <img src="../media/odd/odd.jpg" alt="odd product page.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>odd</h1>
@@ -130,7 +130,7 @@
                     <img src="../media/odd/odd603010.png" alt="Odd's 60-30-10 rule.">
                 </figure>
                 <p>applying ODD’s style tile to UI components was a challenge, as the bright orange and brown colors
-                    make for an <em>atypical</em> color scheme for an app. however, i utilized the <strong>60-30-10
+                    make for an atypical color scheme for an app. however, i utilized the <strong>60-30-10
                         rule</strong> to distribute the colors, achieving a suitable and cohesive look for the app.</p>
             </div>
             <div class="paragraph span-lg project-reveal">
@@ -145,10 +145,10 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/guy-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
-                        <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                         <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
+                        <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                     </div>
                 </div>
             </div>

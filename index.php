@@ -57,10 +57,11 @@
                     <span class="reveal">hey there!</span><br>
                     <span class="reveal indent">my name is:</span>
                 </h2>
-                <h1 class="hero-name span-lg">
-                    <span class="reveal">paul </span>
-                    <span class="reveal">aries</span>
-                </h1>
+                <div class="hero-name-container reveal span-lg">
+                    <h1 id="hero-name">
+                        paul aries
+                    </h1>
+                </div>
                 <div class="align-right span-lg">
                     <h2 class="hero-description">
                         <span class="reveal">a creative, user-centered</span>
@@ -109,7 +110,7 @@
             </div>
             <h2 class="span-lg">featured work</h2>
             <div class="project-cards list span-lg  ">
-                <?php include './components/project-cards/espresso-card.php'; ?>
+                <?php include './components/project-cards/guy-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
             </div>
             <div class="flex jcr gap-16 span-lg more">

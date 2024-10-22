@@ -34,7 +34,10 @@ button {
     font-weight: 400;
 }
 
-h1,
+h1 {
+    margin: 0;
+}
+
 h2 {
     color: $white;
     font-size: $fs-xxxxl;
@@ -90,7 +93,6 @@ p.quote {
         font-size: $fs-xxxs;
     }
 
-    h1,
     h2 {
         font-size: $fs-xxxl;
     }
@@ -131,7 +133,6 @@ p.quote {
         font-size: $fs-xxxxs;
     }
 
-    h1,
     h2 {
         font-size: $fs-xxl;
     }

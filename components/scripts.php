@@ -4,6 +4,10 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <!-- gsap scrolltrigger -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- fontface observer -->
+<script src="./js/fontfaceobserver.standalone.js"></script>
+<!-- fitty -->
+<script src="./js/fitty.min.js"></script>
 <!-- scrollreveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
 <!-- isotope -->

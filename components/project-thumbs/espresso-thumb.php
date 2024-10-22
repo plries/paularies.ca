@@ -1,6 +1,6 @@
 <a href="../projects/espresso" class="thumb-container">
     <div class="project-thumb">
-        <img src="../media/espresso/espressoHero.jpg" alt="espresso guide - website." draggable="false">
+        <img src="../media/espresso/espresso.jpg" alt="espresso guide - website." draggable="false">
     </div>
     <div class="flex jcsb gap-16 acs">
         <p>espresso - website guide</p>

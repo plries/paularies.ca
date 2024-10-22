@@ -1,6 +1,6 @@
 <a href="../projects/odd" class="thumb-container">
     <div class="project-thumb">
-        <img src="../media/odd/oddHero.jpg" alt="odd - juice ordering app." draggable="false">
+        <img src="../media/odd/odd.jpg" alt="odd - juice ordering app." draggable="false">
     </div>
     <div class="flex jcsb gap-16 acs">
         <p>odd - juice ordering app</p>

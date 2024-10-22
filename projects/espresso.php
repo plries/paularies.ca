@@ -54,7 +54,7 @@
         <div class="espresso parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/espresso/espressoHero.jpg" alt="espresso landing page.">
+                    <img src="../media/espresso/espresso.jpg" alt="espresso landing page.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>espresso</h1>
@@ -116,12 +116,13 @@
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>jQuery Background Video</p>
-                        <div>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/bg-vid.php'; ?>
+                        <?php include '../components/code/espresso/bg-vid.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -147,12 +148,13 @@
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>Isotope</p>
-                        <div>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/isotope.php'; ?>
+                        <?php include '../components/code/espresso/isotope.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -164,17 +166,18 @@
                 <p>i then added the <a class="link-underline" href="https://scrollrevealjs.org/"
                         target="_blank">ScrollReveal.js</a> plugin, another simple and intuitive tool that animates
                     elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s
-                    attention and, paired with <em>tasteful</em> comments, guide them to the CTA and ease them to the
+                    attention and, paired with tasteful comments, guide them to the CTA and ease them to the
                     explore rest of the website.</p>
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
-                        <p>ScrollReveal.js</p>
-                        <div>
+                        <p>ScrollReveal</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/scrollreveal.php'; ?>
+                        <?php include '../components/code/espresso/scrollreveal.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -190,13 +193,14 @@
                     shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
-                        <p>Swiper.js</p>
-                        <div>
+                        <p>Swiper</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/swiper.php'; ?>
+                        <?php include '../components/code/espresso/swiper.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -209,22 +213,23 @@
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>GSAP ScrollTrigger</p>
-                        <div>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="Caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/scrolltrigger.php'; ?>
+                        <?php include '../components/code/espresso/scrolltrigger.php'; ?>
                     </figure>
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/odd-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
                         <?php include '../components/project-thumbs/pine-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
+                        <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                     </div>
                 </div>
             </div>

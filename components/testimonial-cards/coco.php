@@ -4,9 +4,9 @@
             <p>
                 woof
             </p>
-            <p><em>
+            <p>
                 sniff
-            </em></p>
+            </p>
             <p>
                 ...
             </p>

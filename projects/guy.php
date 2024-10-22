@@ -54,7 +54,7 @@
         <div class="guy parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/guy/guyHero.jpg" alt="guy landing page.">
+                    <img src="../media/guy/guy.jpg" alt="guy landing page.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>guy</h1>
@@ -105,18 +105,34 @@
             <div class="paragraph span-md project-reveal">
                 <p class="quote">due to the mixed reactions to Friend, i thought it would be fun to not only create a website inspired by its modern branding, but attempt to market an unsettling product to the average person using a SaaS-style approach.</p>
             </div>
-            <div class="paragraph span-lg project-reveal">
-                <h4>using Sass</h4>
-                <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering other files.</p>
-            </div>
-            <div class=" paragraph span-lg flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
-                    <h4>working with IntersectionObserver API</h4>
-                    <p>we were provided a <code>script.js</code> file to integrate the <strong>IntersectionObserver API</strong>. i customized it to trigger fade and slide animations as elements entered the viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s notifications would appear on a phone. i also used the <code>::after</code> pseudo-element to add a dynamic section indicator to the navbar, improving the site’s navigation and user experience.</p>
+                    <h4>using Sass</h4>
+                    <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering other files.</p>
                 </div>
-                <div class="paragraph media">
-                    <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted
-                        playsinline></video>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>light mode</p>
+                        <div class="flex row aic gap-16">
+                            <p>.scss</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/light.php'; ?>
+                    </figure>
+                </div>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>dark mode</p>
+                        <div class="flex row aic gap-16">
+                            <p>.scss</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/dark.php'; ?>
+                    </figure>
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
@@ -128,6 +144,40 @@
                     <video loading="lazy" src="../media/guy/guyLS.mp4" autoplay loop muted
                         playsinline></video>
                 </div>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>localStorage</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/localstorage.php'; ?>
+                    </figure>
+                </div>
+            </div>
+            <div class=" paragraph span-lg flex col gap-16 project-reveal">
+                <div>
+                    <h4>working with IntersectionObserver API</h4>
+                    <p>we were provided a <code>script.js</code> file to integrate the <strong>IntersectionObserver API</strong>. i customized it to trigger fade and slide animations as elements entered the viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s notifications would appear on a phone. i also used the <code>::after</code> pseudo-element to add a dynamic section indicator to the navbar, improving the site’s navigation and user experience.</p>
+                </div>
+                <div class="paragraph media">
+                    <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted
+                        playsinline></video>
+                </div>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>section indicator</p>
+                        <div class="flex row aic gap-16">
+                            <p>.scss</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/indicator.php'; ?>
+                    </figure>
+                </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
@@ -137,6 +187,30 @@
                 <div class="paragraph media">
                     <video loading="lazy" src="../media/guy/guyFaq.mp4" autoplay loop muted
                         playsinline></video>
+                </div>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>functionality</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/faqjs.php'; ?>
+                    </figure>
+                </div>
+                <div class="code-dropdown" tabindex="0">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                        <p>styling</p>
+                        <div class="flex row aic gap-16">
+                            <p>.scss</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </div>
+                    <figure class="code-preview">
+                        <?php include '../components/code/guy/faqscss.php'; ?>
+                    </figure>
                 </div>
             </div>
             <div class="flex span-lg jcr gap-16 view-project project-reveal">
@@ -150,10 +224,10 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
-                        <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/odd-thumb.php'; ?>
+                        <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
+                        <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                     </div>
                 </div>
             </div>

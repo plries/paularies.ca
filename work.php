@@ -73,11 +73,11 @@
                 </button>
             </div>
             <div class="project-cards list span-lg  ">
-                <?php include './components/project-cards/espresso-card.php'; ?>
+                <?php include './components/project-cards/guy-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
-                <?php include './components/project-cards/pine-card.php'; ?>
+                <?php include './components/project-cards/espresso-card.php'; ?>
                 <?php include './components/project-cards/odd-card.php'; ?>
-                <?php include './components/project-cards/soon-card.php'; ?>
+                <?php include './components/project-cards/pine-card.php'; ?>
                 <?php include './components/project-cards/soon-card.php'; ?>
             </div>
         </section>

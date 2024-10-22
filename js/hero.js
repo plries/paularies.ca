@@ -22,3 +22,17 @@ hero.to(".arrow-down", {
     transform: "translateY(16px)",
     ease: "power1.inOut",
     duration: 1.5});
+
+var font = new FontFaceObserver('Rubik', {
+    weight: 500
+});
+
+fitty('#hero-name');
+
+function redrawFitty() {
+    fitty.fitAll();
+}
+
+font.load(function () {
+    redrawFitty();
+});

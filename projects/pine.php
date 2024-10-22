@@ -54,7 +54,7 @@
         <div class="pine parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/pine/pineHero.jpg" alt="pine landing page.">
+                    <img src="../media/pine/pine.jpg" alt="pine landing page.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>pine</h1>
@@ -135,12 +135,13 @@
                 <div class="code-dropdown" tabindex="0">
                     <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>Splide</p>
-                        <div>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
                     </div>
                     <figure class="code-preview">
-                        <?php include '../components/code/splide.php'; ?>
+                        <?php include '../components/code/pine/splide.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -167,10 +168,10 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
+                        <?php include '../components/project-thumbs/guy-thumb.php'; ?>
                         <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                     </div>
                 </div>
             </div>

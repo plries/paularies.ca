@@ -54,7 +54,7 @@
         <div class="tempo parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/tempo/tempoHero.jpg" alt="tempo teacher profile page.">
+                    <img src="../media/tempo/tempo.jpg" alt="tempo teacher profile page.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>tempo</h1>
@@ -195,10 +195,10 @@
             <div class="paragraph span-lg   flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                     <div class="grid grid-2-row gap-16">
                         <?php include '../components/project-thumbs/odd-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/pine-thumb.php'; ?>
+                        <?php include '../components/project-thumbs/guy-thumb.php'; ?>
                     </div>
                 </div>
             </div>

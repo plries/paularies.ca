@@ -1,4 +1,4 @@
-<div href="./projects/espresso" class="project project1 gap-24 front-end">
+<a href="./projects/guy" class="project project1 gap-24 front-end">
     <div class="project-img-container">
         <img class="project-img" src="./media/guy/guy.jpg" alt="guy - software landing page." draggable="false">
     </div>
@@ -20,4 +20,4 @@
             local storage to enable theme switching between light and dark modes.</p>
         </div>
         <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon.">
-</div>
+</a>

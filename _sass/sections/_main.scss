@@ -94,6 +94,7 @@ main {
         }
 
         .picture {
+            border: $dark-grey 1px solid;
             max-width: 384px;
             -o-object-fit: cover;
             object-fit: cover;

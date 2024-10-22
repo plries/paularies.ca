@@ -81,17 +81,17 @@
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <div class="about-carousel">
                         <figure class="carousel-cell about-overlay">
+                            <figcaption>filming a dance video!</figcaption>
+                            <video src="./media/about/paul-2.mp4" autoplay loop muted playsinline></video>
+                        </figure>
+                        <figure class="carousel-cell about-overlay">
                             <figcaption>hubbard glacier, alaska</figcaption>
-                            <img src="./media/intro/paul-2.jpg" alt="Paul Aries at Hubbard Glacier, Alaska."
+                            <img src="./media/about/paul-3.jpg" alt="Paul Aries at Hubbard Glacier, Alaska."
                                 draggable="false">
                         </figure>
                         <figure class="carousel-cell about-overlay">
-                            <figcaption>filming a dance video!</figcaption>
-                            <video src="./media/intro/paul-3.mp4" autoplay loop muted playsinline></video>
-                        </figure>
-                        <figure class="carousel-cell about-overlay">
                             <figcaption>scary bear sighting</figcaption>
-                            <img src="./media/intro/paul-4.jpg" alt="Paul Aries with a bear statue." draggable="false">
+                            <img src="./media/about/paul-4.jpg" alt="Paul Aries with a bear statue." draggable="false">
                         </figure>
                     </div>
                 </article>

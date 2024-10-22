@@ -689,7 +689,10 @@ button {
   font-weight: 400;
 }
 
-h1,
+h1 {
+  margin: 0;
+}
+
 h2 {
   color: #FAF9F6;
   font-size: 9.6rem;
@@ -741,7 +744,6 @@ p.quote {
   code {
     font-size: 1.6rem;
   }
-  h1,
   h2 {
     font-size: 4.8rem;
   }
@@ -771,7 +773,6 @@ p.quote {
   code {
     font-size: 1.4rem;
   }
-  h1,
   h2 {
     font-size: 4.4rem;
   }
@@ -926,6 +927,7 @@ button {
   height: -moz-fit-content;
   height: fit-content;
   padding: 8px 12px;
+  border: #D9D9D9 2px solid;
   border-radius: 8px;
   text-align: right;
 }
@@ -1404,6 +1406,7 @@ footer .footer-icons img {
   height: auto;
 }
 .project-cards .project .project-img-container .project-img {
+  border: #D9D9D9 1px solid;
   aspect-ratio: 16/10;
   border-radius: 8px;
   -o-object-fit: cover;
@@ -1422,6 +1425,8 @@ footer .footer-icons img {
 }
 .project-cards .project .project-description {
   height: auto;
+  margin-top: -8px;
+  margin-bottom: 8px;
 }
 .project-cards .project .project-description h4 {
   font-size: 2.4rem;
@@ -1431,6 +1436,7 @@ footer .footer-icons img {
 .project-cards .project .project-arrow {
   width: 3.2rem;
   place-self: end end;
+  margin-bottom: 8px;
   transition: transform 0.25s ease;
 }
 .project-cards .project:hover {
@@ -1575,7 +1581,12 @@ footer .footer-icons img {
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn p {
   color: #FAF9F6;
 }
-.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn .caret {
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn div p {
+  font-size: 1.6rem;
+  color: #D9D9D9;
+  font-family: DM Mono, monospace;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn div .caret {
   height: 1.2rem;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -1606,7 +1617,8 @@ footer .footer-icons img {
   color: #535353;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-variable,
-.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-title {
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-title,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-attribute {
   color: #94b4e4;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-literal,
@@ -1614,7 +1626,9 @@ footer .footer-icons img {
   color: #8eb46d;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-keyword,
-.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-string {
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-string,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-selector-pseudo,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-built_in {
   color: #ceac82;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-attr {
@@ -1924,27 +1938,27 @@ footer .footer-icons img {
 .hero-wrapper .hero {
   background-image: url("../media/mountains.jpg");
 }
-.hero-wrapper .hero h1 {
-  font-size: 15vw;
+.hero-wrapper .hero .hero-name-container {
+  width: 100%;
+}
+.hero-wrapper .hero .hero-name-container #hero-name {
   font-weight: 500;
-  letter-spacing: -1vw;
-  word-break: keep-all;
   margin: 0;
 }
 .hero-wrapper .tempo {
-  background-image: url("../media/tempo/tempoHero.jpg");
+  background-image: url("../media/tempo/tempo.jpg");
 }
 .hero-wrapper .espresso {
-  background-image: url("../media/espresso/espressoHero.jpg");
+  background-image: url("../media/espresso/espresso.jpg");
 }
 .hero-wrapper .pine {
-  background-image: url("../media/pine/pineHero.jpg");
+  background-image: url("../media/pine/pine.jpg");
 }
 .hero-wrapper .odd {
-  background-image: url("../media/odd/oddHero.jpg");
+  background-image: url("../media/odd/odd.jpg");
 }
 .hero-wrapper .guy {
-  background-image: url("../media/guy/guyHero.jpg");
+  background-image: url("../media/guy/guy.jpg");
 }
 .hero-wrapper .parallax {
   height: calc(100vh + 64px);
@@ -1962,7 +1976,7 @@ footer .footer-icons img {
 .hero-wrapper .parallax .hero-text .indent {
   margin-left: 64px;
 }
-.hero-wrapper .parallax .hero-text h1 {
+.hero-wrapper .parallax .hero-text .project-hero h1 {
   color: #202020;
   font-size: 15vw;
   letter-spacing: -1vw;
@@ -1970,7 +1984,7 @@ footer .footer-icons img {
   text-align: center;
   margin: 0;
 }
-.hero-wrapper .parallax .hero-text h1 span {
+.hero-wrapper .parallax .hero-text .project-hero h1 span {
   display: inline-block;
 }
 .hero-wrapper .parallax .hero-text h2 {
@@ -2155,9 +2169,6 @@ footer .footer-icons img {
   .hero-wrapper .parallax .hero-text .indent {
     margin-left: 32px;
   }
-  .hero-wrapper .parallax .hero-text h1 {
-    font-size: 19vw;
-  }
   .hero-wrapper .parallax .hero-text h2 {
     font-size: 1.6rem;
   }
@@ -2272,6 +2283,7 @@ main .intro p strong {
   color: #D9D9D9;
 }
 main .intro .picture {
+  border: #3E3E3E 1px solid;
   max-width: 384px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -2380,6 +2392,7 @@ main .more {
   color: #202020 !important;
   font-size: 4.8rem;
   font-weight: 500;
+  letter-spacing: -0.15rem;
 }
 .about-me .col-12-8-4 .cell h3 {
   font-size: 2.8rem;
@@ -2418,6 +2431,7 @@ main .more {
   width: 100%;
 }
 .about-me .col-12-8-4 .profile .picture {
+  border: #D9D9D9 1px solid;
   max-width: 384px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -2443,6 +2457,7 @@ main .more {
 }
 .about-me .col-12-8-4 .about .about-carousel {
   aspect-ratio: 1/1;
+  border: #3E3E3E 1px solid;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -2670,8 +2685,7 @@ main .more {
 .col-12-8-4.project-section p {
   color: #A8A8A8;
 }
-.col-12-8-4.project-section p strong,
-.col-12-8-4.project-section p em {
+.col-12-8-4.project-section p strong {
   color: #D9D9D9;
 }
 .col-12-8-4.project-section p a.link-underline {
@@ -2683,7 +2697,8 @@ main .more {
   background-color: #D9D9D9;
 }
 .col-12-8-4.project-section p code {
-  padding: 4px 8px;
+  font-family: DM Mono, monospace;
+  padding: 2px 8px;
   border-radius: 4px;
   background-color: #272727;
   color: #D9D9D9;
@@ -2781,8 +2796,7 @@ main .more {
 .testimonial .testimonial-text .testimonial-quote p {
   color: #A8A8A8;
 }
-.testimonial .testimonial-text .testimonial-quote p strong,
-.testimonial .testimonial-text .testimonial-quote p em {
+.testimonial .testimonial-text .testimonial-quote p strong {
   color: #D9D9D9;
 }
 .testimonial .testimonial-text .testimonial-author p {
