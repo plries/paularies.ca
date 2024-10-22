@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
     <link rel="canonical" href="./projects/tempo">
     <link rel="icon" href="../icons/ui/logo-big.svg">
@@ -77,7 +77,7 @@
                             <a class="black btn"
                                 href="https://www.figma.com/proto/59EbBSy5SoywUcNK7YeheS/tempo?node-id=90-575&t=eORgaHztt8LKIvYO-1"
                                 target="_blank">
-                            figma
+                                figma
                             </a>
                         </div>
                     </div>

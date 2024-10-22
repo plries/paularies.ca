@@ -647,6 +647,12 @@ https://flickity.metafizzy.co
   .span-md {
     grid-column: 1/5;
   }
+  .span-left {
+    grid-column: 1/5;
+  }
+  .span-right {
+    grid-column: 1/5;
+  }
 }
 :root {
   font-family: Wix Madefor Display, Helvetica, sans-serif;
@@ -669,7 +675,7 @@ li {
 p.quote {
   font-size: 2.8rem;
   color: #FAF9F6;
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   letter-spacing: -1px;
   margin: 0;
   font-weight: 400;
@@ -679,24 +685,17 @@ code {
   font-size: 1.6rem;
 }
 
-q {
-  color: #FAF9F6;
-  font-size: 3.6rem;
-  font-weight: 200;
-  font-style: italic;
-}
-
 h1,
 h2,
 h3,
 h4,
 q {
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
 }
 
 h5 h6,
 button {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
 }
 
@@ -892,7 +891,7 @@ button {
 .black {
   background-color: #202020;
   color: #FAF9F6;
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
   border: #202020 1px solid;
 }
@@ -902,7 +901,7 @@ button {
 }
 
 .white {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
   background-color: #FAF9F6;
   color: #202020;
@@ -911,7 +910,7 @@ button {
 }
 
 .green {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
   background-color: #4D633A;
   border: #688151 2px solid;
@@ -919,7 +918,7 @@ button {
 }
 
 .blue {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
   background-color: #607698;
   border: #778eb1 2px solid;
@@ -927,7 +926,7 @@ button {
 }
 
 .chip {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 400;
   margin: 0;
   height: -webkit-fit-content;
@@ -1001,7 +1000,7 @@ button {
 }
 
 .info {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   border: #3E3E3E 2px solid;
   padding: 11px 15px;
   border-radius: 100%;
@@ -1015,7 +1014,7 @@ button {
 }
 
 .secondary {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   background-color: transparent;
   border: #FAF9F6 2px solid;
   color: #FAF9F6;
@@ -1039,7 +1038,7 @@ header {
   padding: 16px;
 }
 header .header {
-  font-family: Rubik, Arial, sans-serif !important;
+  font-family: Rubik, Helvetica, sans-serif !important;
   color: #FAF9F6;
   background-color: #202020;
   text-decoration: none;
@@ -1225,7 +1224,7 @@ footer .footer-content .footer-text .email {
   padding: 8px 12px;
   border-radius: 8px;
   transition: scale 0.25s ease;
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   font-weight: 500;
   margin: 0;
   text-decoration: none;
@@ -1463,7 +1462,7 @@ footer .footer-icons img {
 }
 .project-cards .soon .project-img-container p {
   color: #FAF9F6;
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
 }
 .project-cards .soon .project-chips .chip {
   background-color: #3E3E3E;
@@ -1564,6 +1563,74 @@ footer .footer-icons img {
     display: none;
   }
 }
+.paragraph:not(.callout, .code-dropdown) .project-reveal {
+  margin-top: 0;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown {
+  grid-column: 1/start 2;
+  border-radius: 16px;
+  background-color: #272727;
+  overflow: hidden;
+  max-height: 5.8rem;
+  transition: max-height 0.75s ease-in-out, scale 0.1s ease-in-out;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #272727;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn p {
+  color: #FAF9F6;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn .caret {
+  height: 1.2rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  background-color: transparent;
+  color: #FAF9F6;
+  transition: transform 0.25s ease;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview {
+  margin: 0 16px 16px 16px;
+  background-color: #181818;
+  padding: 16px;
+  border-radius: 8px;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre {
+  font-size: unset;
+  margin: 0;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code {
+  color: #FAF9F6;
+  text-wrap: wrap;
+  word-wrap: break-word;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-comment {
+  color: #535353;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-variable,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-title {
+  color: #94b4e4;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-literal,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-number {
+  color: #8eb46d;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-keyword,
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-string {
+  color: #ceac82;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-attr {
+  color: #A8A8A8;
+}
+.paragraph:not(.callout, .code-dropdown) .code-dropdown:hover {
+  scale: 0.995;
+}
+
 .more-projects .thumb-container {
   aspect-ratio: 1/1;
   transition: scale 0.25s ease, opacity 0.25s ease;
@@ -1586,7 +1653,7 @@ footer .footer-icons img {
   margin-top: 8px;
 }
 .more-projects .thumb-container .flex p {
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   font-size: 2.4rem;
   color: #FAF9F6;
   line-height: 130%;
@@ -1715,7 +1782,7 @@ footer .footer-icons img {
   margin: 0;
 }
 .modal-container h4 {
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   font-size: 2rem;
   letter-spacing: unset;
   font-weight: 600;
@@ -1914,7 +1981,7 @@ footer .footer-icons img {
   display: inline-block;
 }
 .hero-wrapper .parallax .hero-text h2 {
-  font-family: DM Mono, "Courier New", Courier, monospace;
+  font-family: DM Mono, monospace;
   color: #202020;
   font-size: 2rem;
   font-weight: 400;
@@ -2205,7 +2272,7 @@ main .intro {
   background-color: #272727;
 }
 main .intro p {
-  color: #D9D9D9;
+  color: #FAF9F6;
 }
 main .intro .picture {
   max-width: 384px;
@@ -2313,7 +2380,7 @@ main .more {
   visibility: hidden;
 }
 .about-me .col-12-8-4 .cell h1 {
-  color: #202020;
+  color: #202020 !important;
   font-size: 4.8rem;
   font-weight: 500;
 }
@@ -2321,10 +2388,10 @@ main .more {
   font-size: 2.8rem;
   font-weight: 400;
   color: #FAF9F6;
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   margin: 0;
 }
-.about-me .col-12-8-4 .cell p {
+.about-me .col-12-8-4 .cell :not(.quote) {
   color: #D9D9D9;
   margin: 0;
 }
@@ -2581,7 +2648,7 @@ main .more {
 }
 .col-12-8-4.project-section h4 {
   font-size: 2.8rem;
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: unset;
   color: #FAF9F6;
@@ -2597,16 +2664,25 @@ main .more {
   height: 0.4rem;
   place-self: center;
 }
+.col-12-8-4.project-section q {
+  color: #D9D9D9;
+  font-size: 3.6rem;
+  font-weight: 200;
+}
 .col-12-8-4.project-section p {
+  color: #A8A8A8;
+}
+.col-12-8-4.project-section p strong,
+.col-12-8-4.project-section p em {
   color: #D9D9D9;
 }
 .col-12-8-4.project-section p a.link-underline {
   display: inline-block;
-  color: #FAF9F6;
+  color: #D9D9D9;
 }
 .col-12-8-4.project-section p a.link-underline::before {
   width: 100%;
-  background-color: #FAF9F6;
+  background-color: #D9D9D9;
 }
 .col-12-8-4.project-section p code {
   padding: 4px 8px;
@@ -2615,78 +2691,6 @@ main .more {
 }
 .col-12-8-4.project-section figure {
   margin: 0;
-}
-.col-12-8-4.project-section figure img {
-  width: 100%;
-  border-radius: 8px;
-  transition: scale 0.25s ease;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .project-reveal {
-  margin-top: 0;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown {
-  grid-column: 1/start 2;
-  border-radius: 16px;
-  background-color: #272727;
-  overflow: hidden;
-  max-height: 5.8rem;
-  transition: max-height 0.75s ease-in-out, scale 0.1s ease-in-out;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn {
-  padding: 16px;
-  border-radius: 16px;
-  background-color: #272727;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn p {
-  color: #FAF9F6;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn .caret {
-  height: 1.2rem;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: none;
-  background-color: transparent;
-  color: #FAF9F6;
-  transition: transform 0.25s ease;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview {
-  margin: 0 16px 16px 16px;
-  background-color: #181818;
-  padding: 16px;
-  border-radius: 8px;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre {
-  font-size: unset;
-  margin: 0;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code {
-  color: #FAF9F6;
-  text-wrap: wrap;
-  word-wrap: break-word;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-comment {
-  color: #535353;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-variable,
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-title {
-  color: #94b4e4;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-literal,
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-number {
-  color: #8eb46d;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-keyword,
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-string {
-  color: #ceac82;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-preview pre code .hljs-attr {
-  color: #A8A8A8;
-}
-.col-12-8-4.project-section .paragraph:not(.callout, .code-dropdown) .code-dropdown:hover {
-  scale: 0.995;
 }
 .col-12-8-4.project-section .paragraph.span-lg:nth-child(n+2) {
   margin: 48px 0;
@@ -2707,7 +2711,7 @@ main .more {
 }
 
 .media {
-  padding: 16px;
+  padding: 8px;
   background-color: #272727;
   border-radius: 24px;
   scroll-margin-top: 124px;
@@ -2720,14 +2724,10 @@ main .more {
 .media iframe,
 .media video {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 .media iframe {
   height: 450px;
-}
-.media video {
-  height: 100%;
-  border-radius: 16px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2783,7 +2783,7 @@ main .more {
   color: #D9D9D9;
 }
 .testimonial .testimonial-text .testimonial-author p {
-  font-family: Rubik, Arial, sans-serif;
+  font-family: Rubik, Helvetica, sans-serif;
   color: #FAF9F6;
   text-align: right;
 }
@@ -2847,10 +2847,10 @@ html.lenis body {
 
 ::-moz-selection {
   color: #202020;
-  background: #E2D7CA;
+  background: #FAF9F6;
 }
 
 ::selection {
   color: #202020;
-  background: #E2D7CA;
+  background: #FAF9F6;
 }/*# sourceMappingURL=style.css.map */

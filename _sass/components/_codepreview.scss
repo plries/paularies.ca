@@ -1,0 +1,84 @@
+.paragraph:not(.callout, .code-dropdown) {
+
+    .project-reveal {
+        margin-top: 0;
+    }
+
+    .code-dropdown {
+        grid-column: 1 / start 2;
+        border-radius: 16px;
+        background-color: $darker-grey;
+        overflow: hidden;
+        max-height: 5.8rem;
+        transition: max-height 0.75s ease-in-out,
+            scale 0.1s ease-in-out;
+
+        .code-dropdown-btn {
+            padding: 16px;
+            border-radius: 16px;
+            background-color: $darker-grey;
+
+            p {
+                color: $white;
+            }
+
+            .caret {
+                height: 1.2rem;
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                border: none;
+                background-color: transparent;
+                color: $white;
+                transition: transform 0.25s ease;
+            }
+        }
+
+        .code-preview {
+            margin: 0 16px 16px 16px;
+            background-color: #181818;
+            padding: 16px;
+            border-radius: 8px;
+
+            pre {
+                font-size: unset;
+                margin: 0;
+
+                code {
+                    color: $white;
+                    text-wrap: wrap;
+                    word-wrap: break-word;
+
+                    .hljs-comment {
+                        color: #535353;
+                    }
+
+                    .hljs-variable,
+                    .hljs-title {
+                        color: #94b4e4;
+                    }
+
+                    .hljs-literal,
+                    .hljs-number {
+                        color: #8eb46d;
+                    }
+
+                    .hljs-keyword,
+                    .hljs-string {
+                        color: #ceac82;
+                    }
+
+                    .hljs-attr {
+                        color: $grey;
+                    }
+                }
+            }
+        }
+    }
+
+    .code-dropdown:hover {
+        scale: 0.995;
+    }
+}

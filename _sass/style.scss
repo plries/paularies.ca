@@ -12,6 +12,7 @@
 @import "components/_footer";
 @import "components/_scroll";
 @import "components/_cards";
+@import "components/codepreview";
 @import "components/_thumbs";
 @import "components/_carousel";
 @import "components/_modal";
@@ -58,10 +59,10 @@ html.lenis body {
 
 ::-moz-selection {
     color: $black;
-    background: $brown;
+    background: $white;
 }
 
 ::selection {
     color: $black;
-    background: $brown;
+    background: $white;
 }
