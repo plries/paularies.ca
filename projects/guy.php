@@ -213,6 +213,10 @@
                     </figure>
                 </div>
             </div>
+            <div class="paragraph span-lg flex col gap-16">
+                <h4>bringing it together</h4>
+                <p>the marketing page became a successful blend of modern design, interactive features, and smooth user experience. by leveraging Sass for organized styling, the IntersectionObserver API added an interactive layer, and localStorage integration i was able to explore the intriguing challenge of marketing a product through a sleek, SaaS-style website.</p>
+            </div>
             <div class="flex span-lg jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
                     github
