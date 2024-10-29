@@ -12,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
         rel="stylesheet">
     <link rel="canonical" href="./projects/guy">
-    <link rel="icon" href="./icons/ui/logo-big.svg">
+    <link rel="icon" href="../icons/ui/logo-big.svg">
     <link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
     <!-- HTML Meta Tags -->
     <meta name="description"
@@ -212,6 +212,10 @@
                         <?php include '../components/code/guy/faqscss.php'; ?>
                     </figure>
                 </div>
+            </div>
+            <div class="paragraph span-lg flex col gap-16">
+                <h4>bringing it together</h4>
+                <p>the marketing page became a successful blend of modern design, interactive features, and smooth user experience. by leveraging Sass for organized styling, the IntersectionObserver API added an interactive layer, and localStorage integration i was able to explore the intriguing challenge of marketing a product through a sleek, SaaS-style website.</p>
             </div>
             <div class="flex span-lg jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">

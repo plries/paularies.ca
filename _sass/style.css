@@ -915,7 +915,7 @@ button {
   font-family: DM Mono, monospace;
   font-weight: 400;
   background-color: #607698;
-  border: #778eb1 2px solid;
+  border: #778EB1 2px solid;
   color: #FAF9F6 !important;
 }
 
@@ -982,7 +982,7 @@ button {
 
 .ux-ui-filter.active {
   background-color: #607698;
-  border: #778eb1 2px solid;
+  border: #778EB1 2px solid;
 }
 
 .white:hover,
@@ -1212,7 +1212,7 @@ footer .footer-content .footer-text p span {
 }
 footer .footer-content .footer-text .email {
   background-color: #E2D7CA;
-  border: #cabeae 2px solid;
+  border: #CABEAE 2px solid;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -2706,9 +2706,6 @@ main .more {
 .col-12-8-4.project-section figure {
   margin: 0;
 }
-.col-12-8-4.project-section .paragraph.span-lg:nth-child(n+2) {
-  margin: 48px 0;
-}
 
 .callout {
   background-color: #FAF9F6;
@@ -2864,10 +2861,10 @@ html.lenis body {
 
 ::-moz-selection {
   color: #202020;
-  background: #FAF9F6;
+  background: #E2D7CA;
 }
 
 ::selection {
   color: #202020;
-  background: #FAF9F6;
+  background: #E2D7CA;
 }/*# sourceMappingURL=style.css.map */
