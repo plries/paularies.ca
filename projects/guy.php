@@ -77,7 +77,7 @@
                                 github
                             </a>
                             <a class="black btn"
-                                href="#"
+                                href="https://guy.paularies.ca/"
                                 target="_blank">
                                 website
                             </a>
