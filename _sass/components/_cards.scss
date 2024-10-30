@@ -91,7 +91,9 @@
 
         .project-chips {
             .chip {
+                color: $grey;
                 background-color: $dark-grey;
+                border: $grey-outline solid 1px;
             }
         }
 

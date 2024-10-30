@@ -887,7 +887,7 @@ button {
   color: #FAF9F6;
   font-family: DM Mono, monospace;
   font-weight: 400;
-  border: #202020 1px solid;
+  border: #202020 2px solid;
 }
 
 .black:hover {
@@ -1048,7 +1048,7 @@ header img {
   user-select: none;
 }
 header .logo-btn {
-  height: 4.2rem;
+  height: 4rem;
   z-index: 9;
 }
 header .logo-btn .logo {
@@ -1093,7 +1093,7 @@ header .nav-wrapper nav ul li a:hover {
     height: 44px;
     width: 44px;
     padding: 4px 8px;
-    border: #3E3E3E 1px solid;
+    border: #3E3E3E 2px solid;
     border-radius: 8px;
     background-color: #202020;
   }
@@ -1464,7 +1464,9 @@ footer .footer-icons img {
   font-family: DM Mono, monospace;
 }
 .project-cards .soon .project-chips .chip {
+  color: #A8A8A8;
   background-color: #3E3E3E;
+  border: #575757 solid 1px;
 }
 .project-cards .soon .project-arrow {
   transition: transform 0.5s ease;
@@ -1937,6 +1939,9 @@ footer .footer-icons img {
 }
 .hero-wrapper .hero {
   background-image: url("../media/mountains.jpg");
+}
+.hero-wrapper .hero hgroup {
+  max-width: 1920px;
 }
 .hero-wrapper .hero .hero-name-container {
   width: 100%;

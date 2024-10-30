@@ -9,6 +9,10 @@
     .hero {
         background-image: url("../media/mountains.jpg");
 
+        hgroup {
+            max-width: 1920px;
+        }
+
         .hero-name-container {
             width: 100%;
             
