@@ -123,7 +123,7 @@
                     </figure>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>dark mode</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
@@ -145,7 +145,7 @@
                         playsinline></video>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>localStorage</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
@@ -167,7 +167,7 @@
                         playsinline></video>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>section indicator</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
@@ -189,7 +189,7 @@
                         playsinline></video>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>functionality</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
@@ -201,7 +201,7 @@
                     </figure>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>styling</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>

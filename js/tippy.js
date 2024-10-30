@@ -2,7 +2,7 @@ tippy('.skill', {
     placement: 'top',
 });
 
-tippy('.code-dropdown-btn', {
+tippy('.code-dropdown-btn[data-tippy-content="code snippet!"]', {
     placement: 'top',
 });
 

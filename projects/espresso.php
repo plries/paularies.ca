@@ -146,7 +146,7 @@
                     </p>
                 </div>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>Isotope</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
@@ -169,7 +169,7 @@
                     attention and, paired with tasteful comments, guide them to the CTA and ease them to the
                     explore rest of the website.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>ScrollReveal</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
@@ -192,7 +192,7 @@
                     sliders. i designed the brew page to utilize this plugin as it showcases the instructions to pull a
                     shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>Swiper</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
@@ -211,7 +211,7 @@
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to
                     rotate coffee beans as the user scrolled, making for a delightful interaction with minimal code.</p>
                 <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
                         <p>GSAP ScrollTrigger</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
