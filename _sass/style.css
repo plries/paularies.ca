@@ -952,7 +952,7 @@ button {
   color: #FAF9F6;
   border: #575757 2px solid;
   scale: 1;
-  transition: background-color 0.25s ease, color 0.25s ease, scale 0.25s ease;
+  transition: background-color 0.25s ease, border 0.25s ease, color 0.25s ease, scale 0.25s ease;
 }
 .filter img {
   width: 2rem;
