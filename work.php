@@ -50,7 +50,7 @@
 
     <?php include './components/header.php'; ?>
 
-    <main class="all-projects flex col aic jcc">
+    <main class="all-projects flex col aic">
         <section class="grid col-12-8-4">
             <h1 class="span-lg">all projects</h1>
             <div class="span-lg flex jcsb">
