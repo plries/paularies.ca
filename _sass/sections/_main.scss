@@ -1,5 +1,12 @@
 .all-projects {
     margin-top: 0;
+    h1 {
+        color: $white;
+        font-size: $fs-xxxxl;
+        font-weight: 500;
+        letter-spacing: -0.15rem;
+        margin: 0;
+    }
 }
 
 main {

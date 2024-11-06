@@ -143,7 +143,7 @@
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FLkRaZh1NpfmUB7lCqYzMx5%2Ftempo-wireframes%3Fnode-id%3D0-1%26t%3Dy4LWoYAJKMoapsdS-1"
                     allowfullscreen></iframe>
             </div>
-            <div class="paragraph span-lg   project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <h4>prototyping and user testing</h4>
                 <div class="flex col gap-24">
                     <p>in the second phase of this project, i focused on adding functionality to the interface and
@@ -162,7 +162,7 @@
                     </p>
                 </div>
             </div>
-            <div class="paragraph span-lg   project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <h4>revision and report</h4>
                 <div class="grid gap-16 grid-2-toggle">
                     <div class="flex col gap-24">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <div class="paragraph span-lg   project-reveal">
+            <div class="paragraph span-lg project-reveal">
                 <div class="grid gap-16 grid-2-toggle">
                     <div class="media">
                         <img src="../media/tempo/tempoRevis.png" alt="tempo teach page revision.">
@@ -192,7 +192,7 @@
                         the app beginner-friendly for dancers.</p>
                 </div>
             </div>
-            <div class="paragraph span-lg   flex col gap-16 project-reveal">
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/pine-thumb.php'; ?>
@@ -210,7 +210,7 @@
     <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
         <div class="modal-overlay" tabindex="-1" data-micromodal-close>
             <div class="grid col-12-8-4">
-                <div class="modal-container span-lg   flex col gap-16">
+                <div class="modal-container span-lg flex col gap-16">
                     <h3>project details</h3>
                     <div class="grid grid-2-toggle">
                         <div>

@@ -109,7 +109,7 @@
                 </div>
             </div>
             <h2 class="span-lg">featured work</h2>
-            <div class="project-cards list span-lg  ">
+            <div class="project-cards list span-lg">
                 <?php include './components/project-cards/guy-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
             </div>

@@ -1,4 +1,4 @@
-<div class="testimonial span-lg   flex row gap-8">
+<div class="testimonial span-lg flex row gap-8">
     <div class="testimonial-text flex col gap-16">   
         <div class="testimonial-quote flex col gap-8">
             <p>
