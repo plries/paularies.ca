@@ -113,14 +113,14 @@
                         communicate the topic of each page as soon as the user lands on the website.
                     </p>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>jQuery Background Video</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/espresso/bg-vid.php'; ?>
                     </figure>
@@ -145,14 +145,14 @@
                         result, i’ve learned to research about what resources i plan to utilize before i begin coding.
                     </p>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>Isotope</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/espresso/isotope.php'; ?>
                     </figure>
@@ -168,14 +168,14 @@
                     elements as they enter the viewport. i utilized this plugin on the homepage to capture the user’s
                     attention and, paired with tasteful comments, guide them to the CTA and ease them to the
                     explore rest of the website.</p>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>ScrollReveal</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/espresso/scrollreveal.php'; ?>
                     </figure>
@@ -191,14 +191,14 @@
                         target="_blank">Swiper.js</a> plugin, a powerful and versatile tool for creating responsive
                     sliders. i designed the brew page to utilize this plugin as it showcases the instructions to pull a
                     shot of espresso step-by-step, making it easier for the user to digest and follow along.</p>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>Swiper</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/espresso/swiper.php'; ?>
                     </figure>
@@ -210,14 +210,14 @@
                         href="https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1" target="_blank">GSAP
                         ScrollTrigger</a> plugin to add dynamic animations to the brew page. i used ScrollTrigger to
                     rotate coffee beans as the user scrolled, making for a delightful interaction with minimal code.</p>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>GSAP ScrollTrigger</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="Caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/espresso/scrolltrigger.php'; ?>
                     </figure>

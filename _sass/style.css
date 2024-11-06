@@ -1576,9 +1576,11 @@ footer .footer-icons img {
   transition: max-height 0.75s ease-in-out, scale 0.1s ease-in-out;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn {
+  width: 100%;
   padding: 16px;
   border-radius: 16px;
   background-color: #272727;
+  font-family: Wix Madefor Display, Helvetica, sans-serif;
 }
 .paragraph:not(.callout, .code-dropdown) .code-dropdown .code-dropdown-btn p {
   color: #FAF9F6;

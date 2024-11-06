@@ -132,14 +132,14 @@
                     through an image gallery. learning these plugins was initially a challenge, as i was unfamiliar with
                     these plugins and their syntax. however, i was able to get the results i desired thanks to the
                     plugin’s extensive documentation.</p>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>Splide</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/pine/splide.php'; ?>
                     </figure>

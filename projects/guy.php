@@ -110,26 +110,26 @@
                     <h4>using Sass</h4>
                     <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering other files.</p>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
                         <p>light mode</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/light.php'; ?>
                     </figure>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>dark mode</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/dark.php'; ?>
                     </figure>
@@ -144,14 +144,14 @@
                     <video loading="lazy" src="../media/guy/guyLS.mp4" autoplay loop muted
                         playsinline></video>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>localStorage</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/localstorage.php'; ?>
                     </figure>
@@ -166,14 +166,14 @@
                     <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted
                         playsinline></video>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>section indicator</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/indicator.php'; ?>
                     </figure>
@@ -188,26 +188,26 @@
                     <video loading="lazy" src="../media/guy/guyFaq.mp4" autoplay loop muted
                         playsinline></video>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>functionality</p>
                         <div class="flex row aic gap-16">
                             <p>.js</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/faqjs.php'; ?>
                     </figure>
                 </div>
-                <div class="code-dropdown" tabindex="0">
-                    <div class="code-dropdown-btn flex row aic jcc jcsb" >
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>styling</p>
                         <div class="flex row aic gap-16">
                             <p>.scss</p>
                             <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
                         </div>
-                    </div>
+                    </button>
                     <figure class="code-preview">
                         <?php include '../components/code/guy/faqscss.php'; ?>
                     </figure>
