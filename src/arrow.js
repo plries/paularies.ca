@@ -1,6 +1,5 @@
 import { gsap } from 'gsap';
 
-
 let arrow = gsap.timeline()
 
 arrow.set(".arrow-down", {

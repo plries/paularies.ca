@@ -1,3 +1,4 @@
+import {computePosition} from '@floating-ui/dom';
 import tippy from 'tippy.js';
 
 tippy('.skill', {

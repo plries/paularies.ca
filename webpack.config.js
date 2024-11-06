@@ -5,14 +5,19 @@ const fs = require('fs');
 const webpack = require('webpack');
 
 module.exports = {
-    // configures webpack to use all javascript files in the 'src/' folder
-    entry: fs.readdirSync(path.resolve(__dirname, 'src'))
-            .filter(filename => filename.endsWith('.js'))
-            .map(filename => './src/' + filename),
+    entry: {
+        global: [ './src/lenis.js', './src/cursor.js', './src/reveal.js', './src/menu.js', './src/footer.js' ],
+        home: [ './src/fitty.js', './src/hero.js' ],
+        work: [ './src/filter.js' ],
+        about: [ './src/flickity.js',  ],
+        project: [ './src/arrow.js', './src/dropdown.js', './src/modal.js' ]
+    },
     // configures webpack to output the file 'bundle.js' to the 'dist' folder
     output: {
-        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',
+        // cleans the dist folder before each build
+        clean: true,
     },
     mode: 'development',
 
@@ -31,13 +36,6 @@ module.exports = {
             },
         ],
     },
-
-    plugins: [
-        new webpack.ProvidePlugin({
-            // makes jQuery available as $
-            $: 'jquery'
-        }),
-    ],
 
     // seperates all dependencies from the main bundle
     optimization: {
