@@ -3,9 +3,10 @@ import imagesLoaded from 'imagesloaded';
 
 // initialize isotope
 const projects = document.querySelector('.project-cards');
-const isotopeInstance = new Isotope(projects, {
+var isotopeInstance = new Isotope(projects, {
     itemSelector: '.project',
-    transitionDuration: 0,
+    transitionDuration: 300,
+    stagger: 30,
     masonry: {
         gutter: 16
     },
@@ -45,25 +46,23 @@ function colorBtn() {
 
 btns.forEach(faq => faq.addEventListener('click', colorBtn));
 
-// toggle between grid and list views
-
 const viewToggle = document.querySelector('.view-toggle');
 const view = document.querySelector('.project-cards');
 
 viewToggle.addEventListener("click", () => {
-    // reload isotope items and layout
-    imagesLoaded(view, function() {
-        isotopeInstance.layout();
-    });
-
     // toggle between grid and list views
     view.classList.toggle('grid');
     view.classList.toggle('list');
     
     // reload Isotope items
-    isotopeInstance.reloadItems();
-    isotopeInstance.layout();
+    if (view.classList.contains('grid')) {
+        isotopeInstance.reloadItems();
+    }
 
+    imagesLoaded(view, function() {
+        isotopeInstance.layout();
+    });
+    
     // toggle the list icon class on the button
     viewToggle.classList.toggle('list-icon');
 });

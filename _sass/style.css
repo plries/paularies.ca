@@ -1476,6 +1476,8 @@ footer .footer-icons img {
   visibility: hidden;
 }
 .project-cards .project {
+  width: 100%;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1.5fr 0.5fr;
   margin-top: 16px;
@@ -1571,6 +1573,7 @@ footer .footer-icons img {
   align-content: start;
 }
 .project-cards.grid .project {
+  box-sizing: unset;
   width: calc(50% - 42px);
   margin-right: unset;
   grid-template-columns: 1fr;

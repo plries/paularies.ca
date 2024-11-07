@@ -3,6 +3,8 @@
     visibility: hidden;
 
     .project {
+        width: 100%;
+        box-sizing: border-box;
         display: grid;
         grid-template-columns: 1.5fr 0.5fr;
         margin-top: 16px;
@@ -121,6 +123,7 @@
 
     &.grid {
         .project {
+            box-sizing: unset;
             width: calc(50% - 42px);
             margin-right: unset;
             grid-template-columns: 1fr;
