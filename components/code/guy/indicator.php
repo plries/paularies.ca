@@ -1,4 +1,4 @@
-<pre><code class="language-css">nav {
+<pre><code class="language-scss">nav {
     display: flex;
     align-items: center;
     flex-direction: row;

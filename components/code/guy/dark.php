@@ -1,4 +1,4 @@
-<pre><code class="language-css">.about {
+<pre><code class="language-scss">.about {
     > img {
         filter: brightness(0.75);
     }

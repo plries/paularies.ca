@@ -1,5 +1,6 @@
 .hero-wrapper {
     margin-top: -112px;
+    min-height: 634px;
     height: calc(100vh + 40px);
     height: calc(100dvh + 40px);
     margin-bottom: -48px;
@@ -44,6 +45,7 @@
     }
 
     .parallax {
+        min-height: 634px;
         height: calc(100vh + 64px);
         height: calc(100dvh + 64px);
         background-attachment: fixed;
@@ -249,7 +251,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 821px) {
 
     .hero-wrapper {
 
@@ -295,7 +297,6 @@
                     justify-content: center;
 
                     img {
-                        aspect-ratio: 1/1;
                         width: 100%;
                         -o-object-fit: cover;
                         object-fit: cover;

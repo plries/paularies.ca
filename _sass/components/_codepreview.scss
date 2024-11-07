@@ -88,6 +88,23 @@
                     .hljs-attr {
                         color: $grey;
                     }
+
+                    &.language-scss {
+
+                        .hljs-selector-class,
+                        .hljs-selector-tag {
+                            color: #94b4e4;
+                        }
+
+                        .hljs-attribute {
+                            color: $white;
+                        }
+
+                        .hljs-variable {
+                            color: #ceac82;   
+                        }
+
+                    }
                 }
             }
         }

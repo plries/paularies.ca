@@ -5,6 +5,7 @@
     "flickity": "^3.0.0",
     "fontfaceobserver": "^2.3.0",
     "gsap": "^3.12.5",
+    "highlight.js": "^11.10.0",
     "isotope-layout": "^3.0.6",
     "lenis": "^1.1.16",
     "micromodal": "^0.4.10",

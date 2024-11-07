@@ -1,4 +1,4 @@
-<pre><code class="language-css">.faq {
+<pre><code class="language-scss">.faq {
     height: fit-content;
     > div {
         visibility: hidden;

@@ -50,9 +50,9 @@
 
     <?php include './components/header.php'; ?>
 
-    <main class="all-projects flex col aic">
+    <main class="work flex col aic">
         <section class="grid col-12-8-4">
-            <h1 class="span-lg">all projects</h1>
+            <h1 class="span-lg">work</h1>
             <div class="span-lg flex jcsb">
                 <div class="filter-button-group flex wrap row jcs gap-16">
                     <button data-filter="*" class="filter all-filter active">all</button>

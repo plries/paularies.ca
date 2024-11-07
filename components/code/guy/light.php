@@ -1,4 +1,4 @@
-<pre><code class="language-css">.about {
+<pre><code class="language-scss">.about {
     .notif_container {
         .notif {
             background-color: #ffffff99;
