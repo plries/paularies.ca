@@ -4,6 +4,10 @@ tippy('.skill', {
     placement: 'top',
 });
 
+tippy('.footer-logo[data-tippy-content="back to top!"]', {
+    placement: 'bottom',
+});
+
 tippy('.code-dropdown-btn[data-tippy-content="code snippet!"]', {
     placement: 'top',
 });
@@ -19,3 +23,4 @@ tippy('#concert' , {
     allowHTML: true,
     placement: 'top',
 });
+
