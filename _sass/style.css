@@ -922,7 +922,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #607698;
+  background-color: #5E7497;
   border-radius: 100%;
   pointer-events: none;
   mix-blend-mode: exclusion;
@@ -1003,7 +1003,7 @@ button {
 .blue {
   font-family: DM Mono, monospace;
   font-weight: 400;
-  background-color: #607698;
+  background-color: #5E7497;
   border: #778EB1 2px solid;
   color: #FAF9F6 !important;
 }
@@ -1070,7 +1070,7 @@ button {
 }
 
 .ux-ui-filter.active {
-  background-color: #607698;
+  background-color: #5E7497;
   border: #778EB1 2px solid;
 }
 
@@ -1458,7 +1458,7 @@ footer .footer-icons img {
   background-color: #4D633A;
 }
 .scroll-progress-container .uxui {
-  background: #607698;
+  background: #5E7497;
 }
 
 @-webkit-keyframes scroll-watcher {
