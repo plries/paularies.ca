@@ -27,10 +27,10 @@
         <section class="grid col-12-8-4">
             <hgroup class="span-lg">
                 <h1>uh oh!</h1>
-                <h2>error 404</h2>
+                <h2>error <?php echo http_response_code(); ?></h2>
             </hgroup>
             <div class="paragraph span-lg error-reveal">
-                <p><strong>seems like you're lost.</strong></p>
+                <p><strong>seems like you're lost :(</strong></p>
                 <p>that's okay, lets find your way back.</p>
             </div>
             <div class="forest grid gap-16 span-lg error-reveal">
@@ -46,7 +46,7 @@
                 <div></div>
                 <div></div>
                 <img src="./icons/ui/white-tree.svg" alt="tree icon." draggable="false">
-                <img src="./icons/ui/white-home.svg" alt="home icon." draggable="false">
+                <img id="home-icon" src="./icons/ui/white-home.svg" alt="home icon." draggable="false">
                 <div></div>
                 <div></div>
                 <div></div>
