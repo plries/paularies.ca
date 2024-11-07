@@ -1,3 +1,5 @@
+import tippy from 'tippy.js';
+
 tippy('.skill', {
     placement: 'top',
 });

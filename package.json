@@ -1,8 +1,31 @@
 {
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "fitty": "^2.4.2",
     "flickity": "^3.0.0",
+    "fontfaceobserver": "^2.3.0",
     "gsap": "^3.12.5",
-    "micromodal": "^0.4.10"
-  }
+    "isotope-layout": "^3.0.6",
+    "lenis": "^1.1.16",
+    "micromodal": "^0.4.10",
+    "scrollreveal": "^4.0.9",
+    "tippy.js": "^6.3.7"
+  },
+  "name": "portfoliob",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

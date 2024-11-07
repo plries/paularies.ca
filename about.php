@@ -160,7 +160,9 @@
 
     <?php include './components/footer.php'; ?>
 
-    <?php include './components/scripts.php'; ?>
+    <script src="./dist/vendors.js"></script>
+    <script src="./dist/global.js"></script>
+    <script src="./dist/about.js"></script>
 
 </body>
 

@@ -278,7 +278,9 @@
         </div>
     </div>
 
-    <?php include '../components/project-scripts.php'; ?>
+    <script src="../dist/vendors.js"></script>
+    <script src="../dist/global.js"></script>
+    <script src="../dist/project.js"></script>
 
 </body>
 

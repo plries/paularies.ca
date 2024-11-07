@@ -1,3 +1,5 @@
+import ScrollReveal from "scrollreveal";
+
 ScrollReveal().reveal(".intro", {
     distance: '150px',
     ease: "ease-in",
