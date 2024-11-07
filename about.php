@@ -63,8 +63,7 @@
                                 front-end developer
                             </p>
                             <p class="btn blue">
-                                <img src="./icons/ui/white-target.svg" alt="target icon." width="16" height="16"
-                                    draggable="false">
+                                <img src="./icons/ui/white-target.svg" alt="target icon." draggable="false">
                                 ux / ui designer
                             </p>
                         </div>

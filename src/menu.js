@@ -7,10 +7,4 @@ menu.addEventListener('click', () => {
     menu.classList.toggle("open");
     nav.classList.toggle('visible');
 
-    if (nav.classList.contains('visible')) {
-        icon.src = '../icons/ui/white-x.svg'
-    } else {
-        icon.src = '../icons/ui/white-menu.svg'
-    }
-
 })
