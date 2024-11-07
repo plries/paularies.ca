@@ -24,6 +24,6 @@ jobs:
           */vendor
           */components
           */sections
-          */src
+          **/src/**
           webpack.config.js
         port: 21
