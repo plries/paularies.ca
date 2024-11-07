@@ -1,7 +1,7 @@
 .error {
     margin-top: 0;
     min-height: auto;
-    
+
     h1 {
         color: $white;
         font-size: $fs-xxxxl;
@@ -9,7 +9,7 @@
         letter-spacing: -0.15rem;
         margin: 0;
     }
-    
+
     h2 {
         font-family: $mono;
         font-size: $fs-xs;
@@ -23,12 +23,16 @@
         margin: 32px 0;
 
         img {
-            user-select: none;
+            -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                    user-select: none;
             width: 100%;
             opacity: 0.5;
-                
+
             &[src="./icons/ui/white-home.svg"] {
-                animation: fadeRepeat 5s ease infinite;
+                -webkit-animation: fadeRepeat 5s ease infinite;
+                        animation: fadeRepeat 5s ease infinite;
                 grid-column-start: 5;
             }
         }
@@ -38,13 +42,29 @@
         color: $grey;
     }
 
+    @-webkit-keyframes fadeRepeat {
+        0% {
+            opacity: 0.5;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0.5;
+        }
+    }
+
     @keyframes fadeRepeat {
         0% {
             opacity: 0.5;
         }
-        50% { 
+
+        50% {
             opacity: 1;
         }
+
         100% {
             opacity: 0.5;
         }
