@@ -6,6 +6,7 @@
         <span class="line"></span>
         <span class="line"></span>
         <span class="line"></span>
+        <span class="context">menu toggle</span>
     </button>
     <div class="nav-wrapper">
         <nav>

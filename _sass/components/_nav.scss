@@ -38,6 +38,10 @@ header {
     .nav-toggle {
         display: none;
         transition: scale 0.25s ease;
+
+        .context {
+            display: none;
+        }
     }
 
     .nav-toggle:hover {

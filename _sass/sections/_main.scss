@@ -47,6 +47,10 @@ main {
             transition: scale 0.25s ease;
             overflow: hidden;
 
+            .context {
+                display: none;
+            }
+
             .box {
                 background-color: $dark-grey;
                 border: $grey-outline 2px solid;

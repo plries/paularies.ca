@@ -70,6 +70,7 @@
                     <span class="box"></span>
                     <span class="box"></span>
                     <span class="box"></span>
+                    <span class="context">view toggle</span>
                 </button>
             </div>
             <div class="project-cards list span-lg">
