@@ -27,7 +27,7 @@
         <section class="grid col-12-8-4">
             <hgroup class="span-lg">
                 <h1>uh oh!</h1>
-                <h2>error <?php echo http_response_code(404); ?></h2>
+                <h2>error 404</h2>
             </hgroup>
             <div class="paragraph span-lg error-reveal">
                 <p><strong>seems like you're lost :(</strong></p>
