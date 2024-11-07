@@ -12,19 +12,19 @@
             <ul class="flex flex-toggle jcsb gap-8">
                 <li>
                     <a href="./" class="header btn">
-                        <img src="./icons/ui/white-home.svg" alt="Home icon." draggable="false">
+                        <img src="./icons/ui/white-home.svg" alt="home icon." draggable="false">
                         home
                     </a>
                 </li>
                 <li>
                     <a href="./work" class="header btn">
-                        <img src="./icons/ui/white-folder.svg" alt="Work icon." draggable="false">
+                        <img src="./icons/ui/white-folder.svg" alt="work icon." draggable="false">
                         work
                     </a>
                 </li>
                 <li>
                     <a href="./about" class="header btn">
-                        <img src="./icons/ui/white-user.svg" alt="About icon." draggable="false">
+                        <img src="./icons/ui/white-user.svg" alt="about icon." draggable="false">
                         about
                     </a>
                 </li>

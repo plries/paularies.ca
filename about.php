@@ -59,11 +59,11 @@
                         <h1>about paul aries</h1>
                         <div class="flex row gap-16 wrap">
                             <p class="btn green">
-                                <img src="./icons/ui/white-star.svg" alt="Star icon." draggable="false">
+                                <img src="./icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 front-end developer
                             </p>
                             <p class="btn blue">
-                                <img src="./icons/ui/white-target.svg" alt="Target icon." width="16" height="16"
+                                <img src="./icons/ui/white-target.svg" alt="target icon." width="16" height="16"
                                     draggable="false">
                                 ux / ui designer
                             </p>

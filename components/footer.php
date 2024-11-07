@@ -10,7 +10,7 @@
             <div class="flex col gap-8">
                 <p>just say...</p>
                 <a href="mailto:hello@paularies.ca" class="email flex row aic gap-8" tabindex="0">
-                    <img src="./icons/ui/black-mail.svg" alt="Email icon." draggable="false">
+                    <img src="./icons/ui/black-mail.svg" alt="email icon." draggable="false">
                     hello@paularies.ca
                 </a>
             </div>
@@ -26,8 +26,8 @@
         </a>
     </div>
     <div class="footer-icons flex row aic jcc gap-32" >
-        <img src="./icons/ui/black-tree.svg" alt="Tree icon." class="footer-icon" draggable="false">
-        <img src="./icons/ui/black-target.svg" alt="Target icon." class="footer-icon" id="target" draggable="false">
-        <img src="./icons/ui/black-star.svg" alt="Star icon." class="footer-icon" draggable="false">
+        <img src="./icons/ui/black-tree.svg" alt="tree icon." class="footer-icon" draggable="false">
+        <img src="./icons/ui/black-target.svg" alt="target icon." class="footer-icon" id="target" draggable="false">
+        <img src="./icons/ui/black-star.svg" alt="star icon." class="footer-icon" draggable="false">
     </div>
 </footer>

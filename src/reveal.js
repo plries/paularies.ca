@@ -71,3 +71,11 @@ ScrollReveal().reveal(".about-reveal", {
     opacity: 0,
     interval: 128,
 });
+
+ScrollReveal().reveal(".error-reveal", {
+    delay: 128,
+    distance: '150px',
+    ease: "ease-in",
+    opacity: 0,
+    interval: 128,
+});
