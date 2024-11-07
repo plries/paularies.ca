@@ -1,7 +1,7 @@
 import { gsap } from 'gsap';
 import Flickity from 'flickity';
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const cursor = document.querySelector(".cursor");
     const projects = document.getElementsByClassName("project");
     const filters = document.getElementsByClassName("filter");
@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         cursor.style.opacity = "1";
     });
 
-    window.addEventListener("mousedown", function() {
+    window.addEventListener("mousedown", function () {
         click.play();
     });
 
-    window.addEventListener("mouseup", function() {
+    window.addEventListener("mouseup", function () {
         click.reverse();
     });
 
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // iterate through all elements and apply hover effect
     const addHoverEffect = (elements) => {
         Array.from(elements).forEach(element => {
-            element.addEventListener("mouseenter", function() {
+            element.addEventListener("mouseenter", function () {
                 hover.play();
             });
-            element.addEventListener("mouseleave", function() {
+            element.addEventListener("mouseleave", function () {
                 hover.reverse();
             });
         });
@@ -67,10 +67,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // special cursor handling for iframes
     iframes.forEach(iframe => {
-        iframe.addEventListener("mouseover", function() {
+        iframe.addEventListener("mouseover", function () {
             cursor.style.display = "none";
         });
-        iframe.addEventListener("mouseleave", function() {
+        iframe.addEventListener("mouseleave", function () {
             cursor.style.display = "block";
         });
     });

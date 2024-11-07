@@ -47,7 +47,7 @@
 					transition: all 0.5s ease;
 				}
 			}
-		
+
 			.green:hover {
 				img {
 					transform: rotate(360deg);
@@ -90,7 +90,7 @@
 			.link-underline {
 				color: $white;
 				display: inline-block;
-			
+
 				&::before {
 					width: 100%;
 					background-color: $white;
@@ -334,7 +334,7 @@
 	.about-me {
 		.col-12-8-4 {
 			.cell {
-					h1 {
+				h1 {
 					font-size: $fs-xxl;
 				}
 
@@ -369,9 +369,9 @@
 							align-items: baseline;
 						}
 					}
-					
+
 				}
-				
+
 			}
 		}
 	}

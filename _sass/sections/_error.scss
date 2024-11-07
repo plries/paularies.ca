@@ -24,15 +24,15 @@
 
         img {
             -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                    user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
             width: 100%;
             opacity: 0.5;
 
             &[src="./icons/ui/white-home.svg"] {
                 -webkit-animation: fadeRepeat 5s ease infinite;
-                        animation: fadeRepeat 5s ease infinite;
+                animation: fadeRepeat 5s ease infinite;
                 grid-column-start: 5;
             }
         }

@@ -27,8 +27,7 @@ h4 {
     font-family: $rubik;
 }
 
-h5
-h6,
+h5 h6,
 button {
     font-family: $mono;
     font-weight: 400;
@@ -86,7 +85,8 @@ p.quote {
     }
 
     p.quote {
-        font-size: $fs-xs;;
+        font-size: $fs-xs;
+        ;
     }
 
     code {

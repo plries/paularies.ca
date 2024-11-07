@@ -6,11 +6,11 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        global: [ './src/lenis.js', './src/cursor.js', './src/reveal.js', './src/menu.js', './src/footer.js', './src/tippy.js', ],
-        home: [ './src/fitty.js', './src/hero.js' ],
-        work: [ './src/filter.js' ],
-        about: [ './src/flickity.js', './src/tippy.js'  ],
-        project: [ './src/arrow.js', './src/dropdown.js', './src/modal.js', './src/highlight.js' ],
+        global: ['./src/lenis.js', './src/cursor.js', './src/reveal.js', './src/menu.js', './src/footer.js', './src/tippy.js',],
+        home: ['./src/fitty.js', './src/hero.js'],
+        work: ['./src/filter.js'],
+        about: ['./src/flickity.js', './src/tippy.js'],
+        project: ['./src/arrow.js', './src/dropdown.js', './src/modal.js', './src/highlight.js'],
     },
     // configures webpack to output the file 'bundle.js' to the 'dist' folder
     output: {
@@ -41,13 +41,13 @@ module.exports = {
     optimization: {
         splitChunks: {
             cacheGroups: {
-            vendor: {
-                test: /[\\/]node_modules[\\/]/,
-                name: 'vendors',
-                chunks: 'all',
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'all',
                 },
             },
         },
     },
-    
+
 }

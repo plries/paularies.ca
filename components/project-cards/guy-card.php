@@ -18,6 +18,6 @@
         </hgroup>
         <p> a marketing page for a mobile app companion. built with Sass, IntersectionObserver API, and
             local storage to enable theme switching between light and dark modes.</p>
-        </div>
-        <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon.">
+    </div>
+    <img class="project-arrow" src="../icons/ui/black-arrow.svg" alt="arrow icon.">
 </a>

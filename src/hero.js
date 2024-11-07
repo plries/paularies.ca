@@ -23,4 +23,5 @@ hero.to(".arrow-down", {
     yoyo: true,
     transform: "translateY(16px)",
     ease: "power1.inOut",
-    duration: 1.5});
+    duration: 1.5
+});

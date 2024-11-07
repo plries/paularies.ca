@@ -19,13 +19,14 @@
             <a class="link-underline" href="https://www.linkedin.com/in/paularies/" target="_blank">linkedin</a>
             <a class="link-underline" href="https://github.com/plries" target="_blank">github</a>
             <a class="link-underline" href="https://www.instagram.com/plries/" target="_blank">instagram</a>
-            <a class="link-underline" href="https://open.spotify.com/user/paullaries?si=453494ac640b4444" target="_blank">spotify</a>
+            <a class="link-underline" href="https://open.spotify.com/user/paullaries?si=453494ac640b4444"
+                target="_blank">spotify</a>
         </div>
         <a href="#" class="footer-logo" data-tippy-content="back to top!">
             <img src="./icons/ui/logo-big.svg" alt="Paul Aries Logo." draggable="false">
         </a>
     </div>
-    <div class="footer-icons flex row aic jcc gap-32" >
+    <div class="footer-icons flex row aic jcc gap-32">
         <img src="./icons/ui/black-tree.svg" alt="tree icon." class="footer-icon" draggable="false">
         <img src="./icons/ui/black-target.svg" alt="target icon." class="footer-icon" id="target" draggable="false">
         <img src="./icons/ui/black-star.svg" alt="star icon." class="footer-icon" draggable="false">

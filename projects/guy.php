@@ -71,14 +71,10 @@
                         </div>
                         <div class="flex row gap-16 links-container">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
-                            <a class="secondary btn"
-                                href="https://github.com/plries/guy-saas"
-                                target="_blank">
+                            <a class="secondary btn" href="https://github.com/plries/guy-saas" target="_blank">
                                 github
                             </a>
-                            <a class="black btn"
-                                href="https://guy.paularies.ca/"
-                                target="_blank">
+                            <a class="black btn" href="https://guy.paularies.ca/" target="_blank">
                                 website
                             </a>
                         </div>
@@ -93,22 +89,32 @@
             <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <div>
-                    <p>build a marketing page for a mobile app companion using Sass for styling, the IntersectionObserver API to dynamically apply styles, and local storage save themes.</p>
+                    <p>build a marketing page for a mobile app companion using Sass for styling, the
+                        IntersectionObserver API to dynamically apply styles, and local storage save themes.</p>
                 </div>
             </div>
             <div class=" paragraph span-lg project-reveal">
                 <h4>guy's inspiration</h4>
-                <p><strong>guy</strong> is a mobile app companion that actively listens to your conversations and responds to you via phone notification. This concept draws from <a class="link-underline" href="https://www.friend.com/" target="_blank">Friend</a>, an AI pendant that garnered a lot of attention for its potential to replace human connection.</p>
+                <p><strong>guy</strong> is a mobile app companion that actively listens to your conversations and
+                    responds to you via phone notification. This concept draws from <a class="link-underline"
+                        href="https://www.friend.com/" target="_blank">Friend</a>, an AI pendant that garnered a lot of
+                    attention for its potential to replace human connection.</p>
                 <br>
-                <p>Friend states that “your friend is always listening and forming their own internal thoughts,” which sparked conversation regarding the ethical concerns of the pendant.</p>
+                <p>Friend states that “your friend is always listening and forming their own internal thoughts,” which
+                    sparked conversation regarding the ethical concerns of the pendant.</p>
             </div>
             <div class="paragraph span-md project-reveal">
-                <p class="quote">due to the mixed reactions to Friend, i thought it would be fun to not only create a website inspired by its modern branding, but attempt to market an unsettling product to the average person using a SaaS-style approach.</p>
+                <p class="quote">due to the mixed reactions to Friend, i thought it would be fun to not only create a
+                    website inspired by its modern branding, but attempt to market an unsettling product to the average
+                    person using a SaaS-style approach.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>using Sass</h4>
-                    <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when implementing features like dark mode and animations. by isolating color properties in a separate <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering other files.</p>
+                    <p><strong>Sass</strong> was essential for organizing the project’s styling, particularly when
+                        implementing features like dark mode and animations. by isolating color properties in a separate
+                        <code>.scss</code> file, i could easily manage and adjust light/dark mode without cluttering
+                        other files.</p>
                 </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb" data-tippy-content="code snippet!">
@@ -138,11 +144,13 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>leveraging localStorage</h4>
-                    <p><strong>localStorage</strong> allows for data to be stored in a user’s browser, allowing for certain settings to be stored across different sessions. for guy, i stored the user’s dark/light mode preference so that it can be saved every time they visit the website or refresh the page, resulting in a pleasant user experience.</p>
+                    <p><strong>localStorage</strong> allows for data to be stored in a user’s browser, allowing for
+                        certain settings to be stored across different sessions. for guy, i stored the user’s dark/light
+                        mode preference so that it can be saved every time they visit the website or refresh the page,
+                        resulting in a pleasant user experience.</p>
                 </div>
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/guy/guyLS.mp4" autoplay loop muted
-                        playsinline></video>
+                    <video loading="lazy" src="../media/guy/guyLS.mp4" autoplay loop muted playsinline></video>
                 </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
@@ -160,11 +168,15 @@
             <div class=" paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>working with IntersectionObserver API</h4>
-                    <p>we were provided a <code>script.js</code> file to integrate the <strong>IntersectionObserver API</strong>. i customized it to trigger fade and slide animations as elements entered the viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s notifications would appear on a phone. i also used the <code>::after</code> pseudo-element to add a dynamic section indicator to the navbar, improving the site’s navigation and user experience.</p>
+                    <p>we were provided a <code>script.js</code> file to integrate the <strong>IntersectionObserver
+                            API</strong>. i customized it to trigger fade and slide animations as elements entered the
+                        viewport, which enhanced the site’s modern feel and visually demonstrated how guy’s
+                        notifications would appear on a phone. i also used the <code>::after</code> pseudo-element to
+                        add a dynamic section indicator to the navbar, improving the site’s navigation and user
+                        experience.</p>
                 </div>
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted
-                        playsinline></video>
+                    <video loading="lazy" src="../media/guy/guyIO.mp4" autoplay loop muted playsinline></video>
                 </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
@@ -182,11 +194,12 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>FAQ accordions</h4>
-                    <p>for the <strong>FAQ</strong> section, i implemented animated accordions using the <code>max-height</code> property. this kept the content organized and easy to access, with smooth transitions when opening or closing each question.</p>
+                    <p>for the <strong>FAQ</strong> section, i implemented animated accordions using the
+                        <code>max-height</code> property. this kept the content organized and easy to access, with
+                        smooth transitions when opening or closing each question.</p>
                 </div>
                 <div class="paragraph media">
-                    <video loading="lazy" src="../media/guy/guyFaq.mp4" autoplay loop muted
-                        playsinline></video>
+                    <video loading="lazy" src="../media/guy/guyFaq.mp4" autoplay loop muted playsinline></video>
                 </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
@@ -215,7 +228,10 @@
             </div>
             <div class="paragraph span-lg flex col gap-16">
                 <h4>bringing it together</h4>
-                <p>the marketing page became a successful blend of modern design, interactive features, and smooth user experience. by leveraging Sass for organized styling, the IntersectionObserver API added an interactive layer, and localStorage integration i was able to explore the intriguing challenge of marketing a product through a sleek, SaaS-style website.</p>
+                <p>the marketing page became a successful blend of modern design, interactive features, and smooth user
+                    experience. by leveraging Sass for organized styling, the IntersectionObserver API added an
+                    interactive layer, and localStorage integration i was able to explore the intriguing challenge of
+                    marketing a product through a sleek, SaaS-style website.</p>
             </div>
             <div class="flex span-lg jcr gap-16 view-project project-reveal">
                 <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">

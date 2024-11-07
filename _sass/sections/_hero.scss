@@ -16,7 +16,7 @@
 
         .hero-name-container {
             width: 100%;
-            
+
             #hero-name {
                 font-weight: 500;
                 margin: 0;
@@ -208,19 +208,19 @@
         &.project-hero {
 
             .project-title {
-    
+
                 >div {
-    
+
                     >div {
                         margin: 0 -48px;
                         padding-right: 48px;
                         overflow-x: scroll;
-    
+
                         .btn,
                         .tag {
                             text-wrap: nowrap;
                         }
-    
+
                         >.green,
                         >.blue,
                         >.info {
@@ -228,7 +228,7 @@
                         }
                     }
                 }
-    
+
                 >div>div::-webkit-scrollbar {
                     display: none;
                 }

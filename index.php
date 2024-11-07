@@ -96,7 +96,8 @@
                         <p class="quote">my passion for both art and tech has always driven me to merge the two
                             creatively.
                         </p>
-                        <p>that's why i love the world of <strong>front-end development</strong> and <strong>ux/ui design</strong>—i can
+                        <p>that's why i love the world of <strong>front-end development</strong> and <strong>ux/ui
+                                design</strong>—i can
                             create innovative solutions and help users navigate the digital world in a satisfying and
                             refreshing way.
                         </p>

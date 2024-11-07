@@ -19,14 +19,14 @@ var isotopeInstance = new Isotope(projects, {
 });
 
 // trigger isotope layout after images are loaded
-imagesLoaded(projects, function() {
+imagesLoaded(projects, function () {
     isotopeInstance.layout();
 });
 
 // event listener for filter buttons
 const filterButtons = document.querySelectorAll('.filter-button-group button');
 filterButtons.forEach(button => {
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function () {
         const filterValue = this.getAttribute('data-filter');
         isotopeInstance.arrange({ filter: filterValue });
     });
@@ -53,16 +53,16 @@ viewToggle.addEventListener("click", () => {
     // toggle between grid and list views
     view.classList.toggle('grid');
     view.classList.toggle('list');
-    
-    // reload Isotope items
+
+    // reload isotope items
     if (view.classList.contains('grid')) {
         isotopeInstance.reloadItems();
     }
 
-    imagesLoaded(view, function() {
+    imagesLoaded(view, function () {
         isotopeInstance.layout();
     });
-    
+
     // toggle the list icon class on the button
     viewToggle.classList.toggle('list-icon');
 });

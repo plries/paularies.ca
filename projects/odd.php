@@ -98,7 +98,8 @@
                 </p>
             </div>
             <div class="paragraph span-md project-reveal">
-                <p class="quote">by studying other mobile retail apps, i was able to align with the user interaction law of
+                <p class="quote">by studying other mobile retail apps, i was able to align with the user interaction law
+                    of
                     consistency, ensuring that the app’s interface and process felt familiar to users.</p>
             </div>
             <div class="paragraph span-lg project-reveal">

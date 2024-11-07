@@ -21,9 +21,7 @@ jobs:
           **/node_modules/**
           *.md
           *.scss
-          */vendor
-          */components
-          */sections
+          **/_sass/**
           **/src/**
           webpack.config.js
         port: 21

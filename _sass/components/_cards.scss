@@ -22,7 +22,7 @@
         .project-img-container {
             width: 100%;
             height: auto;
-            
+
             .project-img {
                 border: $light-grey 1px solid;
                 aspect-ratio: 16 / 10;
@@ -84,6 +84,7 @@
             color: $grey;
             display: grid;
             place-items: center;
+
             p {
                 color: $white;
                 font-family: $mono;

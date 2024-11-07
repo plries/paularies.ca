@@ -1,10 +1,10 @@
 <div class="testimonial span-lg flex row gap-8">
-<div class="testimonial-text flex col gap-16">
+    <div class="testimonial-text flex col gap-16">
         <div class="testimonial-quote flex col gap-8">
             <p>paul is a wonderful person to work with and an exceptional designer and web developer.
                 his work
                 always wows me, especially his eye for perfect colour combinations and <strong>seamless web
-                design</strong>.</p>
+                    design</strong>.</p>
             <p>his <strong>strong work ethic</strong> really stands out, and i know i can rely on him to complete
                 projects
                 efficiently and perfectly aligned with the goals.</p>
@@ -21,6 +21,5 @@
             </div>
         </div>
     </div>
-    <img src="./media/testimonials/emma.jpeg" alt="emma englund, founder of englund social."
-        draggable="false">
+    <img src="./media/testimonials/emma.jpeg" alt="emma englund, founder of englund social." draggable="false">
 </div>

@@ -136,7 +136,7 @@
                             target="_blank">Isotope</a> plugin to add filtering and sorting functionality to a list of
                         recommended espresso tools. users can sort the list by name and pricing, and filter the products
                         by priority.</p>
-                        <p>this feature was designed with beginner baristas in mind, as they would likely
+                    <p>this feature was designed with beginner baristas in mind, as they would likely
                         frequent this page to determine which equipment they should purchase next. by integrating this
                         functionality, i aimed to create a more user-friendly experience, allowing users to quickly find
                         the most useful tools.</p>

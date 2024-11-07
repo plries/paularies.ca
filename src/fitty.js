@@ -1,7 +1,7 @@
 import FontFaceObserver from 'fontfaceobserver';
 import fitty from "fitty";
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
     var font = new FontFaceObserver('Rubik', {
         weight: 500

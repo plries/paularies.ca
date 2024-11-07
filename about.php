@@ -73,9 +73,12 @@
             </div>
             <div class="grid grid-2-toggle span-lg gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
-                    <p class="quote">👋 i’m a detail-oriented developer and designer from Vancouver, BC who loves to create
+                    <p class="quote">👋 i’m a detail-oriented developer and designer from Vancouver, BC who loves to
+                        create
                         exciting digital experiences.</p>
-                    <p>outside of coding, you can find me either exploring the <span id="outdoors" class="link-underline">outdoors</span> or dancing at a <span id="concert" class="link-underline">concert</span>.
+                    <p>outside of coding, you can find me either exploring the <span id="outdoors"
+                            class="link-underline">outdoors</span> or dancing at a <span id="concert"
+                            class="link-underline">concert</span>.
                         no matter the activity i love pushing myself and enjoying it with others!</p>
                 </article>
                 <article class="cell about flex col gap-16 jcsb about-reveal">
@@ -113,7 +116,8 @@
                         data-tippy-content="Tailwind">
                     <img class="skill" src="./icons/skills/php.svg" alt="PHP icon." draggable="false"
                         data-tippy-content="PHP">
-                    <img class="skill" src="./icons/skills/wordpress.svg" alt="WordPress icon." draggable="false" data-tippy-content="WordPress">
+                    <img class="skill" src="./icons/skills/wordpress.svg" alt="WordPress icon." draggable="false"
+                        data-tippy-content="WordPress">
                 </div>
                 <div class="flex row gap-16 wrap">
                     <img class="skill" src="./icons/skills/figma.svg" alt="Figma icon." draggable="false"
@@ -122,7 +126,8 @@
                         data-tippy-content="Photoshop">
                     <img class="skill" src="./icons/skills/ai.svg" alt="Illustrator icon." draggable="false"
                         data-tippy-content="Illustrator">
-                    <img class="skill" src="./icons/skills/ae.svg" alt="After Effects icon." draggable="false" data-tippy-content="After Effects">
+                    <img class="skill" src="./icons/skills/ae.svg" alt="After Effects icon." draggable="false"
+                        data-tippy-content="After Effects">
                     <img class="skill" src="./icons/skills/id.svg" alt="InDesign icon." draggable="false"
                         data-tippy-content="InDesign">
                     <img class="skill" src="./icons/skills/pr.svg" alt="Premiere Pro icon." draggable="false"
@@ -130,7 +135,7 @@
                 </div>
             </article>
             <article class="cell values value1 flex col gap-16 jcsb about-reveal">
-                <h3>adaptability</h3> 
+                <h3>adaptability</h3>
                 <p>i embrace change and enjoy learning new things within the industry. my flexibility
                     enables me to remain enthusiastic when learning ways to tackle new challenges.</p>
             </article>
