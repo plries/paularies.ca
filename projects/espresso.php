@@ -279,7 +279,8 @@
     </div>
 
     <script src="../dist/vendors.js"></script>
-    <script src="../dist/main.js"></script>
+    <script src="../dist/global.js"></script>
+    <script src="../dist/project.js"></script>
 
 </body>
 

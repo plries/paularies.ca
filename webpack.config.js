@@ -9,8 +9,8 @@ module.exports = {
         global: [ './src/lenis.js', './src/cursor.js', './src/reveal.js', './src/menu.js', './src/footer.js' ],
         home: [ './src/fitty.js', './src/hero.js' ],
         work: [ './src/filter.js' ],
-        about: [ './src/flickity.js',  ],
-        project: [ './src/arrow.js', './src/dropdown.js', './src/modal.js' ]
+        about: [ './src/flickity.js', './src/tippy.js'  ],
+        project: [ './src/arrow.js', './src/dropdown.js', './src/modal.js', './src/tippy.js' ]
     },
     // configures webpack to output the file 'bundle.js' to the 'dist' folder
     output: {
@@ -19,19 +19,19 @@ module.exports = {
         // cleans the dist folder before each build
         clean: true,
     },
-    mode: 'development',
+    mode: 'production',
 
     module: {
         rules: [
             {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: {
-                loader: 'babel-loader',
-                options: {
-                // ensures ES6+ syntax is compatible with older browsers
-                presets: ['@babel/preset-env'],
-                },
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        // ensures ES6+ syntax is compatible with older browsers
+                        presets: ['@babel/preset-env'],
+                    },
                 },
             },
         ],

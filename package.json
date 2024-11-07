@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@floating-ui/dom": "^1.6.12",
+    "@popperjs/core": "^2.11.8",
     "fitty": "^2.4.2",
     "flickity": "^3.0.0",
     "fontfaceobserver": "^2.3.0",
@@ -9,7 +9,6 @@
     "lenis": "^1.1.16",
     "micromodal": "^0.4.10",
     "scrollreveal": "^4.0.9",
-    "tippy": "^0.0.0",
     "tippy.js": "^6.3.7"
   },
   "name": "portfoliob",
@@ -19,6 +18,7 @@
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
