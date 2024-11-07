@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import Flickity from 'flickity';
 
 document.addEventListener("DOMContentLoaded", function() {
     const cursor = document.querySelector(".cursor");
@@ -10,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.querySelectorAll("button");
     const skills = document.getElementsByClassName("skill");
     const iframes = document.querySelectorAll("iframe");
-    const flickity = document.querySelector(".flickity-viewport");
+    const flickityElement = document.querySelector(".flickity-viewport");
 
     gsap.set(".cursor", { xPercent: -50, yPercent: -50 });
 
@@ -74,12 +75,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // hover effect for flickity
-    flickity.addEventListener("mouseenter", function() {
-        hover.play();
-    });
-    flickity.addEventListener("mouseleave", function() {
-        hover.reverse();
-    });
-    
 });
