@@ -74,10 +74,16 @@
                         </div>
                         <div class="flex row gap-16 links-container">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
-                            <a class="black btn"
-                                href="https://www.figma.com/proto/5pzdmswTzaA0sZRZaL7efB/ODD?node-id=57-12&t=yieZZXhAgYwHyg9b-1"
+                            <a class="secondary btn"
+                                href="https://www.figma.com/design/h8iqY8j5rhOQ2PaSeGe1Yv/pine-wireframes?node-id=0-1&t=WmGLyXfpreuQB0ms-1"
                                 target="_blank">
                                 figma
+                            </a>
+                            <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
+                                github
+                            </a>
+                            <a class="black btn" href="https://pine.paularies.ca/" target="_blank">
+                                website
                             </a>
                         </div>
                     </div>
@@ -156,14 +162,6 @@
             </div>
             <div class="media span-lg project-reveal">
                 <img src="../media/pine/pinePs.png" alt="product photos being edited in Photoshop.">
-            </div>
-            <div class="flex span-lg jcr gap-16 view-project project-reveal">
-                <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
-                    github
-                </a>
-                <a class="white btn" href="https://pine.paularies.ca/" target="_blank">
-                    website
-                </a>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>

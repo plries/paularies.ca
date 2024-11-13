@@ -233,14 +233,6 @@
                     interactive layer, and localStorage integration i was able to explore the intriguing challenge of
                     marketing a product through a sleek, SaaS-style website.</p>
             </div>
-            <div class="flex span-lg jcr gap-16 view-project project-reveal">
-                <a class="secondary btn" href="https://github.com/plries/pine-retail" target="_blank">
-                    github
-                </a>
-                <a class="white btn" href="https://pine.paularies.ca/" target="_blank">
-                    website
-                </a>
-            </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
