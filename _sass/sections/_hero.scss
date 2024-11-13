@@ -315,9 +315,7 @@
                         object-fit: cover;
                         -o-object-position: center;
                         object-position: center;
-                        height: -webkit-fit-content;
-                        height: -moz-fit-content;
-                        height: fit-content;
+                        height: auto;
                         border-radius: 16px;
                     }
                 }
