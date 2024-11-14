@@ -1,0 +1,258 @@
+[
+    {
+        "category": "front-end",
+        "url": "./projects/guy",
+        "title": "guy",
+        "subtitle": "software landing page",
+        "description": "a marketing page for a mobile app companion. built with Sass, IntersectionObserver API, and local storage to enable theme switching between light and dark modes.",
+        "image": "./media/guy/guy.jpg",
+        "tags": [
+            {
+                "name": "front-end",
+                "class1": "btn",
+                "class2": "green",
+                "icon": "./icons/ui/white-star.svg",
+                "alt": "star icon."
+            },
+            {
+                "name": "js",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "html",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "sass",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "category": "ux-ui",
+        "url": "./projects/tempo",
+        "title": "tempo",
+        "subtitle": "dance class booking app",
+        "description": "a mobile app prototype for a dance studio—backed with user research strategies, usability tests, and a written report with possible solutions.",
+        "image": "./media/tempo/tempo.jpg",
+        "tags": [
+            {
+                "name": "ux-ui",
+                "class1": "btn",
+                "class2": "blue",
+                "icon": "./icons/ui/white-target.svg",
+                "alt": "target icon."
+            },
+            {
+                "name": "figma",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "user testing",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "user research",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "category": "front-end",
+        "url": "./projects/espresso",
+        "title": "espresso",
+        "subtitle": "website guide",
+        "description": "an interactive, 3-page website to introduce beginners to the vast world of espresso utilizing 5 JavaScript/jQuery plugins.",
+        "image": "./media/espresso/espresso.jpg",
+        "tags": [
+            {
+                "name": "front-end",
+                "class1": "btn",
+                "class2": "green",
+                "icon": "./icons/ui/white-star.svg",
+                "alt": "star icon."
+            },
+            {
+                "name": "js",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "html",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "css",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "jquery",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "category": "ux-ui",
+        "url": "./projects/odd",
+        "title": "odd",
+        "subtitle": "juice ordering app",
+        "description": "a mobile app prototype for a juice store that allows users to search, select, and purchase a product.",
+        "image": "./media/odd/odd.jpg",
+        "tags": [
+            {
+                "name": "ux-ui",
+                "class1": "btn",
+                "class2": "blue",
+                "icon": "./icons/ui/white-target.svg",
+                "alt": "target icon."
+            },
+            {
+                "name": "figma",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "photoshop",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "illustrator",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "category": "front-end",
+        "url": "./projects/pine",
+        "title": "pine",
+        "subtitle": "online retail website",
+        "description": "a website for a fictional online retail store, implementing CSS media queries, flexbox, grid, and a JavaScript plugin, resulting in a fully responsive website.",
+        "image": "./media/pine/pine.jpg",
+        "tags": [
+            {
+                "name": "front-end",
+                "class1": "btn",
+                "class2": "green",
+                "icon": "./icons/ui/white-star.svg",
+                "alt": "star icon."
+            },
+            {
+                "name": "js",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "html",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "css",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "figma",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "photoshop",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "illustrator",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "category": "soon",
+        "url": "",
+        "title": "coming soon",
+        "subtitle": "stay tuned!",
+        "description": "",
+        "image": "",
+        "tags": [
+            {
+                "name": "front-end",
+                "class1": "btn",
+                "class2": "green",
+                "icon": "./icons/ui/white-star.svg",
+                "alt": "star icon."
+            },
+            {
+                "name": "!@3",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "%*$",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            },
+            {
+                "name": "#&?",
+                "class1": "chip",
+                "class2": "tag",
+                "icon": "",
+                "alt": ""
+            }
+        ]
+    }
+]
