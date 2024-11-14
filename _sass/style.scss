@@ -61,11 +61,35 @@ html.lenis body {
 }
 
 ::-moz-selection {
-    color: $black;
-    background: $brown;
+    color: $white;
+    background: #202020bf;
 }
 
 ::selection {
-    color: $black;
-    background: $brown;
+    color: $white;
+    background: #202020bf;
+}
+
+main {
+    ::-moz-selection {
+        color: $black;
+        background: #FAF9F6e6;
+    }
+    
+    ::selection {
+        color: $black;
+        background: #faf9f6e6;
+    }
+
+    .project, .profile, .callout {
+        ::-moz-selection {
+            color: $white;
+            background: #202020e6;
+        }
+        
+        ::selection {
+            color: $white;
+            background: #202020e6;
+        }
+    }
 }
