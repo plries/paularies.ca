@@ -66,9 +66,9 @@
                                 front-end
                             </p>
                             <p class="chip tag">react.js</p>
-                            <p class="chip tag">javascript</p>
-                            <p class="chip tag">tailwind</p>
                             <p class="chip tag">step wizard</p>
+                            <p class="chip tag">js</p>
+                            <p class="chip tag">tailwind</p>
                         </div>
                         <div class="flex row gap-16 links-container">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
@@ -90,23 +90,32 @@
             <div class="paragraph span-lg callout project-reveal">
                 <h3>the goal</h3>
                 <div>
-                    <p>develop a modern online ordering experience for a smoothie bowl vendor using React.js and Tailwind. these two frameworks will be used to create a playful interface which reacts dynamically to user interaction with components.</p>
+                    <p>develop a modern online ordering experience for a smoothie bowl vendor using React.js and
+                        Tailwind. these two frameworks will be used to create a playful interface which reacts
+                        dynamically to user interaction with components.</p>
                 </div>
             </div>
             <div class=" paragraph span-lg project-reveal">
                 <h4>project vision</h4>
                 <p>as the first large-scale <strong>React.js</strong> project for
                     <a class="link-underline" href="https://www.linkedin.com/in/mariasupix/" target="_blank">Masha</a>,
-                    <a class="link-underline" href="https://www.linkedin.com/in/christianyipper/" target="_blank">Christian</a>,
-                    and i, we wanted to collaborate and utilize web components to its fullest to create a unique online experience out of an ordinary process.</p>
+                    <a class="link-underline" href="https://www.linkedin.com/in/christianyipper/"
+                        target="_blank">Christian</a>,
+                    and i, we wanted to collaborate and utilize web components to its fullest to create a unique online
+                    experience out of an ordinary process.
+                </p>
             </div>
             <div class="paragraph span-md project-reveal">
-                <p class="quote">with this new medium, we decided to create a 3-step smoothie builder utilizing props to pass ingredient information between each step.</p>
+                <p class="quote">with this new medium, we decided to create a 3-step smoothie builder utilizing props to
+                    pass ingredient information between each step.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>working together</h4>
-                    <p>since this website was a side-project outside out of school, the three of us agreed that an agile, <strong>sprint-based workflow</strong> would be ideal. having weekly meetings, a Notion database, and a Discord server ensured that we had the right resources to focus on the task at hand, as we assigned new tasks and deadlines weekly.</p>
+                    <p>since this website was a side-project outside out of school, the three of us agreed that an
+                        agile, <strong>sprint-based workflow</strong> would be ideal. having weekly meetings, a Notion
+                        database, and a Discord server ensured that we had the right resources to focus on the task at
+                        hand, as we assigned new tasks and deadlines weekly.</p>
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
@@ -114,9 +123,13 @@
                     <h4>brand identity</h4>
                     <div class="grid gap-16 grid-2-toggle">
                         <div>
-                            <p>we first began the project by creating a <strong>visual identity</strong> for the smoothie vendor. we knew that we wanted the website to have a unique feel with bright colors and fun shapes—we also incorporated a blender silhouette into the logo as the whole experience revolves around it.</p>
+                            <p>we first began the project by creating a <strong>visual identity</strong> for the
+                                smoothie vendor. we knew that we wanted the website to have a unique feel with bright
+                                colors and fun shapes—we also incorporated a blender silhouette into the logo as the
+                                whole experience revolves around it.</p>
                             <br>
-                            <p>with all the colors, fonts, and logos established, we created a style tile to refer to as we develop the website moving forward.</p>
+                            <p>with all the colors, fonts, and logos established, we created a style tile to refer to as
+                                we develop the website moving forward.</p>
                         </div>
                         <div class="paragraph media">
                             <img src="../media/blend-it/blend-itStyleTile.png" alt="blend it's style tile."></img>
@@ -127,16 +140,27 @@
             <div class=" paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>wireframes and mockups</h4>
-                    <p>we created wireframes for the project to get an general idea for each page’s layout. with the wireframes and style tile, we then made the mockups for both pages. i focused on the <strong>smoothie bowl builder mockup</strong>, assuring that the bowl builder had the same playful energy as the homepage. having <strong>weekly communication</strong> and <strong>collaboration</strong> ensured that blend it’s visual identity remained consistent across all aspects of the website, even when we worked on sections separately.</p>
+                    <p>we created wireframes for the project to get an general idea for each page’s layout. with the
+                        wireframes and style tile, we then made the mockups for both pages. i focused on the
+                        <strong>smoothie bowl builder mockup</strong>, assuring that the bowl builder had the same
+                        playful energy as the homepage. having <strong>weekly communication</strong> and
+                        <strong>collaboration</strong> ensured that blend it’s visual identity remained consistent
+                        across all aspects of the website, even when we worked on sections separately.</p>
                 </div>
                 <div class="paragraph media">
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/design/n46g89f4LddbEyRYoipnUt/Blend-It.-Mockups?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                        src="https://embed.figma.com/design/n46g89f4LddbEyRYoipnUt/Blend-It.-Mockups?node-id=0-1&embed-host=share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>react step wizard</h4>
-                    <p>using <strong>react step wizard</strong>, i was able to segment the smoothie bowl builder into 3 main steps; blending the base, picking fruits, and finishing it with toppings. step wizard has the ability to pass props between each step, meaning that we can retain the ingredients selected from one step to the next, and display the bowl in its final state at the end of the process.</p>
+                    <p>using <strong>react step wizard</strong>, i was able to segment the smoothie bowl builder into 3
+                        main steps; blending the base, picking fruits, and finishing it with toppings. step wizard has
+                        the ability to pass props between each step, meaning that we can retain the ingredients selected
+                        from one step to the next, and display the bowl in its final state at the end of the process.
+                    </p>
                 </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
@@ -154,9 +178,13 @@
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>a colorful challenge</h4>
-                <p>a lot of discussion was had about how we can dynamically change the color of the smoothie based on the ingredients selected. after some research we found that, colors can be <strong>blended together</strong> by adding the fruits R, G, and B values together, and dividing it by the amount of ingredients selected. thanks to this solution, we avoided a whole page of if statements in our code.
-            </p>
-            <div class="code-dropdown">
+                <p>a lot of discussion was had about how we can dynamically change the color of the smoothie based on
+                    the ingredients selected. after some research we found that, colors can be <strong>blended
+                        together</strong> by adding the fruits R, G, and B values together, and dividing it by the
+                    amount of ingredients selected. thanks to this solution, we avoided a whole page of if statements in
+                    our code.
+                </p>
+                <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>blend colors</p>
                         <div class="flex row aic gap-16">
@@ -171,15 +199,18 @@
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>blending it together</h4>
-                <p>working on blend it was more than just a technical project—it was a chance to be creative, collaborative, and innovative. using React.js and Tailwind, we turned the basic ordering system into something interactive and lively. this was achieved due effective project management in an agile workflow, consistent communication, and, of course, <strong>positive vibes</strong> all around.</p>
+                <p>working on blend it was more than just a technical project—it was a chance to be creative,
+                    collaborative, and innovative. using React.js and Tailwind, we turned the basic ordering system into
+                    something interactive and lively. this was achieved due effective project management in an agile
+                    workflow, consistent communication, and, of course, <strong>positive vibes</strong> all around.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
