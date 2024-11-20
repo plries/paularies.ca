@@ -51,12 +51,12 @@
     <?php include '../components/project-header.php'; ?>
 
     <div class="project-hero hero-wrapper">
-        <div class="guy parallax overlay flex aic jcc">
+        <div class="parallax flex aic jcc">
             <div class="grid col-12-8-4">
-                <div class="sm-hero span-full">
+                <div class="hero-img span-md">
                     <img src="../media/guy/guy.jpg" alt="guy software landing page.">
                 </div>
-                <div class="project-title span-full jcsb">
+                <div class="project-title span-md jcsb">
                     <h1>guy</h1>
                     <h2>software landing page</h2>
                     <div class="flex row jcsb aic wrap gap-16">

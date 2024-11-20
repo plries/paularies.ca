@@ -88,7 +88,7 @@
     </div>
 
     <main class="flex col aic jcc">
-        <section class="grid col-12-8-4">
+        <section class="grid col-12-8-4 gap-48">
             <div class="intro cell span-lg flex aic jcsb gap-24">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16">
@@ -105,18 +105,20 @@
                     </a>
                 </div>
             </div>
-            <h2 class="span-lg">featured work</h2>
             <div class="project-cards list span-lg">
+                <h2 class="span-lg">featured work</h2>
                 <?php include './components/project-cards/guy-card.php'; ?>
                 <?php include './components/project-cards/tempo-card.php'; ?>
+                <div class="flex jcr gap-16 span-lg more">
+                    <a class="secondary btn" href="./work">
+                        all projects
+                    </a>
+                </div>
             </div>
-            <div class="flex jcr gap-16 span-lg more">
-                <a class="secondary btn" href="./work">
-                    all projects
-                </a>
+            <div class="flex col gap-16 span-lg">
+                <?php include './components/testimonial-cards/emma.php'; ?>
+                <?php include './components/testimonial-cards/masha.php'; ?>
             </div>
-            <?php include './components/testimonial-cards/emma.php'; ?>
-            <?php include './components/testimonial-cards/masha.php'; ?>
         </section>
     </main>
 

@@ -24,12 +24,12 @@
             height: auto;
 
             .project-img {
+                width: 100%;
+                aspect-ratio: 16 / 9;
                 border: $light-grey 1px solid;
-                aspect-ratio: 16 / 10;
                 border-radius: 8px;
                 -o-object-fit: cover;
                 object-fit: cover;
-                width: 100%;
                 height: auto;
                 user-select: none;
                 -webkit-touch-callout: none;
@@ -69,7 +69,7 @@
     }
 
     .project:hover {
-        scale: 0.998;
+        scale: 0.995;
 
         .project-arrow {
             transform: rotate(-45deg);

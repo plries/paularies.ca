@@ -65,6 +65,10 @@ header {
                     height: 26px;
                     text-decoration: none;
 
+                    span {
+                        display: none;
+                    }
+
                     li,
                     img {
                         transition: scale 0.25s ease;
@@ -161,6 +165,10 @@ header {
                             border-radius: unset;
                             font-size: 6rem;
                             gap: 16px;
+
+                            span {
+                                display: block;
+                            }
 
                             img {
                                 width: 3rem;

@@ -9,7 +9,7 @@
             </div>
             <div class="flex col gap-8">
                 <p>just say...</p>
-                <a href="mailto:hello@paularies.ca" class="email flex row aic gap-8" tabindex="0">
+                <a id= href="mailto:hello@paularies.ca" class="email flex row aic gap-8" tabindex="0">
                     <img src="./icons/ui/black-mail.svg" alt="email icon." draggable="false">
                     hello@paularies.ca
                 </a>

@@ -28,6 +28,12 @@
                         about
                     </a>
                 </li>
+                <li>
+                    <a href="mailto:hello@paularies.ca" class="header btn email">
+                        <img src="../icons/ui/white-mail.svg" alt="about icon." draggable="false">
+                        <span>contact</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
