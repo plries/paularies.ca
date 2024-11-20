@@ -11,7 +11,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300..900;1,300..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
         rel="stylesheet">
-    <link rel="canonical" href="./work">
     <link rel="icon" href="./icons/ui/logo-big.svg">
     <link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
     <?php include './components/initials.php' ?>

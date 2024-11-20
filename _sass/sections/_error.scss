@@ -30,7 +30,7 @@
             width: 100%;
             opacity: 0.5;
 
-            &[src="./icons/ui/white-home.svg"] {
+            &#home-icon {
                 -webkit-animation: fadeRepeat 5s ease infinite;
                 animation: fadeRepeat 5s ease infinite;
                 grid-column-start: 5;

@@ -64,7 +64,8 @@
                     word-wrap: break-word;
 
                     .hljs-comment {
-                        color: #535353;
+                        opacity: 0.75;
+                        color: $grey;
                     }
 
                     .hljs-variable,

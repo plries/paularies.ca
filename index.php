@@ -120,7 +120,7 @@
                 </a>
             </div>
             <?php include './components/testimonial-cards/emma.php'; ?>
-            <?php include './components/testimonial-cards/coco.php'; ?>
+            <?php include './components/testimonial-cards/masha.php'; ?>
         </section>
     </main>
 
