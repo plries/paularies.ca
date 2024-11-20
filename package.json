@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "fittext": "^1.0.1",
     "fitty": "^2.4.2",
     "flickity": "^3.0.0",
     "fontfaceobserver": "^2.3.0",
