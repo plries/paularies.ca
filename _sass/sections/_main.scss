@@ -86,7 +86,7 @@ main {
         }
 
         .view-toggle:hover {
-            scale: 0.95;
+            scale: 0.97;
         }
     }
 
@@ -94,7 +94,7 @@ main {
         visibility: hidden;
         margin-bottom: 32px;
         border-radius: 24px;
-        padding: 16px;
+        padding: 24px;
         background-color: $darker-grey;
 
         p {
@@ -105,6 +105,11 @@ main {
             }
         }
 
+        .secondary.btn {
+            margin-top: 16px;
+            width: fit-content;
+        }
+
         .picture {
             border: $dark-grey 1px solid;
             max-width: 384px;
@@ -112,7 +117,7 @@ main {
             object-fit: cover;
             -o-object-position: top;
             object-position: top;
-            border-radius: 12px;
+            border-radius: 8px;
             user-select: none;
             -webkit-touch-callout: none;
             -webkit-user-select: none;

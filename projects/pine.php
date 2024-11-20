@@ -54,7 +54,7 @@
         <div class="pine parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/pine/pine.jpg" alt="pine landing page.">
+                    <img src="../media/pine/pine.jpg" alt="pine online retail website.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>pine</h1>
@@ -164,13 +164,10 @@
                 <img src="../media/pine/pinePs.png" alt="product photos being edited in Photoshop.">
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
-                <h4>other projects</h4>
+                <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/odd-thumb.php'; ?>
-                    <div class="grid grid-2-row gap-16">
-                        <?php include '../components/project-thumbs/guy-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
-                    </div>
+                    <?php include '../components/project-thumbs/guy-thumb.php'; ?>
                 </div>
             </div>
         </section>

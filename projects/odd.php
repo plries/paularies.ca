@@ -54,7 +54,7 @@
         <div class="odd parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/odd/odd.jpg" alt="odd product page.">
+                    <img src="../media/odd/odd.jpg" alt="odd juice ordering app.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>odd</h1>
@@ -144,13 +144,10 @@
                 <img src="../media/odd/oddPrototype.jpg" alt="screenshot of Odd Figma prototype.">
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
-                <h4>other projects</h4>
+                <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/guy-thumb.php'; ?>
-                    <div class="grid grid-2-row gap-16">
-                        <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
-                    </div>
+                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                 </div>
             </div>
         </section>

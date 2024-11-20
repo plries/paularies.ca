@@ -51,10 +51,10 @@
     <?php include '../components/project-header.php'; ?>
 
     <div class="project-hero hero-wrapper">
-        <div class="guy parallax overlay flex aic jcc">
+        <div class="blend-it parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/guy/guy.jpg" alt="guy landing page.">
+                    <img src="../media/blend-it/blend-it.jpg" alt="blend it smoothie bowl builder.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>blend it</h1>
@@ -72,10 +72,10 @@
                         </div>
                         <div class="flex row gap-16 links-container">
                             <button class="info btn" data-micromodal-trigger="modal-1">i</button>
-                            <a class="secondary btn" href="https://github.com/plries/guy-saas" target="_blank">
+                            <a class="secondary btn" href="https://github.com/christianyipper/blendit" target="_blank">
                                 github
                             </a>
-                            <a class="black btn" href="https://guy.paularies.ca/" target="_blank">
+                            <a class="black btn" data-tippy-content="coming soon!" target="_blank">
                                 website
                             </a>
                         </div>
@@ -98,7 +98,7 @@
                 <p>as the first large-scale <strong>React.js</strong> project for
                     <a class="link-underline" href="https://www.linkedin.com/in/mariasupix/" target="_blank">Masha</a>,
                     <a class="link-underline" href="https://www.linkedin.com/in/christianyipper/" target="_blank">Christian</a>,
-                    and I, we wanted to collaborate and utilize web components to its fullest to create a unique online experience out of an ordinary process.</p>
+                    and i, we wanted to collaborate and utilize web components to its fullest to create a unique online experience out of an ordinary process.</p>
             </div>
             <div class="paragraph span-md project-reveal">
                 <p class="quote">with this new medium, we decided to create a 3-step smoothie builder utilizing props to pass ingredient information between each step.</p>
@@ -130,21 +130,31 @@
                     <p>we created wireframes for the project to get an general idea for each page’s layout. with the wireframes and style tile, we then made the mockups for both pages. i focused on the <strong>smoothie bowl builder mockup</strong>, assuring that the bowl builder had the same playful energy as the homepage. having <strong>weekly communication</strong> and <strong>collaboration</strong> ensured that blend it’s visual identity remained consistent across all aspects of the website, even when we worked on sections separately.</p>
                 </div>
                 <div class="paragraph media">
-                    <img src="" alt="blend it's mockup."></img>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/design/n46g89f4LddbEyRYoipnUt/Blend-It.-Mockups?node-id=0-1&embed-host=share" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
-                    <h4>development workflow</h4>
-                    <p>we created a GitHub repository and set up branches for each team member to avoid possible code conflicts. we also set up a <code>tailwind.config.js</code> file to set brand colors and fonts from our style tile. establishing a strong foundation with thorough commented code enabled us to develop our website as efficiently as possible and avoid any confusion.</p>
+                    <h4>react step wizard</h4>
+                    <p>using <strong>react step wizard</strong>, i was able to segment the smoothie bowl builder into 3 main steps; blending the base, picking fruits, and finishing it with toppings. step wizard has the ability to pass props between each step, meaning that we can retain the ingredients selected from one step to the next, and display the bowl in its final state at the end of the process.</p>
                 </div>
-                <div class="paragraph media">
-                    <img src="" alt="blend it's development workflow."></img>
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
+                        <p>step wizard</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </button>
+                    <figure class="code-preview">
+                        <?php include '../components/code/blend-it/stepwizard.php'; ?>
+                    </figure>
                 </div>
             </div>
-            <div class="paragraph span-lg flex col gap-16">
+            </div>
+            <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>a colorful challenge</h4>
-                <p>a lot of discussion was had about how we can dynamically change the color of the smoothie based on the ingredients selected. after some research we found that, colors can be blended together by adding the fruits R, G, and B values together, and dividing it by the amount of ingredients selected. thanks to this solution, we avoided a whole page of if statements in our code.
+                <p>a lot of discussion was had about how we can dynamically change the color of the smoothie based on the ingredients selected. after some research we found that, colors can be <strong>blended together</strong> by adding the fruits R, G, and B values together, and dividing it by the amount of ingredients selected. thanks to this solution, we avoided a whole page of if statements in our code.
             </p>
             <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
@@ -161,10 +171,10 @@
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>blending it together</h4>
-                <p>working on blend it was more than just a technical project—it was a chance to be creative, collaborative, and innovative. using React.js and Tailwind, we turned the basic ordering system into something interactive and lively. this was achieved due effective project management in an agile workflow, consistent communication, and, of course, positive vibes all around.</p>
+                <p>working on blend it was more than just a technical project—it was a chance to be creative, collaborative, and innovative. using React.js and Tailwind, we turned the basic ordering system into something interactive and lively. this was achieved due effective project management in an agile workflow, consistent communication, and, of course, <strong>positive vibes</strong> all around.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
-                <h4>other projects</h4>
+                <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
@@ -184,26 +194,22 @@
                     <div class="grid grid-2-toggle">
                         <div>
                             <h4>timeframe</h4>
-                            <p>aug 3, 2024 - aug 11, 2024</p>
+                            <p>sep 3, 2024 - nov 22, 2024</p>
                         </div>
                         <div>
                             <h4>contributions</h4>
                             <ul>
-                                <li><a class="link-underline" href="https://www.pexels.com/license/"
-                                        target="_blank">pexels</a></li>
-                                <li><a class="link-underline" href="https://ionic.io/ionicons"
-                                        target="_blank">ionicons</a></li>
+                                <li>maria supikhanova - web developer</li>
+                                <li>christian yip - web developer</li>
                             </ul>
                         </div>
                         <div>
                             <h4>input</h4>
-                            <ul>
-                                <li>jayme cochrane - instructor</li>
-                            </ul>
+                            <p>n/a</p>
                         </div>
                         <div>
                             <h4>total hours</h4>
-                            <p>16</p>
+                            <p>26</p>
                         </div>
                     </div>
                     <div class="flex end">

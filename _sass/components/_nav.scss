@@ -29,7 +29,7 @@ header {
         transition: scale 0.25s ease;
 
         &:hover {
-            scale: 0.925;
+            scale: 0.975;
         }
 
         .logo {
@@ -51,7 +51,7 @@ header {
     }
 
     .nav-toggle:hover {
-        scale: 0.925;
+        scale: 0.975;
     }
     
     .nav-wrapper {
@@ -72,7 +72,7 @@ header {
                 }
 
                 a:hover {
-                    scale: 0.925;
+                    scale: 0.975;
                 }
             }
         }

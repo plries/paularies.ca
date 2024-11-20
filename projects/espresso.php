@@ -54,7 +54,7 @@
         <div class="espresso parallax overlay flex aic jcc">
             <div class="grid col-12-8-4">
                 <div class="sm-hero span-full">
-                    <img src="../media/espresso/espresso.jpg" alt="espresso landing page.">
+                    <img src="../media/espresso/espresso.jpg" alt="espresso website guide.">
                 </div>
                 <div class="project-title span-full jcsb">
                     <h1>espresso</h1>
@@ -224,12 +224,10 @@
                 </div>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
-                <h4>other projects</h4>
+                <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
-                    <div class="grid grid-2-row gap-16">
-                        <?php include '../components/project-thumbs/pine-thumb.php'; ?>
-                        <?php include '../components/project-thumbs/odd-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                     </div>
                 </div>
             </div>

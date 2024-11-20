@@ -49,6 +49,10 @@
             margin-top: -8px;
             margin-bottom: 8px;
 
+            p {
+                color: $dark-grey;
+            }
+
             h4 {
                 font-size: $fs-xs;
                 font-weight: 500;
@@ -65,7 +69,7 @@
     }
 
     .project:hover {
-        scale: 0.98;
+        scale: 0.998;
 
         .project-arrow {
             transform: rotate(-45deg);

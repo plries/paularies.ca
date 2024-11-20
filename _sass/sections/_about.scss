@@ -41,6 +41,7 @@
 		.profile {
 			color: $black;
 			background-color: $white;
+			padding: 24px;
 
 			.btn {
 				img {
@@ -75,7 +76,7 @@
 				object-fit: cover;
 				-o-object-position: top;
 				object-position: top;
-				border-radius: 12px;
+				border-radius: 8px;
 				user-select: none;
 				-webkit-touch-callout: none;
 				-webkit-user-select: none;

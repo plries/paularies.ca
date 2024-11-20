@@ -89,24 +89,20 @@
 
     <main class="flex col aic jcc">
         <section class="grid col-12-8-4">
-            <div class="intro cell span-lg flex aic jcsb gap-16">
+            <div class="intro cell span-lg flex aic jcsb gap-24">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
-                <div class="flex col gap-16 jcsb">
-                    <div class="flex col gap-16">
-                        <p class="quote">my passion for both art and tech has always driven me to merge the two
-                            creatively.
-                        </p>
-                        <p>that's why i love the world of <strong>front-end development</strong> and <strong>ux/ui
-                                design</strong>—i can
-                            create innovative solutions and help users navigate the digital world in a satisfying and
-                            refreshing way.
-                        </p>
-                    </div>
-                    <div class="flex jcr">
-                        <a class="secondary btn" href="./about">
-                            learn more
-                        </a>
-                    </div>
+                <div class="flex col gap-16">
+                    <p class="quote">my passion for both art and tech has always driven me to merge the two
+                        creatively.
+                    </p>
+                    <p>that's why i love the world of <strong>front-end development</strong> and <strong>ux/ui
+                            design</strong>—i can
+                        create innovative solutions and help users navigate the digital world in a satisfying and
+                        refreshing way.
+                    </p>
+                    <a class="secondary btn" href="./about">
+                        learn more
+                    </a>
                 </div>
             </div>
             <h2 class="span-lg">featured work</h2>

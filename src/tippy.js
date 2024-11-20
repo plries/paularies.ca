@@ -8,6 +8,10 @@ tippy('.footer-logo[data-tippy-content="back to top!"]', {
     placement: 'bottom',
 });
 
+tippy('a[data-tippy-content="coming soon!"]', {
+    placement: 'top',
+});
+
 tippy('.code-dropdown-btn[data-tippy-content="code snippet!"]', {
     placement: 'top',
 });

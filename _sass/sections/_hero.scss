@@ -44,6 +44,10 @@
         background-image: url("../media/guy/guy.jpg");
     }
 
+    .blend-it {
+        background-image: url("../media/blend-it/blend-it.jpg");
+    }
+
     .parallax {
         min-height: 634px;
         height: calc(100vh + 64px);
@@ -272,7 +276,8 @@
         .espresso,
         .pine,
         .odd,
-        .guy {
+        .guy,
+        .blend-it {
             background-image: none;
         }
 

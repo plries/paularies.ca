@@ -7,6 +7,21 @@
         }
     }
 
+    .paragraph,
+    .grid-2-toggle {
+        > p {
+            margin-top: 8px;
+        }
+
+        div > p {
+            margin-top: 8px;
+        }
+    }
+
+    p.quote {
+        margin: 0;
+    }
+
     h4 {
         font-size: $fs-sm;
         font-family: $rubik;
@@ -17,6 +32,10 @@
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 16px;
+    }
+
+    h4.other-projects {
+        overflow: unset;
     }
 
     h4::after {

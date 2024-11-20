@@ -15,7 +15,7 @@
             <a href="https://www.linkedin.com/in/emma-englund/" target="_blank">
                 <img src="./icons/ui/white-linkedin.svg" alt="linkedin icon." draggable="false">
             </a>
-            <div class="flex col gap-8 jcr">
+            <div class="flex col jcr">
                 <a class="link-underline" href="https://www.englundsocial.com/" target="_blank">
                     emma englund
                 </a>
