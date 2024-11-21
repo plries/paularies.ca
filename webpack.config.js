@@ -9,7 +9,7 @@ module.exports = {
         global: ['./src/lenis.js', './src/cursor.js', './src/reveal.js', './src/menu.js', './src/footer.js', './src/tippy.js',],
         home: ['./src/fitty.js', './src/hero.js'],
         work: ['./src/filter.js'],
-        about: ['./src/flickity.js', './src/tippy.js'],
+        about: ['./src/flickity.js', './src/skills.js'],
         project: ['./src/arrow.js', './src/dropdown.js', './src/modal.js', './src/highlight.js'],
     },
     // configures webpack to output the file 'bundle.js' to the 'dist' folder

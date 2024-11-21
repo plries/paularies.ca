@@ -179,6 +179,13 @@ main {
 
 @media screen and (max-width: 1024px) {
 
+    .work {
+        h1 {
+            font-size: $fs-xxxl;
+            letter-spacing: -0.1rem;
+        }
+    }
+
     main {
         padding: 48px 0;
 
@@ -217,9 +224,23 @@ main {
 
 @media screen and (max-width: 425px) {
 
+    .work {
+        h1 {
+            font-size: $fs-xxl;
+        }
+    }
+
     main {
         border-radius: 40px;
         padding: 16px 0 80px 0;
+
+        .intro {
+            div {
+                .secondary.btn {
+                    align-self: flex-end;
+                }
+            }
+        }
 
 
         .filter-button-group {

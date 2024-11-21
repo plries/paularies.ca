@@ -29,7 +29,6 @@ h4 {
 
 h5 h6,
 button {
-    letter-spacing: -0.1rem;
     font-family: $mono;
     font-weight: 400;
 }
@@ -96,6 +95,7 @@ p.quote {
 
     h2 {
         font-size: $fs-xxxl;
+        letter-spacing: -0.1rem;
     }
 
     h3 {

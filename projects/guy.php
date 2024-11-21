@@ -60,7 +60,7 @@
                     <h1>guy</h1>
                     <h2>software landing page</h2>
                     <div class="flex row jcsb aic wrap gap-16">
-                        <div class="flex row aic gap-16">
+                        <div class="flex row aic gap-16 wrap">
                             <p class="green btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 front-end

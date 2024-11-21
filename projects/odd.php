@@ -60,7 +60,7 @@
                     <h1>odd</h1>
                     <h2>juice ordering app</h2>
                     <div class="flex row jcsb aic wrap gap-16">
-                        <div class="flex row aic gap-16">
+                        <div class="flex row aic gap-16 wrap">
                             <p class="blue btn">
                                 <img src="../icons/ui/white-star.svg" alt="star icon." draggable="false">
                                 ux / ui

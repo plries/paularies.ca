@@ -100,7 +100,7 @@
             </div>
             <article class="cell skills span-lg flex col gap-16 about-reveal">
                 <h3>my skills</h3>
-                <div class="flex row gap-16 wrap">
+                <div class="skills-container flex row gap-32">
                     <img class="skill" src="./icons/skills/html5.svg" alt="HTML5 icon." draggable="false"
                         data-tippy-content="HTML5">
                     <img class="skill" src="./icons/skills/css3.svg" alt="CSS3 icon." draggable="false"
@@ -117,8 +117,6 @@
                         data-tippy-content="PHP">
                     <img class="skill" src="./icons/skills/wordpress.svg" alt="WordPress icon." draggable="false"
                         data-tippy-content="WordPress">
-                </div>
-                <div class="flex row gap-16 wrap">
                     <img class="skill" src="./icons/skills/figma.svg" alt="Figma icon." draggable="false"
                         data-tippy-content="Figma">
                     <img class="skill" src="./icons/skills/ps.svg" alt="Photoshop icon." draggable="false"
