@@ -21,6 +21,7 @@
             font-family: $wix;
 
             p {
+                letter-spacing: 0;
                 color: $white;
             }
 
@@ -30,6 +31,7 @@
                     font-size: $fs-xxxs;
                     color: $light-grey;
                     font-family: $mono;
+                    margin: 0;
                 }
 
                 .caret {

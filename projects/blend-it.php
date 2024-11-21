@@ -132,7 +132,7 @@
                                 we develop the website moving forward.</p>
                         </div>
                         <div class="paragraph media">
-                            <img src="../media/blend-it/blend-itStyleTile.png" alt="blend it's style tile."></img>
+                            <img src="../media/blend-it/blend-itStyleTile.jpg" alt="blend it's style tile." draggable="false"></img>
                         </div>
                     </div>
                 </div>
