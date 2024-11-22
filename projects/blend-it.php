@@ -132,7 +132,8 @@
                                 we develop the website moving forward.</p>
                         </div>
                         <div class="paragraph media">
-                            <img src="../media/blend-it/blend-itStyleTile.jpg" alt="blend it's style tile." draggable="false"></img>
+                            <img src="../media/blend-it/blend-itStyleTile.jpg" alt="blend it's style tile."
+                                draggable="false"></img>
                         </div>
                     </div>
                 </div>
@@ -145,7 +146,8 @@
                         <strong>smoothie bowl builder mockup</strong>, assuring that the bowl builder had the same
                         playful energy as the homepage. having <strong>weekly communication</strong> and
                         <strong>collaboration</strong> ensured that blend it’s visual identity remained consistent
-                        across all aspects of the website, even when we worked on sections separately.</p>
+                        across all aspects of the website, even when we worked on sections separately.
+                    </p>
                 </div>
                 <div class="paragraph media">
                     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
@@ -156,9 +158,11 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <div>
                     <h4>react step wizard</h4>
-                    <p>using <strong>react step wizard</strong>, i was able to segment the smoothie bowl builder into 3
+                    <p>using <a class="link-underline" href="https://www.npmjs.com/package/react-step-wizard"
+                            target="_blank">react step wizard</a>, i was able to segment the smoothie bowl builder into
+                        3
                         main steps; blending the base, picking fruits, and finishing it with toppings. step wizard has
-                        the ability to pass props between each step, meaning that we can retain the ingredients selected
+                        the ability to pass props between each step, meaning that we can <strong>retain the ingredients</strong> selected
                         from one step to the next, and display the bowl in its final state at the end of the process.
                     </p>
                 </div>
@@ -172,6 +176,18 @@
                     </button>
                     <figure class="code-preview">
                         <?php include '../components/code/blend-it/stepwizard.php'; ?>
+                    </figure>
+                </div>
+                <div class="code-dropdown">
+                    <button class="code-dropdown-btn flex row aic jcc jcsb">
+                        <p>passing props</p>
+                        <div class="flex row aic gap-16">
+                            <p>.js</p>
+                            <img class="caret" src="../icons/ui/white-caret.svg" alt="caret icon." draggable="false">
+                        </div>
+                    </button>
+                    <figure class="code-preview">
+                        <?php include '../components/code/blend-it/ingredients.php'; ?>
                     </figure>
                 </div>
             </div>
@@ -200,14 +216,17 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4>blending it together</h4>
                 <p>working on blend it was more than just a technical project—it was a chance to be creative,
-                    collaborative, and innovative. using React.js and Tailwind, we turned the basic ordering system into
+                    collaborative, and innovative. using <a class="link-underline" href="https://react.dev/"
+                        target="_blank">React.js</a> and <a class="link-underline"
+                        href="https://tailwindcss.com/ target=" _blank">Tailwind</a>, we turned the basic ordering
+                    system into
                     something interactive and lively. this was achieved due effective project management in an agile
                     workflow, consistent communication, and, of course, <strong>positive vibes</strong> all around.</p>
             </div>
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
-                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/odd-thumb.php'; ?>
                     <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<a href="./projects/espresso" class="project gap-24 front-end">
+<a href="./projects/blend-it" class="project gap-24 front-end">
     <div class="project-img-container">
         <img class="project-img" src="./media/blend-it/blend-it.jpg" alt="blend it - smoothie bowl builder." draggable="false">
     </div>

@@ -237,7 +237,7 @@
                 <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
-                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/pine-thumb.php'; ?>
                 </div>
             </div>
         </section>

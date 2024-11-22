@@ -146,8 +146,8 @@
             <div class="paragraph span-lg flex col gap-16 project-reveal">
                 <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
+                    <?php include '../components/project-thumbs/tempo-thumb.php'; ?>
                     <?php include '../components/project-thumbs/guy-thumb.php'; ?>
-                    <?php include '../components/project-thumbs/espresso-thumb.php'; ?>
                 </div>
             </div>
         </section>

@@ -32,4 +32,8 @@
     <loc>https://www.paularies.ca/guy</loc>
     <priority>0.5</priority>
 </url>
+<url>
+    <loc>https://www.paularies.ca/blend-it</loc>
+    <priority>0.5</priority>
+</url>
 </urlset>

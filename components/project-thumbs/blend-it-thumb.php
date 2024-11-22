@@ -1,6 +1,6 @@
-<a href="../projects/espresso" class="thumb-container">
+<a href="../projects/blend-it" class="thumb-container">
     <div class="project-thumb">
-        <img src="../media/blend-it/blend-it.jpg" alt="espresso guide - website." draggable="false">
+        <img src="../media/blend-it/blend-it.jpg" alt="blend it - smoothie bowl builder." draggable="false">
     </div>
     <div class="flex jcsb gap-16 acs">
         <p>blend it - smoothie bowl builder</p>

@@ -167,7 +167,7 @@
                 <h4 class="other-projects">other projects</h4>
                 <div class="more-projects grid grid-2-toggle">
                     <?php include '../components/project-thumbs/odd-thumb.php'; ?>
-                    <?php include '../components/project-thumbs/guy-thumb.php'; ?>
+                    <?php include '../components/project-thumbs/blend-it-thumb.php'; ?>
                 </div>
             </div>
         </section>
