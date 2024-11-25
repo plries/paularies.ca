@@ -116,8 +116,9 @@
                 </div>
             </div>
             <div class="flex col gap-16 span-lg">
-                <?php include './components/testimonial-cards/emma.php'; ?>
                 <?php include './components/testimonial-cards/masha.php'; ?>
+                <?php include './components/testimonial-cards/emma.php'; ?>
+                <?php include './components/testimonial-cards/nicole.php' ?>
             </div>
         </section>
     </main>

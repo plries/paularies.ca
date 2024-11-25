@@ -102,7 +102,7 @@
                 <h3>my skills</h3>
                 <div class="skills-container flex row gap-32">
                     <img class="skill" src="./icons/skills/html.svg" alt="HTML icon." draggable="false"
-                        data-tippy-content="HTML5">
+                        data-tippy-content="HTML">
                     <img class="skill" src="./icons/skills/css.svg" alt="CSS icon." draggable="false"
                         data-tippy-content="CSS">
                     <img class="skill" src="./icons/skills/javascript.svg" alt="JavaScript icon."
