@@ -110,7 +110,7 @@ footer {
         transform-origin: top;
         scale: 1;
         opacity: 1;
-        margin-top: 256px;
+        margin-top: 112px;
         height: 256px;
         max-width: 1080px;
 
@@ -120,7 +120,7 @@ footer {
 
         img {
             margin-top: 256px;
-            max-width: calc(150% / 3);
+            max-width: calc(100% / 3 - 64px);
             -webkit-touch-callout: none;
             -webkit-user-select: none;
             -moz-user-select: none;

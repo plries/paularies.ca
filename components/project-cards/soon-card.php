@@ -11,7 +11,7 @@
         <p class="chip tag">%*$</p>
         <p class="chip tag">#&?</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>coming soon</h3>
             <h4>stay tuned!</h4>

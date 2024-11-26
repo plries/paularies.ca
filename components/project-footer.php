@@ -18,9 +18,7 @@
         <div class="footer-links flex col gap-8">
             <a class="link-underline" href="https://www.linkedin.com/in/paularies/" target="_blank">linkedin</a>
             <a class="link-underline" href="https://github.com/plries" target="_blank">github</a>
-            <a class="link-underline" href="https://www.instagram.com/plries/" target="_blank">instagram</a>
-            <a class="link-underline" href="https://open.spotify.com/user/paullaries?si=453494ac640b4444"
-                target="_blank">spotify</a>
+            <a class="link-underline" href="https://bio.paularies.ca" target="_blank">socials</a>
         </div>
         <a href="#" class="footer-logo">
             <img src="../icons/ui/logo-big.svg" alt="Paul Aries Logo." draggable="false">

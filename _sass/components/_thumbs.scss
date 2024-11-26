@@ -13,6 +13,7 @@
 
             img {
                 border-radius: 16px;
+                height: 100%;
                 width: 100%;
                 -o-object-position: center;
                 object-position: center;
@@ -25,6 +26,7 @@
             margin-top: 8px;
 
             p {
+                margin: 0 !important;
                 font-family: $rubik;
                 font-size: $fs-xs;
                 color: $white;

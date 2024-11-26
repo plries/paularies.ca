@@ -15,7 +15,7 @@
         <p class="chip tag">photoshop</p>
         <p class="chip tag">illustrator</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>pine</h3>
             <h4>online retail website</h4>

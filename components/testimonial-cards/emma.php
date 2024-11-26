@@ -1,6 +1,6 @@
 <div class="testimonial span-lg flex flex-toggle gap-8">
     <div class="testimonial-text flex col gap-16">
-        <div class="testimonial-quote flex col gap-8">
+        <div class="testimonial-quote flex col gap-16">
             <p>paul is a wonderful person to work with and an exceptional designer and web developer.
                 his work
                 always wows me, especially his eye for perfect colour combinations and <strong>seamless web

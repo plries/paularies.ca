@@ -12,7 +12,7 @@
         <p class="chip tag">js</p>
         <p class="chip tag">tailwind</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>blend it</h3>
             <h4>smoothie bowl builder</h4>

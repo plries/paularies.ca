@@ -11,7 +11,7 @@
         <p class="chip tag">html</p>
         <p class="chip tag">sass</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>guy</h3>
             <h4>software landing page</h4>

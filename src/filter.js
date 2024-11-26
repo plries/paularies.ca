@@ -55,12 +55,14 @@ viewToggle.addEventListener("click", () => {
     view.classList.toggle('list');
 
     // reload isotope items
-    if (view.classList.contains('grid')) {
+    setTimeout(() => {
         isotopeInstance.reloadItems();
-    }
+        isotopeInstance.arrange();
+    }, 10);
 
     imagesLoaded(view, function () {
         isotopeInstance.layout();
+        projects.style.visibility = 'visible';
     });
 
     // toggle the list icon class on the button

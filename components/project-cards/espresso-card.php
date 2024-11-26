@@ -12,7 +12,7 @@
         <p class="chip tag">css</p>
         <p class="chip tag">jquery</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>espresso</h3>
             <h4>website guide</h4>

@@ -11,7 +11,7 @@
         <p class="chip tag">user testing</p>
         <p class="chip tag">user research</p>
     </div>
-    <div class="project-description flex col gap-8">
+    <div class="project-description flex col gap-16">
         <hgroup>
             <h3>tempo</h3>
             <h4>dance class booking app</h4>

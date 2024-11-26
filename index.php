@@ -80,16 +80,18 @@
                     </h2>
                 </div>
                 <div class="arrow-container span-lg flex aic jcc">
-                    <img class="reveal arrow-down" src="./icons/ui/black-arrow-down.svg" alt="arrow icon."
-                        draggable="false">
+                    <a href="#intro">
+                        <img class="reveal arrow-down" src="./icons/ui/black-arrow-down.svg" alt="arrow icon."
+                            draggable="false">
+                    </a>
                 </div>
             </hgroup>
         </div>
     </div>
 
     <main class="flex col aic jcc">
-        <section class="grid col-12-8-4 gap-48">
-            <div class="intro cell span-lg flex aic jcsb gap-24">
+        <section id="intro" class="grid col-12-8-4 gap-48">
+            <div class="intro cell span-lg flex jcsb gap-24">
                 <img class="picture" src="./media/paul-1.jpg" alt="headshot of paul aries." draggable="false">
                 <div class="flex col gap-16">
                     <p class="quote">my passion for both art and tech has always driven me to merge the two
@@ -118,7 +120,10 @@
             <div class="flex col gap-16 span-lg">
                 <?php include './components/testimonial-cards/masha.php'; ?>
                 <?php include './components/testimonial-cards/emma.php'; ?>
-                <?php include './components/testimonial-cards/nicole.php' ?>
+                <div class="flex flex-toggle gap-16">
+                    <?php include './components/testimonial-cards/jayden.php'; ?>
+                    <?php include './components/testimonial-cards/nicole.php' ?>
+                </div>
             </div>
         </section>
     </main>

@@ -25,6 +25,15 @@
 				margin: 0;
 			}
 
+			h4 {
+				font-size: $fs-xxxs;
+				font-weight: 400;
+				color: $grey;
+				font-family: $rubik;
+				letter-spacing: unset;
+				margin: 0;
+			}
+
 			p {
 				color: $light-grey;
 				margin: 0;
@@ -39,12 +48,15 @@
 		}
 
 		.profile {
+			position: relative;
 			color: $black;
 			background-color: $white;
 			padding: 24px;
+			overflow: hidden;
 
 			.btn {
 				img {
+					font-size: $fs-xxs;
 					transition: all 0.5s ease;
 				}
 			}
@@ -392,6 +404,13 @@
 					align-self: center;
 					max-width: unset;
 					width: 100%;
+				}
+
+				.btn {
+					img {
+						height: $fs-xxxs;
+						width: $fs-xxxs;
+					}
 				}
 
 				>div {

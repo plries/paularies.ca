@@ -73,12 +73,11 @@
             <div class="grid grid-2-toggle span-lg gap-16">
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <p class="quote">👋 i’m a detail-oriented developer and designer from Vancouver, BC who loves to
-                        create
-                        exciting digital experiences.</p>
+                        create exciting digital experiences.</p>
                     <p>outside of coding, you can find me either exploring the <span id="outdoors"
                             class="link-underline">outdoors</span> or dancing at a <span id="concert"
                             class="link-underline">concert</span>.
-                        no matter the activity i love pushing myself and enjoying it with others!</p>
+                        surrounding myself with art and nature keeps me inspired, and fuels my desire to collaborate and create with others!</p>
                 </article>
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <div class="about-carousel">
@@ -130,28 +129,37 @@
                     <img class="skill" src="./icons/skills/pr.svg" alt="Premiere Pro icon." draggable="false"
                         data-tippy-content="Premiere Pro">
                 </div>
-            </article>
+            </article>`
             <article class="cell values value1 flex col gap-16 jcsb about-reveal">
-                <h3>adaptability</h3>
+                <hgroup>
+                    <h4>i value...</h4>
+                    <h3>adaptability</h3>
+                </hgroup>
                 <p>i embrace change and enjoy learning new things within the industry. my flexibility
                     enables me to remain enthusiastic when learning ways to tackle new challenges.</p>
             </article>
             <article class="cell values value2 flex col gap-16 jcsb about-reveal">
-                <h3>collaboration</h3>
+                <hgroup>
+                    <h4>as well as...</h4>
+                    <h3>collaboration</h3>
+                </hgroup>
                 <p>with experience in dancing in multiple competitive groups and working apart of two
                     food-service teams, i value working with others and collaborating. i
                     recognize the importance of communication and responsibility when working towards a shared
                     goal.</p>
             </article>
             <article class="cell values value3 flex col gap-16 jcsb about-reveal">
-                <h3>humility</h3>
+                <hgroup>
+                    <h4>and lastly...</h4>
+                    <h3>humility</h3>
+                </hgroup>
                 <p>i always approach every project with humility, recognizing that the best ideas can come from
                     anywhere. by valuing the contributions and suggestions of others, i am able to
                     ensure that my work is always at its best.</p>
             </article>
-            <div class="flex jcr gap-16 span-lg about-reveal">
+            <div class="flex wrap jcr gap-16 span-lg about-reveal">
                 <a class="secondary btn" href="./work">
-                    all projects
+                    my work
                 </a>
                 <a href="./media/PaulAries-Resume.pdf" class="white btn" target="_blank">
                     resume
