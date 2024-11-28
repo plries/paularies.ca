@@ -95,6 +95,7 @@
         }
     }
 
+
     a {
         transition: scale 0.25s ease;
         
@@ -111,11 +112,9 @@
             animation: pointDown 1s ease;
         }
     }
-
 }
 
 .project-hero.hero-wrapper {
-
     .col-12-8-4 {
         row-gap: 0;
         justify-content: end;
@@ -225,6 +224,8 @@
                 >div {
 
                     >div {
+                        width: 100%;
+                        flex-wrap: nowrap;
                         margin: 0 -48px;
                         padding-right: 48px;
                         overflow-x: scroll;
@@ -281,11 +282,24 @@
             .project-title {
                 margin-bottom: 112px;
                 grid-column: 1 / span 8;
+
+                > div {
+                    
+                    > div {
+                        width: unset;
+                    }
+
+                }
             }
 
             .parallax {
                 height: 100vh;
                 height: 100dvh;
+
+                &::before {
+                    height: 100vh;
+                    height: 100dvh;
+                }
 
             }
 
