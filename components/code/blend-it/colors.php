@@ -1,4 +1,4 @@
-<pre><code class="language-javascript">// this is a variable that holds the RGB colors
+<pre><code class="language-jsx">// this is a variable that holds the RGB colors
 const [baseRGBs] = useState([]);
 
 // selects the smoothie base element so it can be colored

@@ -1,4 +1,4 @@
-<pre><code class="language-javascript">// this is an array that holds the ingredients for each step
+<pre><code class="language-jsx">// this is an array that holds the ingredients for each step
 // we can use this to display ALL selected ingredients
 // and to pass the selected ingredients to the next step
 const [selectedIngredients, setSelectedIngredients] = useState({
