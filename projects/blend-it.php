@@ -200,6 +200,9 @@
                     amount of ingredients selected. thanks to this solution, we avoided a whole page of if statements in
                     our code.
                 </p>
+                <div class="paragraph media">
+                    <video loading="lazy" src="../media/blend-it/blend-itColors.mp4" autoplay loop muted playsinline></video>
+                </div>
                 <div class="code-dropdown">
                     <button class="code-dropdown-btn flex row aic jcc jcsb">
                         <p>blend colors</p>
