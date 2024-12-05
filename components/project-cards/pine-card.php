@@ -1,6 +1,6 @@
 <a href="./projects/pine" class="project gap-24 front-end">
     <div class="project-img-container">
-        <img class="project-img" src="./media/pine/pine.jpg
+        <img class="project-img" src="./media/pine/pineCard.jpg
         " alt="pine - online retail website." draggable="false">
     </div>
     <div class="project-chips flex wrap gap-16">

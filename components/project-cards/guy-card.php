@@ -1,6 +1,6 @@
 <a href="./projects/guy" class="project gap-24 front-end">
     <div class="project-img-container">
-        <img class="project-img" src="./media/guy/guy.jpg" alt="guy - software landing page." draggable="false">
+        <img class="project-img" src="./media/guy/guyCard.jpg" alt="guy - software landing page." draggable="false">
     </div>
     <div class="project-chips flex gap-16 wrap">
         <p class="btn green">

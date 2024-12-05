@@ -1,6 +1,6 @@
 <a href="./projects/odd" class="project gap-24 ux-ui">
     <div class="project-img-container">
-        <img class="project-img" src="./media/odd/odd.jpg" alt="odd - juice ordering app." draggable="false">
+        <img class="project-img" src="./media/odd/oddCard.jpg" alt="odd - juice ordering app." draggable="false">
     </div>
     <div class="project-chips flex wrap gap-16">
         <p class="blue btn">
