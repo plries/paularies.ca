@@ -1,6 +1,7 @@
 <a href="./projects/espresso" class="project gap-24 front-end">
     <div class="project-img-container">
-        <img class="project-img" src="./media/espresso/espressoCard.jpg" alt="espresso guide - website." draggable="false">
+        <img class="project-img" src="./media/espresso/espressoCard.jpg" alt="espresso guide - website."
+            draggable="false">
     </div>
     <div class="project-chips flex gap-16 wrap">
         <p class="btn green">

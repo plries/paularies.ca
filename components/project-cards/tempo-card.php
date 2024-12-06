@@ -1,6 +1,7 @@
 <a href="./projects/tempo" class="project gap-24 ux-ui">
     <div class="project-img-container">
-        <img class="project-img" src="./media/tempo/tempoCard.jpg" alt="tempo - dance class booking app." draggable="false">
+        <img class="project-img" src="./media/tempo/tempoCard.jpg" alt="tempo - dance class booking app."
+            draggable="false">
     </div>
     <div class="project-chips flex wrap gap-16">
         <p class="blue btn">

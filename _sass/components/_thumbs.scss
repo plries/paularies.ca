@@ -4,9 +4,9 @@
     .thumb-container {
         opacity: 0.75;
         transition: scale 0.25s ease,
-        opacity 0.25s ease;
+            opacity 0.25s ease;
         width: 100%;
-        
+
         .project-thumb {
             border-radius: 24px;
             position: relative;
@@ -73,7 +73,7 @@
     }
 
 }
-    
+
 @media screen and (max-width: 768px) {
 
     .more-projects {

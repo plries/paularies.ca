@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function redrawFitty() {
         fitty.fitAll();
     }
-    
+
     font.load(function () {
         redrawFitty();
     });

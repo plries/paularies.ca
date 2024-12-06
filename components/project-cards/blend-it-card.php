@@ -1,6 +1,7 @@
 <a href="./projects/blend-it" class="project gap-24 front-end">
     <div class="project-img-container">
-        <img class="project-img" src="./media/blend-it/blend-itCard.jpg" alt="blend it - smoothie bowl builder." draggable="false">
+        <img class="project-img" src="./media/blend-it/blend-itCard.jpg" alt="blend it - smoothie bowl builder."
+            draggable="false">
     </div>
     <div class="project-chips flex gap-16 wrap">
         <p class="btn green">

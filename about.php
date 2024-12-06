@@ -77,7 +77,8 @@
                     <p>outside of coding, you can find me either exploring the <span id="outdoors"
                             class="link-underline">outdoors</span> or dancing at a <span id="concert"
                             class="link-underline">concert</span>.
-                        surrounding myself with art and nature keeps me inspired, and fuels my desire to collaborate and create with others!</p>
+                        surrounding myself with art and nature keeps me inspired, and fuels my desire to collaborate and
+                        create with others!</p>
                 </article>
                 <article class="cell about flex col gap-16 jcsb about-reveal">
                     <div class="about-carousel">

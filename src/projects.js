@@ -41,7 +41,7 @@ async function loadProjects() {
             }
 
             tagElement.textContent = tag.name;
-            
+
             tagsContainer.appendChild(tagElement);
         });
 
@@ -50,22 +50,22 @@ async function loadProjects() {
         const projectDescription = document.createElement('div');
         projectDescription.classList.add('project-description', 'flex', 'col', 'gap-8');
 
-            const titleGroup = document.createElement('hgroup');
-            
-                const title = document.createElement('h3');
-                title.textContent = project.title;
-                
-                const subtitle = document.createElement('h4');
-                subtitle.textContent = project.subtitle;
+        const titleGroup = document.createElement('hgroup');
 
-                const description = document.createElement('p');
-                description.textContent = project.description;
-            
-            titleGroup.appendChild(title);
-            titleGroup.appendChild(subtitle);
+        const title = document.createElement('h3');
+        title.textContent = project.title;
 
-            projectDescription.appendChild(titleGroup);
-            projectDescription.appendChild(description);
+        const subtitle = document.createElement('h4');
+        subtitle.textContent = project.subtitle;
+
+        const description = document.createElement('p');
+        description.textContent = project.description;
+
+        titleGroup.appendChild(title);
+        titleGroup.appendChild(subtitle);
+
+        projectDescription.appendChild(titleGroup);
+        projectDescription.appendChild(description);
 
         card.appendChild(projectDescription);
 

@@ -36,23 +36,23 @@
             border-top: $dark-grey 2px solid;
             padding-top: 24px;
 
-            > a {
+            >a {
                 display: flex;
                 align-items: end;
             }
-            
+
             div {
                 align-items: end;
 
                 .link-underline {
                     font-family: $rubik;
                     color: $white;
-    
+
                     &::before {
                         background-color: $white;
                     }
                 }
-    
+
                 p {
                     font-weight: 500;
                     color: $light-grey;

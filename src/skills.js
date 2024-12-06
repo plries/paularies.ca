@@ -1,17 +1,17 @@
 import { gsap } from 'gsap';
 
-let loop = horizontalLoop(".skill", {speed: 0.3, repeat: -1, paddingRight: 32});
+let loop = horizontalLoop(".skill", { speed: 0.3, repeat: -1, paddingRight: 32 });
 
-gsap.to(loop, {timeScale: 1, duration: 1});
+gsap.to(loop, { timeScale: 1, duration: 1 });
 
 const skills = document.querySelectorAll(".skill");
 
 skills.forEach(skill => {
     skill.addEventListener("mouseenter", () => {
-        gsap.to(loop, {timeScale: 0, overwrite: true});
+        gsap.to(loop, { timeScale: 0, overwrite: true });
     })
     skill.addEventListener("mouseleave", () => {
-        gsap.to(loop, {timeScale: 1, duration: 1, overwrite: true});
+        gsap.to(loop, { timeScale: 1, duration: 1, overwrite: true });
     })
 });
 
